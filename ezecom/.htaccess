@@ -3,82 +3,10 @@
   # !IMPORTANT! Set your RewriteBase here and don't forget trailing and leading
   #  slashes.
   # If your page resides at
-  #  https://www.example.com/mypage/test1
+  #  http://www.example.com/mypage/test1
   # then use
   # RewriteBase /mypage/test1/
-  RewriteBase /
-  
-  # redirect 301
-  #Live-radio-cambodia
-  RewriteRule ^liveradio https://www.ezecom.com.kh/live-radio-cambodia [R=301,L]
-  RewriteRule ^live_radio https://www.ezecom.com.kh/live-radio-cambodia [R=301,L]
-  
-  #Contact-us
-  RewriteRule ^contact_us https://www.ezecom.com.kh/contact-us [R=301,L]
-  RewriteRule ^contactus https://www.ezecom.com.kh/contact-us [R=301,L]
-  
-  #Media-center
-  RewriteRule ^mediacenter https://www.ezecom.com.kh/media-center [R=301,L]
-
-  #Camera-live
-  RewriteRule ^cameralive https://www.ezecom.com.kh/camera-live [R=301,L]
-
-  #Customer-service
-  RewriteRule ^customerservice https://www.ezecom.com.kh/customer-service [R=301,L]
-  
-  #Our-services
-  RewriteRule ^ourservices https://www.ezecom.com.kh/our-services [R=301,L]
-  
-  #Site-map
-  RewriteRule ^sitemap https://www.ezecom.com.kh/site-map [R=301,L]
-  
-  #Our-company
-  RewriteRule ^ourcompany https://www.ezecom.com.kh/our-company [R=301,L]
-  
-  #Our-partnership
-  RewriteRule ^ourpartnership https://www.ezecom.com.kh/our-partnership [R=301,L]
-  
-  #Setup-email
-  RewriteRule ^setup_email https://www.ezecom.com.kh/setup-email [R=301,L]
-  
-  #Home-page
-  RewriteRule ^homepage https://www.ezecom.com.kh/ [R=301,L]
-  
-  #Career
-  RewriteRule ^career/48 https://www.ezecom.com.kh/career/Copy-writer [R=301,L]
-  RewriteRule ^career/47 https://www.ezecom.com.kh/career/Transmission-engineer-(phnom-penh) [R=301,L]
-  RewriteRule ^career/45 https://www.ezecom.com.kh/career/Pre-sale-engineer [R=301,L]
-  RewriteRule ^career/44 https://www.ezecom.com.kh/career/Transmission-engineer-(sihanoukville) [R=301,L]
-  RewriteRule ^career/43 https://www.ezecom.com.kh/career/Research-&-development-executive [R=301,L]
-  RewriteRule ^career/23 https://www.ezecom.com.kh/career/Network-engineer [R=301,L]
-  RewriteRule ^career/20 https://www.ezecom.com.kh/career/Sales-officer [R=301,L]
-  RewriteRule ^career/16 https://www.ezecom.com.kh/career/Technical-service-officer-(chinese-speaker) [R=301,L]
-  RewriteRule ^career/37 https://www.ezecom.com.kh/career/Customer-relation-officer [R=301,L]
-  RewriteRule ^career/35 https://www.ezecom.com.kh/career/Engineer-transmission-network-planning [R=301,L]
-  RewriteRule ^career/34 https://www.ezecom.com.kh/career/Engineer-core-network-planning [R=301,L]
-  RewriteRule ^career/33 https://www.ezecom.com.kh/career/Engineer-customize-solution [R=301,L]
-  RewriteRule ^career/32 https://www.ezecom.com.kh/career/Engineer-desktop-planning [R=301,L]
-  RewriteRule ^career/31 https://www.ezecom.com.kh/career/Engineer-fiber-access-network-implementation [R=301,L]
-  RewriteRule ^career/30 https://www.ezecom.com.kh/career/Engineer-transmission-network-implementation [R=301,L]
-  RewriteRule ^career/26 https://www.ezecom.com.kh/career/Install-coordinator [R=301,L]
-  RewriteRule ^career/25 https://www.ezecom.com.kh/career/Maintenance-technician [R=301,L]
-  RewriteRule ^career/19 https://www.ezecom.com.kh/career/Service-quality-officer [R=301,L]
-  RewriteRule ^career/18 https://www.ezecom.com.kh/career/Site-surveyor [R=301,L]
-  RewriteRule ^career/15 https://www.ezecom.com.kh/career/Vas-executive [R=301,L]
-  RewriteRule ^career/42 https://www.ezecom.com.kh/career/Call-center-team-leader [R=301,L]
-  RewriteRule ^career/41 https://www.ezecom.com.kh/career/Call-center-supervisor [R=301,L]
-  RewriteRule ^career/40 https://www.ezecom.com.kh/career/Call-center-officer [R=301,L]
-  
-  
-  #news detail
-  RewriteRule "/EZECOM TO SUPPLY INTERNET FOR GOOGLE-RUN EVENT" https://www.ezecom.com.kh/newsdetail/Ezecom-to-supply-internet-for-google-run-event [R=301,L]
-  RewriteRule "/BARCAMP TO BE HELD IN SIEM REAP ON 27-28 FEBRUARY 2016" https://www.ezecom.com.kh/newsdetail/Barcamp-to-be-held-in-siem-reap-on-27-28-february-2016 [R=301,L]
-  RewriteRule "/E CAFE IS NOW IN SIHANOUKVILLE" https://www.ezecom.com.kh/newsdetail/E-cafe-is-now-in-sihanoukville [R=301,L]
-  RewriteRule "/MORE THAN 1,000 FROM 30 COUNTRIES TO JOIN 12TH ANNUAL CAMTESOL CONFERENCE IN PHNOM PENH" https://www.ezecom.com.kh/newsdetail/More-than-1,000-from-30-countries-to-join-12th-annual-camtesol-conference-in-phnom-penh [R=301,L]
-  RewriteRule "/TECH-RELATED SERVICES AVAILABLE THROUGH LAB" https://www.ezecom.com.kh/newsdetail/Tech-related-services-available-through-lab [R=301,L]
-  RewriteRule "/WHAT WILL MCT SUBMARINE CABLE BRING TO THE ASEAN REGION?" https://www.ezecom.com.kh/newsdetail/What-will-mct-submarine-cable-bring-to-the-asean-region? [R=301,L]
-  
-  
+  #RewriteBase /
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule ^(.*)$ index.php?/$1 [L]
@@ -91,4 +19,3 @@
 
   ErrorDocument 404 /index.php
 </IfModule>
-

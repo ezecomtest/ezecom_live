@@ -1359,4 +1359,25 @@ a#tab-customer-services.rl_tabs-toggle.nn_tabs-toggle{
 
 /*End Chhenghong*/
 
+/* ----------- Raksmey 22-10-2017-----------  */
+
+.container .ezesurf .block_ezesurf{
+	max-width:900px;
+	margin:0 auto;
+	height:auto;
+	margin-top:15px;
+}
+
+.container .ezesurf .block_ezesurf ul{
+	margin-left:60px;
+}
+
+.container ul li{
+	list-style-type:none;
+	padding-right:58px;
+	padding-bottom:40px;
+	display:inline;
+}
+
+
 

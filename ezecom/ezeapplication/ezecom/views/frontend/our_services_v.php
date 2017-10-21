@@ -1670,28 +1670,35 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 
 
 <div class="custom">
-	<div class="custom">
-<div id="exlusive" class="container-fluid bg-color-gray">
-<div class="container module-content-container" style="color: #444; font-size: 14px;">
-<h2><img class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/content/Exclusive_Headline.png" alt=""></h2>
-<div class="col-sm-2">&nbsp;</div>
-<div class="col-xs-12 col-sm-12 col-md-8"><img class="img-responsive" src="<?php echo base_url()?>images/content/exclusive_family_photo.png" alt="">
-<ul>
-<li>No deposit required</li>
-<li>$50 Installation fee</li>
-<li>Standard Conditions of EZECOM apply</li>
-<li>Minimum Contract duration 1 year</li>
-<li>Up and download speeds are asymmetrical</li>
-<li>Including free modem rental</li>
-<li>Prices are including 10% VAT</li>
-</ul>
-<p>PLEASE CONTACT OUR SALES TEAM FOR MORE INFORMATION <br> <span style="font-size: 40px;">095 888 181 | 023 5000 466</span></p>
+	<div id="corporate-package" class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">&nbsp;</div>
+				<div class="col-xs-12 col-sm-12 col-md-8 ">
+					<h1 class="product-title" style="text-align: center;">EzeSurf</h1>
+					<div class="media-body" style="font-size: 14px; color: #444;padding-bottom:40px">
+						EzeSurf packages are all delivered on fibre optic. EzeSurf offers the best available internet packages to suit residential and home needs with symmetrically upload/download speed, good for real-time communication, video call and social media, live stream along with world class customer service and 24/7 helpdesk support to ensure the best experience for you.
+					</div>
+					<img class="img-responsive" src="<?php echo base_url()?>images/EzeSurf/ezesuf_main.jpg" alt="HASSLE-FREE INTERNET FOR HOME"/>
+					<h1 class="product-title" style="text-align: center;">HASSLE-FREE INTERNET FOR HOME</h1>
+				</div>
+			</div>
+			<div class="row">
+					<div class="ezesurf">
+						<div class="block_ezesurf">
+							<ul>
+								<li><img src="<?php echo base_url()?>images/EzeSurf/3mb.gif"/></li>
+								<li ><img src="<?php echo base_url()?>images/EzeSurf/6mb.gif"/></li>
+								<li><img src="<?php echo base_url()?>images/EzeSurf/10mb.gif"/></li>
+							</ul>
+						</div>
+					</div>
+			</div>
+		</div>
+
+	</div>
 </div>
-<div class="col-sm-2">&nbsp;</div>
-</div>
-</div>
-</div>
-</div>
+
 </div>
 		<!-- //HOME SL 1 -->
 	  <!-- HOME SL 5 -->
