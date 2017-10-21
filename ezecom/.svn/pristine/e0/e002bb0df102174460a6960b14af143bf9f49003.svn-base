@@ -1,0 +1,30 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Career_admin_c extends CI_Controller
+{
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->model("backend/career_admin_m");
+	}
+
+	public function career_list()
+	{
+		$data['title'] = "Career";
+		$data['careers'] = $this->career_admin_m->get_career();
+		$this->load->view('backend/career/career_list_admin_v', $data);
+	}
+
+	public function form_add_career()
+	{
+		$data['title'] = "Career";
+		$this->load->view('backend/career/career_add_admin_v', $data);
+	}
+
+	public function add_career()
+	{
+		$data = $this->input->post();
+		print_r($data);
+	}
+}

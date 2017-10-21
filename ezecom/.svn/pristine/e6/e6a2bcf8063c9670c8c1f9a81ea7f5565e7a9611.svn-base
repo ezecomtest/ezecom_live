@@ -1,0 +1,248 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Eze_camera extends CI_Controller {
+     public function __construct()
+    {
+        parent::__construct();
+        $this->load->library('pagination');
+        $this->load->library('session');
+        $this->load->library('encrypt');
+        $this->load->helper(array('form', 'url'));
+        $this->load->library('form_validation');
+        $this->load->model("backend/eze_camera_model");
+        date_default_timezone_set("Asia/Bangkok");
+
+        if($this->session->userdata('level') !== 'superuser'){
+         redirect('administrator');
+        }
+    }
+
+    /**
+     * Index Page for this controller.
+     *
+     * Maps to the following URL
+     *      http://example.com/index.php/welcome
+     *  - or -
+     *      http://example.com/index.php/welcome/index
+     *  - or -
+     * Since this controller is set as the default controller in
+     * config/routes.php, it's displayed at http://example.com/
+     *
+     * So any other public methods not prefixed with an underscore will
+     * map to /index.php/welcome/<method_name>
+     * @see https://codeigniter.com/user_guide/general/urls.html
+     */
+    public function index()
+    {
+        //$this->dashboard();
+    }
+
+    public function live_camera_live(){
+        $data['title'] = "Live Camera";
+        $data['get_camera'] = $this->eze_camera_model->get_live_camera();
+        $this->load->view("backend/live_camera/live_camera_list",$data);
+
+   }
+
+   public function set_camera_status($status){
+    $id = $this->input->post("id");
+    if($status == 1){
+        $data['status'] = 0;
+        $set = $this->eze_camera_model->set_status($data,$id);
+        if($set){
+            echo $set['name'];
+            //echo "0";
+        }
+    }
+    if($status == 0){
+        $data['status'] = 1;
+        $set = $this->eze_camera_model->set_status($data,$id);
+        if($set){
+            echo $set['name'];
+        }
+    }
+
+   }
+
+   public function camera_detail_view($id){
+        $data['title'] = "Camera Detail";
+        $data['camera_detail'] = $this->eze_camera_model->get_camera_detail($id);
+        $this->load->view("backend/live_camera/camera_detail",$data);
+   }
+
+   public function set_page_session($page){
+        $page_session['pages'] = $page;
+        $this->session->set_userdata($page_session);
+        //echo $this->session->userdata("pages");
+   }
+
+   public function add_new_camera(){
+        $data['title'] = "Add New Camera";
+        $this->load->view("backend/live_camera/add_camera",$data);
+   }
+
+    function valid_url($url){
+       $pattern = "/^(http|https|ftp|rtsp|rtmp):\/\/([A-Z0-9][A-Z0-9_-]*(?:\.[A-Z0-9][A-Z0-9_-]*)+):?(\d+)?\/?/i";
+            if (!preg_match($pattern, $url))
+            {
+                return FALSE;
+            }
+
+            return TRUE;
+    }
+
+   public function perform_add_camera(){
+
+        $this->form_validation->set_rules('camera_name', 'camera name', 'required');
+        $this->form_validation->set_rules('http', 'http', 'required|callback_valid_url');
+        $this->form_validation->set_rules('rtsp', 'rtsp', 'required|callback_valid_url');
+        $this->form_validation->set_rules('rtmp', 'rtmp', 'required|callback_valid_url');
+        $this->form_validation->set_rules('secure_token', 'secure token', 'required');
+        $this->form_validation->set_rules('image_valid', 'thumbnail', 'required');
+       
+        if ($this->form_validation->run() == FALSE)
+            {
+                $this->add_new_camera();
+            }
+        else
+            {
+
+            $this->load->helper('date');
+            $datestring = "%Y%m%d%h%i";
+            $time = time();
+            $req_name = mdate($datestring, $time);
+
+            $config['upload_path'] = './thumbnail/camera/';
+            $config['allowed_types'] = 'gif|jpg|png|jpeg';
+            $config['file_name'] = $req_name;
+            $this->load->library('upload', $config);
+            $filename = "file_thumnail"; 
+          
+               if(!$this->upload->do_upload($filename))
+               {
+                   $this->session->set_flashdata('image_valid',$this->upload->display_errors());
+                   redirect("add_camera");
+               
+               }else{
+
+                    $upload_data = $this->upload->data();
+                    $file_names =  $req_name.$upload_data['file_ext'];
+                
+                    $data = array(
+                        'name' => $this->input->post("camera_name"),
+                        'http' => $this->input->post("http"),
+                        'rtsp' => $this->input->post("rtsp"),
+                        'rtmp' => $this->input->post("rtmp"),
+                        'secure_token' => $this->input->post("secure_token"),
+                        'thumbnail' => $file_names,
+                        'created_date' => date('Y-m-d'),
+                        'description' => $this->input->post("description")
+                    );
+                    $success = $this->eze_camera_model->insert_camera($data);
+
+                    if($success){
+                        $this->session->set_flashdata('sms', '<div class="alert alert-success alert-dismissible fade in">You have successfully added new camera!</div>');
+                        redirect("live_camera");
+                    }else{
+                        $this->session->set_flashdata('sms', '<div class="alert alert-danger alert-dismissible fade in">You cannot add this camera please try again!</div>');
+                        redirect("live_camera");
+                    }
+               }
+            }
+        }
+
+    public function edit_camera_view($id){
+        $data['title'] = "Edit Camera";
+        $data['edit_camera'] = $this->eze_camera_model->get_camera_edit($id);
+        $this->load->view("backend/live_camera/edit_camera",$data);
+    }
+
+    public function perform_edit_camera(){
+            $id = $this->input->post("camera_id");
+            $old_img = $this->input->post("old_image");
+            $this->load->helper('date');
+            $datestring = "%Y%m%d%h%i";
+            $time = time();
+            $req_name = mdate($datestring, $time);
+            $config['upload_path'] = './thumbnail/camera/';
+            $config['allowed_types'] = 'gif|jpg|png|jpeg';
+            $config['file_name'] = $req_name;
+            $this->load->library('upload', $config);
+            $filename = "file_thumnail";
+
+            if (empty($_FILES['file_thumnail']['name'])) {
+                 $data = array(
+                        'name' => $this->input->post("camera_name"),
+                        'http' => $this->input->post("http"),
+                        'rtsp' => $this->input->post("rtsp"),
+                        'rtmp' => $this->input->post("rtmp"),
+                        'secure_token' => $this->input->post("secure_token"),
+                        'modify_date' => date('Y-m-d'),
+                        'description' => $this->input->post("description")
+                    );
+                    $success = $this->eze_camera_model->update_camera($data,$id);
+
+                    if($success){
+                        $this->session->set_flashdata('sms', '<div class="alert alert-success alert-dismissible fade in">You have successfully updated this camera!</div>');
+                        redirect("live_camera");
+                    }else{
+                        $this->session->set_flashdata('sms', '<div class="alert alert-danger alert-dismissible fade in">You cannot updated this camera please try again!</div>');
+                        redirect("live_camera");
+                    }
+            }else{
+
+               if(!$this->upload->do_upload($filename))
+               {
+                   $this->session->set_flashdata('image_valid',$this->upload->display_errors());
+                   redirect("add_camera");
+               
+               }else{
+
+                    $upload_data = $this->upload->data();
+                    $file_names =  $req_name.$upload_data['file_ext'];
+                
+                    $data = array(
+                        'name' => $this->input->post("camera_name"),
+                        'http' => $this->input->post("http"),
+                        'rtsp' => $this->input->post("rtsp"),
+                        'rtmp' => $this->input->post("rtmp"),
+                        'secure_token' => $this->input->post("secure_token"),
+                        'thumbnail' => $file_names,
+                        'modify_date' => date('Y-m-d'),
+                        'description' => $this->input->post("description")
+                    );
+
+                    $success = $this->eze_camera_model->update_camera($data,$id);
+                    if($success){
+                        $path = './thumbnail/camera/'.$old_img;
+                        unlink($path);
+                        $this->session->set_flashdata('sms', '<div class="alert alert-success alert-dismissible fade in">You have successfully update this camera!</div>');
+                        redirect("live_camera");
+                    }else{
+                        $this->session->set_flashdata('sms', '<div class="alert alert-danger alert-dismissible fade in">You cannot update this camera please try again!</div>');
+                        redirect("live_camera");
+                    }
+               }
+
+            } 
+    }
+
+    public function delete_camera($id){
+        $success = $this->eze_camera_model->delete_camera($id);
+        if($success){
+            $this->session->set_flashdata('sms', '<div class="alert alert-success alert-dismissible fade in">You have successfully deleted camera!</div>');
+            redirect("live_camera");
+        }else{
+            $this->session->set_flashdata('sms', '<div class="alert alert-danger alert-dismissible fade in">You cannot delete this camera please try again!</div>');
+            redirect("live_camera");
+        }
+    }
+
+    public function play_camera($id){
+        $data['title'] = "Play Camera";
+        $data['camera_detail'] = $this->eze_camera_model->get_camera_detail($id);
+        $this->load->view("backend/live_camera/play_camera",$data);
+    }
+}
+

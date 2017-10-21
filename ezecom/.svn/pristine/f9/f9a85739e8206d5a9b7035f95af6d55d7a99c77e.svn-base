@@ -1,0 +1,295 @@
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+
+<link href="https://fonts.googleapis.com/css?family=Bayon|Kantumruy|Raleway" rel="stylesheet">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-21233285-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr"
+	  class='com_content view-article itemid-1763 j34'>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Super User" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>BUSINESS INTELLIGENCE OFFICER</title>
+  <link href="<?php echo base_url();?>images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <?php
+  	$this->load->view('header/frontend_header');
+  ?>
+  <script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+jQuery(document).ready(function(){
+	jQuery('.hasTooltip').tooltip({"html": true,"container": "body"});
+});
+</script>
+
+	
+<!-- META FOR IOS & HANDHELD -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<style type="text/stylesheet">
+		@-webkit-viewport   { width: device-width; }
+		@-moz-viewport      { width: device-width; }
+		@-ms-viewport       { width: device-width; }
+		@-o-viewport        { width: device-width; }
+		@viewport           { width: device-width; }
+	</style>
+	<script type="text/javascript">
+		//<![CDATA[
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			var msViewportStyle = document.createElement("style");
+			msViewportStyle.appendChild(
+				document.createTextNode("@-ms-viewport{width:auto!important}")
+			);
+			document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+		}
+		//]]>
+	</script>
+<meta name="HandheldFriendly" content="true"/>
+<meta name="apple-mobile-web-app-capable" content="YES"/>
+<!-- //META FOR IOS & HANDHELD -->
+
+
+
+
+<!-- Le HTML5 shim and media query for IE8 support -->
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript" src="/plugins/system/t3/base-bs3/js/respond.min.js"></script>
+<![endif]-->
+
+<!-- You can add Google Analytics here or use T3 Injection feature -->
+	        </head>
+
+<body>
+
+<div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
+
+  
+<!-- HEADER -->
+	<?php
+		$this->load->view('header/header_all');
+	?>
+<!-- //HEADER -->
+
+  
+<!-- MAIN NAVIGATION -->
+<nav id="t3-mainnav" class="wrap navbar navbar-default t3-mainnav">
+	<div class="container">
+
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".t3-navbar-collapse">
+					<i class="fa fa-bars"></i>
+				</button>
+			
+			
+		</div>
+
+					<div class="t3-navbar-collapse navbar-collapse collapse"></div>
+		
+		<div class="t3-navbar navbar-collapse collapse">
+			<div  class="t3-megamenu"  data-duration="400" data-responsive="true">
+<ul class="nav navbar-nav level0">
+<li  data-id="435" data-level="1" data-hidesub="1">
+<a class="" href="/index.php/en/"   data-target="#">Home </a>
+
+</li>
+<li class="mega-align-left" data-id="571" data-level="1" data-alignsub="left" data-hidesub="1">
+<a class="" href="/index.php/en/our-company"   data-target="#">Our Company </a>
+
+</li>
+<li class="mega-align-left sub-hidden-collapse" data-id="545" data-level="1" data-alignsub="left" data-hidesub="1" data-hidewcol="1">
+<a class="" href="/index.php/en/our-services"   data-target="#">Our Services </a>
+
+</li>
+<li  data-id="533" data-level="1" data-hidesub="1">
+<a class="" href="/index.php/en/customer-service"   data-target="#">Customer Service  </a>
+
+</li>
+<li  data-id="544" data-level="1" data-hidesub="1">
+<a class="" href="http://ezecom.com.kh/index.php/en/media-center/news-and-events"   data-target="#">Media Center</a>
+
+</li>
+<li  data-id="595" data-level="1">
+<a class="" href="/index.php/en/contact-us"   data-target="#">Contact Us </a>
+
+</li>
+</ul>
+</div>
+
+		</div>
+
+	</div>
+</nav>
+<!-- //MAIN NAVIGATION -->
+
+  
+<div class="home">
+
+	
+	
+
+<div id="t3-mainbody" class="container t3-mainbody">
+	<div class="row">
+
+		<!-- MAIN CONTENT -->
+		<div id="t3-content" class="t3-content col-xs-12">
+						<div class="item-page clearfix">
+
+
+<!-- Article -->
+<article itemscope itemtype="http://schema.org/Article">
+	<meta itemprop="inLanguage" content="en-GB" />
+
+	
+<header class="article-header clearfix">
+	<h1 class="article-title" itemprop="name">
+					<a href="/index.php/en/carreer-en/577-business-intelligence-officer" itemprop="url" title="BUSINESS INTELLIGENCE OFFICER">
+				BUSINESS INTELLIGENCE OFFICER</a>
+			</h1>
+
+			</header>
+
+<!-- Aside -->
+<!-- //Aside -->
+
+
+
+
+	
+
+	
+
+	
+	
+	<section class="article-content clearfix" itemprop="articleBody">
+		<ul style="list-style-type: disc;">
+<li style="font-size: 14px;"><strong>Job Tittle: </strong>Business Intelligence Officer (Marketing Department) based in Phnom Penh</li>
+<li style="font-size: 14px;"><strong>Position Purpose: </strong>To gather, produce and file all relevant reports for the EZECOM Group marketing team.</li>
+</ul>
+<h4 style="padding-left: 30px;"><strong>1. Job Responsibilities and Duties:</strong></h4>
+<ul style="font-size: 14px;">
+<li>Handle and produce all kind of relevant reports of EZECOM’s Group</li>
+<li>Distribute the and filing of EZECOM’s report</li>
+<li>To be in charge of marketing research within same industry</li>
+<li>Analyze the new product and service to align with local market.</li>
+<li>Identify opportunities to further penetrate the market</li>
+</ul>
+<h4 style="padding-left: 30px;"><strong>2. Job Requirements and Qualifications:</strong></h4>
+<ul style="font-size: 14px;">
+<li>At least 1 year sales experience in ISP, IT or other related industries</li>
+<li>Bachelor degree in marketing or IT</li>
+<li>Outstanding communication both written and spoken English</li>
+<li>Excellent reporting skills, Independent attitude</li>
+<li>The ability to work on multiple projects at one time.</li>
+<li>The ability to work under pressure and to deadlines</li>
+</ul>
+<p style="font-size: 14px;"> </p>
+<p style="font-size: 14px;">Interested candidates should submit their applications, Cover Letter clearly indicating Position applied for, with current photo and the expected salary to HR Department at EZECOM Office or via email. Competitive salary and benefits will be offered based on qualifications and experiences.</p>
+<p style="font-size: 14px;">Head Office: #7D, Cambodian Chamber of Commerce Building, Russian Blvd, Ground floor, Phnom Penh:<br /> E-mail: <span id="cloak61013"><span id="cloak8200">This email address is being protected from spambots. You need JavaScript enabled to view it.</span><script type='text/javascript'>
+ //<!--
+ document.getElementById('cloak8200').innerHTML = '';
+ var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+ var path = 'hr' + 'ef' + '=';
+ var addy8200 = 'c&#97;r&#101;&#101;rs' + '&#64;';
+ addy8200 = addy8200 + '&#101;z&#101;c&#111;m' + '&#46;' + 'c&#111;m' + '&#46;' + 'kh';
+ var addy_text8200 = 'c&#97;r&#101;&#101;rs' + '&#64;' + '&#101;z&#101;c&#111;m' + '&#46;' + 'c&#111;m' + '&#46;' + 'kh';
+ document.getElementById('cloak8200').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy8200 + '\'>'+addy_text8200+'<\/a>';
+ //-->
+ </script> <br /> Tel: 077 97 36 39 <br />Deadline: 31-March-2017 <br />Please state the place you would like to apply for. Only short- listed candidates will be contacted for interview</span></p>	</section>
+
+  <!-- footer -->
+    <!-- //footer -->
+
+	
+	
+	
+</article>
+<!-- //Article -->
+
+
+</div>
+		</div>
+		<!-- //MAIN CONTENT -->
+
+	</div>
+</div> 
+			<!-- HOME SL 5 -->
+		<div class="wrap t3-sl t3-sl-5 ">
+		<div class="container">
+			<div class="mod_simple_marquee" id="mod_simple_marquee_643">
+    <a name="marqueeconfig" rel="pauseOnHover=1|direction=left|duration=10000"></a>
+
+    <div class="mod_simple_marquee_content">On February 22, 2017, <b>Samdach Akka Moha Sena Padei Techo Hun Sen, Prime Minister of Kingdom of Cambodia</b>  re-informed the public that “All Microfinance institutions belong to private sector not to government.”</div>
+</div>
+		</div>
+		</div>
+		<!-- //HOME SL 5 -->
+	
+</div>
+
+    
+  
+
+  
+<!-- FOOTER -->
+	<?php
+		$this->load->view('footer/footer_user_v');
+	?>
+<!-- //FOOTER -->
+
+<!-- BACK TOP TOP BUTTON -->
+ 
+<div id="back-to-top" data-spy="affix" data-offset-top="300" class="back-to-top hidden-xs hidden-sm affix-top">
+ 
+  <button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-up"></i></button>
+ 
+</div>
+ 
+<script type="text/javascript">
+ 
+(function($) {
+ 
+	// Back to top
+ 
+	$('#back-to-top').on('click', function(){
+ 
+		$("html, body").animate({scrollTop: 0}, 500);
+ 
+		return false;
+ 
+	});
+ 
+})(jQuery);
+ 
+</script>
+ 
+<!-- BACK TO TOP BUTTON -->
+
+
+
+
+</div>
+
+</body>
+</html>

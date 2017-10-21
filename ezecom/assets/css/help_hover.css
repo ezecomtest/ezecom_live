@@ -1,0 +1,116 @@
+#help_more-btn {
+	height: 20px;
+	text-align: right;
+	float:right;
+	cursor:pointer;
+	margin-top: -3px;
+	padding:5px;
+	width: 135px;
+}
+#help_more-btn p a {
+	color: #7961A9;
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: center;
+    width: 135px;
+}
+
+.help_morehover {
+	position:absolute;
+
+	cursor:pointer;
+	float: left;
+	/*right: 99px;*/
+	/*top: -3px;*/
+	z-index:2000;
+	text-align:left;
+	display:none;
+  padding: 10px;
+  box-shadow: 4px 4px 4px 4px #EEEFEF;
+  background: #FFFFFF;
+	
+}
+
+
+
+
+
+.help_morehover .help_top {
+  width:572px;
+  height:34px;
+  background:url(../images/top.png) no-repeat;
+  float:left;
+}
+.help_morehover .help_top p {
+	color: #7961A9;
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 0;
+    margin-top: 5px;
+    text-align: center;
+    width: 165px;
+}
+.help_morehover .help_mid {
+  width:100%;
+  /*background:url(../images/mid.png) repeat-y;*/
+  float:left;
+  margin:auto;
+}
+
+.help_morehover .help_mid .help_header {
+  border-bottom:1px solid #ccc;
+  font-weight:bold;
+}
+
+.help_morehover .help_bottom {
+  width:572px;
+  height:16px;
+  background:url(../images/bottom.png) no-repeat;
+  float:left;
+}
+
+.help_morehover ul {
+  margin:10px 10px 20px 0;
+}
+
+.help_morehover ul li {
+  list-style:none;
+}
+
+.help_morehover ul li.active a,
+.help_morehover ul li.active a:hover {
+  color:#222 !important;
+}
+
+.help_morehover ul li.active img {
+  margin-right:4px;
+}
+div#help_packagebox{
+width:200px;
+/*border:1px solid #7961a9;*/
+padding:5px;
+margin:0 0 10px 0;
+margin-top:30px;
+/*float:left;*/
+}
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+    legend.scheduler-border {
+        font-size: 1.2em !important;
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto;
+        padding:0 10px;
+        border-bottom:none;
+    }

@@ -1,0 +1,52 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Live_traffice_camera_c extends CI_Controller {
+	 public function __construct()
+    {
+        parent::__construct();
+        $this->load->library('pagination');
+        $this->load->library('session');
+        $this->load->library('encrypt');
+        $this->load->helper(array('form', 'url'));
+        $this->load->model('frontend/live_camera_m');
+        date_default_timezone_set("Asia/Bangkok");
+    }
+
+	/**
+	 * Index Page for this controller.
+	 *
+	 * Maps to the following URL
+	 * 		http://example.com/index.php/welcome
+	 *	- or -
+	 * 		http://example.com/index.php/welcome/index
+	 *	- or -
+	 * Since this controller is set as the default controller in
+	 * config/routes.php, it's displayed at http://example.com/
+	 *
+	 * So any other public methods not prefixed with an underscore will
+	 * map to /index.php/welcome/<method_name>
+	 * @see https://codeigniter.com/user_guide/general/urls.html
+	 */
+	public function index()
+	{
+		$this->Live_traffice_camera();
+	}
+	public function Live_traffice_camera(){
+		$data['title'] = "Live Traffice Camera";
+		$data['active']="Live Traffice Camera";
+		$data['get_cameras']= $this->live_camera_m->get_camera_display();
+		$this->load->view('frontend/Live_traffice_camera_v',$data);
+
+	}
+	public function set_session_camera(){
+
+		$page_session['rtmp'] = $this->input->post("rtmp");
+		$page_session['token'] = $this->input->post("token");
+		$page_session['name_camera'] = $this->input->post("camera_name");
+        $this->session->set_userdata($page_session);
+        echo $this->session->userdata("name_camera");
+
+	}
+
+}

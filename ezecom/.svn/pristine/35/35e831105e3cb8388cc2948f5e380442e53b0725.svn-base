@@ -1,0 +1,65 @@
+
+   <!-- dashboard -->
+<?php if($this->uri->segment(1) == "dashboard" || $this->uri->segment(1) == "add_category" || $this->uri->segment(1) == "edit_category" || $this->uri->segment(1) == "ezecom") {?>
+    <script src="<?php echo base_url(); ?>js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/chartjs/chart.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/progressbar/bootstrap-progressbar.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/nicescroll/jquery.nicescroll.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/icheck/icheck.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/custom.js"></script>
+    <!-- end dashboard -->
+<?php } ?>
+
+<!-- start category -->
+<?php if ($this->uri->segment(1) == "category") { ?>
+    <script src="<?php echo base_url(); ?>js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/chartjs/chart.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/progressbar/bootstrap-progressbar.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/nicescroll/jquery.nicescroll.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/icheck/icheck.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/custom.js"></script>
+    <script src="<?php echo base_url(); ?>js/datatables/js/jquery.dataTables.js"></script>
+    <script src="<?php echo base_url(); ?>js/datatables/tools/js/dataTables.tableTools.js"></script>
+
+    <script src="<?php echo base_url(); ?>js/sweet_alert/nprogress.js"></script>
+    <script src="<?php echo base_url(); ?>js/sweet_alert/sweetalert.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/sweet_alert/sweetalert-dev.min.js"></script>
+<?php } ?>
+<?php if($this->uri->segment(1) == "live_camera") {?>
+
+    <script src="<?php echo base_url(); ?>js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/chartjs/chart.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/progressbar/bootstrap-progressbar.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/nicescroll/jquery.nicescroll.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/icheck/icheck.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/custom.js"></script>
+    <script src="<?php echo base_url(); ?>js/datatables/js/jquery.dataTables.js"></script>
+    <script src="<?php echo base_url(); ?>js/datatables/tools/js/dataTables.tableTools.js"></script>
+
+    <script src="<?php echo base_url(); ?>js/sweet_alert/nprogress.js"></script>
+    <script src="<?php echo base_url(); ?>js/sweet_alert/sweetalert.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/sweet_alert/sweetalert-dev.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>js/notify/pnotify.core.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>js/notify/pnotify.buttons.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>js/notify/pnotify.nonblock.js"></script>
+<?php } ?>
+
+<!--Sarath: for Radio Module-->
+<?php if($this->uri->segment(2) == "radio_admin_c") {?>
+    <script src="<?php echo base_url(); ?>js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/chartjs/chart.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/progressbar/bootstrap-progressbar.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/nicescroll/jquery.nicescroll.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/icheck/icheck.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/datatables/js/jquery.dataTables.js"></script>
+    <script src="<?php echo base_url(); ?>js/datatables/tools/js/dataTables.tableTools.js"></script>
+    <!--sweet alert-->
+    <script src="<?php echo base_url(); ?>js/sweet_alert/nprogress.js"></script>
+    <script src="<?php echo base_url(); ?>js/sweet_alert/sweetalert.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/sweet_alert/sweetalert-dev.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/custom.js"></script>
+    <!--script alert-->
+    <script src="<?php echo base_url(); ?>js/delete_alert.js"></script>
+
+
+<?php } ?>

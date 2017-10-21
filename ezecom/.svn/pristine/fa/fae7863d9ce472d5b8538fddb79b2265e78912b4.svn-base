@@ -1,0 +1,722 @@
+
+
+<!-- saved from url=(0067)https://www.ezecom.com.kh/index.php/en/media-center/news-and-events -->
+<html lang="en-gb" dir="ltr" class="com_content view-category layout-t3_bs3_blankxblog itemid-631 j34 no-touch">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script async=""
+ src="<?php echo base_url()?>assets/js/analytics.js"></script><script src="<?php echo base_url()?>assets/js/jquery.min.js"></script> 
+
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+  <script src="<?php echo base_url()?>assets/js/bootstrap.min.js"></script>
+  
+
+<link href="<?php echo base_url()?>assets/css/css.css" rel="stylesheet">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-21233285-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+	  <!--<base href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events">--><base href=".">
+  
+  <meta name="generator" content="Joomla! - Open Source Content Management">
+  <title>News &amp; Events</title>
+  <link href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0">
+  <link href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0">
+  <link href="https://www.ezecom.com.kh/templates/t3_bs3_blank/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/templates.t3_bs3_blank.less.bootstrap.less.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/css/soytry.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/system.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/plugins.system.t3.base-bs3.less.legacy-grid.less.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/font-awesome.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/plugins.system.t3.base-bs3.less.t3.less.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/templates.t3_bs3_blank.less.core.less.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/templates.t3_bs3_blank.less.typography.less.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/templates.t3_bs3_blank.less.forms.less.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/templates.t3_bs3_blank.less.navigation.less.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/templates.t3_bs3_blank.less.navbar.less.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/templates.t3_bs3_blank.less.modules.less.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/templates.t3_bs3_blank.less.joomla.less.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/templates.t3_bs3_blank.less.components.less.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/templates.t3_bs3_blank.less.style.less.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/templates.t3_bs3_blank.less.template.less.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/plugins.system.t3.base-bs3.less.megamenu.less.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/templates.t3_bs3_blank.less.megamenu.less.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/css.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/custom.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/templates.t3_bs3_blank.less.home.less.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/templates.t3_bs3_blank.less.layouts.blog.less.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/default.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/template.css" type="text/css">
+  <script src="<?php echo base_url()?>assets/js/jquery.min.js" type="text/javascript"></script>
+  <script src="<?php echo base_url()?>assets/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="<?php echo base_url()?>assets/js/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="<?php echo base_url()?>assets/js/caption.js" type="text/javascript"></script>
+  <script src="<?php echo base_url()?>assets/js/mootools-core.js" type="text/javascript"></script>
+  <script src="<?php echo base_url()?>assets/js/core.js" type="text/javascript"></script>
+  <script src="<?php echo base_url()?>assets/js/bootstrap.js" type="text/javascript"></script>
+  <script src="<?php echo base_url()?>assets/js/chhenghong.js" type="text/javascript"></script>
+  <script src="<?php echo base_url()?>assets/js/jquery.tap.min.js" type="text/javascript"></script>
+  <script src="<?php echo base_url()?>assets/js/script.js" type="text/javascript"></script>
+  <script src="<?php echo base_url()?>assets/js/menu.js" type="text/javascript"></script>
+  <script src="<?php echo base_url()?>assets/js/nav-collapse.js" type="text/javascript"></script>
+  <script src="<?php echo base_url()?>assets/js/jquery.marquee.js" type="text/javascript"></script>
+  <script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+</script>
+
+	
+<!-- META FOR IOS & HANDHELD -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<style type="text/stylesheet">
+		@-webkit-viewport   { width: device-width; }
+		@-moz-viewport      { width: device-width; }
+		@-ms-viewport       { width: device-width; }
+		@-o-viewport        { width: device-width; }
+		@viewport           { width: device-width; }
+	</style>
+	<script type="text/javascript">
+		//<![CDATA[
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			var msViewportStyle = document.createElement("style");
+			msViewportStyle.appendChild(
+				document.createTextNode("@-ms-viewport{width:auto!important}")
+			);
+			document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+		}
+		//]]>
+	</script>
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-capable" content="YES">
+<!-- //META FOR IOS & HANDHELD -->
+
+
+
+
+<!-- Le HTML5 shim and media query for IE8 support -->
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript" src="/plugins/system/t3/base-bs3/js/respond.min.js"></script>
+<![endif]-->
+
+<!-- You can add Google Analytics here or use T3 Injection feature -->
+	        <style type="text/css">.t3-megamenu.animate .animating > .mega-dropdown-menu,.t3-megamenu.animate.slide .animating > .mega-dropdown-menu > div {transition-duration: 400ms !important;-webkit-transition-duration: 400ms !important;}@-webkit-keyframes marqueeAnimation-1524024  { 100%  {margin-left:-1580px}}</style></head>
+
+<body>
+
+<div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
+
+  
+<!-- HEADER -->
+<header id="t3-header" class="container t3-header">
+	<div class="row">
+                        <div class="col-xs-12 col-sm-4">
+                    
+                                                <!-- LANGUAGE SWITCHER -->
+                            <div class="languageswitcherload">
+                                    <div class="mod-languages">
+
+	<ul class="lang-inline">
+						<li class="" dir="ltr">
+			<a href="https://www.ezecom.com.kh/index.php/km/media-center/news-events-kh">
+			<img src="<?php echo base_url()?>images/km.gif" alt="KhmerCambodia" title="KhmerCambodia"></a>
+			</li>
+			<li class="" dir="ltr">
+			<a href="https://www.ezecom.com.kh/index.php/zh/media-center/news-events-zh">
+			<img src="<?php echo base_url()?>images/zh.gif" alt="chinese" title="chinese"></a>
+			</li>
+			<li class="lang-active" dir="ltr">
+			<a href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events">
+			<img src="<?php echo base_url()?>images/en.gif" alt="English (UK)" title="English (UK)"></a>
+			</li>
+				</ul>
+
+</div>
+
+    </div>
+                            <!-- //LANGUAGE SWITCHER -->
+        </div>
+                        
+            <!-- LOGO -->
+            <div class="col-xs-12 col-sm-8 logo">
+                <div class="logo-image">
+                    <a href="https://www.ezecom.com.kh/" title="EZECOM Cambodia Premuim Internet Service Provider">
+                        <img class="logo-img" src="<?php echo base_url()?>images/ezecom-logo.png" alt="EZECOM Cambodia Premuim Internet Service Provider">
+                            <span>EZECOM Cambodia Premuim Internet Service Provider</span>
+                    </a>
+                    <small class="site-slogan"></small>
+                </div>
+            </div>
+            <!-- //LOGO -->
+
+	</div>
+</header>
+<!-- //HEADER -->
+
+  
+<!-- MAIN NAVIGATION -->
+<?php $this->load->view("header/main_nav_user_v");?> 
+<!-- //MAIN NAVIGATION -->
+
+  
+<div class="home">
+
+			<!-- HOME SL 1 -->
+<div class="wrap t3-sl t3-sl-1 ">
+	<ul class="nav  nav-pills nav-stacked ">
+		<li class="item-1726 "><a href="<?php echo base_url('frontend/media_center_c/media_center')?>" style="color:#7961a9">
+		<div class="icon_news_even  icon_news_even_active"></div>News<br>and Events</a></li>
+		<li class="item-1727"><a href="<?php echo base_url('frontend/media_center_c/media_center')?>">
+		<div class="icon_live_radio"></div>Radio <br>Live Stream</a></li>
+		<li class="item-1728"><a href="<?php echo base_url('frontend/media_center_c/media_center')?>">
+		<div class="icon_live_traffic"></div>Traffic <br>Live Camera</a></li></ul>
+
+		</div>
+		<!-- //HOME SL 1 -->
+
+<div id="t3-mainbody" class="container t3-mainbody">
+	<div class="row">
+
+		<!-- MAIN CONTENT -->
+		<div id="t3-content" class="t3-content col-xs-12">
+						<div class="blog" itemscope="" itemtype="http://schema.org/Blog">
+	
+
+
+			<h2 style="text-align: center;">
+				
+
+		</h2><br>
+		<div class="blog-items clearfix">
+				
+		
+						<div class="row">
+						<div class="col-sm-1"></div>
+						<div class="col-sm-10" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+							
+
+	<!-- Article -->
+	<article>
+
+		<!-- Intro image -->
+		
+			<div class="row">
+			<!-- <div class="col-md-1"></div> -->
+		      		
+		
+		      		 <div class="col-md-6" id="firstrecord">
+		      					<div class="pull-left item-image"> <img src="<?php echo base_url()?>images/menuicon/news&events/ICT-Award1.png" alt="" itemprop="thumbnailUrl"> </div>
+		      		
+		      		</div> 
+		      		<div class="col-md-6">
+		      		<a href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/734-ezecom-supported-cambodia-ict-awards-2017-launching-ceremony-in-calling-for-the-best-ict-acheivement-this-year" itemprop="url">
+		      			
+					       
+</a><header class="article-header clearfix"><a href="#" itemprop="url">
+	</a><h5 class="article-title" itemprop="name"><a href="#" itemprop="url">
+					</a><a href="#" itemprop="url" title="EZECOM SUPPORTED CAMBODIA ICT AWARDS 2017 LAUNCHING CEREMONY IN CALLING FOR THE BEST ICT ACHEIVEMENT THIS YEAR">
+				EZECOM SUPPORTED CAMBODIA ICT AWARDS 2017 LAUNCHING CEREMONY IN CALLING FOR THE BEST ICT ACHEIVEMENT THIS YEAR</a>
+			</h5>
+
+			</header>
+					    					
+					    <section class="article-intro clearfix">
+																						
+							
+							<p style="font-size: 14px;">Phnom Penh: On Wednesday 15, February 2017, Cambodia ICT Awards (CICTA) 2017 was launched at Ministry of Post and Telecommunications marking an open call of applications for Cambodian entrepreneurs who wish to take their remarkable achievement to be well-known to public.</p>
+						
+						</section>
+
+
+								<div class="col-lg-10" style="margin-left: -22px;">
+											<section class="readmore">
+												<a class="default" href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/734-ezecom-supported-cambodia-ict-awards-2017-launching-ceremony-in-calling-for-the-best-ict-acheivement-this-year" itemprop="url">
+													<span>
+													Read more ...													</span>
+												</a>
+											</section>
+																				<br>
+									</div>
+						
+
+
+		      		</div>
+
+			</div>
+	
+	
+		<br>
+	</article>
+
+
+
+
+	<!-- //Article -->
+
+
+ 
+						</div>
+						<div class="col-sm-1"></div>
+					</div>
+					
+	<br><br>
+				
+					<div class="row">
+						<div class="col-sm-1"></div>
+						<div class="col-sm-10" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+							
+								
+													</div>
+						<div class="col-sm-1"></div>
+					</div>
+					
+			
+											
+					<div class="row">
+						<div class="col-sm-1"></div>
+						<div class="col-sm-10" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+															
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Article -->
+	<article>
+
+		<!-- Intro image -->
+		
+			<div class="row">
+			<!-- <div class="col-md-1">5t</div> -->
+		      		
+		
+		      		<div class="col-md-2" style="min-width:19.66%">
+		      		
+		      					<div class="pull-left item-image"> <img src="<?php echo base_url()?>images/menuicon/news&events/IBC1-1-copy.png" alt="" itemprop="thumbnailUrl"> </div>
+
+		      		</div>
+		      		<div class="col-md-10" style="width:80.33%">
+		      		<a href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/733-ezecom-helps-connect-enterpreneurs-business-leaders-and-government-representatives-in-the-2017-cambodia-international-business-summit" itemprop="url">
+		      			
+					       
+</a><header class="article-header clearfix"><a href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/733-ezecom-helps-connect-enterpreneurs-business-leaders-and-government-representatives-in-the-2017-cambodia-international-business-summit" itemprop="url">
+	</a><h5 class="article-title" itemprop="name"><a href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/733-ezecom-helps-connect-enterpreneurs-business-leaders-and-government-representatives-in-the-2017-cambodia-international-business-summit" itemprop="url">
+					</a><a href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/733-ezecom-helps-connect-enterpreneurs-business-leaders-and-government-representatives-in-the-2017-cambodia-international-business-summit" itemprop="url" title="EZECOM HELPS CONNECT ENTERPRENEURS, BUSINESS LEADERS AND GOVERNMENT REPRESENTATIVES IN THE 2017 CAMBODIA INTERNATIONAL BUSINESS SUMMIT">
+				EZECOM HELPS CONNECT ENTERPRENEURS, BUSINESS LEADERS AND GOVERNMENT REPRESENTATIVES IN THE 2017 CAMBODIA INTERNATIONAL BUSINESS SUMMIT</a>
+			</h5>
+
+			</header>
+					    
+					
+					    <section class="article-intro clearfix">
+																						
+							
+							<p style="font-size: 14px;">The Cambodia International Business Summit is a forum that provides networking events and offers a direct entry into one of the world’s fastest...						
+						</p></section>
+
+
+								<div class="col-lg-10" style="margin-left: -22px;">
+											
+											<section class="readmore">
+												<a class="default" href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/733-ezecom-helps-connect-enterpreneurs-business-leaders-and-government-representatives-in-the-2017-cambodia-international-business-summit" itemprop="url">
+													<span>
+													Read more ...													</span>
+												</a>
+											</section>
+																				<br>
+									</div>
+						
+
+
+		      		</div>
+
+			</div>
+	
+		
+		<br>
+
+	</article>
+
+
+
+
+	<!-- //Article -->
+
+
+ 
+
+													</div>
+						<div class="col-sm-1"></div>
+					</div>
+					
+			
+											
+					<div class="row">
+						<div class="col-sm-1"></div>
+						<div class="col-sm-10" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+															
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Article -->
+	<article>
+
+		<!-- Intro image -->
+		
+			<div class="row">
+			<!-- <div class="col-md-1">5t</div> -->
+		      		
+		
+		      		<div class="col-md-2" style="min-width:19.66%">
+		      		
+		      					<div class="pull-left item-image"> <img src="<?php echo base_url()?>images/menuicon/news&events/6.jpg" alt="" itemprop="thumbnailUrl"> </div>
+
+		      		</div>
+		      		<div class="col-md-10" style="width:80.33%">
+		      		<a href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/631-mct-submarine-cable-has-now-connected-to-cambodia-mittepheap-landing-station-sihanoukville" itemprop="url">
+		      			
+					       
+</a><header class="article-header clearfix"><a href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/631-mct-submarine-cable-has-now-connected-to-cambodia-mittepheap-landing-station-sihanoukville" itemprop="url">
+	</a><h5 class="article-title" itemprop="name"><a href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/631-mct-submarine-cable-has-now-connected-to-cambodia-mittepheap-landing-station-sihanoukville" itemprop="url">
+					</a><a href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/631-mct-submarine-cable-has-now-connected-to-cambodia-mittepheap-landing-station-sihanoukville" itemprop="url" title="MCT SUBMARINE CABLE HAS NOW CONNECTED TO CAMBODIA, MITTEPHEAP LANDING STATION, SIHANOUKVILLE">
+				MCT SUBMARINE CABLE HAS NOW CONNECTED TO CAMBODIA, MITTEPHEAP LANDING STATION, SIHANOUKVILLE</a>
+			</h5>
+
+			</header>
+					    
+					
+					    <section class="article-intro clearfix">
+																						
+							
+							<p>Sihanoukville – Malaysia-Cambodia-Thailand (MCT) Submarine Cable System has landed in Sihanoukville on January 04, 2017 at 6:37pm. EZECOM’s network engineers were working...						
+						</p></section>
+
+
+								<div class="col-lg-10" style="margin-left: -22px;">
+
+											<section class="readmore">
+												<a class="default" href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/631-mct-submarine-cable-has-now-connected-to-cambodia-mittepheap-landing-station-sihanoukville" itemprop="url">
+													<span>
+													Read more ...													</span>
+												</a>
+											</section>
+																				<br>
+									</div>
+						
+
+
+		      		</div>
+
+			</div>
+	
+		
+		<br>
+
+	</article>
+
+
+
+
+	<!-- //Article -->
+
+
+ 
+
+													</div>
+						<div class="col-sm-1"></div>
+					</div>
+					
+			
+											
+					<div class="row">
+						<div class="col-sm-1"></div>
+						<div class="col-sm-10" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+															
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Article -->
+	<article>
+
+		<!-- Intro image -->
+		
+			<div class="row">
+			<!-- <div class="col-md-1">5t</div> -->
+		      		
+		
+		      		<div class="col-md-2" style="min-width:19.66%">
+		      		
+		      					<div class="pull-left item-image"> <img src="<?php echo base_url()?>images/menuicon/news&events/Iceskating_Christmas_1.png" alt="" itemprop="thumbnailUrl"> </div>
+
+		      		</div>
+		      		<div class="col-md-10" style="width:80.33%">
+		      		<a href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/623-ice-skate-christmas-show-2016" itemprop="url">
+		      			
+					       
+</a><header class="article-header clearfix"><a href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/623-ice-skate-christmas-show-2016" itemprop="url">
+	</a><h5 class="article-title" itemprop="name"><a href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/623-ice-skate-christmas-show-2016" itemprop="url">
+					</a><a href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/623-ice-skate-christmas-show-2016" itemprop="url" title="ICE SKATE CHRISTMAS SHOW 2016">
+				ICE SKATE CHRISTMAS SHOW 2016</a>
+			</h5>
+
+			</header>
+					    
+					
+					    <section class="article-intro clearfix">
+																						
+							
+							<p style="font-size: 14px;">For the upcoming 2016 Christmas celebration, EZECOM has a pleasure in sponsoring Ice Skate Christmas show organised by Ice Park and Cambodia Ice...						
+						</p></section>
+
+
+								<div class="col-lg-10" style="margin-left: -22px;">
+											<section class="readmore">
+												<a class="default" href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/623-ice-skate-christmas-show-2016" itemprop="url">
+													<span>
+													Read more ...													</span>
+												</a>
+											</section>
+																				<br>
+									</div>
+						
+
+
+		      		</div>
+
+			</div>
+	
+		
+		<br>
+
+	</article>
+
+
+
+
+	<!-- //Article -->
+
+
+ 
+
+													</div>
+						<div class="col-sm-1"></div>
+					</div>
+					
+			
+											
+					<div class="row">
+						<div class="col-sm-1"></div>
+						<div class="col-sm-10" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+															
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Article -->
+	<article>
+
+		<!-- Intro image -->
+		
+			<div class="row">
+			<!-- <div class="col-md-1">5t</div> -->
+		      		
+		
+		      		<div class="col-md-2" style="min-width:19.66%">
+		      		
+		      					<div class="pull-left item-image"> <img src="<?php echo base_url()?>images/menuicon/news&events/Happy_NewYear_2017.png" alt="" itemprop="thumbnailUrl"> </div>
+
+		      		</div>
+		      		<div class="col-md-10" style="width:80.33%">
+		      		<a href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/621-ezecom-sponsors-hotel-cambodiana-new-year-s-eve-gala-dinner-2017" itemprop="url">
+		      			
+					       
+</a><header class="article-header clearfix"><a href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/621-ezecom-sponsors-hotel-cambodiana-new-year-s-eve-gala-dinner-2017" itemprop="url">
+	</a><h5 class="article-title" itemprop="name"><a href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/621-ezecom-sponsors-hotel-cambodiana-new-year-s-eve-gala-dinner-2017" itemprop="url">
+					</a><a href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/621-ezecom-sponsors-hotel-cambodiana-new-year-s-eve-gala-dinner-2017" itemprop="url" title="EZECOM Sponsors Hotel Cambodiana New Year’s Eve Gala Dinner 2017">
+				EZECOM Sponsors Hotel Cambodiana New Year’s Eve Gala Dinner 2017</a>
+			</h5>
+
+			</header>
+					    
+					
+					    <section class="article-intro clearfix">
+																						
+							
+							<p style="font-size: 14px;">The year of 2016 has almost come to an end. To celebrate this remarkable year of 2016 and an arrival of 2017, EZECOM is delighted to co-sponsor Hotel...						
+						</p></section>
+
+
+								<div class="col-lg-10" style="margin-left: -22px;">
+
+							      <!-- Aside -->
+							      							      <!-- //Aside -->
+
+
+										
+							      <!-- footer -->
+							      							      <!-- //footer -->
+
+											
+											<section class="readmore">
+												<a class="default" href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events/621-ezecom-sponsors-hotel-cambodiana-new-year-s-eve-gala-dinner-2017" itemprop="url">
+													<span>
+													Read more ...													</span>
+												</a>
+											</section>
+																				<br>
+									</div>
+						
+
+
+		      		</div>
+
+			</div>
+	
+		
+		<br>
+
+	</article>
+
+
+
+
+	<!-- //Article -->
+
+
+ 
+
+													</div>
+						<div class="col-sm-1"></div>
+					</div>
+					
+			
+						
+		</div>
+
+	
+			<div class="row">
+		
+		<div class="col-sm-12" style="padding-left: 15%;padding-right: 15%;">
+
+			<div class="pagination">
+			<ul class="pagination"><li class="disabled"><a>Start</a></li><li class="disabled"><a>Prev</a></li><li class="active"><a>1</a></li><li><a title="2" href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events?limit=5&amp;start=5">2</a></li><li><a title="3" href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events?limit=5&amp;start=10">3</a></li><li><a title="4" href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events?limit=5&amp;start=15">4</a></li><li><a title="5" href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events?limit=5&amp;start=20">5</a></li><li><a title="6" href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events?limit=5&amp;start=25">6</a></li><li><a title="7" href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events?limit=5&amp;start=30">7</a></li><li><a title="8" href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events?limit=5&amp;start=35">8</a></li><li><a title="9" href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events?limit=5&amp;start=40">9</a></li><li><a title="10" href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events?limit=5&amp;start=45">10</a></li><li><a title="Next" href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events?limit=5&amp;start=5">Next</a></li><li><a title="End" href="https://www.ezecom.com.kh/index.php/en/media-center/news-and-events?limit=5&amp;start=155">End</a></li></ul> 
+									<p class="counter pull-right"> Page 1 of 32 </p>
+								
+			</div>
+		</div>
+		</div>
+		
+
+	</div>
+		</div>
+		<!-- //MAIN CONTENT -->
+
+	</div>
+</div> 
+			<!-- HOME SL 5 -->
+		<div class="wrap t3-sl t3-sl-5 ">
+		<div class="container">
+			<div class="mod_simple_marquee" id="mod_simple_marquee_643">
+    <a name="marqueeconfig" rel="pauseOnHover=1|direction=left|duration=10000"></a>
+
+    <div class="mod_simple_marquee_content"><div style="width: 100000px; margin-left: 1140px; animation: marqueeAnimation-1524024 23.8596s linear 0s infinite;" class="js-marquee-wrapper"><div class="js-marquee" style="margin-right: 0px; float: left;">On February 22, 2017, <b>Samdach Akka Moha Sena Padei Techo Hun Sen, Prime Minister of Kingdom of Cambodia</b>  re-informed the public that “All Microfinance institutions belong to private sector not to government.”</div></div></div>
+</div>
+		</div>
+		</div>
+		<!-- //HOME SL 5 -->
+	
+</div>
+
+    
+  
+
+  
+<!-- FOOTER -->
+	<?php $this->load->view('footer/footer_user_v');?>
+<!-- //FOOT NAVIGATION -->
+       
+
+
+<!-- //FOOTER -->
+
+<!-- BACK TOP TOP BUTTON -->
+ 
+<div id="back-to-top" data-spy="affix" data-offset-top="300" class="back-to-top hidden-xs hidden-sm affix-top">
+ 
+  <button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-up"></i></button>
+ 
+</div>
+ 
+<script type="text/javascript">
+ 
+(function($) {
+ 
+	// Back to top
+ 
+	$('#back-to-top').on('click', function(){
+ 
+		$("html, body").animate({scrollTop: 0}, 500);
+ 
+		return false;
+ 
+	});
+ 
+})(jQuery);
+ 
+</script>
+ 
+<!-- BACK TO TOP BUTTON -->
+
+
+
+
+</div>
+
+
+</body></html>

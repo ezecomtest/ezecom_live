@@ -1,0 +1,71 @@
+<?php
+
+class Media_center_m extends CI_Model{
+  // can be declaration variable here
+    function __construct()
+    {
+        // Call the Model constructor
+        parent::__construct();
+    }
+
+    //==== Start location install====
+ 
+
+    public function title_events($per_page,$page){
+        $first = $this->first_title_events();
+        $getfirst = $first['contentid'];
+        
+        $this->db->select("*")->from("tbl_content con");
+        $this->db->join("tbl_categories cat","con.content_categories_id = cat.categoriesid");
+        $this->db->join("tbl_languages lan","con.content_language_id = lan.lang_id");
+        $this->db->where("con.content_published",1);
+        $this->db->limit($per_page, $page);
+        $this->db->order_by('con.contentid',"desc");
+        $this->db->where("con.content_language_id",$this->session->userdata('language'));
+        $this->db->where("con.contentid !=",$getfirst);
+        $sql = $this->db->get();
+        return $sql->result();
+
+    }
+
+    public function first_title_events(){
+        $this->db->select("*")->from("tbl_content con");
+        $this->db->join("tbl_categories cat","con.content_categories_id = cat.categoriesid");
+        $this->db->join("tbl_languages lan","con.content_language_id = lan.lang_id");
+        $this->db->where("con.content_published",1);
+        $this->db->where("con.content_language_id",$this->session->userdata('language'));
+        $this->db->order_by('con.contentid',"desc");
+        $sql = $this->db->get();
+        return $sql->row_array();
+
+    }
+
+
+
+    public function get_all_events(){
+        $first = $this->first_title_events();
+        $getfirst = $first['contentid'];
+        $this->db->select("*")->from("tbl_content con");
+        $this->db->join("tbl_categories cat","con.content_categories_id = cat.categoriesid");
+        $this->db->join("tbl_languages lan","con.content_language_id = lan.lang_id");
+        $this->db->where("con.content_published",1);
+        $this->db->where("con.content_language_id",$this->session->userdata('language'));
+        $this->db->where("con.contentid !=",$getfirst);
+        $sql = $this->db->get();
+        return $sql->num_rows();
+
+    }
+
+    public function get_news_detail($id){
+        $this->db->select("*")->from("tbl_content con");
+        $this->db->join("tbl_categories cat","con.content_categories_id = cat.categoriesid");
+        $this->db->join("tbl_languages lan","con.content_language_id = lan.lang_id");
+        $this->db->where("con.content_published",1);
+        $this->db->where("con.contentid",$id);
+        $this->db->where("con.content_language_id",$this->session->userdata('language'));
+        $sql = $this->db->get();
+        return $sql->row_array();
+
+    }
+}
+?>

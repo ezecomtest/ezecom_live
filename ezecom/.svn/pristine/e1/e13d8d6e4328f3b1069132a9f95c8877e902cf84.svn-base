@@ -1,0 +1,50 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Career_m extends CI_Model 
+{
+	public function __construct()
+    {
+        parent::__construct();
+    }
+    
+    public function get_career(){
+        // if(!$this->session->userdata('language')){
+        $this->db->select('c.*')->from('tbl_career c');
+        $this->db->order_by('c.career_id',"desc");
+        $this->db->where('c.career_is_deleted',0);
+        $this->db->where('c.career_language_id',1);
+        $query = $this->db->get();
+        return $query->result();
+        // }else{
+        // $this->db->select('c.*')->from('tbl_career c');
+        // $this->db->order_by('c.career_id',"desc");
+        // $this->db->where('c.career_is_deleted',0);
+        // $this->db->where('c.career_language_id',$this->session->userdata('language'));
+        // $query = $this->db->get();
+        // return $query->result();
+        // }
+    	
+    }
+
+    public function get_career_detail($id){
+        if(!$this->session->userdata('language')){
+        $this->db->select('c.*')->from('tbl_career c');
+        $this->db->order_by('c.career_id',"desc");
+        $this->db->where('c.career_id',$id);
+        $this->db->where('c.career_is_deleted',0);
+        $this->db->where('c.career_language_id',1);
+        $query = $this->db->get();
+        return $query->result();
+        }else{
+        $this->db->select('c.*')->from('tbl_career c');
+        $this->db->order_by('c.career_id',"desc");
+        $this->db->where('c.career_id',$id);
+        $this->db->where('c.career_is_deleted',0);
+        $this->db->where('c.career_language_id',$this->session->userdata('language'));
+        $query = $this->db->get();
+        return $query->result();
+        }
+        
+    }
+}

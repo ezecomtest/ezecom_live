@@ -1,0 +1,287 @@
+<!-- MAIN NAVIGATION -->
+
+<?php if($this->session->userdata("language") == 1) {?>
+<nav id="t3-mainnav" class="wrap navbar navbar-default t3-mainnav">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".t3-navbar-collapse">
+					<i class="fa fa-bars"></i>
+				</button>
+		</div>
+	<div class="t3-navbar-collapse navbar-collapse collapse"><ul class="nav navbar-nav level0">
+<li >
+<a href="<?php echo base_url();?>homepage">Home</a>
+</li>
+<li class="">
+<a href="<?php echo base_url();?>ourcompany">Our Company</a>
+ 
+</li>
+<li class="sub-hidden-collapse" data-id="545" data-level="1" data-alignsub="left" data-hidesub="1" data-hidewcol="1">
+<a class="" href="<?php echo base_url();?>ourservices" data-target="#">Our Services </a>
+
+</li>
+<li class="current active">
+<a href="<?php echo base_url();?>customerservice">Customer Service  </a>
+
+</li>
+<li class="<?php if($this->uri->segment(1) == 'camera_live'){echo 'current active';}else{echo 'inactive';} ?>">
+<a href="<?php echo base_url();?>mediacenter">Media Center</a>
+
+</li>
+<li>
+<a href="<?php echo base_url();?>contact_us">Contact Us </a>
+
+</li>
+</ul></div>
+		
+<div class="t3-navbar navbar-collapse collapse">
+<div class="t3-megamenu" data-duration="400" data-responsive="true">
+<ul class="nav navbar-nav level0">
+<li class="<?=($active=='Home')?'current active':null?>" mega-align-left sub-hidden-collapse data-id="545" data-level="1" data-alignsub="left" data-hidesub="1" data-hidewcol="1">
+<a class="" href="<?php echo base_url()?>homepage" data-target="#">Home </a>
+</li>
+<li class="<?=($active=='Our Company')?'current active':null?>" mega-align-left data-id="571" data-level="1" data-alignsub="left" data-hidesub="1">
+<a class="" href="<?php echo base_url()?>ourcompany" data-target="#">Our Company </a>
+</li>
+<li class="<?=($active=='Our Services')?'current active':null?> mega-align-left sub-hidden-collapse" data-id="545" data-level="1" data-alignsub="left" data-hidesub="1" data-hidewcol="1">
+<a class="" href="<?php echo base_url();?>ourservices" data-target="#">Our Services </a>
+
+</li>
+<li class="<?=($active=='Customer Service')?'current active':null?>" data-id="533" data-level="1" data-hidesub="1">
+<a class="" href="<?php echo base_url()?>customerservice" data-target="#">Customer Service  </a>
+
+</li>
+<li class="<?=($active=='Media Center' || $this->uri->segment(1) == 'camera_live' || $this->uri->segment(1) == 'live_radio')?'current active':null?>">
+<a class="" href="<?php echo base_url();?>mediacenter" data-target="#">Media Center</a>
+
+</li>
+<li class="<?=($active=='Contact Us')?'current active':null?>">
+<a class="" href="<?php echo base_url();?>contact_us" data-target="#">Contact Us </a>
+
+</li>
+</ul>
+</div>
+
+		</div>
+
+	</div>
+</nav>
+<!-- //MAIN NAVIGATION -->
+
+<?php } ?>
+
+<?php if($this->session->userdata("language") == 2) {?>
+
+<nav id="t3-mainnav" class="wrap navbar navbar-default t3-mainnav">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".t3-navbar-collapse">
+					<i class="fa fa-bars"></i>
+				</button>
+		</div>
+	<div class="t3-navbar-collapse navbar-collapse collapse"><ul class="nav navbar-nav level0">
+<li >
+<a href="<?php echo base_url();?>homepage">ទំព័រដើម</a>
+</li>
+<li class="">
+<a href="<?php echo base_url();?>ourcompany">អំពីក្រុមហ៊ុន </a>
+ 
+</li>
+<li class="sub-hidden-collapse" data-id="545" data-level="1" data-alignsub="left" data-hidesub="1" data-hidewcol="1">
+<a class="" href="<?php echo base_url();?>ourservices" data-target="#">អាជីវកម្ម  </a>
+
+</li>
+<li class="current active">
+<a href="<?php echo base_url();?>customerservice">សេវា​អតិថិជន   </a>
+
+</li>
+<li class="<?php if($this->uri->segment(1) == 'camera_live'){echo 'current active';}else{echo 'inactive';} ?>">
+<a href="<?php echo base_url();?>mediacenter">ទំព័រព័ត៌មាន</a>
+
+</li>
+<li>
+<a href="<?php echo base_url();?>contact_us">ទំនាក់ទំនង </a>
+
+</li>
+</ul></div>
+		
+<div class="t3-navbar navbar-collapse collapse">
+<div class="t3-megamenu" data-duration="400" data-responsive="true">
+<ul class="nav navbar-nav level0">
+<li class="<?=($active=='Home')?'current active':null?>" mega-align-left sub-hidden-collapse data-id="545" data-level="1" data-alignsub="left" data-hidesub="1" data-hidewcol="1">
+<a class="" href="<?php echo base_url()?>homepage" data-target="#">ទំព័រដើម </a>
+</li>
+<li class="<?=($active=='Our Company')?'current active':null?>" mega-align-left data-id="571" data-level="1" data-alignsub="left" data-hidesub="1">
+<a class="" href="<?php echo base_url()?>ourcompany" data-target="#">អំពីក្រុមហ៊ុន </a>
+</li>
+<li class="<?=($active=='Our Services')?'current active':null?> mega-align-left sub-hidden-collapse" data-id="545" data-level="1" data-alignsub="left" data-hidesub="1" data-hidewcol="1">
+<a class="" href="<?php echo base_url();?>ourservices" data-target="#">អាជីវកម្ម </a>
+
+</li>
+<li class="<?=($active=='Customer Service')?'current active':null?>" data-id="533" data-level="1" data-hidesub="1">
+<a class="" href="<?php echo base_url()?>customerservice" data-target="#">សេវា​អតិថិជន  </a>
+
+</li>
+<li class="<?=($active=='Media Center' || $this->uri->segment(1) == 'camera_live' || $this->uri->segment(1) == 'live_radio')?'current active':null?>">
+<a class="" href="<?php echo base_url();?>mediacenter" data-target="#">ទំព័រព័ត៌មាន</a>
+
+</li>
+<li class="<?=($active=='Contact Us')?'current active':null?>">
+<a class="" href="<?php echo base_url();?>contact_us" data-target="#">ទំនាក់ទំនង </a>
+
+</li>
+</ul>
+</div>
+
+		</div>
+
+	</div>
+</nav>
+
+
+<?php } ?>
+
+<?php if($this->session->userdata("language") == 3) {?>
+<nav id="t3-mainnav" class="wrap navbar navbar-default t3-mainnav">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".t3-navbar-collapse">
+					<i class="fa fa-bars"></i>
+				</button>
+		</div>
+	<div class="t3-navbar-collapse navbar-collapse collapse"><ul class="nav navbar-nav level0">
+<li >
+<a href="<?php echo base_url();?>homepage">Home</a>
+</li>
+<li class="">
+<a href="<?php echo base_url();?>ourcompany">Our Company</a>
+ 
+</li>
+<li class="sub-hidden-collapse" data-id="545" data-level="1" data-alignsub="left" data-hidesub="1" data-hidewcol="1">
+<a class="" href="<?php echo base_url();?>ourservices" data-target="#">Our Services </a>
+
+</li>
+<li class="current active">
+<a href="<?php echo base_url();?>customerservice">Customer Service  </a>
+
+</li>
+<li class="<?php if($this->uri->segment(1) == 'camera_live'){echo 'current active';}else{echo 'inactive';} ?>">
+<a href="<?php echo base_url();?>mediacenter">Media Center</a>
+
+</li>
+<li>
+<a href="<?php echo base_url();?>contact_us">Contact Us </a>
+
+</li>
+</ul></div>
+		
+<div class="t3-navbar navbar-collapse collapse">
+<div class="t3-megamenu" data-duration="400" data-responsive="true">
+<ul class="nav navbar-nav level0">
+<li class="<?=($active=='Home')?'current active':null?>" mega-align-left sub-hidden-collapse data-id="545" data-level="1" data-alignsub="left" data-hidesub="1" data-hidewcol="1">
+<a class="" href="<?php echo base_url()?>homepage" data-target="#">Home </a>
+</li>
+<li class="<?=($active=='Our Company')?'current active':null?>" mega-align-left data-id="571" data-level="1" data-alignsub="left" data-hidesub="1">
+<a class="" href="<?php echo base_url()?>ourcompany" data-target="#">Our Company </a>
+</li>
+<li class="<?=($active=='Our Services')?'current active':null?> mega-align-left sub-hidden-collapse" data-id="545" data-level="1" data-alignsub="left" data-hidesub="1" data-hidewcol="1">
+<a class="" href="<?php echo base_url();?>ourservices" data-target="#">Our Services </a>
+
+</li>
+<li class="<?=($active=='Customer Service')?'current active':null?>" data-id="533" data-level="1" data-hidesub="1">
+<a class="" href="<?php echo base_url()?>customerservice" data-target="#">Customer Service  </a>
+
+</li>
+<li class="<?=($active=='Media Center' || $this->uri->segment(1) == 'camera_live' || $this->uri->segment(1) == 'live_radio')?'current active':null?>">
+<a class="" href="<?php echo base_url();?>mediacenter" data-target="#">Media Center</a>
+
+</li>
+<li class="<?=($active=='Contact Us')?'current active':null?>">
+<a class="" href="<?php echo base_url();?>contact_us" data-target="#">Contact Us </a>
+
+</li>
+</ul>
+</div>
+
+		</div>
+
+	</div>
+</nav>
+<!-- //MAIN NAVIGATION -->
+
+<?php } ?>
+
+<?php if($this->session->userdata("language") == "") {?>
+	<nav id="t3-mainnav" class="wrap navbar navbar-default t3-mainnav">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".t3-navbar-collapse">
+					<i class="fa fa-bars"></i>
+				</button>
+		</div>
+	<div class="t3-navbar-collapse navbar-collapse collapse"><ul class="nav navbar-nav level0">
+<li >
+<a href="<?php echo base_url();?>homepage">Home</a>
+</li>
+<li class="">
+<a href="<?php echo base_url();?>ourcompany">Our Company</a>
+ 
+</li>
+<li class="sub-hidden-collapse" data-id="545" data-level="1" data-alignsub="left" data-hidesub="1" data-hidewcol="1">
+<a class="" href="<?php echo base_url();?>ourservices" data-target="#">Our Services </a>
+
+</li>
+<li class="current active">
+<a href="<?php echo base_url();?>customerservice">Customer Service  </a>
+
+</li>
+<li class="<?php if($this->uri->segment(1) == 'camera_live'){echo 'current active';}else{echo 'inactive';} ?>">
+<a href="<?php echo base_url();?>mediacenter">Media Center</a>
+
+</li>
+<li>
+<a href="<?php echo base_url();?>contact_us">Contact Us </a>
+
+</li>
+</ul></div>
+		
+<div class="t3-navbar navbar-collapse collapse">
+<div class="t3-megamenu" data-duration="400" data-responsive="true">
+<ul class="nav navbar-nav level0">
+<li class="<?=($active=='Home')?'current active':null?>" mega-align-left sub-hidden-collapse data-id="545" data-level="1" data-alignsub="left" data-hidesub="1" data-hidewcol="1">
+<a class="" href="<?php echo base_url()?>homepage" data-target="#">Home </a>
+</li>
+<li class="<?=($active=='Our Company')?'current active':null?>" mega-align-left data-id="571" data-level="1" data-alignsub="left" data-hidesub="1">
+<a class="" href="<?php echo base_url()?>ourcompany" data-target="#">Our Company </a>
+</li>
+<li class="<?=($active=='Our Services')?'current active':null?> mega-align-left sub-hidden-collapse" data-id="545" data-level="1" data-alignsub="left" data-hidesub="1" data-hidewcol="1">
+<a class="" href="<?php echo base_url();?>ourservices" data-target="#">Our Services </a>
+
+</li>
+<li class="<?=($active=='Customer Service')?'current active':null?>" data-id="533" data-level="1" data-hidesub="1">
+<a class="" href="<?php echo base_url()?>customerservice" data-target="#">Customer Service  </a>
+
+</li>
+<li class="<?=($active=='Media Center' || $this->uri->segment(1) == 'camera_live' || $this->uri->segment(1) == 'live_radio')?'current active':null?>">
+<a class="" href="<?php echo base_url();?>mediacenter" data-target="#">Media Center</a>
+
+</li>
+<li class="<?=($active=='Contact Us')?'current active':null?>">
+<a class="" href="<?php echo base_url();?>contact_us" data-target="#">Contact Us </a>
+
+</li>
+</ul>
+</div>
+
+		</div>
+
+	</div>
+</nav>
+<!-- //MAIN NAVIGATION -->
+
+
+<?php } ?>

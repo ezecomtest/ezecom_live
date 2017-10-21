@@ -1,0 +1,465 @@
+<!-- saved from url=(0059)https://www.ezecom.com.kh/index.php/en/enterprise-solutions -->
+<html lang="en-gb" dir="ltr" class="com_content view-article itemid-1725 j34 no-touch">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script async="" src="<?php echo base_url()?>assets/js/analytics.js"></script>
+<script src="<?php echo base_url()?>assets/js/jquery.min.js"></script> 
+
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+  <script src="<?php echo base_url()?>assets/js/bootstrap.min.js"></script>
+  
+
+<link href="<?php echo base_url()?>assets/css/css.css" rel="stylesheet">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-21233285-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	  <!--<base href="https://www.ezecom.com.kh/index.php/en/enterprise-solutions">--><base href=".">
+
+  <meta name="author" content="Super User">
+  <meta name="generator" content="Joomla! - Open Source Content Management">
+  <title><?php echo $title;?></title>
+  <link href="<?php echo base_url();?>images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+  <?php
+    $this->load->view('header/frontend_header');
+  ?>
+  <script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+jQuery(document).ready(function(){
+	jQuery('.hasTooltip').tooltip({"html": true,"container": "body"});
+});
+</script>
+
+	
+<!-- META FOR IOS & HANDHELD -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<style type="text/stylesheet">
+		@-webkit-viewport   { width: device-width; }
+		@-moz-viewport      { width: device-width; }
+		@-ms-viewport       { width: device-width; }
+		@-o-viewport        { width: device-width; }
+		@viewport           { width: device-width; }
+	</style>
+	<script type="text/javascript">
+		//<![CDATA[
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			var msViewportStyle = document.createElement("style");
+			msViewportStyle.appendChild(
+				document.createTextNode("@-ms-viewport{width:auto!important}")
+			);
+			document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+		}
+		//]]>
+	</script>
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-capable" content="YES">
+<!-- //META FOR IOS & HANDHELD -->
+
+
+
+
+<!-- Le HTML5 shim and media query for IE8 support -->
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript" src="/plugins/system/t3/base-bs3/js/respond.min.js"></script>
+<![endif]-->
+
+<!-- You can add Google Analytics here or use T3 Injection feature -->
+<style type="text/css">.t3-megamenu.animate .animating > .mega-dropdown-menu,.t3-megamenu.animate.slide .animating > .mega-dropdown-menu > div {transition-duration: 400ms !important;-webkit-transition-duration: 400ms !important;}@-webkit-keyframes marqueeAnimation-6975525  { 100%  {margin-left:-1580px}}</style></head>
+
+<body>
+
+<div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
+  
+<!-- HEADER -->
+	<?php
+		$this->load->view('header/header_all');
+	?>
+<!-- //HEADER -->
+<!-- MAIN NAVIGATION -->
+<?php $this->load->view("header/main_nav_user_v")?> 
+<!-- //MAIN NAVIGATION -->
+
+<div class="home">
+<!-- HOME SL 1 -->
+<div class="wrap t3-sl t3-sl-1 ">
+<ul class="nav  nav-pills nav-stacked " id="our_service">
+<li class="item-1724"><a href="<?php echo base_url()?>ourservices"><div class="our_internet"></div>Our<br>Internet</a></li>
+<li class="item-1725 current active"><a href="<?php echo base_url()?>enterprise_solution">
+<div class="enterprise_solution enterprise_solutionactive"></div>Enterprise <br>Solutions</a></li>
+</ul>
+
+<div class="custom">
+	<div id="myNavbar" class="custom">
+<ul class="nav  nav-pills nav-stacked " style="background: #E7E7E8;">
+<li class="item-1723"><a href="<?php echo base_url()?>enterprise_solution#dedicated -package"><div class="icon_dedicated"></div>Dedicate</a></li>
+<li class="item-1717"><a href="<?php echo base_url()?>enterprise_solution#DPLC"><div class="icon_dplc"></div>DPLC</a></li>
+<li class="item-1718"><a href="<?php echo base_url()?>enterprise_solution#iplc"><div class="icon_iplc"></div>IPLC</a></li>
+<li class="item-1719"><a href="<?php echo base_url()?>enterprise_solution#mpls"><div class="icon_mpls"></div>MPLS</a></li>
+<li class="item-1720"><a href="<?php echo base_url()?>enterprise_solution#vpn"><div class="icon_vpn"></div>VPN</a></li>
+<li class="item-1721"><a href="<?php echo base_url()?>enterprise_solution#data-location"><div class="icon_data_co_location"></div>Co-location</a></li>
+<li class="item-1745"><a href="<?php echo base_url()?>enterprise_solution#ibizCloud"><div class="icon_ibizcloud"></div> ibizCloud </a></li>
+<li class="item-1726"><a href="<?php echo base_url()?>enterprise_solution#BeeDoo"><div class="icon_BeeDoo"></div> BeeDoo </a></li>
+<li class="item-1728"><a href="<?php echo base_url()?>enterprise_solution#web-hosting"><div class="icon_web_hosting"></div>Hosting </a></li>
+</ul>
+</div></div>
+
+
+<div class="custom">
+	<div id="dedicated -package" class="container module-content-container" style="color: #444; font-size: 14px;">
+<h2 style="font-family: 'Bayon', cursive;">专属套餐</h2>
+<div class="row">
+<div class="col-sm-2">&nbsp;</div>
+<div class="col-xs-12 col-sm-12 col-md-8">
+<p style="font-size: 14px;" class="media-body">EZECOM专属套餐旨在支持企业关键功能，提供高速连接和可靠访问。</p>
+<p style="font-size: 14px;">EZECOM专属套餐允许您发送和接收大量数据信息，进行视频会议，运行基于Web的应用程序、流化视频和任何任务关键型应用程序。</p>
+<p style="font-size: 14px;">EZECOM专属套餐凭其高度可靠的多重基础设施为您提供最佳服务，包括24小时网络监测和用户支持。</p>
+<div style="color: #7961a9; width: 70%; margin: 10px 0 0px 0;">更多信息请今天与我们联系。
+<p style="font-size: 22px; color: #000;">+855(0)23 888 181</p>
+</div>
+<p>&nbsp;</p>
+</div>
+<div class="col-sm-2">&nbsp;</div>
+</div>
+</div></div>
+
+
+<div class="custom">
+	<div class="custom">
+<div id="DPLC" class="container-fluid bg-color-gray">
+<div class="container module-content-container" style="color: #444; font-size: 14px;">
+<h2>国内专线  (DPLC)</h2>
+<div class="col-sm-2">&nbsp;</div>
+<div class="col-xs-12 col-sm-12 col-md-8">
+<p>国内专线指为柬埔寨办公室之间提供端到端专属通信连接/线路的数据连接服务。</p>
+<h3>&nbsp;</h3>
+</div>
+<div class="col-sm-2">&nbsp;</div>
+</div>
+</div>
+</div></div>
+
+
+<div class="custom">
+	<div class="custom">
+<div id="iplc" class="container module-content-container" style="color: #444; font-size: 14px;">
+<h2 style="font-family: 'Bayon', cursive;">国际专线  IPLC</h2>
+<div class="row">
+<div class="col-sm-2">&nbsp;</div>
+<div class="col-xs-12 col-sm-12 col-md-8">
+<p>EZECOM的国际专线是点对点专用线路，可在不同国家办公室之间传输语音、数据或视频流。EZECOM提供电信级IPLC服务，旨在保障网络安全和弹性。EZECOM合作伙伴均为全球一线运营商，为顾客提供多种福利。</p>
+</div>
+<p>&nbsp;</p>
+</div>
+<div class="col-sm-2">&nbsp;</div>
+</div>
+</div></div>
+
+
+<div class="custom">
+	<div class="custom">
+<div id="mpls" class="container-fluid bg-color-gray">
+<div class="container module-content-container">
+<h2 style="font-family: 'Bayon', cursive;">多协议标签交换 MPLS</h2>
+<div class="col-sm-2">&nbsp;</div>
+<div class="col-xs-12 col-sm-12 col-md-8">
+<p style="font-size: 14px;">EZECOM的MPLS（多协议标签交换）服务具有高度可扩展性、协议无关性和数据承载机制，可确保您的大型公司充分利用其IT网络。 EZECOM是首家向柬埔寨提供这项国际标准服务的网络服务供应商。 我们经验丰富的技术团队确保您的公司拥有最好的室内网络。</p>
+<p style="font-size: 14px;">使用EZECOM MPLS服务的主要益处是 :</p>
+<ul>
+<li><span style="color: #444444;"><span style="font-size: 14px;">增强的弹性</span></span></li>
+<li><span style="color: #444444;"><span style="font-size: 14px;">改进的数据管理</span></span></li>
+<li><span style="color: #444444;"><span style="font-size: 14px;">多重服务和通信量管理功能</span></span></li>
+<li><span style="color: #444444;"><span style="font-size: 14px;">最大化网络利用率</span></span></li>
+<li><span style="color: #444444;"><span style="font-size: 14px;">通过数据网络融合降低成本</span></span></li>
+<li><span style="color: #444444;"><span style="font-size: 14px;">实现常见主干网“三网融合”</span></span></li>
+<li><span style="color: #444444;"><span style="font-size: 14px;">支持多城市服务</span></span></li>
+</ul>
+<p style="font-size: 14px;">免费评估您的需求，请联系我们销售团队。评估后我们将为您定制报价，但您不受此报价约束。</p>
+</div>
+<div class="col-sm-2">&nbsp;</div>
+</div>
+</div>
+</div></div>
+
+
+<div class="custom">
+	<div class="custom">
+<div id="vpn" class="container-fluid">
+<div class="container module-content-container">
+<div class="col-xm-12 col-sm-12 col-md-2">&nbsp;</div>
+<div class="col-xm-12 col-sm-12 col-md-8">
+<h2 style="font-family: 'Bayon', cursive;">虚拟专用网络 (VPN)</h2>
+<div class="media-body" style="font-size: 14px; color: #444;">EZECOM国内VPN解决方案旨在满足当今动态业务的需求。国内VPN连接在全国范围内提供经济实惠型连接。尽力服务和SLA确保安全、高速专用网络连接。我们的Ezecom VPN服务计划有若干种选择。</div>
+</div>
+<div class="col-xm-12 col-sm-12 col-md-2">&nbsp;</div>
+<div class="col-xm-12 col-sm-12 col-md-12">
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-2">&nbsp;</div>
+<div class="col-xs-12 col-sm-4 col-md-2">
+<h3 class="product-price"><img src="<?php echo base_url()?>images/content/VPN_2mbps.png" alt=""></h3>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-2">
+<h3 class="product-price"><img src="<?php echo base_url()?>images/content/VPN_3mbps.png" alt=""></h3>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-2">
+<h3 class="product-price"><img src="<?php echo base_url()?>images/content/VPN_4mbps.png" alt=""></h3>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-2">
+<h3 class="product-price"><img src="<?php echo base_url()?>images/content/VPN_5mbps.png" alt=""></h3>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-2">&nbsp;</div>
+</div>
+</div>
+</div>
+<h4 style="text-align: center;">&nbsp;所有上述價格均含增值稅。</h4>
+</div>
+</div></div>
+
+
+<div class="custom">
+	<div class="custom">
+<div id="data-location" class="container-fluid bg-color-gray">
+<div class="container module-content-container">
+<div class="col-xm-12 col-sm-12 col-md-2">&nbsp;</div>
+<div class="col-xm-12 col-sm-12 col-md-8">
+<h2 class="product-title" style="text-align: center;">Co-Location</h2>
+<div class="media-body" style="font-size: 14px; color: #444;">EZECOM数据共置服务提供可靠且能复原的世界一流数据中心设施，可存储您所有的任务关键型数据。我们数据中心定制设计符合全球标准，且采用了最新技术。我们将根据您的需求制定解决方案，因此您的解决方案不仅最可靠而且最经济实惠。EZECOM使您不再承担设备、管理、安全和公用事业方面的财务负担。</div>
+</div>
+<div class="col-xm-12 col-sm-12 col-md-2">&nbsp;</div>
+<div class="col-xm-12 col-sm-12 col-md-12">
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-2">&nbsp;</div>
+<div class="col-xs-12 col-sm-4 col-md-3">
+<h3 class="product-price"><img src="<?php echo base_url()?>images/content/Data_Co_location_Rack_unit.png" alt=""></h3>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-2">
+<h3 class="product-price"><img src="<?php echo base_url()?>images/content/Data_Co_location_Half_rack.png" alt=""></h3>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-3">
+<h3 class="product-price"><img src="<?php echo base_url()?>images/content/Data_Co_location_Full_rack.png" alt=""></h3>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-2">&nbsp;</div>
+</div>
+</div>
+<div class="col-xm-12 col-sm-12 col-md-2">&nbsp;</div>
+<div class="col-xm-12 col-sm-12 col-md-8">
+<h4>Setup Fees apply</h4>
+<div class="media-body" style="font-size: 14px; color: #444;">与我们所有的企业解决方案一样，我们的共置服务灵活可变，以适应您的业务需求。</div>
+<br>
+<p style="font-size: 14px;">请注意，此服务需要EZECOM互联网连接。</p>
+</div>
+<div class="col-xm-12 col-sm-12 col-md-2">&nbsp;</div>
+</div>
+</div>
+</div></div>
+
+
+<div class="custom">
+	<div class="custom">
+<div id="ibizCloud" class="container-fluid">
+<div class="container module-content-container">
+<div class="col-xm-12 col-sm-12 col-md-2">&nbsp;</div>
+<div class="col-xm-12 col-sm-12 col-md-8">
+<h2 class="product-title" style="text-align: center;"><a href="http://ezecom.com.kh/ibiz-cloud-service/" target="_new"><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/content/ibizCloud_headline.png" alt=""></a></h2>
+</div>
+<div class="col-xm-12 col-sm-12 col-md-2">&nbsp;</div>
+<div class="col-xm-12 col-sm-12 col-md-12">
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<h3 class="product-price"><img src="<?php echo base_url()?>images/content/ibizCloud_f_st_provisioning.png" alt=""></h3>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-3">
+<h3 class="product-price"><img src="<?php echo base_url()?>images/content/ibizCloud_redundant_setup.png" alt=""></h3>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-3">
+<h3 class="product-price"><img src="<?php echo base_url()?>images/content/ibizCloud_rich_connectivity.png" alt=""></h3>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-3">
+<h3 class="product-price"><img src="<?php echo base_url()?>images/content/ibizCloud_lo_cal_present.png" alt=""></h3>
+</div>
+</div>
+</div>
+<div class="col-xm-12 col-sm-12 col-md-2">&nbsp;</div>
+<div class="col-xm-12 col-sm-12 col-md-8"><br>
+<p>EZECOM新型虚拟、非现场数据存储和管理系统—柬埔寨首个此类数据存储和管理系统—符合所有最严格的国际安全标准。作为现场数据存储的替代方案，EZECOM的ibizCloud提供经济实惠而又灵活的解决方案，并由当地支持团队支持。</p>
+<p>了解这项服务可以您的公司做些什么，请今天联系我们。</p>
+
+<p>EZECOM ibizCloud是一种分布式云基础设施，以丰富的连接功能为全球各地的用户提供更便捷的存储。</p>
+<p><a style="font-weight: 600;" href="http://ezecom.com.kh/ibiz-cloud-service/">http://ezecom.com.kh/ibiz-cloud-service/</a></p>
+</div>
+<div class="col-xm-12 col-sm-12 col-md-2">&nbsp;</div>
+</div>
+</div>
+</div></div>
+
+
+<div class="custom">
+	<div class="custom">
+<div id="BeeDoo" class="container-fluid bg-color-gray" style="color: #444; font-size: 14px;">
+<div class="container module-content-container">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-4">
+<p style="padding-top: 80px;"><a href="<?php echo base_url();?>beedoo" target="_new"><img class="img-responsive" src="<?php echo base_url()?>images/content/BeeDoo_headline.png" alt=""></a></p>
+<p style="padding-top: 50px;">EZECOM BeeDoo将在一个应用软件中为您提供最新的云存储、文件共享和企业信息，为您节省时间和金钱，同时保持您的所有数据在云中安全存储。</p>
+<p style="padding-top: 30px;">EZECOM BeeDoo允许您的所有团队成员通过台式机、笔记本电脑、平板电脑或手机处理文件和互发消息。</p>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4">
+<p style="padding-top: 150px;"><a href="<?php echo base_url();?>beedoo" target="_new"><img class="img-responsive" src="<?php echo base_url()?>images/content/BeeDoo_infographic01.png" alt=""></a></p>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4"><img class="img-responsive" src="<?php echo base_url()?>images/content/BeeDoo_Lady.png" alt=""></div>
+</div>
+</div>
+</div>
+</div></div>
+
+
+<div class="custom">
+	<div id="web-hosting" class="container-fluid">
+<div class="container module-content-container">
+<div class="col-xm-12 col-sm-12 col-md-2">&nbsp;</div>
+<div class="col-xm-12 col-sm-12 col-md-8">
+<h2 class="product-title" style="text-align: center;">网站代管</h2>
+<div class="media-body" style="font-size: 14px; color: #444;">EZECOM网站代管位于我们在金边的世界一流数据中心。我们的网络代管服务根据柬埔寨市场的独特需求量身定制。</div>
+</div>
+<div class="col-xm-12 col-sm-12 col-md-2">&nbsp;</div>
+<div class="col-xm-12 col-sm-12 col-md-12">
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-4">
+<h3 class="product-price"><img src="<?php echo base_url()?>images/content/web_hosting_basic.png" alt=""></h3>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">Data / Bandwidth Transfer Allowance:</small><br><b style="font-size: 25px;">10 GB</b></p>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">Disk / Storage:</small><br><b style="font-size: 25px;">2 GB</b></p>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">Mailbox Max:</small><br><b style="font-size: 25px;">Unlimited</b></p>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">Domains:</small><br><b style="font-size: 25px;">1</b></p>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">Sub-Domains:</small><br><b style="font-size: 25px;">Unlimited</b></p>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">MySQL DBs:</small><br><b style="font-size: 25px;">1</b></p>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">FTP Account:</small><br><b style="font-size: 25px;">Unlimited</b></p>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-4">
+<h3 class="product-price"><img src="<?php echo base_url()?>images/content/web_hosting_standard.png" alt=""></h3>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">Data / Bandwidth Transfer Allowance:</small><br><b style="font-size: 25px;">20 GB</b></p>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">Disk / Storage:</small><br><b style="font-size: 25px;">10 GB</b></p>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">Mailbox Max:</small><br><b style="font-size: 25px;">Unlimited</b></p>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">Domains:</small><br><b style="font-size: 25px;">2</b></p>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">Sub-Domains:</small><br><b style="font-size: 25px;">Unlimited</b></p>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">MySQL DBs:</small><br><b style="font-size: 25px;">6</b></p>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">FTP Account:</small><br><b style="font-size: 25px;">Unlimited</b></p>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-4">
+<h3 class="product-price"><img src="<?php echo base_url()?>images/content/web_hosting_professional.png" alt=""></h3>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">Data / Bandwidth Transfer Allowance:</small><br><b style="font-size: 25px;">50 GB</b></p>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">Disk / Storage:</small><br><b style="font-size: 25px;">20 GB</b></p>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">Mailbox Max:</small><br><b style="font-size: 25px;">Unlimited</b></p>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">Domains:</small><br><b style="font-size: 25px;">5</b></p>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">Sub-Domains:</small><br><b style="font-size: 25px;">Unlimited</b></p>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">MySQL DBs:</small><br><b style="font-size: 25px;">10</b></p>
+<p class="text-center product-des" style="text-align: left; padding-bottom: 0px;"><small style="font-size: 14px;">FTP Account:</small><br><b style="font-size: 25px;">Unlimited</b></p>
+</div>
+</div>
+</div>
+<div class="col-xm-12 col-sm-12 col-md-1">&nbsp;</div>
+<div class="col-xm-12 col-sm-12 col-md-10"><br>
+<h5>价格均不含增值税。</h5>
+<h4>请注意:</h4>
+<ul>
+<li>以上合同期限均为1年</li>
+<li>装配费为25美元</li>
+<li>EZECOM 不负责注册域名</li>
+<li>套餐可根据您的需求定制</li>
+</ul>
+</div>
+<div class="col-xm-12 col-sm-12 col-md-1">&nbsp;</div>
+</div>
+</div></div>
+
+
+<div class="custom">
+	<div class="container-fluid" style="background: #E2E3E4;">
+<div class="container module" style="color: #444; font-size: 14px;">
+<p><b>
+夥伴:</b></p>
+<p style="padding-left: 50px;"><a href="http://northparkcondo.net/" target="_new"><img class="img-responsive" src="<?php echo base_url()?>images/content/northpark_logo.png" alt="Ezecom Call to Action"></a></p>
+<div style="height: 20px; width: 100%;">&nbsp;</div>
+</div>
+</div></div>
+
+		</div>
+		<!-- //HOME SL 1 -->
+	
+	
+
+<div id="t3-mainbody" class="container t3-mainbody">
+	<div class="row">
+
+		<!-- MAIN CONTENT -->
+		<div id="t3-content" class="t3-content col-xs-12">
+						<div class="item-page clearfix">
+
+
+<!-- Article -->
+<article itemscope="" itemtype="http://schema.org/Article">
+	<meta itemprop="inLanguage" content="en-GB">
+
+<!-- Aside -->
+<!-- //Aside -->
+	<section class="article-content clearfix" itemprop="articleBody">
+			</section>
+  <!-- footer -->
+    <!-- //footer -->	
+</article>
+<!-- //Article -->
+</div>
+		</div>
+		<!-- //MAIN CONTENT -->
+	</div>
+</div> 
+			<!-- HOME SL 5 -->
+	<div class="wrap t3-sl t3-sl-5 ">
+		<marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="12"> On February 22, 2017, <b>Samdach Akka Moha Sena Padei Techo Hun Sen, Prime Minister of Kingdom of Cambodia</b>  re-informed the public that “All Microfinance institutions belong to private sector not to government.”</marquee>
+
+		</div>
+		<!-- //HOME SL 5 -->
+	
+</div>
+
+<!-- FOOTER -->
+<?php $this->load->view("footer/footer_user_v")?> 
+<!-- //FOOTER -->
+
+<!-- BACK TOP TOP BUTTON -->
+ 
+<div id="back-to-top" data-spy="affix" data-offset-top="300" class="back-to-top hidden-xs hidden-sm affix-top">
+ 
+  <button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-up"></i></button>
+ 
+</div>
+ 
+<script type="text/javascript">
+ 
+(function($) {
+ 
+	// Back to top
+ 
+	$('#back-to-top').on('click', function(){
+ 
+		$("html, body").animate({scrollTop: 0}, 500);
+ 
+		return false;
+ 
+	});
+ 
+})(jQuery);
+ 
+</script>
+<!-- BACK TO TOP BUTTON -->
+</div>
+</body></html>

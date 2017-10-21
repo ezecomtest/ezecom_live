@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><?php echo $title; ?></title>
+    <?php $this->load->view("header/header_link");?>
+</head>
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+       
+        <?php $this->load->view("header/menu");?>
+            <div class="right_col" role="main">
+
+                        <!-- top tiles -->
+                        <div class="row tile_count">
+
+                
+                        </div>
+                        <!-- footer content -->
+
+                       <?php $this->load->view("footer/footer"); ?>
+                        <!-- /footer content -->
+            </div>
+        </div>
+    </div>
+    <?php $this->load->view("header/script");?>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?php
+
+class Homepage_m extends CI_Model{
+  // can be declaration variable here
+    function __construct()
+    {
+        // Call the Model constructor
+        parent::__construct();
+    }
+
+    //==== Start location install====
+ 
+	// public function get_homepage_slider1($sessionid){
+ //        $sql = $this->db->query("SELECT tbl_slider.slide_title,tbl_slider.slide_img,tbl_slider.slide_language_id,tbl_languages.lang_title,tbl_languages.lang_id,tbl_slider.slide_published,tbl_slider.slide_description,tbl_slider.slideid FROM tbl_slider INNER JOIN tbl_languages ON tbl_slider.slide_language_id = tbl_languages.lang_id where tbl_slider.slide_published = 1 AND tbl_languages.lang_id = $sessionid");
+ //        return $sql->result();
+	// }
+
+    public function get_homepage_slider($sessionid){
+        $this->db->select("*")->from("tbl_slider");
+        $this->db->join("tbl_languages","tbl_slider.slide_language_id = tbl_languages.lang_id");
+        $this->db->where("tbl_slider.slide_published",1);
+        $this->db->where("tbl_languages.lang_id",$sessionid);
+        $sql = $this->db->get();
+        return $sql->result();
+    }
+}
+?>

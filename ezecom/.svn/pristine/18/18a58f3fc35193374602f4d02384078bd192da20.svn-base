@@ -1,0 +1,25 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Career_m extends CI_Model 
+{
+	public function __construct()
+    {
+        parent::__construct();
+    }
+    
+    public function get_career(){
+    	$this->db->select('c.*')->from('tbl_career c');
+    	$this->db->order_by('c.career_id',"desc");
+    	$query = $this->db->get();
+    	return $query->result();
+    }
+
+    public function get_career_detail($id){
+        $this->db->select('c.*')->from('tbl_career c');
+        $this->db->order_by('c.career_id',"desc");
+        $this->db->where('c.career_id',$id);
+        $query = $this->db->get();
+        return $query->result();
+    }
+}

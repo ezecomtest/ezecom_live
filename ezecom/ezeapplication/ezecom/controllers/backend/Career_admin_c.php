@@ -1,0 +1,74 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Career_admin_c extends CI_Controller
+{
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->model("backend/career_admin_m");
+		if($this->session->userdata('level') !== 'superuser'){
+        	redirect('administrator');
+        }
+	}
+
+	public function career_list()
+	{
+		$data['title'] = "Career";
+		$data['careers'] = $this->career_admin_m->get_career();
+		$this->load->view('backend/career/career_list_admin_v', $data);
+	}
+
+	public function form_add_career()
+	{
+		$data['title'] = "Career";
+		$data['languages'] = $this->career_admin_m->get_language();
+		$this->load->view('backend/career/career_add_admin_v', $data);
+	}
+
+	public function add_career()
+	{
+		$data = $this->input->post();
+		$data['career_post_date']=mdate('%Y-%m-%d',now());
+
+		if ($this->career_admin_m->insert_career($data)==true){
+			$this->session->set_flashdata('msg', '<div class="alert alert-success alert-dismissible fade in">Success: Data has been added!</div>');
+		} else {
+			$this->session->set_flashdata('msg', '<div class="alert alert-danger alert-dismissible fade in">Error: Data has been fail to add!</div>');
+		}
+		redirect('backend/career_admin_c/career_list');
+	}
+
+	public function form_edit_career($id)
+	{
+		$data['title'] = "Career";
+		$data['career']=$this->career_admin_m->get_career_byID($id);
+		$data['languages'] = $this->career_admin_m->get_language();
+		$this->load->view('backend/career/career_edit_admin_v', $data);
+	}
+
+	public function update_career($id)
+	{
+		$data = $this->input->post();
+		$data['career_modified_date']=mdate('%Y-%m-%d',now());
+		$cri = array('career_id'=>$id);
+		if ($this->career_admin_m->update_career($data,$cri)==true){
+			$this->session->set_flashdata('msg', '<div class="alert alert-success alert-dismissible fade in">Success: Data has been updated!</div>');
+		} else {
+			$this->session->set_flashdata('msg', '<div class="alert alert-danger alert-dismissible fade in">Error: Data has been fail to update!</div>');
+		}
+		redirect('backend/career_admin_c/career_list');
+	}
+
+	public function delete_career($id)
+	{
+		$data = array('career_is_deleted'=>1);
+		$cri = array('career_id'=>$id);
+		if ($this->career_admin_m->update_career($data,$cri)==true){
+			$this->session->set_flashdata('msg', '<div class="alert alert-success alert-dismissible fade in">Success: Data has been deleted!</div>');
+		} else {
+			$this->session->set_flashdata('msg', '<div class="alert alert-danger alert-dismissible fade in">Error: Data has been fail to delete!</div>');
+		}
+		redirect('backend/career_admin_c/career_list');
+	}
+}

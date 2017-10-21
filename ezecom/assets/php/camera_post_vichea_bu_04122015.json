@@ -1,0 +1,71 @@
+[{
+    "traffic_cam_id": 1,
+    "name": "7 MAKARA SKYBRIDGE",
+    "http": "http:\/\/119.82.248.12:1940\/mobile7MakaraSkybridge\/mobile7Makara.stream\/playlist.m3u8",
+    "rtsp": "rtsp:\/\/119.82.248.12:1940\/mobile7MakaraSkybridge\/mobile7Makara.stream",
+    "rtmp": "rtmp:\/\/119.82.248.12:1940\/mobile7MakaraSkybridge\/mobile7Makara.stream",
+    "thumbnail": "http:\/\/mobile.ezecom.com.kh\/images\/camera_thumbnails\/7makara.png"
+}, {
+    "traffic_cam_id": 2,
+    "name": "KBAL THNOL",
+    "http": "http:\/\/119.82.248.12:1940\/mobileKbalThnol\/mobileKbalThnol.stream\/playlist.m3u8",
+    "rtsp": "rtsp:\/\/119.82.248.12:1940\/mobileKbalThnol\/mobileKbalThnol.stream",
+    "rtmp": "rtmp:\/\/119.82.248.12:1940\/mobileKbalThnol\/mobileKbalThnol.stream",
+    "thumbnail": "http:\/\/mobile.ezecom.com.kh\/images\/camera_thumbnails\/Kbalthnol.png"
+}, {
+    "traffic_cam_id": 3,
+    "name": "RIVERSIDE",
+    "http": "http:\/\/119.82.248.12:1940\/mobileRiverside\/mobileRiverside.stream\/playlist.m3u8",
+    "rtsp": "rtsp:\/\/119.82.248.12:1940\/mobileRiverside\/mobileRiverside.stream",
+    "rtmp": "rtmp:\/\/119.82.248.12:1940\/mobileRiverside\/mobileRiverside.stream",
+    "thumbnail": "http:\/\/mobile.ezecom.com.kh\/images\/camera_thumbnails\/Riverside.png"
+}, {
+    "traffic_cam_id": 4,
+    "name": "MONIVONG",
+    "http": "http:\/\/119.82.248.12:1940\/mobileMonivong\/mobileMonivong.stream\/playlist.m3u8",
+    "rtsp": "rtsp:\/\/119.82.248.12:1940\/mobileMonivong\/mobileMonivong.stream",
+    "rtmp": "rtmp:\/\/119.82.248.12:1940\/mobileMonivong\/mobileMonivong.stream",
+    "thumbnail": "http:\/\/mobile.ezecom.com.kh\/images\/camera_thumbnails\/Monivong.png"
+}, {
+    "traffic_cam_id": 5,
+    "name": "INTERCON",
+    "http": "http:\/\/119.82.248.12:1940\/mobileIntercon\/mobileIntercon.stream\/playlist.m3u8",
+    "rtsp": "rtsp:\/\/119.82.248.12:1940\/mobileIntercon\/mobileIntercon.stream",
+    "rtmp": "rtmp:\/\/119.82.248.12:1940\/mobileIntercon\/mobileIntercon.stream",
+    "thumbnail": "http:\/\/mobile.ezecom.com.kh\/images\/camera_thumbnails\/Intercon.png"
+}, {
+    "traffic_cam_id": 6,
+    "name": "CAMKO CYCLE",
+    "http": "http:\/\/119.82.248.12:1940\/mobileCamkoCycle\/mobileCamko.stream\/playlist.m3u8",
+    "rtsp": "rtsp:\/\/119.82.248.12:1940\/mobileCamkoCycle\/mobileCamko.stream",
+    "rtmp": "rtmp:\/\/119.82.248.12:1940\/mobileCamkoCycle\/mobileCamko.stream",
+    "thumbnail": "http:\/\/mobile.ezecom.com.kh\/images\/camera_thumbnails\/Camkocity.png"
+}, {
+    "traffic_cam_id": 7,
+    "name": "TUOLKORK",
+    "http": "http:\/\/119.82.248.12:1940\/mobileTuolkork\/mobileToulkork.stream\/playlist.m3u8",
+    "rtsp": "rtsp:\/\/119.82.248.12:1940\/mobileTuolkork\/mobileToulkork.stream",
+    "rtmp": "rtmp:\/\/119.82.248.12:1940\/mobileTuolkork\/mobileToulkork.stream",
+    "thumbnail": "http:\/\/mobile.ezecom.com.kh\/images\/camera_thumbnails\/Toulkork.png"
+}, {
+    "traffic_cam_id": 8,
+    "name": "CHAOM CHAO",
+    "http": "http:\/\/119.82.248.12:1940\/mobileChaomChao\/mobileChaomChao.stream\/playlist.m3u8",
+    "rtsp": "rtsp:\/\/119.82.248.12:1940\/mobileChaomChao\/mobileChaomChao.stream",
+    "rtmp": "rtmp:\/\/119.82.248.12:1940\/mobileChaomChao\/mobileChaomChao.stream",
+    "thumbnail": "http:\/\/mobile.ezecom.com.kh\/images\/camera_thumbnails\/Chaomchao.png"
+}, {
+    "traffic_cam_id": 10,
+    "name": "OLYMPIC",
+    "http": "http:\/\/119.82.248.12:1940\/mobileOlympic\/mobileOlympic.stream\/playlist.m3u8",
+    "rtsp": "rtsp:\/\/119.82.248.12:1940\/mobileOlympic\/mobileOlympic.stream",
+    "rtmp": "rtmp:\/\/119.82.248.12:1940\/mobileOlympic\/mobileOlympic.stream",
+    "thumbnail": "http:\/\/mobile.ezecom.com.kh\/images\/camera_thumbnails\/Olympic.png"
+}, {
+    "traffic_cam_id": 11,
+    "name": "Ratana Plaza",
+    "http": "http:\/\/119.82.248.12:1940\/mobileRatanaPlaza\/mobileRatanaPlaza.stream\/playlist.m3u8",
+	"rtsp": "rtsp:\/\/119.82.248.12:1940\/RatanaPlaza\/ratanaplaza.stream",
+    "rtmp": "rtmp:\/\/119.82.248.12:1940\/RatanaPlaza\/ratanaplaza.stream",
+    "thumbnail": "http:\/\/mobile.ezecom.com.kh\/images\/camera_thumbnails\/RatanaPlaza.png"
+}]

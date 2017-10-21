@@ -1,0 +1,17 @@
+/* CSS Document */
+
+.logo-station img{
+	/*border:1px solid #999;*/
+	margin: 0px 0px 15px 0;
+	cursor:pointer;
+}
+.border-under{
+    border-top: 1px solid rgba(101, 101, 101, 0.22);
+}
+ul.radio-schedule-list{
+    margin-left: -50px;
+}
+ul.radio-schedule-list li{
+    list-style: none;
+    padding: 10px;
+}

@@ -1,0 +1,42 @@
+
+
+<header id="t3-header" class="container t3-header">
+	<div class="row">
+     <div class="col-xs-12 col-sm-4">
+                    
+         <!-- LANGUAGE SWITCHER -->
+      <div class="languageswitcherload">
+        <div class="mod-languages">
+
+	        <ul class="lang-inline">
+						<li class="" dir="ltr">
+			         <a href="https://www.ezecom.com.kh/index.php/km/contact-us-kh">
+							 <img src="<?php echo base_url()?>images/km.gif" alt="KhmerCambodia" title="KhmerCambodia"></a>
+			      </li>
+				    <li class="" dir="ltr">
+			         <a href="https://www.ezecom.com.kh/index.php/zh/contact-us-3">
+				       <img src="<?php echo base_url()?>images/zh.gif" alt="chinese" title="chinese"></a>
+			      </li>
+				    <li class="lang-active" dir="ltr">
+			         <a href="https://www.ezecom.com.kh/index.php/en/contact-us">
+				       <img src="<?php echo base_url()?>images/en.gif" alt="English (UK)" title="English (UK)"></a>
+			      </li>
+				  </ul>
+        </div>
+     </div>
+      <!-- //LANGUAGE SWITCHER -->
+      </div>
+                        
+ <!-- LOGO -->
+  <div class="col-xs-12 col-sm-8 logo">
+    <div class="logo-image">
+      <a href="https://www.ezecom.com.kh/" title="EZECOM Cambodia Premuim Internet Service Provider">
+        <img class="logo-img" src="<?php echo base_url()?>images/ezecom-logo.png" alt="EZECOM Cambodia Premuim Internet Service Provider">
+        <span>EZECOM Cambodia Premuim Internet Service Provider</span></a>
+            <small class="site-slogan"></small>
+    </div>
+  </div>
+  <!-- //LOGO -->
+	</div>
+</header>
+

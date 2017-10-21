@@ -1,0 +1,215 @@
+@media all and (max-width: 1080px) {
+.evofrontpage-tabbed-fade-in-out .evofp-table-cell, .evofp-responsive-lastcell {
+    display: block !important;
+    width: auto!important;
+    max-width: 100%!important;
+}
+}
+
+.evofrontpage-tabbed-fade-in-out .clrfix {
+	clear: both;
+}
+#evofrontpageid {
+}
+.evofrontpage-tabbed-fade-in-out .evofp-table-cell {
+	padding: 0px 5px 5px 5px;
+	text-align: left;
+	vertical-align: top;
+}
+.evofrontpage-tabbed-fade-in-out .evofp-table-cell-inner {
+
+}
+.evofrontpage-tabbed-fade-in-out .evofp-table-cell-inner:hover {
+
+}
+.evofrontpage-tabbed-fade-in-out .head {
+	display:block;
+	background:;
+	border-radius:;
+	box-shadow:;
+	/*border-top: 1px outset black;*/
+}
+.evofrontpage-tabbed-fade-in-out .title {
+	display:block;
+	font-size:16px;
+	font-weight:;
+	padding:5px 10px;
+	text-transform:;
+}
+.evofrontpage-tabbed-fade-in-out  .title:hover {
+    box-shadow:;
+}
+.evofrontpage-tabbed-fade-in-out .evofp-table-cell p {
+	font-size:;
+    font-weight:;
+	padding: 0 8px 0px 12px!important;
+margin: 10px 0;
+}
+.evofrontpage-tabbed-fade-in-out .evofp-table-cell:hover p {
+
+}
+.evofrontpage-tabbed-fade-in-out .evofp-date-author {
+    font-size: 85%;
+    font-style: italic;
+    color:#777;
+	display:block;
+	margin: -5px 0 5px;
+}
+.evofrontpage-tabbed-fade-in-out a.evofp-readon {
+	background: #444;
+	color: #fff!important;
+	padding: 5px 10px;
+	font-size: 80%;
+	text-decoration: none;
+	display:inline-block;
+	border-radius: 4px;
+}
+.evofrontpage-tabbed-fade-in-out a.evofp-readon:hover {
+	background: #999!important;
+}
+.evofrontpage-tabbed-fade-in-out .evofp-introtitle {
+	/* display: inline-block; */
+	vertical-align: top;
+	font-size: 100%;
+	line-height: 100%;
+	color:#CC9900;
+	margin-bottom: 5px;
+}
+.evofrontpage-tabbed-fade-in-out .evofp-other-article {
+	text-align: left;
+	vertical-align: top;
+}
+.evofrontpage-tabbed-fade-in-out .evofp-other-article-inner {
+	background:;
+	border-radius:;
+	box-shadow:;
+	font-size: 90%;
+	color: #666;
+	padding: 5px 10px;
+	margin: 0px 5px;
+	border-bottom: 1px inset black;
+	border-top: 1px outset black;
+}
+.last-cell {
+ 	margin-right: 0!important;
+ }
+.evofrontpage-tabbed-fade-in-out .evofp-other-article-inner li, .evofp-other-article-inner li:before {
+	list-style: disc !important;
+//	content: none !important;
+}
+.evofrontpage-tabbed-fade-in-out .evofp-other-article-title {
+	text-transform: uppercase;
+	font-size: 100%;
+	color: #666;
+	display: block;
+	margin: 10px 10px;
+	line-height: 100%;
+	font-weight: 700;
+}
+.evofrontpage-tabbed-fade-in-out #evofptabs ul{
+	position:relative;
+	margin-left: 0!important;
+	padding-left: 0!important;
+	margin-bottom: 10px!important;
+	display: inline-block;
+	bottom: 5px;
+	margin:0 auto;
+}
+.evofrontpage-tabbed-fade-in-out #evofptabs ul li{
+	float:left;
+	width:15px;
+	height:15px;
+	background:#ccc;
+	cursor:pointer;
+	list-style-type:none!important;
+	text-align:center;
+	margin-right:5px !important;
+	border-radius: 100%;
+	box-shadow: 1px 1px 1px 1px #999;
+}
+.evofrontpage-tabbed-fade-in-out #evofptabs ul li.activex {
+    background: #AAA;
+    box-shadow: 1px 1px 1px 1px #444 inset;
+}
+.evofrontpage-tabbed-fade-in-out #evofptabs ul li:hover{
+    background: #FFF;
+    box-shadow: 1px 1px 1px 1px #888 inset;
+}
+.evofrontpage-tabbed-fade-in-out .evofrontpageid {
+	table-layout: fixed;
+	z-index: 99999!important;
+	overflow: hidden!important;
+}
+.evofrontpage-tabbed-fade-in-out .anim-div {
+	z-index: 1!important;
+}
+.evofrontpage-tabbed-fade-in-out .evofp-table-cell-inner .evofp-img-left {
+    border-radius: 5px;
+    float: left;
+    margin:10px;
+}
+.evofrontpage-tabbed-fade-in-out .evofp-table-cell-inner .evofp-img-right {
+    border-radius: 5px;
+    float: right;
+    margin:10px;
+}
+.evofrontpage-tabbed-fade-in-out a.evofp-categ {
+	background: url(../../../../images/categ.png) 5px 50% no-repeat #f0f0f0;
+	color: #666!important;
+	padding: 5px 10px;
+	font-size: 80%;
+	text-decoration: none;
+	display:inline-block;
+	border-radius: 4px;
+	text-indent: 20px;
+margin-right: 10px;
+}
+.evofrontpage-tabbed-fade-in-out a.evofp-categ:hover {
+	background: url(../../../../images/categ.png) 5px 50% no-repeat #666!important;
+	text-indent: 20px;
+	width: auto;
+	z-index: 99999;
+	color: #fff!important;
+}
+.evofrontpage-tabbed-fade-in-out #evofptabs ul li:before, #evofptabs ul li span {
+display: none !important;
+content: none !important;
+}
+.evofrontpage-tabbed-fade-in-out a.evofp-introlink {
+text-decoration: none !important;
+}
+div.clr {
+clear:none !important;
+height: 30px !important;
+}
+
+
+
+.evofrontpage-tabbed-fade-in-out .evofp-other-article-inner:hover {
+border-radius:;
+box-shadow:;
+}
+.evofrontpage-tabbed-fade-in-out .evofp-below-row {
+
+}
+.evofrontpage-tabbed-fade-in-out .evofp-img-centered {
+border-radius: 5px;
+margin: 10px 0 0;
+}
+.evofrontpage-tabbed-fade-in-out .evofp-div-img-centered {
+text-align:center;
+padding: 0px 0px 0px 0px;
+}
+.evofrontpage-tabbed-fade-in-out .evofp-table-cell-body {
+	background:;
+	border-radius:;
+	box-shadow:;
+	margin-bottom:10px;
+	padding: 3px 10px 10px;
+	/*border-bottom: 1px inset black;*/
+}
+.evofrontpage-tabbed-fade-in-out .evofp-table-cell-body:hover {
+	background:;
+	border-radius:;
+	box-shadow:;
+}

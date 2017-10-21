@@ -1,0 +1,239 @@
+
+<!-- saved from url=(0049)https://www.ezecom.com.kh/index.php/en/contact-us -->
+<html lang="en-gb" dir="ltr" class="com_content view-article itemid-595 j34 no-touch"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script async="" src="<?php echo base_url()?>assets/js/analytics.js"></script><script src="<?php echo base_url()?>assets/js/jquery.min.js"></script> 
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-21233285-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+	  <!--<base href="https://www.ezecom.com.kh/index.php/en/contact-us">--><base href=".">
+  
+  <meta name="author" content="Super User">
+  <meta name="generator" content="Joomla! - Open Source Content Management">
+  <title>Contact Us</title>
+  <link href="https://www.ezecom.com.kh/templates/t3_bs3_blank/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+  <?php 
+    $this->load->view('header/frontend_header');
+  ?>
+  
+  <script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+jQuery(document).ready(function(){
+	jQuery('.hasTooltip').tooltip({"html": true,"container": "body"});
+});
+var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeout = 0;
+</script>
+
+	
+<!-- META FOR IOS & HANDHELD -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<style type="text/stylesheet">
+		@-webkit-viewport   { width: device-width; }
+		@-moz-viewport      { width: device-width; }
+		@-ms-viewport       { width: device-width; }
+		@-o-viewport        { width: device-width; }
+		@viewport           { width: device-width; }
+	</style>
+	<script type="text/javascript">
+		//<![CDATA[
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			var msViewportStyle = document.createElement("style");
+			msViewportStyle.appendChild(
+				document.createTextNode("@-ms-viewport{width:auto!important}")
+			);
+			document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+		}
+		//]]>
+	</script>
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-capable" content="YES">
+<!-- //META FOR IOS & HANDHELD -->
+
+
+
+
+<!-- Le HTML5 shim and media query for IE8 support -->
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript" src="/plugins/system/t3/base-bs3/js/respond.min.js"></script>
+<![endif]-->
+
+<!-- You can add Google Analytics here or use T3 Injection feature -->
+	        <style type="text/css">.t3-megamenu.animate .animating > .mega-dropdown-menu,.t3-megamenu.animate.slide .animating > .mega-dropdown-menu > div {transition-duration: 400ms !important;-webkit-transition-duration: 400ms !important;}@-webkit-keyframes marqueeAnimation-616784  { 100%  {margin-left:-1580px}}</style></head>
+
+<body>
+
+<div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
+
+<!-- HEADER -->
+
+
+<?php $this->load->view("header/header_all");?> 
+<!-- //HEADER -->
+
+<!-- MAIN NAVIGATION -->
+<?php $this->load->view("header/main_nav_user_v");?> 
+<!-- //MAIN NAVIGATION --> 
+<div class="home">
+<div id="t3-mainbody" class="container t3-mainbody">
+	<div class="row">
+		<!-- MAIN CONTENT -->
+		<div id="t3-content" class="t3-content col-xs-12">
+						<div class="item-page clearfix">
+<!-- Article -->
+<article itemscope="" itemtype="http://schema.org/Article">
+	 <meta itemprop="inLanguage" content="en-GB">
+	    <section class="article-content clearfix" itemprop="articleBody">
+		    <h1 class="product-title" style="text-align: center;">联系我们</h1>
+        <div class="rl_tabs nn_tabs outline_handles outline_content top align_left has_effects"><a id="rl_tabs-scrollto_1" class="anchor rl_tabs-scroll nn_tabs-scroll"></a>
+        <ul id="set-rl_tabs-12" class="nav nav-tabs">
+              <li class="rl_tabs-tab nn_tabs-tab payment-tap active"><a id="tab-head-office" class="rl_tabs-toggle nn_tabs-toggle" style="height: 105px;" href="https://www.ezecom.com.kh/index.php/en/contact-us#head-office" data-toggle="tab" data-id="head-office"><span class="rl_tabs-toggle-inner nn_tabs-toggle-inner">总部</span></a></li>
+              <li class="rl_tabs-tab nn_tabs-tab payment-tap"><a id="tab-customer-services" class="rl_tabs-toggle nn_tabs-toggle" style="height: 105px;" href="https://www.ezecom.com.kh/index.php/en/contact-us#customer-services" data-toggle="tab" data-id="customer-services"><span class="rl_tabs-toggle-inner nn_tabs-toggle-inner">金边用户服务和销售营业厅</span></a></li>
+              <li class="rl_tabs-tab nn_tabs-tab payment-tap"><a id="tab-siem-reap" class="rl_tabs-toggle nn_tabs-toggle" style="height: 105px;" href="https://www.ezecom.com.kh/index.php/en/contact-us#siem-reap" data-toggle="tab" data-id="siem-reap"><span class="rl_tabs-toggle-inner nn_tabs-toggle-inner">暹粒分部</span></a></li>
+              <li class="rl_tabs-tab nn_tabs-tab payment-tap"><a id="tab-sihanoukville" class="rl_tabs-toggle nn_tabs-toggle" style="height: 105px;" href="https://www.ezecom.com.kh/index.php/en/contact-us#sihanoukville" data-toggle="tab" data-id="sihanoukville"><span class="rl_tabs-toggle-inner nn_tabs-toggle-inner">西哈努克城分部</span></a></li>
+              <li class="rl_tabs-tab nn_tabs-tab payment-tap"><a id="tab-koh-kong" class="rl_tabs-toggle nn_tabs-toggle" style="height: 105px;" href="https://www.ezecom.com.kh/index.php/en/contact-us#koh-kong" data-toggle="tab" data-id="koh-kong"><span class="rl_tabs-toggle-inner nn_tabs-toggle-inner">戈公岛分部</span></a></li>
+              <li class="rl_tabs-tab nn_tabs-tab payment-tap"><a id="tab-battambang-branch" class="rl_tabs-toggle nn_tabs-toggle" style="height: 105px;" href="https://www.ezecom.com.kh/index.php/en/contact-us#battambang-branch" data-toggle="tab" data-id="battambang-branch"><span class="rl_tabs-toggle-inner nn_tabs-toggle-inner">马德望分部</span></a></li>
+              <li class="rl_tabs-tab nn_tabs-tab payment-tap"><a id="tab-bavet-branch" class="rl_tabs-toggle nn_tabs-toggle" style="height: 105px;" href="https://www.ezecom.com.kh/index.php/en/contact-us#bavet-branch" data-toggle="tab" data-id="bavet-branch"><span class="rl_tabs-toggle-inner nn_tabs-toggle-inner">巴维分部</span></a></li>
+              <li class="rl_tabs-tab nn_tabs-tab payment-tap"><a id="tab-poipet-branch" class="rl_tabs-toggle nn_tabs-toggle" style="height: 105px;" href="https://www.ezecom.com.kh/index.php/en/contact-us#poipet-branch" data-toggle="tab" data-id="poipet-branch"><span class="rl_tabs-toggle-inner nn_tabs-toggle-inner">波贝分部</span></a></li>
+        </ul>
+<div class="tab-content">
+    <div id="head-office" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap active">
+    <h2 class="rl_tabs-title nn_tabs-title" style="text-align: center;"><a id="anchor-head-office" class="anchor"></a>总部</h2>
+        <p style="font-size: 14px; text-align: center;">柬埔寨金边市柬埔寨商会大厦#7D俄罗斯大道</p>
+        <p style="font-size: 14px; text-align: center;">用户服务时间：周一至周五：7:30AM - 5:30PM</p>
+        <p style="font-size: 14px; text-align: center;">电话：023 888 181 </p>
+        <p style="font-size: 14px; text-align: center;">传真：023 882 961</p>
+        <p style="font-size: 14px; text-align: center;"><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/menuicon/contact/Head-Office-Location-map.png" alt=""></p>
+    </div>
+<div id="customer-services" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
+    <h2 class="rl_tabs-title nn_tabs-title" style="text-align: center;"><a id="customer-services" class="anchor"></a>金边用户服务和销售营业厅</h2>
+        <p style="font-size: 14px; text-align: center;">Kengkang I万谷湖区322街17号</p>
+        <p style="font-size: 14px; text-align: center;">电话：023 228 181</p>
+        <p style="font-size: 14px; text-align: center;">传真：023 882 961</p>
+        <p style="font-size: 14px; text-align: center;">用户服务时间：</p>
+        <p style="font-size: 14px; text-align: center;">周一至周五：7:30AM - 5:30PM</p>
+        <p style="font-size: 14px; text-align: center;">周六至周日：上午：8:00AM - 12:00PM，下午：1:30PM - 5:30PM</p>
+        <p><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/menuicon/contact/CSV-BoengKengkang-Phnom-Penh-Location-map.png" alt=""></p>
+</div>
+<div id="siem-reap" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
+    <h2 class="rl_tabs-title nn_tabs-title" style="text-align: center;"><a id="anchor-siem-reap" class="anchor"></a>暹粒分部</h2>
+        <p style="font-size: 14px; text-align: center;">暹粒市檖東貢分區第二蒙多村施梳越路36号</p>
+        <p style="font-size: 14px; text-align: center;">电话：063 768 181</p>
+        <p style="font-size: 14px; text-align: center;">传真：063 764 081</p>
+        <p style="font-size: 14px; text-align: center;">用户服务时间：</p>
+        <p style="font-size: 14px; text-align: center;">周一至周五：8:00AM - 5:30PM</p>
+        <p><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/menuicon/contact/Siem-Reap-Location-map.png" alt=""></strong></p>
+        <p>&nbsp;</p>
+</div>
+      <div id="sihanoukville" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
+      <h2 class="rl_tabs-title nn_tabs-title" style="text-align: center;"><a id="anchor-sihanoukville" class="anchor"></a>西哈努克城分部</h2>
+        <p style="font-size: 14px; text-align: center;">西哈努克市第一蒙多17组2区Ekareach街145号</p>
+        <p style="font-size: 14px; text-align: center;">电话：034 934 625</p>
+        <p style="font-size: 14px; text-align: center;">传真：034 934 625</p>
+        <p style="font-size: 14px; text-align: center;">用户服务时间：</p>
+        <p style="font-size: 14px; text-align: center;">周一至周五：8:00AM - 5:30PM</p>
+        <p style="font-size: 14px; text-align: center;"><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/menuicon/contact/Sihanouk-ville-Location-map.png" alt=""></p>
+      </div>
+<div id="koh-kong" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
+      <h2 class="rl_tabs-title nn_tabs-title" style="text-align: center;"><a id="anchor-koh-kong" class="anchor"></a>戈公岛分部</h2>
+        <p style="font-size: 14px; text-align: center;">戈公岛斯瑪棉芷三村主街123号</p>
+        <p style="font-size: 14px; text-align: center;">电话：035 936 381 / 035 936 281</p>
+        <p style="font-size: 14px; text-align: center;">用户服务时间：</p>
+        <p style="font-size: 14px; text-align: center;">周一至周五：8:00AM - 5:30PM</p>
+        <p><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/menuicon/contact/Koh-Kong-Location-map.png" alt=""></strong></p>
+</div>
+<div id="battambang-branch" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
+    <h2 class="rl_tabs-title nn_tabs-title" style="text-align: center;"><a id="anchor-battambang-branch" class="anchor"></a>马德望分部</h2>
+        <p style="font-size: 14px; text-align: center;">马德望市马德望区檖普镇，卡瑪哥村1街07号</p>
+        <p style="font-size: 14px; text-align: center;">电话：053 952 481 | 053 952 381</p>
+        <p style="font-size: 14px; text-align: center;">用户服务时间：</p>
+        <p style="font-size: 14px; text-align: center;">周一至周五：8:00AM - 5:30PM</p>
+        <p><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/menuicon/contact/Battambang-Location-map.png" alt=""></strong></p>
+</div>
+<div id="bavet-branch" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
+    <h2 class="rl_tabs-title nn_tabs-title" style="text-align: center;"><a id="anchor-bavet-branch" class="anchor"></a>巴维分部</h2>
+      <p style="font-size: 14px; text-align: center;">柴桢省巴维市巴维区7-8号</p>
+      <p style="font-size: 14px; text-align: center;">电话：044 715 783</p>
+      <p style="font-size: 14px; text-align: center;">用户服务时间：</p>
+      <p style="font-size: 14px; text-align: center;">周一至周五：8:00AM - 5:30PM</p>
+      <p><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/menuicon/contact/Bavet-Location-map.png" alt=""></p>
+</div>
+<div id="poipet-branch" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
+    <h2 class="rl_tabs-title nn_tabs-title" style="text-align: center;"><a id="anchor-poipet-branch" class="anchor"></a>波贝分部</h2>
+        <p style="font-size: 14px; text-align: center;">班迭棉吉省波贝市波贝公社基羅4村，5国道</p>
+        <p style="font-size: 14px; text-align: center;">电话：054 967 769</p>
+        <p style="font-size: 14px; text-align: center;">用户服务时间：</p>
+        <p style="font-size: 14px; text-align: center;">周一至周五：8:00AM - 5:30PM</p>
+        <p><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/menuicon/contact/Poipet-Location-map.png" alt=""></p>
+</div>
+</div>
+</div> 	
+</section>
+
+  <!-- footer -->
+    <!-- //footer -->
+</article>
+<!-- //Article -->
+</div>
+		</div>
+		<!-- //MAIN CONTENT -->
+
+	</div>
+</div> 
+			<!-- HOME SL 5 -->
+		<div class="wrap t3-sl t3-sl-5 ">
+		<marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="12">On February 22, 2017, <b>Samdach Akka Moha Sena Padei Techo Hun Sen, Prime Minister of Kingdom of Cambodia</b>  re-informed the public that “All Microfinance institutions belong to private sector not to government.”</marquee>
+
+		</div>
+		<!-- //HOME SL 5 -->
+	
+</div>
+  
+<!-- FOOTER -->
+  <?php $this->load->view('footer/footer_user_v');?>
+<!-- //FOOTER -->
+
+<!-- BACK TOP TOP BUTTON -->
+ 
+<div id="back-to-top" data-spy="affix" data-offset-top="300" class="back-to-top hidden-xs hidden-sm affix-top">
+  <button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-up"></i></button>
+</div>
+<script type="text/javascript">
+ 
+(function($) {
+ 
+	// Back to top
+ 
+	$('#back-to-top').on('click', function(){
+ 
+		$("html, body").animate({scrollTop: 0}, 500);
+ 
+		return false;
+ 
+	});
+ 
+})(jQuery);
+ 
+</script>
+ 
+<!-- BACK TO TOP BUTTON -->
+</div>
+
+</body></html>

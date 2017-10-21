@@ -1,0 +1,24 @@
+<?php
+
+class Live_radio_m extends CI_Model{
+  // can be declaration variable here
+    function __construct()
+    {
+        // Call the Model constructor
+        parent::__construct();
+    }
+
+    //==== Start location install====
+ 
+	public function radio_schedule($data){
+
+		
+        $sql=" SELECT *
+              FROM tbl_radio_schedule";
+        $q = $this->db->query($sql);
+        return $q->result();
+
+	}
+   
+}
+?>

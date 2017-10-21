@@ -1,0 +1,513 @@
+$(window).load(function(){
+	var lastPart = window.location.href.split("/").pop();
+
+	
+	//alert(test);
+	var params = window.location.href;
+	var urlParams = parseURLParams(params);
+	var a = JSON.stringify(urlParams);
+
+	//alert(urlParams['limit']);
+
+	var s = lastPart.substring(0, lastPart.indexOf('#'));
+	//alert(s);
+
+	var pathArray = window.location.pathname.split( '/' );
+
+	var secondLevelLocation = pathArray[5];
+	var icon_live_traffic = pathArray[5];
+	var last_url =  pathArray[4];
+	//alert(last_url);
+
+	var home = pathArray[2];
+	var home1 = pathArray[3];
+
+	if(home == 'en' && home1 == ''){
+	document.getElementsByClassName("newandeventhover")[0].innerHTML = '<a href="media-center/news-and-events"><div class="newandeventhover"></div></a>';
+	document.getElementsByClassName("livecamerahover")[0].innerHTML = '<a href="media-center/live-traffic-camera"><div class="livecamerahover"></div></a>';
+	document.getElementsByClassName("liveradiohover")[0].innerHTML = '<a href="media-center/live-radio"><div class="liveradiohover"></div></a>';
+
+	document.getElementsByClassName("ourinternethover")[0].innerHTML = '<a href="our-services"><div class="ourinternethover"></div></a>';
+	document.getElementsByClassName("enterprisesolutions")[0].innerHTML = '<a href="enterprise-solutions"><div class="enterprisesolutions"></div></a>';
+	// end add link hompage 
+	}
+
+	if(home == 'km' && home1 == ''){
+	document.getElementsByClassName("newandeventhover")[0].innerHTML = '<a href="media-center/news-events-kh"><div class="newandeventhover"></div></a>';
+	document.getElementsByClassName("livecamerahover")[0].innerHTML = '<a href="media-center/live-traffic-cameras-kh"><div class="livecamerahover"></div></a>';
+	document.getElementsByClassName("liveradiohover")[0].innerHTML = '<a href="media-center/live-radio-kh"><div class="liveradiohover"></div></a>';
+
+	document.getElementsByClassName("ourinternethover")[0].innerHTML = '<a href="our-services-kh"><div class="ourinternethover"></div></a>';
+	document.getElementsByClassName("enterprisesolutions")[0].innerHTML = '<a href="enterprise-solutions-kh"><div class="enterprisesolutions"></div></a>';
+	// end add link hompage 
+	}
+
+	if(home == 'zh' && home1 == ''){
+	document.getElementsByClassName("newandeventhover")[0].innerHTML = '<a href="media-center/news-events-zh"><div class="newandeventhover"></div></a>';
+	document.getElementsByClassName("livecamerahover")[0].innerHTML = '<a href="media-center/live-traffic-cameras-zh"><div class="livecamerahover"></div></a>';
+	document.getElementsByClassName("liveradiohover")[0].innerHTML = '<a href="media-center/live-radio-zh"><div class="liveradiohover"></div></a>';
+
+	document.getElementsByClassName("ourinternethover")[0].innerHTML = '<a href="our-services-zh"><div class="ourinternethover"></div></a>';
+	document.getElementsByClassName("enterprisesolutions")[0].innerHTML = '<a href="enterprise-solutions-zh"><div class="enterprisesolutions"></div></a>';
+	// end add link hompage 
+	}
+
+	
+	if(lastPart == "our-company"){
+		document.getElementsByClassName("item-1723")[0].innerHTML = '<a href="#company-profile" style="padding-right: 25px;"><div class="company_profile"></div>Profile</a>';
+		document.getElementsByClassName("item-1717")[0].innerHTML = '<a href="/index.php/en/our-company#qms"style="padding-right: 22px;"><div class="quality-management"></div>QMS</a>';
+		document.getElementsByClassName("item-1718")[0].innerHTML = '<a href="#childsafe-certification"><div class="childsafe"></div>Childsafe</a>';
+		document.getElementsByClassName("item-1715")[0].innerHTML = '<a href="/index.php/en/our-partnerships"><div class="our-partnerships"></div>Partnerships</a>';
+		document.getElementsByClassName("item-1720")[0].innerHTML = '<a href="#csr"><div class="corporate-social-responsibility"></div>CSR</a>';
+		document.getElementsByClassName("item-1721")[0].innerHTML = '<a href="#community"><div class="community"></div>Community</a>';
+		document.getElementsByClassName("item-1722")[0].innerHTML = '<a href="/index.php/en/our-company#career-opportunities"><div class="career"></div>Careers</a>';
+	
+		// $("#test a").on('click', function(event) {
+			   
+		// 	    if (this.hash !== "") {
+			    
+		// 	      event.preventDefault();    
+		// 	      var hash = this.hash;
+
+		// 	      $('html, body').animate({
+		// 	        scrollTop: $(hash).offset().top
+		// 	      }, 800, function(){
+			   
+		// 	        window.location.hash = hash;
+		// 	      });
+		// 	    } 
+		// 	  });
+	}
+
+	if(s == "our-company-km-kh"){
+		document.getElementsByClassName("item-1723")[0].innerHTML = '<a href="#company-profile" style="padding-right: 25px;"><div class="company_profile"></div>Profile</a>';
+		document.getElementsByClassName("item-1717")[0].innerHTML = '<a href="#qms"style="padding-right: 22px;"><div class="quality-management"></div>QMS</a>';
+		document.getElementsByClassName("item-1718")[0].innerHTML = '<a href="#childsafe-certification"><div class="childsafe"></div>Childsafe</a>';
+		document.getElementsByClassName("item-1715")[0].innerHTML = '<a href="/index.php/km/our-partnerships-kh"><div class="our-partnerships"></div>Partnerships</a>';
+		document.getElementsByClassName("item-1720")[0].innerHTML = '<a href="#csr"><div class="corporate-social-responsibility"></div>CSR</a>';
+		document.getElementsByClassName("item-1721")[0].innerHTML = '<a href="#community"><div class="community"></div>Community</a>';
+		document.getElementsByClassName("item-1722")[0].innerHTML = '<a href="#career-opportunities"><div class="career"></div>Careers</a>';
+	}
+
+	if(lastPart == "our-company-km-kh"){
+		document.getElementsByClassName("item-1723")[0].innerHTML = '<a href="#company-profile" style="padding-right: 25px;"><div class="company_profile"></div>Profile</a>';
+		document.getElementsByClassName("item-1717")[0].innerHTML = '<a href="#qms"style="padding-right: 22px;"><div class="quality-management"></div>QMS</a>';
+		document.getElementsByClassName("item-1718")[0].innerHTML = '<a href="#childsafe-certification"><div class="childsafe"></div>Childsafe</a>';
+		document.getElementsByClassName("item-1715")[0].innerHTML = '<a href="/index.php/km/our-partnerships-kh"><div class="our-partnerships"></div>Partnerships</a>';
+		document.getElementsByClassName("item-1720")[0].innerHTML = '<a href="#csr"><div class="corporate-social-responsibility"></div>CSR</a>';
+		document.getElementsByClassName("item-1721")[0].innerHTML = '<a href="#community"><div class="community"></div>Community</a>';
+		document.getElementsByClassName("item-1722")[0].innerHTML = '<a href="#career-opportunities"><div class="career"></div>Careers</a>';
+	
+		// $("#test a").on('click', function(event) {
+			   
+		// 	    if (this.hash !== "") {
+			    
+		// 	      event.preventDefault();    
+		// 	      var hash = this.hash;
+
+		// 	      $('html, body').animate({
+		// 	        scrollTop: $(hash).offset().top
+		// 	      }, 800, function(){
+			   
+		// 	        window.location.hash = hash;
+		// 	      });
+		// 	    } 
+		// 	  });
+	}
+
+	if(lastPart == "our-company-zh-cn"){
+		document.getElementsByClassName("item-1723")[0].innerHTML = '<a href="#company-profile" style="padding-right: 25px;"><div class="company_profile"></div>Profile</a>';
+		document.getElementsByClassName("item-1717")[0].innerHTML = '<a href="#qms"style="padding-right: 22px;"><div class="quality-management"></div>QMS</a>';
+		document.getElementsByClassName("item-1718")[0].innerHTML = '<a href="#childsafe-certification"><div class="childsafe"></div>Childsafe</a>';
+		document.getElementsByClassName("item-1715")[0].innerHTML = '<a href="/index.php/zh/our-partnerships-zh"><div class="our-partnerships"></div>Partnerships</a>';
+		document.getElementsByClassName("item-1720")[0].innerHTML = '<a href="#csr"><div class="corporate-social-responsibility"></div>CSR</a>';
+		document.getElementsByClassName("item-1721")[0].innerHTML = '<a href="#community"><div class="community"></div>Community</a>';
+		document.getElementsByClassName("item-1722")[0].innerHTML = '<a href="#career-opportunities"><div class="career"></div>Careers</a>';
+	}
+
+	if(lastPart == "our-partnerships-zh"){
+		document.getElementsByClassName("item-1723")[0].innerHTML = '<a href="/index.php/zh/our-company-zh-cn#company-profile" style="padding-right: 25px;"><div class="company_profile"></div>Profile</a>';
+		document.getElementsByClassName("item-1717")[0].innerHTML = '<a href="our-company-zh-cn#qms"style="padding-right: 22px;"><div class="quality-management"></div>QMS</a>';
+		document.getElementsByClassName("item-1718")[0].innerHTML = '<a href="our-company-zh-cn#childsafe-certification"><div class="childsafe"></div>Childsafe</a>';
+		document.getElementsByClassName("item-1715")[0].innerHTML = '<a href="/index.php/zh/our-partnerships-zh"><div class="our-partnerships"></div>Partnerships</a>';
+		document.getElementsByClassName("item-1720")[0].innerHTML = '<a href="our-company-zh-cn#csr"><div class="corporate-social-responsibility"></div>CSR</a>';
+		document.getElementsByClassName("item-1721")[0].innerHTML = '<a href="our-company-zh-cn#community"><div class="community"></div>Community</a>';
+		document.getElementsByClassName("item-1722")[0].innerHTML = '<a href="our-company-zh-cn#career-opportunities"><div class="career"></div>Careers</a>';
+	}
+
+	if(s == "our-company-zh-cn"){
+		document.getElementsByClassName("item-1723")[0].innerHTML = '<a href="#company-profile" style="padding-right: 25px;"><div class="company_profile"></div>Profile</a>';
+		document.getElementsByClassName("item-1717")[0].innerHTML = '<a href="#qms"style="padding-right: 22px;"><div class="quality-management"></div>QMS</a>';
+		document.getElementsByClassName("item-1718")[0].innerHTML = '<a href="#childsafe-certification"><div class="childsafe"></div>Childsafe</a>';
+		document.getElementsByClassName("item-1715")[0].innerHTML = '<a href="/index.php/zh/our-partnerships-zh"><div class="our-partnerships"></div>Partnerships</a>';
+		document.getElementsByClassName("item-1720")[0].innerHTML = '<a href="#csr"><div class="corporate-social-responsibility"></div>CSR</a>';
+		document.getElementsByClassName("item-1721")[0].innerHTML = '<a href="#community"><div class="community"></div>Community</a>';
+		document.getElementsByClassName("item-1722")[0].innerHTML = '<a href="#career-opportunities"><div class="career"></div>Careers</a>';
+
+	}
+
+	if(lastPart == "our-partnerships-kh"){
+		document.getElementsByClassName("item-1723")[0].innerHTML = '<a href="our-company-km-kh#company-profile" style="padding-right: 25px;"><div class="company_profile"></div>Profile</a>';
+		document.getElementsByClassName("item-1717")[0].innerHTML = '<a href="our-company-km-kh#qms"style="padding-right: 22px;"><div class="quality-management"></div>QMS</a>';
+		document.getElementsByClassName("item-1718")[0].innerHTML = '<a href="our-company-km-kh#childsafe-certification"><div class="childsafe"></div>Childsafe</a>';
+		document.getElementsByClassName("item-1715")[0].innerHTML = '<a href="/index.php/km/our-partnerships-kh"><div class="our-partnerships"></div>Partnerships</a>';
+		document.getElementsByClassName("item-1720")[0].innerHTML = '<a href="our-company-km-kh#csr"><div class="corporate-social-responsibility"></div>CSR</a>';
+		document.getElementsByClassName("item-1721")[0].innerHTML = '<a href="our-company-km-kh#community"><div class="community"></div>Community</a>';
+		document.getElementsByClassName("item-1722")[0].innerHTML = '<a href="our-company-km-kh#career-opportunities"><div class="career"></div>Careers</a>';
+	
+		// $("#test a").on('click', function(event) {
+			   
+		// 	    if (this.hash !== "") {
+			    
+		// 	      event.preventDefault();    
+		// 	      var hash = this.hash;
+
+		// 	      $('html, body').animate({
+		// 	        scrollTop: $(hash).offset().top
+		// 	      }, 800, function(){
+			   
+		// 	        window.location.hash = hash;
+		// 	      });
+		// 	    } 
+		// 	  });
+	}
+
+	if(lastPart == "customer-service"){
+		document.getElementsByClassName("item-1723")[0].innerHTML = '<a href="/index.php/en/customer-service#customer-service"><div class="icon_customer_service"></div>Customer <br/>Service</a>';
+		document.getElementsByClassName("item-1717")[0].innerHTML = '<a href="/index.php/en/customer-service#payment"><div class="icon_payment_option"></div>Payment <br/>Options</a>';
+		document.getElementsByClassName("item-1718")[0].innerHTML = '<a href="/index.php/en/customer-service#faq"><div class="icon_faq"></div>FAQ’s</a>';
+
+
+	}
+
+	if(lastPart == "customer-service-kh"){
+		document.getElementsByClassName("item-1723")[0].innerHTML = '<a href="#customer-service"><div class="icon_customer_service"></div>សេវា<br/>អតិថិជន</a>';
+		document.getElementsByClassName("item-1717")[0].innerHTML = '<a href="#payment"><div class="icon_payment_option"></div>ជម្រើស​<br/>ទូទាត់​វិកយបត្រ</a>';
+		document.getElementsByClassName("item-1718")[0].innerHTML = '<a href="#faq"><div class="icon_faq"></div>FAQ’s</a>';
+
+
+	}
+
+	if(lastPart == "customer-service-zh"){
+		document.getElementsByClassName("item-1723")[0].innerHTML = '<a href="#customer-service"><div class="icon_customer_service"></div>Customer <br/>Service</a>';
+		document.getElementsByClassName("item-1717")[0].innerHTML = '<a href="#payment"><div class="icon_payment_option"></div>Payment <br/>Options</a>';
+		document.getElementsByClassName("item-1718")[0].innerHTML = '<a href="#faq"><div class="icon_faq"></div>FAQ’s</a>';
+
+
+	}
+
+
+	if(lastPart == "our-services"){
+		document.getElementsByClassName("item-1724")[0].innerHTML = '<a href="/index.php/en/our-services"><div class="our_internet our_internetactive"></div>Our <br/>Internet</a>';
+		document.getElementsByClassName("item-1725")[0].innerHTML = '<a href="/index.php/en/enterprise-solutions"><div class="enterprise_solution"></div>Enterprise <br/>Solutions</a>';
+		document.getElementsByClassName("our-service-item-1727")[0].innerHTML = '<a href="/index.php/en/our-services#corporate-package"><div class="coporate_package"></div>Corporate</a>';
+		document.getElementsByClassName("our-service-item-1728")[0].innerHTML = '<a href="#premium-package"><div class="premium_package"></div>Premium</a>';
+		document.getElementsByClassName("our-service-item-1729")[0].innerHTML = '<a href="/index.php/en/our-services#voip"><div class="voip"></div>VoIP</a>';
+		document.getElementsByClassName("our-service-item-1730")[0].innerHTML = '<a href="/index.php/en/our-services#exlusive"><div class="borey-icon"></div>Exclusive</a>';
+
+	}
+
+	if(lastPart == "our-services-kh"){
+		document.getElementsByClassName("item-1744")[0].innerHTML = '<a href="/index.php/km/our-services-kh"><div class="our_internet our_internetactive"></div>Our <br/>Internet</a>';
+		document.getElementsByClassName("item-1745")[0].innerHTML = '<a href="/index.php/km/enterprise-solutions-kh"><div class="enterprise_solution"></div>Enterprise <br/>Solutions</a>';
+		document.getElementsByClassName("our-service-item-1727")[0].innerHTML = '<a href="#corporate-package"><div class="coporate_package"></div>Corporate</a>';
+		document.getElementsByClassName("our-service-item-1728")[0].innerHTML = '<a href="#premium-package"><div class="premium_package"></div>Premium</a>';
+		document.getElementsByClassName("our-service-item-1729")[0].innerHTML = '<a href="#voip"><div class="voip"></div>VoIP</a>';
+		document.getElementsByClassName("our-service-item-1730")[0].innerHTML = '<a href="#exlusive"><div class="borey-icon"></div>Exclusive</a>';
+
+		
+	}
+
+	if(lastPart == "our-services-zh"){
+		document.getElementsByClassName("item-1753")[0].innerHTML = '<a href="/index.php/zh/our-services-zh"><div class="our_internet our_internetactive"></div>Our <br/>Internet</a>';
+		document.getElementsByClassName("item-1754")[0].innerHTML = '<a href="/index.php/zh/enterprise-solutions-zh"><div class="enterprise_solution"></div>Enterprise <br/>Solutions</a>';
+		document.getElementsByClassName("our-service-item-1727")[0].innerHTML = '<a href="#corporate-package"><div class="coporate_package"></div>Corporate</a>';
+		document.getElementsByClassName("our-service-item-1728")[0].innerHTML = '<a href="#premium-package"><div class="premium_package"></div>Premium</a>';
+		document.getElementsByClassName("our-service-item-1729")[0].innerHTML = '<a href="#voip"><div class="voip"></div>VoIP</a>';
+		document.getElementsByClassName("our-service-item-1730")[0].innerHTML = '<a href="#exlusive"><div class="borey-icon"></div>Exclusive</a>';
+
+		
+	}
+
+	if(lastPart == "enterprise-solutions"){
+
+		document.getElementsByClassName("mega-align-left sub-hidden-collapse")[0].innerHTML = '<a style="color: #7961a9 !important;font-weight: 500;" href="/ezecom/index.php/en/our-services" data-target="#">Our Services </a>';
+
+		document.getElementsByClassName("item-1724")[0].innerHTML = '<a href="/index.php/en/our-services"><div class="our_internet"></div>Our <br/>Internet</a>';
+		document.getElementsByClassName("item-1725")[0].innerHTML = '<a href="/index.php/en/enterprise-solutions"><div class="enterprise_solution enterprise_solutionactive"></div>Enterprise <br/>Solutions</a>';
+		
+		document.getElementsByClassName("item-1723")[0].innerHTML = '<a href="#dedicated -package"><div class="icon_dedicated"></div>Dedicate</a>';
+		document.getElementsByClassName("item-1717")[0].innerHTML = '<a href="#DPLC"><div class="icon_dplc"></div>DPLC</a>';
+		document.getElementsByClassName("item-1718")[0].innerHTML = '<a href="#iplc"><div class="icon_iplc"></div>IPLC</a>';
+		document.getElementsByClassName("item-1719")[0].innerHTML = '<a href="#mpls"><div class="icon_mpls"></div>MPLS</a>';
+		document.getElementsByClassName("item-1720")[0].innerHTML = '<a href="#vpn"><div class="icon_vpn"></div>VPN</a>';
+		document.getElementsByClassName("item-1721")[0].innerHTML = '<a href="#data-location"><div class="icon_data_co_location"></div>Co-location</a>';
+		document.getElementsByClassName("item-1745")[0].innerHTML = '<a href="#ibizCloud"><div class="icon_ibizcloud"></div> ibizCloud </a>';
+		document.getElementsByClassName("item-1726")[0].innerHTML = '<a href="#BeeDoo"><div class="icon_BeeDoo"></div> BeeDoo </a>';
+		// document.getElementsByClassName("item-1727")[0].innerHTML = '<a href="/ezecom/index.php/en/enterprise-solutions#ms365"><div class="icon_office_365"></div> Microsoft <br/> Office 365 </a>';
+		document.getElementsByClassName("item-1728")[0].innerHTML = '<a href="#web-hosting"><div class="icon_web_hosting"></div>Hosting </a>';
+	}
+
+	
+
+
+	if(lastPart == "enterprise-solutions-kh"){
+		
+		document.getElementsByClassName("item-1744")[0].innerHTML = '<a href="/index.php/km/our-services-kh"><div class="our_internet"></div>Our <br/>Internet</a>';
+		document.getElementsByClassName("item-1745")[0].innerHTML = '<a href="/index.php/km/enterprise-solutions-kh"><div class="enterprise_solution enterprise_solutionactive"></div>Enterprise <br/>Solutions</a>';
+		
+
+		document.getElementsByClassName("item-1723")[0].innerHTML = '<a href="#dedicated -package"><div class="icon_dedicated"></div>Dedicate</a>';
+		document.getElementsByClassName("item-1717")[0].innerHTML = '<a href="#DPLC"><div class="icon_dplc"></div>DPLC</a>';
+		document.getElementsByClassName("item-1718")[0].innerHTML = '<a href="#iplc"><div class="icon_iplc"></div>IPLC</a>';
+		document.getElementsByClassName("item-1719")[0].innerHTML = '<a href="#mpls"><div class="icon_mpls"></div>MPLS</a>';
+		document.getElementsByClassName("item-1720")[0].innerHTML = '<a href="#vpn"><div class="icon_vpn"></div>VPN</a>';
+		document.getElementsByClassName("item-1721")[0].innerHTML = '<a href="#data-location"><div class="icon_data_co_location"></div>Co-location</a>';
+		document.getElementsByClassName("item-1748")[0].innerHTML = '<a href="#ibizCloud"><div class="icon_ibizcloud"></div>ibizCloud</a>';
+		document.getElementsByClassName("item-1726")[0].innerHTML = '<a href="#BeeDoo"><div class="icon_BeeDoo"></div>BeeDoo</a>';
+		// document.getElementsByClassName("item-1727")[0].innerHTML = '<a href="/ezecom/index.php/en/enterprise-solutions#ms365"><div class="icon_office_365"></div> Microsoft <br/> Office 365 </a>';
+		document.getElementsByClassName("item-1728")[0].innerHTML = '<a href="#web-hosting"><div class="icon_web_hosting"></div>Hosting </a>';
+		
+	}
+
+
+
+	if(lastPart == "enterprise-solutions-zh"){
+
+		document.getElementsByClassName("item-1753")[0].innerHTML = '<a href="/index.php/zh/our-services-zh"><div class="our_internet"></div>Our <br/>Internet</a>';
+		document.getElementsByClassName("item-1754")[0].innerHTML = '<a href="/index.php/zh/enterprise-solutions-zh"><div class="enterprise_solution enterprise_solutionactive"></div>Enterprise <br/>Solutions</a>';
+		
+		document.getElementsByClassName("item-1723")[0].innerHTML = '<a href="#dedicated -package"><div class="icon_dedicated"></div>Dedicate</a>';
+		document.getElementsByClassName("item-1717")[0].innerHTML = '<a href="#DPLC"><div class="icon_dplc"></div>DPLC</a>';
+		document.getElementsByClassName("item-1718")[0].innerHTML = '<a href="#iplc"><div class="icon_iplc"></div>IPLC</a>';
+		document.getElementsByClassName("item-1719")[0].innerHTML = '<a href="#mpls"><div class="icon_mpls"></div>MPLS</a>';
+		document.getElementsByClassName("item-1720")[0].innerHTML = '<a href="#vpn"><div class="icon_vpn"></div>VPN</a>';
+		document.getElementsByClassName("item-1721")[0].innerHTML = '<a href="#data-location"><div class="icon_data_co_location"></div>Co-location</a>';
+		document.getElementsByClassName("item-1745")[0].innerHTML = '<a href="#ibizCloud"><div class="icon_ibizcloud"></div>ibizCloud</a>';
+		document.getElementsByClassName("item-1726")[0].innerHTML = '<a href="#BeeDoo"><div class="icon_BeeDoo"></div>BeeDoo</a>';
+		// document.getElementsByClassName("item-1727")[0].innerHTML = '<a href="/ezecom/index.php/en/enterprise-solutions#ms365"><div class="icon_office_365"></div> Microsoft <br/> Office 365 </a>';
+		document.getElementsByClassName("item-1728")[0].innerHTML = '<a href="#web-hosting"><div class="icon_web_hosting"></div>Hosting </a>';
+		// $("#myNavbar a").on('click', function(event) {
+		   
+		//     if (this.hash !== "") {
+		    
+		//       event.preventDefault();
+
+		   
+		//       var hash = this.hash;
+		//       $('html, body').animate({
+		//         scrollTop: $(hash).offset().top
+		//       }, 800, function(){
+		       
+		//         window.location.hash = hash;
+		//       });
+		//     }  // End if
+		//   });
+
+
+	}
+
+
+
+
+	if(lastPart == "our-partnerships"){
+		document.getElementsByClassName("item-1723")[0].innerHTML = '<a href="/index.php/en/our-company#company-profile" style="padding-right: 25px;"><div class="company_profile"></div>Profile</a>';
+		document.getElementsByClassName("item-1717")[0].innerHTML = '<a href="/index.php/en/our-company#qms" style="padding-right: 22px;"><div class="quality-management"></div>QMS</a>';
+		document.getElementsByClassName("item-1718")[0].innerHTML = '<a href="/index.php/en/our-company#childsafe-certification"><div class="childsafe"></div>Childsafe</a>';
+		document.getElementsByClassName("item-1715")[0].innerHTML = '<a href="/index.php/en/our-partnerships"><div class="our-partnerships"></div>Partnerships</a>';
+		document.getElementsByClassName("item-1720")[0].innerHTML = '<a href="/index.php/en/our-company#csr"><div class="corporate-social-responsibility"></div>CSR</a>';
+		document.getElementsByClassName("item-1721")[0].innerHTML = '<a href="/index.php/en/our-company#community"><div class="community"></div>Community</a>';
+		document.getElementsByClassName("item-1722")[0].innerHTML = '<a href="/index.php/en/our-company#career-opportunities"><div class="career"></div>Careers</a>';
+		
+	}
+
+	if(s == "our-company"){
+		document.getElementsByClassName("item-1723")[0].innerHTML = '<a href="#company-profile" style="padding-right: 25px;"><div class="company_profile"></div>Profile</a>';
+		document.getElementsByClassName("item-1717")[0].innerHTML = '<a href="/index.php/en/our-company#qms" style="padding-right: 22px;"><div class="quality-management"></div>​QMS​​</a>';
+		document.getElementsByClassName("item-1718")[0].innerHTML = '<a href="#childsafe-certification"><div class="childsafe"></div>Childsafe</a>';
+		document.getElementsByClassName("item-1715")[0].innerHTML = '<a href="/index.php/en/our-partnerships"><div class="our-partnerships"></div>Partnerships</a>';
+		document.getElementsByClassName("item-1720")[0].innerHTML = '<a href="#csr"><div class="corporate-social-responsibility"></div>CSR</a>';
+		document.getElementsByClassName("item-1721")[0].innerHTML = '<a href="#community"><div class="community"></div>Community</a>';
+		document.getElementsByClassName("item-1722")[0].innerHTML = '<a href="/index.php/en/our-company#career-opportunities"><div class="career"></div>Careers</a>';
+
+	}
+
+
+
+	
+
+	if(lastPart == "live-traffic-camera"){
+
+		document.getElementsByClassName("item-1726")[0].innerHTML = '<a href="/index.php/en/media-center/news-and-events"><div class="icon_news_even"></div>News<br>and Events</a>';
+		document.getElementsByClassName("item-1727")[0].innerHTML = '<a href="/index.php/en/media-center/live-radio"><div class="icon_live_radio"></div>Radio <br/>Live Stream</a>';
+		document.getElementsByClassName("item-1728")[0].innerHTML = '<a href="/index.php/en/media-center/live-traffic-camera"><div class="icon_live_traffic"></div>Traffic <br/>Live Camera</a>';
+	
+	}
+
+	if(icon_live_traffic == "video"){
+
+		document.getElementsByClassName("item-1726")[0].innerHTML = '<a href="/index.php/en/media-center/news-and-events"><div class="icon_news_even"></div>News<br>and Events</a>';
+		document.getElementsByClassName("item-1727")[0].innerHTML = '<a href="/index.php/en/media-center/live-radio"><div class="icon_live_radio"></div>Radio <br/>Live Stream</a>';
+		document.getElementsByClassName("item-1728")[0].innerHTML = '<a href="/index.php/en/media-center/live-traffic-camera"><div class="icon_live_traffic"></div>Traffic <br/>Live Camera</a>';
+	
+	}
+
+	if(lastPart == "news-and-events"){
+		
+		document.getElementsByClassName("item-1726")[0].innerHTML = '<a href="/index.php/en/media-center/news-and-events"><div class="icon_news_even"></div>News<br>and Events</a>';
+		document.getElementsByClassName("item-1727")[0].innerHTML = '<a href="/index.php/en/media-center/live-radio"><div class="icon_live_radio"></div>Radio <br/>Live Stream</a>';
+		document.getElementsByClassName("item-1728")[0].innerHTML = '<a href="/index.php/en/media-center/live-traffic-camera"><div class="icon_live_traffic"></div>Traffic <br/>Live Camera</a>';
+	
+	}
+
+
+
+	if(last_url == "news-events-zh"){
+		
+		document.getElementsByClassName("item-1759")[0].innerHTML = '<a href="news-events-zh"><div class="icon_news_even"></div>News<br>and Events</a>';
+		document.getElementsByClassName("item-1760")[0].innerHTML = '<a href="live-radio-zh"><div class="icon_live_radio"></div>Radio <br/>Live Stream</a>';
+		document.getElementsByClassName("item-1761")[0].innerHTML = '<a href="live-traffic-cameras-zh"><div class="icon_live_traffic"></div>Traffic <br/>Live Camera</a>';
+	
+	}
+
+	if(last_url == "live-radio-zh"){
+		
+		document.getElementsByClassName("item-1759")[0].innerHTML = '<a href="news-events-zh"><div class="icon_news_even"></div>News<br>and Events</a>';
+		document.getElementsByClassName("item-1760")[0].innerHTML = '<a href="live-radio-zh"><div class="icon_live_radio"></div>Radio <br/>Live Stream</a>';
+		document.getElementsByClassName("item-1761")[0].innerHTML = '<a href="live-traffic-cameras-zh"><div class="icon_live_traffic"></div>Traffic <br/>Live Camera</a>';
+	
+	}
+
+	if(last_url == "live-traffic-cameras-zh"){
+		
+		document.getElementsByClassName("item-1759")[0].innerHTML = '<a href="news-events-zh"><div class="icon_news_even"></div>News<br>and Events</a>';
+		document.getElementsByClassName("item-1760")[0].innerHTML = '<a href="live-radio-zh"><div class="icon_live_radio"></div>Radio <br/>Live Stream</a>';
+		document.getElementsByClassName("item-1761")[0].innerHTML = '<a href="live-traffic-cameras-zh"><div class="icon_live_traffic"></div>Traffic <br/>Live Camera</a>';
+	
+	}
+
+	if(secondLevelLocation =="news-and-events"){
+		document.getElementsByClassName("item-1726")[0].innerHTML = '<a href="/index.php/en/media-center/news-and-events"><div class="icon_news_even"></div>News<br>and Events</a>';
+		document.getElementsByClassName("item-1727")[0].innerHTML = '<a href="/index.php/en/media-center/live-radio"><div class="icon_live_radio"></div>Radio <br/>Live Stream</a>';
+		document.getElementsByClassName("item-1728")[0].innerHTML = '<a href="/index.php/en/media-center/live-traffic-camera"><div class="icon_live_traffic"></div>Traffic <br/>Live Camera</a>';
+	
+	}
+
+	if(last_url == "live-radio"){
+		document.getElementsByClassName("item-1726")[0].innerHTML = '<a href="/index.php/en/media-center/news-and-events"><div class="icon_news_even"></div>News<br>and Events</a>';
+		document.getElementsByClassName("item-1727")[0].innerHTML = '<a href="/index.php/en/media-center/live-radio"  style="color:#7961a9"><div class="icon_live_radio icon_live_radio_active"></div>Radio <br/>Live Stream</a>';
+		document.getElementsByClassName("item-1728")[0].innerHTML = '<a href="/index.php/en/media-center/live-traffic-camera"><div class="icon_live_traffic"></div>Traffic <br/>Live Camera</a>';
+	
+	}
+
+	if(last_url == "live-radio-kh"){
+		document.getElementsByClassName("item-1741")[0].innerHTML = '<a href="/index.php/km/media-center/news-events-kh"><div class="icon_news_even"></div>ព័ត៌មាន <br/>និង ព្រិត្តិការណ៍</a>';
+		document.getElementsByClassName("item-1742")[0].innerHTML = '<a href="/index.php/km/media-center/live-radio-kh"><div class="icon_live_radio"></div>វិទ្យុ <br/>ផ្សាយផ្ទាល់</a>';
+		document.getElementsByClassName("item-1743")[0].innerHTML = '<a href="/index.php/km/media-center/live-traffic-cameras-kh"><div class="icon_live_traffic"></div>កាមេរ៉ា<br/>ផ្សាយផ្ទាល់</a>';
+	
+	}
+	if(last_url == "live-traffic-cameras-kh"){
+		document.getElementsByClassName("item-1741")[0].innerHTML = '<a href="/index.php/km/media-center/news-events-kh"><div class="icon_news_even"></div>ព័ត៌មាន <br/>និង ព្រិត្តិការណ៍</a>';
+		document.getElementsByClassName("item-1742")[0].innerHTML = '<a href="/index.php/km/media-center/live-radio-kh"><div class="icon_live_radio"></div>វិទ្យុ <br/>ផ្សាយផ្ទាល់</a>';
+		document.getElementsByClassName("item-1743")[0].innerHTML = '<a href="/index.php/km/media-center/live-traffic-cameras-kh"><div class="icon_live_traffic"></div>កាមេរ៉ា<br/>ផ្សាយផ្ទាល់</a>';
+
+		
+	}
+
+
+	if(icon_live_traffic =="video"){
+		document.getElementsByClassName("item-1741")[0].innerHTML = '<a href="/index.php/km/media-center/news-events-kh"><div class="icon_news_even"></div>News<br>and Events</a>';
+		document.getElementsByClassName("item-1742")[0].innerHTML = '<a href="/index.php/km/media-center/live-radio-kh"><div class="icon_live_radio"></div>Radio <br/>Live Stream</a>';
+		document.getElementsByClassName("item-1743")[0].innerHTML = '<a href="/index.php/km/media-center/live-traffic-cameras-kh"><div class="icon_live_traffic"></div>Traffic <br/>Live Camera</a>';
+	
+	}
+
+	if(last_url == "news-events-kh"){
+		document.getElementsByClassName("item-1741")[0].innerHTML = '<a href="/index.php/km/media-center/news-events-kh"><div class="icon_news_even"></div>ព័ត៌មាន <br/>និង ព្រិត្តិការណ៍</a>';
+		document.getElementsByClassName("item-1742")[0].innerHTML = '<a href="/index.php/km/media-center/live-radio-kh"><div class="icon_live_radio"></div>វិទ្យុ <br/>ផ្សាយផ្ទាល់</a>';
+		document.getElementsByClassName("item-1743")[0].innerHTML = '<a href="/index.php/km/media-center/live-traffic-cameras-kh"><div class="icon_live_traffic"></div>កាមេរ៉ា<br/>ផ្សាយផ្ទាល់</a>';
+	
+	}
+
+	if(last_url == "news-and-events"){
+		document.getElementsByClassName("item-1726")[0].innerHTML = '<a href="/index.php/en/media-center/news-and-events" style="color:#7961a9"><div class="icon_news_even  icon_news_even_active"></div>News<br>and Events</a>';
+		document.getElementsByClassName("item-1727")[0].innerHTML = '<a href="/index.php/en/media-center/live-radio"><div class="icon_live_radio"></div>Radio <br/>Live Stream</a>';
+		document.getElementsByClassName("item-1728")[0].innerHTML = '<a href="/index.php/en/media-center/live-traffic-camera"><div class="icon_live_traffic"></div>Traffic <br/>Live Camera</a>';
+	
+	}
+
+	// if(lastPart == "news-events-zh?limit=5&start=5"){
+	// 	alert(lastPart);
+		// if(urlParams['limit'] == 5){
+			
+		// 		document.getElementsByClassName("item-1759")[0].innerHTML = '<a href="/ezecom/index.php/en/media-centre/news-and-events"><div class="icon_news_even"></div>News<br>and Events</a>';
+		// 		document.getElementsByClassName("item-1760")[0].innerHTML = '<a href="/ezecom/index.php/en/media-centre/live-radio"><div class="icon_live_radio"></div>Radio <br/>Live Stream</a>';
+		// 		document.getElementsByClassName("item-1761")[0].innerHTML = '<a href="/ezecom/index.php/en/media-centre/live-traffic-camera"><div class="icon_live_traffic"></div>Traffic <br/>Live Camera</a>';
+		// 	}
+	//}
+
+
+
+	// if(last_url == "news-and-events?limit=5&limitstart=0"){
+
+	// 	if(urlParams['limit'] == 5){
+
+	// 		document.getElementsByClassName("item-1726")[0].innerHTML = '<a href="/ezecom/index.php/en/media-centre/news-and-events"><div class="icon_news_even"></div>News<br>and Events</a>';
+	// 		document.getElementsByClassName("item-1727")[0].innerHTML = '<a href="/ezecom/index.php/en/media-centre/live-radio"><div class="icon_live_radio"></div>Radio <br/>Live Stream</a>';
+	// 		document.getElementsByClassName("item-1728")[0].innerHTML = '<a href="/ezecom/index.php/en/media-centre/live-traffic-camera"><div class="icon_live_traffic"></div>Traffic <br/>Live Camera</a>';
+	// 	}
+	// }
+	if(icon_live_traffic =="live-traffic-camera"){
+			document.getElementsByClassName("item-1726")[0].innerHTML = '<a href="/index.php/en/media-center/news-and-events"><div class="icon_news_even"></div>News<br>and Events</a>';
+			document.getElementsByClassName("item-1727")[0].innerHTML = '<a href="/index.php/en/media-center/live-radio"><div class="icon_live_radio"></div>Radio <br/>Live Stream</a>';
+			document.getElementsByClassName("item-1728")[0].innerHTML = '<a href="/index.php/en/media-center/live-traffic-camera"  style="color:#7961a9"><div class="icon_live_traffic icon_live_traffic_active"></div>Traffic <br/>Live Camera</a>';
+		
+	}
+
+	if(icon_live_traffic =="live-traffic-cameras-kh"){
+			document.getElementsByClassName("item-1726")[0].innerHTML = '<a href="/index.php/kh/media-center/news-and-events-kh"><div class="icon_news_even"></div>ព័ត៌មាន <br/>និង ព្រិត្តិការណ៍</a>';
+			document.getElementsByClassName("item-1727")[0].innerHTML = '<a href="/index.php/kh/media-center/live-radio-kh"><div class="icon_live_radio"></div>វិទ្យុ <br/>ផ្សាយផ្ទាល់</a>';
+			document.getElementsByClassName("item-1728")[0].innerHTML = '<a href="/index.php/kh/media-center/live-traffic-camera-kh"><div class="icon_live_traffic"></div>កាមេរ៉ា<br/>ផ្សាយផ្ទាល់</a>';
+
+
+		
+	}
+
+	if(icon_live_traffic =="live-traffic-cameras-zh"){
+			document.getElementsByClassName("item-1726")[0].innerHTML = '<a href="/index.php/zh/media-center/news-events-zh"><div class="icon_news_even"></div>News<br>and Events</a>';
+			document.getElementsByClassName("item-1727")[0].innerHTML = '<a href="/index.php/zh/media-center/live-radio-zh"><div class="icon_live_radio"></div>Radio <br/>Live Stream</a>';
+			document.getElementsByClassName("item-1728")[0].innerHTML = '<a href="/index.php/zh/media-center/live-traffic-camera-zh"><div class="icon_live_traffic"></div>Traffic <br/>Live Camera</a>';
+		
+	}
+});
+
+function parseURLParams(url) {
+    var queryStart = url.indexOf("?") + 1,
+        queryEnd   = url.indexOf("#") + 1 || url.length + 1,
+        query = url.slice(queryStart, queryEnd - 1),
+        pairs = query.replace(/\+/g, " ").split("&"),
+        parms = {}, i, n, v, nv;
+
+    if (query === url || query === "") {
+        return;
+    }
+
+    for (i = 0; i < pairs.length; i++) {
+        nv = pairs[i].split("=");
+        n = decodeURIComponent(nv[0]);
+        v = decodeURIComponent(nv[1]);
+
+        if (!parms.hasOwnProperty(n)) {
+            parms[n] = [];
+        }
+
+        parms[n].push(nv.length === 2 ? v : null);
+    }
+    return parms;
+}
+
+
+
+
+
+

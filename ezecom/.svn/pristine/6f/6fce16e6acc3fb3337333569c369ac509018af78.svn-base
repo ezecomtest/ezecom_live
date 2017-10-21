@@ -1,0 +1,193 @@
+#more-btn {
+	cursor: pointer;
+    float: right;
+    height: 20px;
+    margin-top: -3px;
+    padding: 5px;
+    text-align: right;
+	width: 98px;
+}
+#more-btn p a {
+	color: #7961A9;
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: -2px;
+    margin-top: -1px;
+    text-align: center;
+    width: 98px;
+}
+
+
+.morehover {
+  position:absolute;
+
+  cursor:pointer;
+  float: left;
+  /*right: 99px;*/
+  /*top: -3px;*/
+  z-index:2000;
+  text-align:left;
+  display:none;
+  padding: 10px;
+  box-shadow: 4px 4px 4px 4px #EEEFEF;
+  background: #FFFFFF;
+
+ 
+}
+
+
+
+.morehover .top {
+  display: block;
+  width:572px;
+  height:34px;
+/*  background:url(../images/sign-top.png) no-repeat;*/
+  float:left;
+}
+.morehover .top p {
+	width:135px;
+	color: #7961A9;
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 0;
+    margin-top: 5px;
+    text-align: center;
+}
+.morehover .mid {
+  /*border: 1px solid #fafafa;*/
+  width:572px;
+/*  background:url(../images/mid.png) repeat-y;*/
+ /* padding:10px 20px 0 20px;*/
+  margin:auto;
+  float:left;
+}
+
+.morehover .mid .header {
+  border-bottom:1px solid #ccc;
+  font-weight:bold;
+}
+
+.morehover .bottom {
+  width:572px;
+  height:16px;
+
+/*  background:url(../images/bottom.png) no-repeat;*/
+  float:left;
+}
+
+.morehover ul {
+  margin:10px 10px 20px 0;
+}
+
+.morehover ul li {
+  list-style:none;
+}
+
+.morehover ul li.active a,
+.morehover ul li.active a:hover {
+  color:#222 !important;
+}
+
+.morehover ul li.active img {
+  margin-right:4px;
+}
+/*Start Form Style*/
+
+input.submit{
+margin:10px 0 20px 0;
+background:#7961a9;
+border: 1px solid #CCC;
+border-radius: 1px 1px 1px 1px;
+box-shadow: 1px 1px 5px #EEEEEE;
+color:#fff;
+font-weight:bold;
+font-size:12px;
+padding:2px 10px;
+}
+
+div#emailform input,div#emailform textarea{
+clear:none;
+float:left;
+border:1px solid #ccc;
+border-radius: 1px 1px 1px 1px;
+box-shadow: 1px 1px 5px #EEEEEE;
+width:170px;
+padding:5px;
+margin:0 0 12px 0;
+font-size:12px;
+}
+div#emailform label{
+clear:left;
+float:left;
+width:100px;
+margin:0 10px 5px 0;
+text-align:right;
+}
+div#emailform input.submit{
+width:100px;
+}
+hr{
+border:none;
+background:none;
+height:1px;
+font-size:1px;
+margin:5px 0 5px 0;
+}
+
+div#emailform{
+float:right;
+width:300px;
+min-height:346px;
+/*border:1px solid #7961a9;*/
+padding:5px 5px;
+/*color:#7961a9;*/
+margin-top:30px;
+}
+div#emailform p{
+margin:0 0 10px 0;
+}
+
+div.packagebox{
+width:200px;
+/*border:1px solid #7961a9;*/
+padding:5px;
+margin:0 0 10px 0;
+/*float:left;*/
+}
+
+div.packagebox img{
+float:left;
+margin:0 10px 0 0;
+}
+div.packagebox p{
+font-size:12px;
+}
+h5{
+margin:0 0 0 0;
+font-size:13px;
+color:#7961a9;
+border-bottom:1px solid #ccc;
+}
+h4{
+margin:0 0 10px 0;
+font-size:15px;
+}
+
+input.chkbox{
+}
+div.packagebox label{
+font-size:12px;
+}
+div.packagebox table{
+margin: 0.5em 0;
+width:200px;
+}
+div.packagebox table td{
+
+}
+input.chkbox{
+	margin-top:6px;
+}
+/*End Form Style*/

@@ -1,0 +1,48 @@
+{
+    "premium" : {
+        "packages" : [ 
+            { "package" : "PREMIUM 1 mbps" , "price" : "$40", "description" : "Ideal for email with larger attachments, web-surfing, downloads, VoIP"},
+            { "package" : "PREMIUM 2 mbps" , "price" : "$80", "description" : "Ideal for large downloads/attachments, multiple VoIP users and video conferencing. High bandwidth for demanding users. Fibre Optic ready"},
+            { "package" : "PREMIUM 3 mbps" , "price" : "$120", "description" : "Extra bandwidth for demanding users. Fibre Optic ready."},
+            { "package" : "PREMIUM 4 mbps" , "price" : "$160", "description" : "Extra bandwidth for demanding users. Fibre Optic ready."},
+            { "package" : "PREMIUM 5 mbps" , "price" : "$200", "description" : "Extra bandwidth for demanding users. Fibre Optic ready."}
+        ]
+    },
+    "corporate" : {
+        "packages" : [
+            { "package" : "CORPORATE 1 mbps", "price" : "$59", "description" : "For large downloads/attachments, multiple VoIP users and video conferencing. Fibre Optic ready."},
+            { "package" : "CORPORATE 2 mbps", "price" : "$118", "description" : "Ideal for heavy usage and faster downloads, office up to 15 people. Fibre Optic ready."},
+            { "package" : "CORPORATE 3 mbps", "price" : "$177", "description" : "Ideal for larger offices with higher bandwidth needs. Fibre Optic ready."},
+            { "package" : "CORPORATE 4 mbps", "price" : "$236", "description" : "Ideal for large corporations with very high bandwidth needs."},
+            { "package" : "CORPORATE 5 mbps", "price" : "$285", "description" : "Ideal for large corporations with very high bandwidth needs."}
+        ]
+    },
+    "vpn" : {
+        "packages" : [
+            { "package" : "VPN 1 Mbps", "price" : "$20"},
+            { "package" : "VPN 2 Mbps", "price" : "$40"},
+            { "package" : "VPN 3 Mbps", "price" : "$55"},
+            { "package" : "VPN 4 Mbps", "price" : "$65"},
+            { "package" : "VPN 5 Mbps", "price" : "$80"}
+        ]        
+    },
+    "colocation" : {
+        "rackpackage" : {
+            "packages" : [
+                    { "package" : "RACK UNIT PACKAGE", "price" : "$150", "description" : "Monthly Fee"},
+                    { "package" : "HALF RACK PACKAGE", "price" : "$1300", "description" : "Monthly Fee"},
+                    { "package" : "FULL RACK PACKAGE", "price" : "$2500", "description" : "Monthly Fee<br/>Setup Fees apply"}
+                ]
+        },
+        "diskspacepackage" : {
+            "packages" : [
+                    { "package" : "5 GB Disc Space", "price" : "$20"},
+                    { "package" : "10 GB Disc Space", "price" : "$35"},
+                    { "package" : "100 GB Disc Space", "price" : "$70"},
+                    { "package" : "500 GB Disc Space", "price" : "$250"},
+                    { "package" : "1 TB Disc Space", "price" : "$400"}
+            ]            
+        }
+            
+    }
+}

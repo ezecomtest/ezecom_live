@@ -1,0 +1,18 @@
+<?php
+
+class Live_camera_m extends CI_Model{
+  // can be declaration variable here
+    function __construct()
+    {
+        // Call the Model constructor
+        parent::__construct();
+    }
+
+    //==== Start location install====
+ 
+	public function get_camera_display(){
+        $sql=$this->db->get('tm_traffic_cam');
+        return $sql->result();
+	}
+}
+?>

@@ -1,0 +1,43 @@
+<?php
+
+class Media_center_m extends CI_Model{
+  // can be declaration variable here
+    function __construct()
+    {
+        // Call the Model constructor
+        parent::__construct();
+    }
+
+    //==== Start location install====
+ 
+	public function title_events(){
+
+		
+        $sql=" SELECT
+            tbl_content.content_categories_id,
+            tbl_categories.categories_name,
+            tbl_categories.categoriesid,
+            tbl_content.content_language_id,
+            tbl_languages.lang_id,
+            tbl_content.content_title,
+            tbl_content.content_description,
+            tbl_languages.lang_title
+            FROM
+            tbl_content
+            INNER JOIN tbl_categories ON tbl_categories.categoriesid = tbl_content.content_categories_id 
+            INNER JOIN tbl_languages ON tbl_content.content_language_id = tbl_languages.lang_id
+            WHERE tbl_categories.categoriesid = 1 AND tbl_languages.lang_id = 1
+
+";
+        $q = $this->db->query($sql);
+        return $q->result();
+
+	}
+
+
+
+   
+
+   
+}
+?>

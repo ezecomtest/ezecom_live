@@ -1,0 +1,187 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Radio_admin_m extends CI_Model
+{
+	public function __construct()
+	{
+		parent::__construct();
+	}
+
+	public function get_radio_schedule()
+	{
+		$cri = array('radio_schedule_is_deleted' => 0);
+		$q = $this->db->get_where('tbl_radio_schedule', $cri);
+		return $q->result();
+	}
+
+	public function insert_radio_schedule($data, $file)
+	{
+		$this->db->insert('tbl_radio_schedule', $data);
+		$id = $this->db->insert_id();
+
+		$update = array(
+			'radio_schedule_pdf' => $file,
+		);
+
+		$this->db->where('radio_schedule_id', $id);
+		$this->db->update('tbl_radio_schedule', $update);
+
+		if ($this->db->affected_rows()>0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public function get_radio_schedule_byID($id)
+	{
+		$cri = array('radio_schedule_id' => $id);
+		$q = $this->db->get_where('tbl_radio_schedule', $cri);
+		return $q->row_array();
+	}
+
+	public function update_radio_schedule($data_form, $id, $file)
+	{
+
+		if ($file == NULL) {
+
+			$this->db->where('radio_schedule_id', $id);
+			$this->db->update('tbl_radio_schedule', $data_form);
+			$query = $this->db->affected_rows();
+			return $query;
+
+		} else {
+
+			$this->db->where('radio_schedule_id', $id);
+			$this->db->update('tbl_radio_schedule', $data_form);
+
+			$update = array(
+				'radio_schedule_pdf' => $file,
+			);
+			$this->db->where('radio_schedule_id', $id);
+			$this->db->update('tbl_radio_schedule', $update);
+
+			if ($this->db->affected_rows() > 0) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+	}
+
+	public function delete_radio_schedule($data, $cri)
+	{
+		$this->db->update('tbl_radio_schedule', $data, $cri);
+	}
+
+	public function get_radio_group()
+	{
+		$cri = array('radio_group_is_deleted' => 0);
+		$q = $this->db->get_where('tbl_radio_group', $cri);
+		return $q->result();
+	}
+
+	public function insert_radio_group($data)
+	{
+		$this->db->insert('tbl_radio_group', $data);
+		if ($this->db->affected_rows() > 0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public function get_group($id)
+	{
+		$cri = array('radio_group_id' => $id);
+		$q = $this->db->get_where('tbl_radio_group', $cri);
+		return $q->row_array();
+	}
+
+	public function update_radio_group($data, $cri)
+	{
+		$this->db->update('tbl_radio_group', $data, $cri);
+		if ($this->db->affected_rows() > 0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public function get_radio()
+	{
+		$cri = array('radio_info_deleted'=>0);
+		$this->db->select('*');
+		$this->db->from('tbl_radio_info r');
+		$this->db->join('tbl_radio_group g','r.radio_info_group_id=g.radio_group_id','left');
+		$this->db->where($cri);
+		$q = $this->db->get();
+		return $q->result();
+	}
+
+	public function insert_radio($data, $file)
+	{
+		$this->db->insert('tbl_radio_info', $data);
+		$id = $this->db->insert_id();
+
+		$update = array(
+			'radio_info_thumbnail' => $file,
+		);
+
+		$this->db->where('radio_info_id', $id);
+		$this->db->update('tbl_radio_info', $update);
+
+		if ($this->db->affected_rows()>0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public function get_radio_byID($id)
+	{
+		$cri = array('radio_info_id'=>$id);
+		$q = $this->db->get_where('tbl_radio_info', $cri);
+		return $q->row_array();
+	}
+
+	public function update_radio($data_form, $id, $file)
+	{
+
+		if ($file == NULL) {
+
+			$this->db->where('radio_info_id', $id);
+			$this->db->update('tbl_radio_info', $data_form);
+			$query = $this->db->affected_rows();
+			return $query;
+
+		} else {
+
+			$this->db->where('radio_info_id', $id);
+			$this->db->update('tbl_radio_info', $data_form);
+
+			$update = array(
+				'radio_info_thumbnail' => $file,
+			);
+			$this->db->where('radio_info_id', $id);
+			$this->db->update('tbl_radio_info', $update);
+
+			if ($this->db->affected_rows() > 0) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+	}
+
+	public function delete_radio($data,$cri)
+	{
+		$this->db->update('tbl_radio_info', $data, $cri);
+		if ($this->db->affected_rows() > 0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+}

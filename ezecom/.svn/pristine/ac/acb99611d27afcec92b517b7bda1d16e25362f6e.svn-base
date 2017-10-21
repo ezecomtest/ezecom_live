@@ -1,0 +1,750 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Bayon|Kantumruy|Raleway" rel="stylesheet">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-21233285-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr" class='com_content view-article itemid-435 j34'>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  	<meta name="author" content="Joomla" />
+  	<meta name="generator" content="Joomla! - Open Source Content Management" />
+  	<link href="<?php echo base_url();?>images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.bootstrap.less.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/soytry.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/system.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/plugins.system.t3.base-bs3.less.legacy-grid.less.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/font-awesome.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/plugins.system.t3.base-bs3.less.t3.less.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.core.less.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.typography.less.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.forms.less.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.navigation.less.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.navbar.less.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.modules.less.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.joomla.less.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.components.less.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.style.less.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.template.less.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/plugins.system.t3.base-bs3.less.megamenu.less.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.megamenu.less.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/font-awesome.min.css" type="text/css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/custom.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.home.less.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/default.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/hover.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/help_hover.css" type="text/css" />
+  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/template.css" type="text/css" />
+  	<script src="<?php echo base_url();?>assets/js/jquery.min.js" type="text/javascript"></script>
+  	<script src="<?php echo base_url();?>assets/js/jquery-noconflict.js" type="text/javascript"></script>
+  	<script src="<?php echo base_url();?>assets/js/jquery-migrate.min.js" type="text/javascript"></script>
+  	<script src="<?php echo base_url();?>assets/js/caption.js" type="text/javascript"></script>
+  	<script src="<?php echo base_url();?>assets/js/bootstrap.js" type="text/javascript"></script>
+  	<script src="<?php echo base_url();?>assets/js/chhenghong.js" type="text/javascript"></script>
+  	<script src="<?php echo base_url();?>assets/js/jquery.tap.min.js" type="text/javascript"></script>
+  	<script src="<?php echo base_url();?>assets/js/script.js" type="text/javascript"></script>
+  	<script src="<?php echo base_url();?>assets/js/menu.js" type="text/javascript"></script>
+  	<script src="<?php echo base_url();?>assets/js/nav-collapse.js" type="text/javascript"></script>
+  	<script src="<?php echo base_url();?>assets/js/mootools-core.js" type="text/javascript"></script>
+  	<script src="<?php echo base_url();?>assets/js/core.js" type="text/javascript"></script>
+  	<script src="<?php echo base_url();?>assets/js/jquery.marquee.js" type="text/javascript"></script>
+  	<script src="<?php echo base_url();?>assets/js/mootools-more.js" type="text/javascript"></script>
+  	<script src="<?php echo base_url();?>assets/js/jquery-1.7.1.js" type="text/javascript"></script>
+  	<script src="<?php echo base_url();?>assets/js/validator.js" type="text/javascript"></script>
+  	<script src="<?php echo base_url();?>assets/js/string_utils.js" type="text/javascript"></script>
+  	<script src="<?php echo base_url();?>assets/js/form_signup.js" type="text/javascript"></script>
+  	<script src="<?php echo base_url();?>assets/js/form_helpmechoosepackage.js" type="text/javascript"></script>
+  	<script type="text/javascript">
+		jQuery(window).on('load',  function() {
+						new JCaption('img.caption');
+					});
+		jQuery(document).ready(function(){
+			jQuery('.hasTooltip').tooltip({"html": true,"container": "body"});
+		});
+		jQuery.noConflict();
+  	</script>
+	
+<!-- META FOR IOS & HANDHELD -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<style type="text/stylesheet">
+			@-webkit-viewport   { width: device-width; }
+			@-moz-viewport      { width: device-width; }
+			@-ms-viewport       { width: device-width; }
+			@-o-viewport        { width: device-width; }
+			@viewport           { width: device-width; }
+		</style>
+		<script type="text/javascript">
+			//<![CDATA[
+			if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+				var msViewportStyle = document.createElement("style");
+				msViewportStyle.appendChild(
+					document.createTextNode("@-ms-viewport{width:auto!important}")
+				);
+				document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+			}
+			//]]>
+		</script>
+		<meta name="HandheldFriendly" content="true"/>
+		<meta name="apple-mobile-web-app-capable" content="YES"/>
+<!-- //META FOR IOS & HANDHELD -->
+
+<!-- You can add Google Analytics here or use T3 Injection feature -->
+	<link rel="stylesheet" type="text/css" href="http://localhost/new_ezecom/assets/css/nextend-frontend.css?1489112974" media="screen, print" />
+	<link rel="stylesheet" type="text/css" href="http://localhost/new_ezecom/assets/css/n2-ss-6.css?1489541255" media="screen, print" />
+	<script type="text/javascript">window.N2PRO=0;window.N2GSAP=1;window.N2PLATFORM="joomla";window.nextend={localization: {}, deferreds:[], loadScript: function(url){n2jQuery.ready(function () {nextend.deferreds.push(n2.ajax({url:url,dataType:"script",cache:true,error:function(){console.log(arguments)}}))})}, ready: function(cb){n2.when.apply(n2, nextend.deferreds).done(function(){cb.call(window,n2)})}};window.N2SSPRO=0;window.N2SSWHYPRO="http://smartslider3.com/why-upgrade-to-pro/";
+	        nextend.fontsLoaded = false;
+	        nextend.fontsLoadedActive = function () {nextend.fontsLoaded = true;};
+	        var fontData = {
+	            google: {
+	                families: ["Montserrat:400","Raleway:400:latin"]
+	            },
+	            active: function(){nextend.fontsLoadedActive()},
+	            inactive: function(){nextend.fontsLoadedActive()}
+	        };
+	        if(typeof WebFont === 'undefined'){
+	            window.WebFontConfig = fontData;
+	        }else{
+	            WebFont.load(fontData);
+	        }
+	</script>
+	<script type="text/javascript" src="<?php echo base_url();?>assets/js/n2.js?1489112974"></script>
+	<script type="text/javascript" src="<?php echo base_url();?>assets/js/nextend-frontend.js?1489112974"></script>
+	<script type="text/javascript" src="<?php echo base_url();?>assets/js/smartslider-frontend.js?1489112974"></script>
+	<script type="text/javascript" src="<?php echo base_url();?>assets/js/n2-ss-6.js?1489541255"></script>
+	<script type="text/javascript" src="<?php echo base_url();?>assets/js/smartslider-simple-type-frontend.js?1489112974"></script>
+	<script type="text/javascript" src="<?php echo base_url();?>assets/js/nextend-webfontloader.js?1489112974"></script>
+	<script type="text/javascript">
+	window.n2jQuery.ready((function($){
+		window.nextend.ready(function() {
+
+	        nextend.fontsDeferred = n2.Deferred();
+	        if(nextend.fontsLoaded){
+	            nextend.fontsDeferred.resolve();
+	        }else{
+	            nextend.fontsLoadedActive = function () {
+	                nextend.fontsLoaded = true;
+	                nextend.fontsDeferred.resolve();
+	            };
+	        }
+	new NextendSmartSliderSimple(n2('#n2-ss-6'), {"admin":false,"isStaticEdited":0,"translate3d":1,"randomize":0,"callbacks":"","align":"normal","load":{"fade":1,"scroll":0,"spinner":"<div><div class=\"n2-ss-spinner-simple-white-container\"><div class=\"n2-ss-spinner-simple-white\"><\/div><\/div>\n<style type=\"text\/css\">\n.n2-ss-spinner-simple-white-container {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    margin: -20px;\n    background: #fff;\n    width: 20px;\n    height: 20px;\n    padding: 10px;\n    border-radius: 50%;\n    z-index: 1000;\n}\n\n.n2-ss-spinner-simple-white {\n  outline: 1px solid RGBA(0,0,0,0);\n  width:100%;\n  height: 100%;\n}\n\n.n2-ss-spinner-simple-white:before {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    width: 20px;\n    height: 20px;\n    margin-top: -11px;\n    margin-left: -11px;\n}\n\n.n2-ss-spinner-simple-white:not(:required):before {\n    content: '';\n    border-radius: 50%;\n    border-top: 2px solid #333;\n    border-right: 2px solid transparent;\n    animation: n2SimpleWhite .6s linear infinite;\n    -webkit-animation: n2SimpleWhite .6s linear infinite;\n}\n@keyframes n2SimpleWhite {\n    to {transform: rotate(360deg);}\n}\n\n@-webkit-keyframes n2SimpleWhite {\n    to {-webkit-transform: rotate(360deg);}\n}\n\n<\/style>"},"playWhenVisible":1,"responsive":{"desktop":1,"tablet":1,"mobile":1,"onResizeEnabled":true,"type":"auto","downscale":1,"upscale":0,"minimumHeight":0,"maximumHeight":3000,"maximumSlideWidth":3000,"maximumSlideWidthLandscape":3000,"maximumSlideWidthTablet":3000,"maximumSlideWidthTabletLandscape":3000,"maximumSlideWidthMobile":3000,"maximumSlideWidthMobileLandscape":3000,"maximumSlideWidthConstrainHeight":0,"forceFull":0,"verticalOffsetSelectors":"","focusUser":0,"focusAutoplay":0,"deviceModes":{"desktopPortrait":1,"desktopLandscape":0,"tabletPortrait":1,"tabletLandscape":0,"mobilePortrait":1,"mobileLandscape":0},"normalizedDeviceModes":{"unknownUnknown":["unknown","Unknown"],"desktopPortrait":["desktop","Portrait"],"desktopLandscape":["desktop","Portrait"],"tabletPortrait":["tablet","Portrait"],"tabletLandscape":["tablet","Portrait"],"mobilePortrait":["mobile","Portrait"],"mobileLandscape":["mobile","Portrait"]},"verticalRatioModifiers":{"unknownUnknown":1,"desktopPortrait":1,"desktopLandscape":1,"tabletPortrait":1,"tabletLandscape":1,"mobilePortrait":1,"mobileLandscape":1},"minimumFontSizes":{"desktopPortrait":4,"desktopLandscape":4,"tabletPortrait":4,"tabletLandscape":4,"mobilePortrait":4,"mobileLandscape":4},"ratioToDevice":{"Portrait":{"tablet":0.7,"mobile":0.5},"Landscape":{"tablet":0,"mobile":0}},"sliderWidthToDevice":{"desktopPortrait":1170,"desktopLandscape":1170,"tabletPortrait":819,"tabletLandscape":0,"mobilePortrait":585,"mobileLandscape":0},"basedOn":"combined","tabletPortraitScreenWidth":800,"mobilePortraitScreenWidth":440,"tabletLandscapeScreenWidth":800,"mobileLandscapeScreenWidth":440,"orientationMode":"width_and_height"},"controls":{"scroll":0,"drag":1,"touch":"horizontal","keyboard":1,"tilt":0},"lazyLoad":0,"lazyLoadNeighbor":0,"blockrightclick":0,"maintainSession":0,"autoplay":{"enabled":1,"start":1,"duration":5000,"autoplayToSlide":-1,"pause":{"click":1,"mouse":"0","mediaStarted":1},"resume":{"click":0,"mouse":0,"mediaEnded":1,"slidechanged":0}},"layerMode":{"playOnce":0,"playFirstLayer":1,"mode":"skippable","inAnimation":"mainInEnd"},"parallax":{"enabled":1,"mobile":0,"is3D":0,"animate":1,"horizontal":"mouse","vertical":"mouse","origin":"slider","scrollmove":"both"},"initCallbacks":[],"bgAnimations":0,"mainanimation":{"type":"horizontal","duration":800,"delay":0,"ease":"easeOutQuad","parallax":1,"shiftedBackgroundAnimation":0},"carousel":1,"dynamicHeight":0});
+	new NextendSmartSliderWidgetArrowImage("n2-ss-6", 1, 0.7, 0.5);
+	new NextendSmartSliderWidgetBulletTransition("n2-ss-6", {"overlay":false,"area":10,"thumbnailWidth":100,"thumbnailHeight":60,"thumbnailStyle":"n2-style-42845aa02120076deb3a5681d1d750ac-simple ","thumbnailPosition":"top","thumbnails":["","","",""],"action":"click","numeric":0});
+		});
+	}));
+
+	</script>
+	<title><?php echo $title;?></title>
+</head>
+<body>
+	<div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
+	
+<!-- HEADER -->
+	<header id="t3-header" class="container t3-header">
+	<div class="row">
+        <div class="col-xs-12 col-sm-4">
+<!-- LANGUAGE SWITCHER -->
+            <div class="languageswitcherload">
+                <div class="mod-languages">
+					<ul class="lang-inline">
+						<li class="" dir="ltr">
+						<a href="/index.php/km/">
+						<img src="images/km.gif" alt="KhmerCambodia" title="KhmerCambodia" /></a>
+						</li>
+						<li class="" dir="ltr">
+						<a href="/index.php/zh/">
+						<img src="images/zh.gif" alt="chinese" title="chinese" /></a>
+						</li>
+						<li class="lang-active" dir="ltr">
+						<a href="https://www.ezecom.com.kh/index.php/en/">
+						<img src="images/en.gif" alt="English (UK)" title="English (UK)" /></a>
+						</li>
+					</ul>
+				</div>
+
+               </div>
+                            <!-- //LANGUAGE SWITCHER -->
+                                </div>
+                        
+            <!-- LOGO -->
+            <div class="col-xs-12 col-sm-8 logo">
+                <div class="logo-image">
+                    <a href="/" title="EZECOM">
+                                                        <img class="logo-img" src="images/homepage/ezecom-logo.png" alt="EZECOM" />
+                                                                        <span>EZECOM</span>
+                    </a>
+                    <small class="site-slogan"></small>
+                </div>
+            </div>
+            <!-- //LOGO -->
+
+	</div>
+</header>
+<!-- //HEADER -->
+
+	
+<!-- MAIN NAVIGATION -->
+<?php
+	$this->load->view('header/main_nav_user_v');
+?>
+<!-- //MAIN NAVIGATION -->
+
+	
+<div class="home">
+
+			<!-- HOME SL 1 -->
+		<div class="wrap t3-sl t3-sl-1 bg-color-gray ">
+			<div class="container">
+				
+<!-- Nextend Smart Slider 3 #6 - BEGIN -->
+<div id="n2-ss-6-align" class="n2-ss-align"><div class="n2-padding"><div id="n2-ss-6" class="n2-ss-slider n2-ss-load-fade " data-minFontSizedesktopPortrait="4" data-minFontSizedesktopLandscape="4" data-minFontSizetabletPortrait="4" data-minFontSizetabletLandscape="4" data-minFontSizemobilePortrait="4" data-minFontSizemobileLandscape="4" style="font-size: 16px;" data-fontsize="16">
+        <div class="n2-ss-slider-1" style="">
+                        <div class="n2-ss-slider-2">
+                                <div class="n2-ss-slider-3">
+
+                    <div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active" style=""><div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1"><img title="" style="width: 100%;height: auto;margin-top: -335px;opacity:1;" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" /></div><div class="n2-ss-layers-container" style=""><div class="n2-ss-layer" style="z-index:1;overflow:visible;text-align:left;left:-303px;top:0px;width:365px;height:365px;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="Power-Your-World.png" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="-303" data-desktopportraittop="0" data-desktopportraitwidth="365" data-desktopportraitheight="365" data-desktopportraitalign="center" data-desktopportraitvalign="middle" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100"><div class="" style="overflow:hidden;"><img src="//www.ezecom.com.kh/images/Power-Your-World.png" id="n2-ss-6item1" alt="" style="display: inline-block; max-width: 100%; width: ;height: auto;" class="" title=""></img></div></div><div class="n2-ss-layer" style="z-index:2;overflow:visible;text-align:left;left:671px;top:113px;width:auto;height:auto;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="Layer #5" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="671" data-desktopportraittop="113" data-desktopportraitwidth="auto" data-desktopportraitheight="auto" data-desktopportraitalign="left" data-desktopportraitvalign="top" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100"><div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"></div></div><div class="n2-ss-layer" style="z-index:3;overflow:visible;text-align:left;left:650px;top:151px;width:400px;height:auto;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="POWERYOURWORLD" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="650" data-desktopportraittop="151" data-desktopportraitwidth="400" data-desktopportraitheight="auto" data-desktopportraitalign="left" data-desktopportraitvalign="top" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100"><div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"><p class="n2-font-5c29efa662f7feff5ba1cea9df33117e-paragraph  ">POWER YOUR WORLD</p>
+</div></div><div class="n2-ss-layer" style="z-index:4;overflow:visible;text-align:left;left:564px;top:236px;width:606px;height:auto;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="Fromthelatestsolutionsforbusinesses" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="564" data-desktopportraittop="236" data-desktopportraitwidth="606" data-desktopportraitheight="auto" data-desktopportraitalign="left" data-desktopportraitvalign="top" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100"><div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"><p class="n2-font-320aaf0854f2cd79362f03cc65535f92-paragraph  ">From the latest solutions for businesses, including cloud storage and high quality internet to affordable home packages that give you access to our live traffic camera’s and the best radio stream in Cambodia.</p>
+</div></div></div></div><div data-slide-duration="0" data-id="36" class="n2-ss-slide n2-ss-canvas " style=""><div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1"><img title="" style="width: 100%;height: auto;margin-top: -335px;opacity:1;" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" /></div><div class="n2-ss-layers-container" style=""><div class="n2-ss-layer" style="z-index:1;overflow:visible;text-align:left;left:-281px;top:0px;width:379px;height:389px;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="GETYOURLOVEDONESCONNECTANYWHEREANYT" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="-281" data-desktopportraittop="0" data-desktopportraitwidth="379" data-desktopportraitheight="389" data-desktopportraitalign="center" data-desktopportraitvalign="middle" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100"><div class="" style="overflow:hidden;"><img src="//www.ezecom.com.kh/images/banners/GETYOURLOVEDONESCONNECTANYWHEREANYTIME.png" id="n2-ss-6item5" alt="" style="display: inline-block; max-width: 100%; width: 100%;height: auto;" class="" title=""></img></div></div><div class="n2-ss-layer" style="z-index:2;overflow:visible;text-align:left;left:593px;top:262px;width:372px;height:139px;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="EzecomVOIPkeepyouconnectandstayinto" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="593" data-desktopportraittop="262" data-desktopportraitwidth="372" data-desktopportraitheight="139" data-desktopportraitalign="left" data-desktopportraitvalign="top" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100"><div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"><p class="n2-font-84785eccca44946eb259f3f159ce38c8-paragraph  ">Ezecom VOIP keep you connect and stay intouch with friends and family at the lowestcost possible. Dial 177+Country code+phone number</p>
+</div></div><div class="n2-ss-layer" style="z-index:3;overflow:visible;text-align:left;left:593px;top:150px;width:372px;height:auto;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="GETYOURLOVEDONE&#039;SCONNECT" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="593" data-desktopportraittop="150" data-desktopportraitwidth="372" data-desktopportraitheight="auto" data-desktopportraitalign="left" data-desktopportraitvalign="top" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100"><div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"><p class="n2-font-121971f4d371d3abfdb04491595cffd9-paragraph  ">GET YOUR LOVED ONE'S CONNECT </p>
+</div></div><div class="n2-ss-layer" style="z-index:4;overflow:visible;text-align:left;left:593px;top:193px;width:372px;height:auto;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="ANYWHEREANYTIME" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="593" data-desktopportraittop="193" data-desktopportraitwidth="372" data-desktopportraitheight="auto" data-desktopportraitalign="left" data-desktopportraitvalign="top" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100"><div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"><p class="n2-font-5c29efa662f7feff5ba1cea9df33117e-paragraph  ">ANYWHERE ANYTIME</p>
+</div></div></div></div><div data-slide-duration="0" data-id="43" class="n2-ss-slide n2-ss-canvas " style=""><div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1"><img title="" style="width: 100%;height: auto;margin-top: -335px;opacity:1;" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" /></div><div class="n2-ss-layers-container" style=""><div class="n2-ss-layer" style="z-index:1;overflow:visible;text-align:left;left:-281px;top:0px;width:379px;height:389px;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="Interent-Everywhere.png" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="-281" data-desktopportraittop="0" data-desktopportraitwidth="379" data-desktopportraitheight="389" data-desktopportraitalign="center" data-desktopportraitvalign="middle" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100"><div class="" style="overflow:hidden;"><img src="//www.ezecom.com.kh/images/Interent-Everywhere.png" id="n2-ss-6item9" alt="" style="display: inline-block; max-width: 100%; width: ;height: auto;" class="" title=""></img></div></div><div class="n2-ss-layer" style="z-index:2;overflow:visible;text-align:left;left:509px;top:262px;width:673px;height:139px;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="Withanationwideinternetcoverage,EZE" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="509" data-desktopportraittop="262" data-desktopportraitwidth="673" data-desktopportraitheight="139" data-desktopportraitalign="left" data-desktopportraitvalign="top" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100"><div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"><p class="n2-font-84785eccca44946eb259f3f159ce38c8-paragraph  ">With a nationwide internet coverage, EZECOM invests with a multiple high quality infrastructure along innovative solutions to give you the best available packages to fulfill your needs. Call us today for a new sign up or go to our website for more information.</p>
+</div></div><div class="n2-ss-layer" style="z-index:3;overflow:visible;text-align:left;left:254px;top:151px;width:661px;height:auto;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="YOURINTERNET" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="254" data-desktopportraittop="151" data-desktopportraitwidth="661" data-desktopportraitheight="auto" data-desktopportraitalign="center" data-desktopportraitvalign="top" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100"><div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"><p class="n2-font-121971f4d371d3abfdb04491595cffd9-paragraph  ">YOUR INTERNET</p>
+</div></div><div class="n2-ss-layer" style="z-index:4;overflow:visible;text-align:left;left:254px;top:196px;width:661px;height:39px;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="ISEVERYWHERE" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="254" data-desktopportraittop="196" data-desktopportraitwidth="661" data-desktopportraitheight="39" data-desktopportraitalign="center" data-desktopportraitvalign="top" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100"><div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"><p class="n2-font-5c29efa662f7feff5ba1cea9df33117e-paragraph  ">IS EVERYWHERE</p>
+</div></div></div></div><div data-slide-duration="0" data-id="37" class="n2-ss-slide n2-ss-canvas " style=""><div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1"><img title="" style="width: 100%;height: auto;margin-top: -335px;opacity:1;" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" /></div><div class="n2-ss-layers-container" style=""><div class="n2-ss-layer" style="z-index:1;overflow:visible;text-align:left;left:-304px;top:24px;width:342px;height:370px;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="WHICHRADIOSTATIONSAREYOURFAVORITE.p" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="-304" data-desktopportraittop="24" data-desktopportraitwidth="342" data-desktopportraitheight="370" data-desktopportraitalign="center" data-desktopportraitvalign="middle" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100"><div class="" style="overflow:hidden;"><img src="//www.ezecom.com.kh/images/WHICHRADIOSTATIONSAREYOURFAVORITE.png" id="n2-ss-6item13" alt="" style="display: inline-block; max-width: 100%; width: ;height: auto;" class="" title=""></img></div></div><div class="n2-ss-layer" style="z-index:2;overflow:visible;text-align:center;left:255px;top:250px;width:659px;height:68px;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="ListentoyourfavoriteRadiostationliv" data-namesynced="1" data-crop="visible" data-inneralign="center" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="255" data-desktopportraittop="250" data-desktopportraitwidth="659" data-desktopportraitheight="68" data-desktopportraitalign="center" data-desktopportraitvalign="top" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100"><div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"><p class="n2-font-84785eccca44946eb259f3f159ce38c8-paragraph  ">Listen to your favorite Radio station live stream now, download EZECOM app tha available both IOS Android</p>
+</div></div><div class="n2-ss-layer" style="z-index:3;overflow:visible;text-align:left;left:255px;top:186px;width:659px;height:40px;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="AREYOURFAVORITE?" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="255" data-desktopportraittop="186" data-desktopportraitwidth="659" data-desktopportraitheight="40" data-desktopportraitalign="center" data-desktopportraitvalign="top" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100"><div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"><p class="n2-font-5c29efa662f7feff5ba1cea9df33117e-paragraph  ">ARE YOUR FAVORITE?</p>
+</div></div><div class="n2-ss-layer" style="z-index:4;overflow:visible;text-align:left;left:255px;top:142px;width:659px;height:24px;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="WHICHRADIOSTATIONS" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="255" data-desktopportraittop="142" data-desktopportraitwidth="659" data-desktopportraitheight="24" data-desktopportraitalign="center" data-desktopportraitvalign="top" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100"><div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"><p class="n2-font-903693ffd741582e21e07d8e5800060b-paragraph  ">WHICH RADIO STATIONS</p>
+</div></div></div></div>                </div>
+            </div>
+        </div>
+        <div data-ssleft="0+15" data-sstop="height/2-previousheight/2" id="n2-ss-6-arrow-previous" class="n2-ss-widget n2-ss-widget-display-desktop n2-ss-widget-display-tablet n2-ss-widget-display-mobile nextend-arrow n2-ib nextend-arrow-previous  nextend-arrow-animated-fade" style="position: absolute;"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTEuNDMzIDE1Ljk5MkwyMi42OSA1LjcxMmMuMzkzLS4zOS4zOTMtMS4wMyAwLTEuNDItLjM5My0uMzktMS4wMy0uMzktMS40MjMgMGwtMTEuOTggMTAuOTRjLS4yMS4yMS0uMy40OS0uMjg1Ljc2LS4wMTUuMjguMDc1LjU2LjI4NC43N2wxMS45OCAxMC45NGMuMzkzLjM5IDEuMDMuMzkgMS40MjQgMCAuMzkzLS40LjM5My0xLjAzIDAtMS40MmwtMTEuMjU3LTEwLjI5IiBmaWxsPSIjZmZmZmZmIiBvcGFjaXR5PSIwLjgiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==" alt="arrow" /></div><div data-ssright="0+15" data-sstop="height/2-nextheight/2" id="n2-ss-6-arrow-next" class="n2-ss-widget n2-ss-widget-display-desktop n2-ss-widget-display-tablet n2-ss-widget-display-mobile nextend-arrow n2-ib nextend-arrow-next  nextend-arrow-animated-fade" style="position: absolute;"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTAuNzIyIDQuMjkzYy0uMzk0LS4zOS0xLjAzMi0uMzktMS40MjcgMC0uMzkzLjM5LS4zOTMgMS4wMyAwIDEuNDJsMTEuMjgzIDEwLjI4LTExLjI4MyAxMC4yOWMtLjM5My4zOS0uMzkzIDEuMDIgMCAxLjQyLjM5NS4zOSAxLjAzMy4zOSAxLjQyNyAwbDEyLjAwNy0xMC45NGMuMjEtLjIxLjMtLjQ5LjI4NC0uNzcuMDE0LS4yNy0uMDc2LS41NS0uMjg2LS43NkwxMC43MiA0LjI5M3oiIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9IjAuOCIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+" alt="arrow" /></div>
+<div data-ssleft="width/2-bulletwidth/2" data-ssbottom="0+10" data-offset="10" class="n2-ss-widget n2-ss-widget-display-desktop n2-ss-widget-display-tablet n2-ss-widget-display-mobile n2-ss-widget-display-hover nextend-bullet-bar nextend-bullet-bar-horizontal" style="text-align: center;position: absolute;"><div class="n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot n2-active"></div><div class="n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot "></div><div class="n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot "></div><div class="n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot "></div></div>
+</div><div class="clear"></div></div></div>
+<!-- Nextend Smart Slider 3 #6 - END -->
+
+			</div>
+		</div>
+		<!-- //HOME SL 1 -->
+	
+			<!-- HOME SL 2 -->
+		<div class="wrap t3-sl t3-sl-2 t3-home-2 ">
+			<div class="container">
+				<!-- <div id="more-btn">
+	<p><a></a></p>
+</div> -->
+<div class="col-xs-8 col-sm-8">
+	<div id="moremenu" class="morehover">
+	   <!--  <div class="top" id="more-btn-over">
+	    	<p></p>
+	    </div> -->
+	    <div class="mid">
+	    	<br/>
+	    	
+	          <FORM id="formsignup" name="signup" class="thickbox" action="signmeup.php" title="Nice title" method="post">
+	            <div class="col-xs-7 col-sm-6">
+		           <p>Which packages interest you:</p>
+		           <div class="packagebox">
+		               <h5>Corporate</h5>
+		               <table border="0" cellspacing="0" cellpadding="0">
+		                  
+		                    
+		                    <tr>
+		                        <td><input class="chkbox" type="checkbox" name="corp1mbps" value="true" id="corp1mbps"  /></td>
+		                        <td><label for="corp1mbps"><strong>1mbps</strong> $59 per month</label></td>
+		                    </tr>
+		                    <tr>
+		                        <td><input class="chkbox" type="checkbox" name="corp2mbps" value="true" id="corp2mbps"  /></td>
+		                        <td><label for="corp2mbps"><strong>2mbps</strong> $118 per month</label></td>
+		                    </tr>
+		                    <tr>
+		                        <td><input class="chkbox" type="checkbox" name="corp3mbps" value="true" id="corp3mbps"  /></td>
+		                        <td><label for="corp3mbps"><strong>3mbps</strong> $177 per month</label></td>
+		                    </tr>
+		                    <tr>
+		                        <td><input class="chkbox" type="checkbox" name="corp4mbps" value="true" id="corp4mbps"  /></td>
+		                        <td><label for="corp4mbps"><strong>4mbps</strong> $236 per month</label></td>
+		                    </tr>
+		                    <tr>
+		                        <td><input class="chkbox" type="checkbox" name="corp5mbps" value="true" id="corp5mbps"  /></td>
+		                        <td><label for="corp5mbps"><strong>5mbps</strong> $285 per month</label></td>
+		                    </tr>
+		                </table>
+		                <div class="clearleft"></div>
+		            </div>
+		            <div class="packagebox" style="margin:0;">
+		                <h5>Premium</h5>
+		                <table border="0" cellspacing="0" cellpadding="0">
+		                    
+		                   
+		                    <tr>
+		                        <td><input class="chkbox" type="checkbox" name="prem1mbps" value="true" id="prem1mbps"  /></td>
+		                        <td><label for="prem1mbps"><strong>1mbps</strong> $40 per month</label></td>
+		                    </tr>
+		                    <tr>
+		                        <td><input class="chkbox" type="checkbox" name="prem2mbps" value="true" id="prem2mbps"  /></td>
+		                        <td><label for="prem2mbps"><strong>2mbps</strong> $80 per month</label></td>
+		                    </tr>
+		                    <tr>
+		                        <td><input class="chkbox" type="checkbox" name="prem3mbps" value="true" id="prem3mbps"  /></td>
+		                        <td><label for="prem3mbps"><strong>3mbps</strong> $120 per month</label></td>
+		                    </tr>
+		                    <tr>
+		                        <td><input class="chkbox" type="checkbox" name="prem4mbps" value="true" id="prem4mbps"  /></td>
+		                        <td><label for="prem4mbps"><strong>4mbps</strong> $160 per month</label></td>
+		                    </tr>
+		                	
+		                     <tr>
+		                        <td><input class="chkbox" type="checkbox" name="prem5mbps" value="true" id="prem5mbps"  /></td>
+		                        <td><label for="prem5mbps"><strong>5mbps</strong> $200 per month</label></td>
+		                    </tr>
+		                </table>
+		            
+		            <div class="clearleft"></div>
+		            </div>
+	           </div>
+
+	           <div class="col-xs-7 col-sm-6">
+		          <div id="emailform">
+		              <h5>Contact Us</h5>
+		              
+		              <p>Call us now on <strong>023 228 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
+		               <label for="eml_name">Full Name:</label> <input type="text" name="eml_name" value="" id="eml_name" /><br />
+		               <label for="eml_email">Email Address:</label> <input type="text" name="eml_email" value="" id="eml_email" /><br />
+		               <label for="eml_phone">Phone Number:</label> <input type="text" name="eml_phone" value="" id="eml_phone" /><br />
+		               <label for="eml_details">Connection Details:</label> <textarea rows="4" name="eml_details" id="eml_details"></textarea>
+		               <label for="eml_details" style="width:auto;"><input type="button" name="close" value="Close" class="btn btn-default submit" id="eml_close" title="Close" />
+		               <input type="button" value="SUBMIT" id="eml_submit" class="btn btn-default submit"/></label>
+		               
+
+		               
+		           </div>
+		       </div>
+		      
+	          </FORM>
+	    	
+	        <br/>
+	    </div>
+
+	    <div class="bottom"></div>
+	</div>
+
+</div>
+
+
+
+
+
+
+  
+<script type="text/javascript">
+	jQuery(function($) {
+		$("#eml_submit").click(function(){
+			get();
+		});
+
+		$('#eml_close').click(function(e) {
+            $('.morehover').toggle('500');
+			$('.help_morehover').hide('500');
+
+        });
+		
+		$('#more-btn').click(function() {
+			$('.morehover').toggle('500');
+			$('.help_morehover').hide('500');
+		});
+		
+		$('#more-btn-over').click(function() {
+				$('.morehover').toggle('500');
+				$('.help_morehover').hide('500');
+
+
+				
+				
+		});
+	});
+	function get(){
+		
+		var isok = false;
+		var arrayMessages = new Object();
+	
+		arrayMessages['full_name'] = "Please give your full name";
+		arrayMessages['your_tele_number'] = "Please give your phone number";
+		arrayMessages['your_tele_number_incorrect'] = "Please give a correct phone number";
+		arrayMessages['email'] = "Please give your email address";
+		arrayMessages['email_incorrect'] = "Please enter a correct email address";
+		arrayMessages['details'] = "";
+		arrayMessages['security_code'] = "Please enter security code";
+		arrayMessages['security_code_incorrect'] = "Please enter a correct security code";
+	
+		isok = ValidForm(arrayMessages);
+	
+	
+		if(isok==true){
+		var packages = getCheckFields();
+		var poststr = "full_name=" + encodeURI(document.getElementById("eml_name").value)
+		+ "&email=" + encodeURI(document.getElementById("eml_email").value)
+		+ "&tele=" + encodeURI(document.getElementById("eml_phone").value)
+		+ "&details=" + encodeURI(document.getElementById("eml_details").value) + packages;
+	
+		sendRequest(poststr);
+		clear_form_elements();
+		 //reloadCaptcha('1');
+		}
+		//alert (sendRequest(poststr));
+	}
+	function getCheckFields(){
+		var orderedPack = "";
+		
+		
+		if(document.signup.corp1mbps.checked){
+			orderedPack += "&corp1mbps=$118";
+		}
+	
+		if(document.signup.corp2mbps.checked){
+			orderedPack += "&corp2mbps=$177";
+		}
+	
+		if(document.signup.corp3mbps.checked){
+			orderedPack += "&corp3mbps=$236";
+		}
+		if(document.signup.corp4mbps.checked){
+			orderedPack += "&corp4mbps=$285";
+		}
+		if(document.signup.corp5mbps.checked){
+			orderedPack += "&corp5mbps=$59";
+		}
+	
+	
+	
+		
+	
+		if(document.signup.prem1mbps.checked){
+			orderedPack += "&prem1mbps=$80";
+		}
+	
+		if(document.signup.prem2mbps.checked){
+			orderedPack += "&prem2mbps=$120";
+		}
+		if(document.signup.prem3mbps.checked){
+			orderedPack += "&prem3mbps=$160";
+		}
+		if(document.signup.prem4mbps.checked){
+			orderedPack += "&prem4mbps=$200";
+		}
+		if(document.signup.prem5mbps.checked){
+			orderedPack += "&prem5mbps=$40";
+		}
+		return orderedPack;
+	}
+
+</script>
+<style type="text/css">
+    label{
+        display: inline-block !important;
+    }
+</style>
+<!-- <div id="help_more-btn">
+	<p><a></a></p>
+</div> -->
+<div class="container">
+    <div class="custom">
+        <div class="row">
+        <div class="help_morehover col-lg-4" >
+   <!--  <div class="help_top" id="help_more-btn-over">
+    	<p></p>
+    </div> -->
+            <div class="col-sm-12 col-md-12 col-xs-6">
+                <div class="help_mid">
+
+                	<div style="margin-left:auto; margin-right:auto;" class="col-lg-12">
+                    	<br/>
+                    	<h5>HELP ME CHOOSE AN INTERNET PACKAGE</h5>
+                        <br/>
+                         
+            				            					<p><strong>What kind of user are you?</strong><p>
+                                <div class="col-lg-12">
+                                <form action="/index.php/en/" id="step1" name="step1" class="thickbox" title="Nice title" method="post">
+                                    
+                                     <label for="home"><input type="radio" name="user" value="home" id="home"/> I use the internet at home</label><br />
+                                     <label for="homeoffice"><input type="radio" name="user" value="homeoffice" id="homeoffice"/> I work at home and need the internet for work and leisure</label><br />
+                                     <label for="smalloffice"><input type="radio" name="user" value="smalloffice" id="smalloffice"/> I work in a small office (less than 10 people)</label><br />
+                                     <label for="largeoffice"><input type="radio" name="user" value="largeoffice" id="largeoffice"/> I work in a large office (more than 10 people)</label><br />
+                                    <hr />
+                                    
+                                    <input type="submit" name="submit" value="NEXT" class="btn btn-default submit" />
+                                    <input type="button" name="close" value="Close" class="btn btn-default submit" id="btn_close" title="Close"/>
+                                    
+                                </form>
+                                </div>
+            				            			                      
+                        
+                        
+                        
+                	</div>
+                    <br/>
+                </div>
+            </div>
+    <!-- <div class="help_bottom"></div> -->
+  </div>
+        </div>
+    </div> 
+</div> 
+<script type="text/javascript">
+	
+	jQuery(function($) { 
+		if(document.forms['formname'] || document.forms['formheplmechoosepackage']){
+			$('.help_morehover').toggle('500');
+		}
+		
+		/*$(".submit").click(function(){
+			if($('input[name=user]:checked').length<=0)
+			{
+				 alert("Please select at least one option!");
+				 return false;
+			}
+			else if($('input[name=largeoffice[]]:checked').length<=0){
+				
+				 alert("Please select at least one option!");
+				 return false;
+			}
+			else if($('input[name=smalloffice[]]:checked').length<=0){
+				
+				 alert("Please select at least one option!");
+				 return false;
+			}
+			else if($('input[name=homeoffice[]]:checked').length<=0){
+				
+				 alert("Please select at least one option!");
+				 return false;
+			}
+			else if($('input[name=homeuser[]]:checked').length<=0){
+				
+				 alert("Please select at least one option!"); 
+				 return false;
+			}
+		});*/
+        // chhenghong added
+		$('#btn_close').click(function(e) {
+             if (e.keyCode === 27 ) { // ESC
+                    $('.help_morehover').toggle('500');
+                }else{
+                    $('.help_morehover').toggle('500');
+                }
+           
+        });
+
+        // end chhenghong code
+
+
+		
+		$('#help_more-btn').click(function() {
+			$('.help_morehover').toggle('500');
+		});
+		
+		$('#help_more-btn-over').click(function() {
+				$('.help_morehover').toggle('500');
+
+                $('.morehover').hide('500');
+               
+                
+		});
+		
+		$("#eml_Help_submit").click(function(){
+			getMs();
+		});
+	});
+            
+	function getMs() {
+		// alert("Hello");
+		var isok1 = false;
+		var arrayMessages = new Object();
+		arrayMessages['full_help_name'] = "Please give your full name";
+		arrayMessages['your_help_tele_number'] = "Please give your phone number";
+		arrayMessages['your_help_tele_number_incorrect'] = "Please give a correct phone number";
+		arrayMessages['email_help'] = "Please give your email address";
+		arrayMessages['email_help_incorrect'] = "Please enter a correct email address";
+		arrayMessages['details_help'] = "Please give your details";
+		arrayMessages['security_help_code'] = "Please enter security code";
+		arrayMessages['security_help_code_incorrect'] = "Please enter a correct security code";
+		isok1 = ValidForm1(arrayMessages);
+		if(isok1 == true){
+		
+			var packages = "";
+			var poststr1 = "full_help_name=" + encodeURI(document.getElementById("eml_help_name").value)
+			+ "&email_help=" + encodeURI(document.getElementById("eml_help_email").value)
+			+ "&tele_help=" + encodeURI(document.getElementById("eml_help_phone").value)
+			+ "&details_help=" + encodeURI(document.getElementById("eml_help_details").value) + packages;
+	
+			sendRequest2(poststr1);
+			clear_form_elements2();
+		}
+	}
+</script>
+
+
+<div class="custom"  >
+	<div class="row" style="margin-top: -50px;">
+<div class="col-sm-12 col-md-6 col-xs-12"><img class="img-responsive" src="images/homepage/lady_new.png" alt="Ezecom Call to Action" width="250" height="301" /></div>
+<div class="col-sm-12 col-md-6 col-xs-12" style="margin-top: -90px;">
+<div class="col-sm-12 col-md-6 col-xs-12">
+<div class="col-xs-12 col-sm-12 col-md-12">
+<blockquote>
+<h3> </h3>
+</blockquote>
+ </div>
+<div id="help_more-btn-over" class="help_top"><br /><br /><br /><br /><br /><br /><br />
+<div class="imghelphover"> </div>
+</div>
+<h3>Help Me Choose</h3>
+<p style="font-size: 14px; color: #444;">Tell us your requirement to get the best suitable internet package.</p>
+</div>
+<div class="col-sm-12 col-md-6 col-xs-12">
+<div class="col-xs-12 col-sm-12 col-md-12">
+<blockquote>
+<h3> </h3>
+</blockquote>
+ </div>
+<div id="more-btn-over" class="top"><br /><br /><br /><br /><br /><br /><br />
+<div class="imghover"> </div>
+</div>
+<h3>Sign Me Up</h3>
+<p style="font-size: 14px; color: #444;">Let us know your interest on our package choice and keep in touch with our latest update.</p>
+</div>
+</div>
+</div></div>
+
+			</div>
+		</div>
+		<!-- //HOME SL 2 -->
+	        <section class="t3-home-3">       
+			<!-- HOME SL 3 -->
+		<div class="wrap t3-sl t3-sl-3 ">
+			<div class="container">
+				
+
+<div class="custom"  >
+	<div style="height: 20px; width: 100%;"> </div>
+<div class="container-fluid">
+<div class="col-xs-12 col-sm-6 col-md-4">
+<div class="newandeventhover"> </div>
+<h3><a href="/index.php/en/media-center/news-and-events">News and Events</a></h3>
+<p style="font-size: 14px; color: #444;">Check this section for the latest on EZECOM events. Our sponsorship and our latest partnerships.</p>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4">
+<div class="livecamerahover"> </div>
+<h3><a href="/index.php/en/media-center/live-traffic-camera">Live Traffic Camera</a></h3>
+<p style="font-size: 14px; color: #444;">Always know what is happening. Thanks to EZECOM's traffic camera in Phnom Penh.</p>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4">
+<div class="liveradiohover"> </div>
+<h3><a href="/index.php/en/media-center/live-radio">Live Radio</a></h3>
+<p style="font-size: 14px; color: #444;">Click here to listen to your best favorite radio stations live stream in Cambodia.</p>
+</div>
+</div>
+<div style="height: 20px; width: 100%;"> </div></div>
+
+			</div>
+		</div>
+		<!-- //HOME SL 3 -->
+	        </section>
+			<!-- HOME SL 4 -->
+		<div class="wrap t3-sl t3-sl-4 ">
+			<div class="container">
+				
+
+<div class="custom"  >
+	<div class="custom" style="margin-top: -31px;">
+<div class="container module-content-container">
+<h2 style="color: #7c5ca8; font-weight: 400;"> Our Services</h2>
+<div class="col-xs-12 col-sm-12 col-md-2"> </div>
+<div class="col-xs-12 col-sm-12 col-md-8">
+<p style="font-size: 14px !important; color: #444; line-height: 25px;">EZECOM offers you the best available packages to fulfill your needs, from specially designed packages for your resident to international dedicated connections and your global enterprise solutions - click here for more packages information.</p>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4"> </div>
+<br />
+<div class="col-xs-12 col-sm-12 col-md-12"> 
+<div class="col-xs-12 col-sm-12 col-md-2"> </div>
+<div class="col-xs-12 col-sm-12 col-md-4">
+<div class="ourinternethover"><a href="/index.php/en/our-services"> </a></div>
+<h3><a href="/index.php/en/our-services">Our Internet</a></h3>
+<p style="font-size: 14px; color: #444444;"> </p>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4">
+<div class="enterprisesolutions"> </div>
+<h3><a href="/index.php/en/enterprise-solutions">Enterprise Solutions</a></h3>
+<p style="font-size: 14px; color: #444444;"> </p>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-2"> </div>
+</div>
+</div>
+</div></div>
+
+			</div>
+		</div>
+		<!-- //HOME SL 4 -->
+	
+			<!-- HOME SL 5 -->
+		<div class="wrap t3-sl t3-sl-5 ">
+			<div class="container">
+				<div class="mod_simple_marquee" id="mod_simple_marquee_643">
+    <a name="marqueeconfig" rel="pauseOnHover=1|direction=left|duration=10000"></a>
+
+    <div class="mod_simple_marquee_content">On February 22, 2017, <b>Samdach Akka Moha Sena Padei Techo Hun Sen, Prime Minister of Kingdom of Cambodia</b>  re-informed the public that “All Microfinance institutions belong to private sector not to government.”</div>
+</div>
+			</div>
+		</div>
+		<!-- //HOME SL 5 -->
+	
+</div>
+
+<!-- FOOTER -->
+	<?php 
+		$this->load->view('footer/footer_user_v');
+	?>
+<!-- END FOOTER-->
+
+<!-- BACK TOP TOP BUTTON -->
+ 
+<div id="back-to-top" data-spy="affix" data-offset-top="300" class="back-to-top hidden-xs hidden-sm affix-top">
+ 
+  <button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-up"></i></button>
+ 
+</div>
+ 
+<script type="text/javascript">
+ 
+(function($) {
+ 
+	// Back to top
+ 
+	$('#back-to-top').on('click', function(){
+ 
+		$("html, body").animate({scrollTop: 0}, 500);
+ 
+		return false;
+ 
+	});
+ 
+})(jQuery);
+ 
+</script>
+ 
+<!-- BACK TO TOP BUTTON -->
+
+
+
+
+</div>  
+    
+
+</body>
+</body>
+</html>
