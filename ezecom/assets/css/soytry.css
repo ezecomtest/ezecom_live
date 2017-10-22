@@ -1372,11 +1372,38 @@ a#tab-customer-services.rl_tabs-toggle.nn_tabs-toggle{
 	margin-left:60px;
 }
 
-.container ul li{
+.container .ezesurf .block_ezesurf ul li{
 	list-style-type:none;
 	padding-right:58px;
 	padding-bottom:40px;
 	display:inline;
+}
+
+/* bonus speed */
+h3.bonus_speed{
+	background-color:#919191;
+	color:#FFFFFF;
+	padding:25px 10px 25px 10px;
+	width:20%;
+	float:left;
+}
+.container .container_speed{
+	width:100%;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.container .block_bonus_speed{
+	width:auto;
+	float:left;
+	margin-top:20px;
+}
+.container .block_bonus_speed ul{
+	margin-top:11px;
+	margin-left:-27px;
+}
+.container .block_bonus_speed ul li{
+	list-style-type:none;
+	display:inline-block;
 }
 
 

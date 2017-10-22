@@ -1694,6 +1694,27 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 						</div>
 					</div>
 			</div>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-10">
+					<div class="container_speed">
+						<h3 class="bonus_speed">Bonus Speed</h3>
+						<div class="block_bonus_speed">
+							<ul>
+								<li><img class="img-responsive" src="<?php echo base_url()?>images/EzeSurf/five-hundred.png"/></li>
+								<li><img class="img-responsive" src="<?php echo base_url()?>images/EzeSurf/youtube.png"/></li>
+								<li><img class="img-responsive" src="<?php echo base_url()?>images/EzeSurf/fb.png"/></li>
+								<li><img class="img-responsive" src="<?php echo base_url()?>images/EzeSurf/playstore.png"/></li>
+								<li><img class="img-responsive" src="<?php echo base_url()?>images/EzeSurf/appstore.png"/></li>
+								<li><img class="img-responsive" src="<?php echo base_url()?>images/EzeSurf/ezetv.png"/></li>
+								<li><img class="img-responsive" src="<?php echo base_url()?>images/EzeSurf/more.png"/></li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			</div>
 		</div>
 
 	</div>
