@@ -1472,7 +1472,7 @@ h3.bonus_speed{
 }
 @media screen and (max-width: 375px){
    h1.condition{
-		font-size:25px;
+		font-size:10px;
 	}
 }
 
@@ -1481,6 +1481,17 @@ h3.bonus_speed{
 	padding-bottom:5px;
 	text-align:justify;
 }
+
+/* ----------- EzeTV ------------ */
+.container .ezetv_plan ul{
+	margin-left:45px;
+	padding-top:30px;
+}
+.container .ezetv_plan ul li{
+	list-style-type:none;
+	display:inline-block;
+}
+
 
 
 

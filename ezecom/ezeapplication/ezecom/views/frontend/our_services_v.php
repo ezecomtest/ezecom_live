@@ -1687,9 +1687,9 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 					<div class="ezesurf">
 						<div class="block_ezesurf">
 							<ul>
-								<li><img src="<?php echo base_url()?>images/EzeSurf/3mb.gif"/></li>
-								<li ><img src="<?php echo base_url()?>images/EzeSurf/6mb.gif"/></li>
-								<li><img src="<?php echo base_url()?>images/EzeSurf/10mb.gif"/></li>
+								<li><img src="<?php echo base_url()?>images/EzeSurf/3mb.png"/></li>
+								<li ><img src="<?php echo base_url()?>images/EzeSurf/6mb.png"/></li>
+								<li><img src="<?php echo base_url()?>images/EzeSurf/10mb.png"/></li>
 							</ul>
 						</div>
 					</div>

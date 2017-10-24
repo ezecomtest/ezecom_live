@@ -203,6 +203,7 @@ $route['contact-us'] = 'frontend/contact_us_c/contact_us';
 
 $route['our-services'] = 'frontend/our_services_c/our_services';
 $route['ezesurf'] = 'frontend/our_services_c/ezesurf';
+$route['ezetv'] = 'frontend/Ezetv/ezetv_service';
 
 // end our services
 
