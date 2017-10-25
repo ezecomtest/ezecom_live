@@ -1670,7 +1670,7 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 
 
 <div class="custom">
-	<div id="corporate-package" class="container-fluid">
+	<div id="EzeSurf" class="container-fluid">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-2">&nbsp;</div>
@@ -1718,7 +1718,7 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 			<div class="row">
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
-					<h1 class="condition">TERMS & CONDITIONS</h1>
+					<h1 class="condition"><b>TERMS & CONDITIONS</b></h1>
 					<div class="terms_condition">
 						<ul>
 							<li> No deposit required</li>

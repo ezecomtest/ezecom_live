@@ -1470,9 +1470,19 @@ h3.bonus_speed{
 	line-height:33px;
 	
 }
+.container .terms_condition{
+	margin-top:-9px;
+}
+ h1.condition{
+	font-size:18px;
+	color:#58595B;
+	margin-left:-4px;
+}
+	
 @media screen and (max-width: 375px){
    h1.condition{
 		font-size:10px;
+		color:#58595B;
 	}
 }
 
@@ -1486,6 +1496,7 @@ h3.bonus_speed{
 .container .ezetv_plan ul{
 	margin-left:45px;
 	padding-top:30px;
+	padding-bottom:0;
 }
 .container .ezetv_plan ul li{
 	list-style-type:none;

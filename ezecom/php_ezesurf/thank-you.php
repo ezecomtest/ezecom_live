@@ -65,7 +65,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <script>
 setTimeout(function () {
-   window.location.href = "https://www.ezecom.com.kh/ddos-mitigation-service/"; //will redirect to your blog page (an ex: blog.html)
+   window.location.href = "https://www.ezecom.com.kh/our-services#EzeSurf"; //will redirect to your blog page (an ex: blog.html)
 }, 4000);
 </script>
 

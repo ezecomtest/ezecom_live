@@ -212,7 +212,7 @@ jQuery(document).ready(function(){
                    <h4 style="font-size: 18px;color:#333;"><img src="<?php echo base_url()?>images/EzeSurf/message.png"/> websales@ezecom.com.kh </h4>
                 </div>
                 <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.5s">
-<form class="form-horizontal" action="<?php echo base_url()."ezesurf" ?>" method="POST">
+<form class="form-horizontal" action="<?php echo base_url()."ezetv-signup" ?>" method="POST">
     <div class="form-group">
       <label class="control-label col-sm-4" for="email">Name</label>
       <div class="col-sm-8">
