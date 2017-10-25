@@ -99,6 +99,7 @@ jQuery(document).ready(function(){
 <!-- <li class="item-1726"><a href="<?php echo base_url()?>enterprise-solution#BeeDoo"><div class="icon_BeeDoo"></div> BeeDoo </a></li> -->
 <li class="item-1728"><a href="<?php echo base_url()?>enterprise-solution#web-hosting"><div class="icon_web_hosting"></div>Hosting </a></li>
 <li class="item-1729"><a href="<?php echo base_url()?>ddos-mitigation-service/"><div class="icon_ddos"></div>DDos Mitigation</a></li>
+<li class="item-1717"><a href="<?php echo base_url()?>ezetv/"><div class="icon_ezetv"></div>EzeTV</a></li>
 </ul>
 </div></div>
 
