@@ -1130,6 +1130,52 @@ a#tab-customer-services.rl_tabs-toggle.nn_tabs-toggle{
 	background-repeat: no-repeat;
 	background-image:url(../../images/menuicon/icon-DDoS_Mitigation_hover.png);
 }
+.icon_ezetv{
+	margin:0 auto;
+	display: block;
+	padding:5px;
+	width:50px;
+	margin-top: 8px;
+	text-align: center;
+	height:50px;
+	background-repeat: no-repeat;
+	background-image:url(../../images/menuicon/icon-ezetv.png);
+}
+.icon_ezetv:hover{
+	margin:0 auto;
+	display: block;
+	padding:5px;
+	width:50px;
+	margin-top: 8px;
+	text-align: center;
+	height:50px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-image:url(../../images/menuicon/icon-ezetv-hover.png);
+}
+.icon_ezesurf{
+	margin:0 auto;
+	display: block;
+	padding:5px;
+	width:50px;
+	margin-top: 8px;
+	text-align: center;
+	height:50px;
+	background-repeat: no-repeat;
+	background-image:url(../../images/menuicon/icon-ezesurf.png);
+}
+.icon_ezesurf:hover{
+	margin:0 auto;
+	display: block;
+	padding:5px;
+	width:50px;
+	margin-top: 8px;
+	text-align: center;
+	height:50px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-image:url(../../images/menuicon/icon-ezesurf-hover.png);
+}
 
 .icon_customer_service{
 	margin:0 auto;

@@ -94,6 +94,7 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 <li class="our-service-item-1728"><a href="<?php echo base_url()?>our-services#premium-package"><div class="premium_package"></div>Premium</a></li>
 <li class="our-service-item-1729"><a href="<?php echo base_url()?>our-services#voip"><div class="voip"></div>VoIP</a></li>
 <li class="our-service-item-1730"><a href="<?php echo base_url()?>our-services#exlusive"><div class="borey-icon"></div>Exclusive</a></li>
+<li class="our-service-item-1718"><a href="<?php echo base_url()?>our-services#EzeSurf"><div class="icon_ezesurf"></div>EzeSurf</a></li>
 </ul>
 </div></div>
 
