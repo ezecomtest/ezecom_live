@@ -1723,96 +1723,21 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 					<div class="terms_condition">
 						<ul>
 							<li> No deposit required</li>
-							<li> $50 Installation fee</li>
-							<li> Standard Conditions of EZECOM apply</li>
-							<li> Minimum Contract duration 1 year</li>
-							<li> Up and download speeds are asymmetrical</li>
-							<li> Including free modem rental</li>
-							<li> Prices are including 10% VAT</li>
+							<li> Free modem / TV box rental</li>
+							<li> 6 months upfront (payment is required)</li>
+							<li> Other conditions apply</li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-2"></div>
 			</div>
-			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-8">
-					<p class="offer_best">
-						We offer the best available internet packages to fit your residential and home requirements. Experience the best internet performance, contact our sales team or visit our website for more information.
-					</p>
-				</div>
-				<div class="col-md-2"></div>
-			</div>
+			
 		</div>
 
 	</div>
 </div>
 
 </div>
-
-<!-- start sign up now -->
-<div class="things" style="min-height:10px !important;">
-
-<div class="container" style="padding-top:14px">
-
-    <div class="container tvc-wrap " >
-                <div class="col-md-8 wow fadeInUp" data-wow-delay="0.5s" >
-                   <h4 style="color: #7961ab;font-size:30px;margin-bottom: 30px;">Sign Up Now <br/>
-					<p style="padding-top:10px;font-size:25px">or contact us</p>
-				   </h4>
-				   
-                   <h4 style="font-size:18px;color:#333;"><img src="<?php echo base_url()?>images/EzeSurf/phone.png"/> 023 888 181 | 085 888 181</h4>
-                   <h4 style="font-size: 18px;color:#333;"><img src="<?php echo base_url()?>images/EzeSurf/message.png"/> websales@ezecom.com.kh </h4>
-                </div>
-                <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.5s">
-<form class="form-horizontal" action="<?php echo base_url()."ezesurf" ?>" method="POST">
-    <div class="form-group">
-      <label class="control-label col-sm-4" for="email">Name</label>
-      <div class="col-sm-8">
-        <input type="text" class="form-control" id="name" name="name" style="height:30px" required="">
-      </div>
-    </div>
-    <div class="form-group">
-      <label class="control-label col-sm-4" for="pwd">Mobile</label>
-      <div class="col-sm-8">          
-        <input type="text" class="form-control" id="mobile" name="mobile" style="height:30px" required="">
-      </div>
-    </div>
-    <div class="form-group">
-      <label class="control-label col-sm-4" for="pwd">E-mail</label>
-      <div class="col-sm-8">          
-        <input type="text" class="form-control" id="email" name="email" style="height:30px" required="">
-      </div>
-    </div>
-    <div class="form-group">
-      <label class="control-label col-sm-4" for="pwd">Desciptions</label>
-      <div class="col-sm-8">          
-        <textarea class="form-control" rows="2" id="comment" name="desciption" style="height:50px"></textarea>
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label class="control-label col-sm-4" for="pwd"></label>
-      <div class="col-sm-8">          
-        <div class="g-recaptcha" data-sitekey="6LegbCMTAAAAANeFxea47OaPqcjZocO2CwUhFPt9"></div>
-      </div>
-    </div>
-
-    
-    <div class="form-group">        
-      <div class="control-label col-sm-7">
-        <button type="submit" class="btn btn-default" style="background: #7961ab;border-radius: 5px;color: #fff;">Submit</button>
-      </div>
-    </div>
-  </form>
-  <script src='https://www.google.com/recaptcha/api.js'></script>
-                </div>
-</div>
-
-</div>
-</div>
-<!-- end sign up now -->
-
 
 
 <!-- //HOME SL 1 -->

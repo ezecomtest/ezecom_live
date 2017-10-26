@@ -1749,12 +1749,9 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 					<div class="terms_condition">
 						<ul>
 							<li> No deposit required</li>
-							<li> $50 Installation fee</li>
-							<li> Standard Conditions of EZECOM apply</li>
-							<li> Minimum Contract duration 1 year</li>
-							<li> Up and download speeds are asymmetrical</li>
-							<li> Including free modem rental</li>
-							<li> Prices are including 10% VAT</li>
+							<li> Free modem / TV box rental</li>
+							<li> 6 months upfront (payment is required)</li>
+							<li> Other conditions apply</li>
 						</ul>
 					</div>
 				</div>
@@ -1775,17 +1772,19 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 </div>
 
 </div>
-		<!-- //HOME SL 1 -->
-	 <!-- HOME SL 5 -->
-		<div class="wrap t3-sl t3-sl-5 ">
-			<marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="12">
-				<?php foreach($feature_content as $feature){ ?>
-					<a target="_blank" href="<?php echo base_url('newsdetail/').strtolower(str_replace(' ', '-' ,$feature->content_title)) ?>"><?php echo $feature->content_title.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' ?></a>
-				<?php } ?>
-			</marquee>
 
-		</div>
-		<!-- //HOME SL 5 -->
+
+<!-- //HOME SL 1 -->
+<!-- HOME SL 5 -->
+<div class="wrap t3-sl t3-sl-5 ">
+	<marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="12">
+		<?php foreach($feature_content as $feature){ ?>
+			<a target="_blank" href="<?php echo base_url('newsdetail/').strtolower(str_replace(' ', '-' ,$feature->content_title)) ?>"><?php echo $feature->content_title.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' ?></a>
+		<?php } ?>
+	</marquee>
+
+</div>
+<!-- //HOME SL 5 -->
 </div> 
 <!-- FOOTER -->
 <?php $this->load->view("footer/footer_user_v")?>
