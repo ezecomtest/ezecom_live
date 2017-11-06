@@ -146,7 +146,7 @@ class Index extends CI_Controller {
 		  $this->email->from('developer@ezecom.com.kh','Website EZECOM');
 		  $this->email->to('websales@ezecom.com.kh','kimba@ezecomcorp.com');
 		  //$this->email->to('eang.chhenghong@ezecomcorp.com');
-		  $this->email->cc("sour.piset@ezecomcorp.com");
+		  //$this->email->cc("sour.piset@ezecomcorp.com");
 		  $this->email->subject("HELP ME CHOOSE AN INTERNET PACKAGE");
 
 		  $contain = "\n"."Dear Sir/Madam, "."\n\n" .
@@ -202,7 +202,7 @@ class Index extends CI_Controller {
 		  $this->email->from('developer@ezecom.com.kh','Website EZECOM');
 		  $this->email->to('websales@ezecom.com.kh','kimba@ezecomcorp.com');
 		  //$this->email->to('eang.chhenghong@ezecomcorp.com');
-		  $this->email->cc("sour.piset@ezecomcorp.com");
+		  //$this->email->cc("sour.piset@ezecomcorp.com");
 		  $this->email->subject("SIGN ME UP");
 
 		$package = $this->input->post("package");
