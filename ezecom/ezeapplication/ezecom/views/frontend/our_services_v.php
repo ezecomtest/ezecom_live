@@ -1671,8 +1671,8 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 
 
 <div class="custom">
-	<div id="EzeSurf" class="container-fluid">
-		<div class="container">
+	<div id="EzeSurf" class="container-fluid bg-color-gray">
+		<div class="container ">
 			<div class="row">
 				<div class="col-sm-2">&nbsp;</div>
 				<div class="col-xs-12 col-sm-12 col-md-8 ">
