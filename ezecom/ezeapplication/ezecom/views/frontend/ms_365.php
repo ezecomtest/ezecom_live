@@ -332,7 +332,7 @@ are secure.</p>
                    <h4 style="font-size: 18px;">E-mail: websales@ezecom.com.kh </h4>
                 </div>
                 <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.5s">
-<form class="form-horizontal" action="http://dev.ezecom.com.kh/ddos-mitigation-services/sending.php" style="margin-right:59px;margin-top:20px" method="POST">
+<form class="form-horizontal" action="<?php echo base_url()?>365/sending.php" style="margin-right:59px;margin-top:20px" method="POST">
     <div class="form-group">
       <label class="control-label col-sm-4" for="email">Name</label>
       <div class="col-sm-8">

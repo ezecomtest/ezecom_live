@@ -20,7 +20,8 @@ class Homepage_m extends CI_Model{
         $this->db->join("tbl_languages","tbl_slider.slide_language_id = tbl_languages.lang_id");
         $this->db->where("tbl_slider.slide_published",1);
         $this->db->where("tbl_languages.lang_id",$sessionid);
-        $this->db->order_by("slideid", "DESC");
+        $this->db->order_by("order_by", "ASC");
+		$this->db->limit('4');
         $sql = $this->db->get();
         return $sql->result();
     }
