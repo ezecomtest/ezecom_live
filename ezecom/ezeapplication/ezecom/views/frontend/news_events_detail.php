@@ -54,6 +54,12 @@ jQuery(window).on('load',  function() {
 <meta name="apple-mobile-web-app-capable" content="YES">
 <!-- //META FOR IOS & HANDHELD -->
 
+<!-- slide next and previous -->
+<link rel="stylesheet" href="<?php echo base_url()?>assets/news-event-slide/css/infinityCarousel.css">
+<script src="<?php echo base_url()?>assets/news-event-slide/js/vendor/modernizr.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="<?php echo base_url()?>assets/news-event-slide/js/infinityCarousel.js"></script>
+
 
 
 
@@ -139,52 +145,64 @@ jQuery(window).on('load',  function() {
 
 <div id="news_&_events" class="&quot;container-fluid">
 <div id="t3-mainbody" class="container t3-mainbody">
-
-<div class="row">
-
+	<div class="row">
 		<!-- MAIN CONTENT -->
 		<div id="t3-content" class="t3-content col-xs-12">
-			<div class="blog" itemscope="" >
-
-			<h3><?php echo $news_events['content_title']; ?></h3>
-		<div class="blog-items clearfix">
-				
-			<div class="row">
-			<div class="col-sm-12" itemprop="blogPost" itemscope="" style="text-align: justify;font-size: 14px;"><br/>
-					<?php echo $news_events['content_description']; ?>
+			<div class="blog">
+				<h3><?php echo $news_events['content_title']; ?></h3>
+				<div class="blog-items clearfix">
+					<div class="row">
+						<div class="col-sm-12" itemprop="blogPost" itemscope="" style="text-align: justify;font-size: 14px;"><br/>
+							<?php echo $news_events['content_description']; ?>
+						</div>
+					</div>		
+				</div>
 			</div>
-		
-</div>		
-</div>
-
-
-
-	</div>
 		</div>
+		<!-- slide news and event -->
+		<div id="t3-content" class="t3-content col-xs-12">
+			<strong>News and Events</strong>
+			<div class="infinity-carousel">
+				  <button class="nav prev"></button>
+				  <button class="nav next"></button>
+				  <div class="center">
+						<div class="slides">
+						  <div> 
+							<!-- anything in here -->
+							<div class="img-wrap"><img src="<?php echo base_url()?>assets/news-event-slide/images/EzeTV-EzeSurf-product.png" alt=""></div>
+							<h3 style="text-align:center">Header 1</h3>
+							<!--<p class="text">Text 1</p>-->
+						  </div>
+						  <div> 
+							<!-- anything in here -->
+							<div class="img-wrap"><img src="<?php echo base_url()?>assets/news-event-slide/images/EzeTV-EzeSurf-product.png" alt=""></div>
+							<h3 style="text-align:center">Header 2</h3>
+						  </div>
+						  <div> 
+							<!-- anything in here -->
+							<div class="img-wrap"><img src="<?php echo base_url()?>assets/news-event-slide/images/EzeTV-EzeSurf-product.png" alt=""></div>
+							<h3 style="text-align:center">Header 3</h3>
+						  </div>
+						  <div>
+							<div class="img-wrap"><img src="<?php echo base_url()?>assets/news-event-slide/images/EzeTV-EzeSurf-product.png" alt=""></div>
+							<h3 style="text-align:center">Header 4</h3>
+						  </div>
+						</div>
+			     </div>
+			</div>
+		</div> <!-- end of block slide -->
 	</div>
 </div> 
-			<!-- HOME SL 5 -->
-
-	
-<!-- <div class="custom"  >
-	<div class="container-fluid" style="background: #E2E3E4;">
-<div class="container module" style="color: #444; font-size: 14px;">
-<p><b>Partners:</b></p>
-<p style="padding-left: 50px;"><a target="_new" href="http://northparkcondo.net/"><img class="img-responsive" src="<?php echo base_url();?>images/homepage/northpark_logo.png" alt="Ezecom Call to Action" /></a></p>
-<div style="height: 20px; width: 100%;"> </div>
 </div>
-</div></div>	 -->	
 
-</div>
 <!-- HOME SL 5 -->
-    <div class="wrap t3-sl t3-sl-5 ">
-      <marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="12">
-        <?php foreach($feature_content as $feature){ ?>
-          <a target="_blank" href="<?php echo base_url('newsdetail/').strtolower(str_replace(' ', '-' ,$feature->content_title)) ?>"><?php echo $feature->content_title.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' ?></a>
-        <?php } ?>
-      </marquee>
-
-    </div>
+<div class="wrap t3-sl t3-sl-5 ">
+  <marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="12">
+	<?php foreach($feature_content as $feature){ ?>
+	  <a target="_blank" href="<?php echo base_url('newsdetail/').strtolower(str_replace(' ', '-' ,$feature->content_title)) ?>"><?php echo $feature->content_title.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' ?></a>
+	<?php } ?>
+  </marquee>
+</div>
     <!-- //HOME SL 5 -->
 </div>
 
