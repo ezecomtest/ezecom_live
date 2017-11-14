@@ -208,6 +208,11 @@ class Media_center_c extends CI_Controller {
         $title_strrep = strtoupper(str_replace('-', ' ', $title));
 		//echo urldecode($title_strrep);
 		
+		// slide news and event
+		$data['slides_news_event'] = $this->media_center_m->get_news_events_forslide();
+		//var_dump($data['slides_news_event']);
+		//exit;
+		
 		$data['news_events'] = $this->media_center_m->get_news_detail(urldecode($title_strrep));
         $lan = $this->session->userdata("language");
         $data['feature_content'] = $this->homepage_m->get_feature_content($lan);

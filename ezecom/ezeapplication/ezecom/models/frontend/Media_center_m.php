@@ -171,6 +171,53 @@ class Media_center_m extends CI_Model{
 
 
     }
+	
+	public function get_news_events_forslide(){
+		 if($this->session->userdata("language") == 1){
+            $this->db->select("*")->from("tbl_content con");
+            $this->db->join("tbl_categories cat","con.content_categories_id = cat.categoriesid");
+            $this->db->join("tbl_languages lan","con.content_language_id = lan.lang_id");
+            $this->db->where("con.content_published",1);
+            $this->db->limit(10);
+            $this->db->order_by('con.content_date',"desc");
+            $this->db->where("con.content_language_id",1);
+            $sql = $this->db->get();
+            return $sql->result();
+        }
+         if($this->session->userdata("language") == 2){
+            $this->db->select("*")->from("tbl_content con");
+            $this->db->join("tbl_categories cat","con.content_categories_id = cat.categoriesid");
+            $this->db->join("tbl_languages lan","con.content_language_id = lan.lang_id");
+            $this->db->where("con.content_published",1);
+            $this->db->limit(10);
+            $this->db->order_by('con.content_date',"desc");
+            $this->db->where("con.content_language_id",2);
+            $sql = $this->db->get();
+            return $sql->result();
+        }
+         if($this->session->userdata("language") == 3){
+            $this->db->select("*")->from("tbl_content con");
+            $this->db->join("tbl_categories cat","con.content_categories_id = cat.categoriesid");
+            $this->db->join("tbl_languages lan","con.content_language_id = lan.lang_id");
+            $this->db->where("con.content_published",1);
+            $this->db->limit(10);
+            $this->db->order_by('con.content_date',"desc");
+            $this->db->where("con.content_language_id",1);
+            $sql = $this->db->get();
+            return $sql->result();
+        }
+         if($this->session->userdata("language") == ""){
+            $this->db->select("*")->from("tbl_content con");
+            $this->db->join("tbl_categories cat","con.content_categories_id = cat.categoriesid");
+            $this->db->join("tbl_languages lan","con.content_language_id = lan.lang_id");
+            $this->db->where("con.content_published",1);
+            $this->db->limit(10);
+            $this->db->order_by('con.content_date',"desc");
+            $this->db->where("con.content_language_id",1);
+            $sql = $this->db->get();
+            return $sql->result();
+        }
+	}
 
     public function get_news_detail($title){
         if($this->session->userdata("language") == 1){
