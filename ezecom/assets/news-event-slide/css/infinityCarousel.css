@@ -90,3 +90,74 @@
 }
 
 .infinity-carousel img { height: 100%; }
+
+.header_slides{
+	padding-bottom:20px;
+}
+ .custom .blog h3{
+	 line-height:35px;
+}
+.event_title{
+	font-size:12px;
+}
+/* screen iphone 6 */
+@media screen and (max-width: 375px){
+   .custom .blog h3{
+	 font-size:15px;
+	 line-height:20px;
+	}
+	
+	.header_slides{
+	 font-size:15px;
+	 line-height:20px;
+	 padding-bottom:20px;
+	}
+	
+	.event_title{
+	 padding-top:5px;
+	 font-size:12px;
+	 line-height:20px;
+	 text-align:center;
+	}
+}
+
+/* screen iphone 6 plus */
+@media screen and (max-width: 414px){
+   .custom .blog h3{
+	 font-size:15px;
+	 line-height:20px;
+	}
+	
+	.header_slides{
+	 font-size:15px;
+	 line-height:20px;
+	 padding-bottom:20px;
+	}
+	
+	.event_title{
+	 font-size:12px;
+	 line-height:20px;
+	 padding-top:5px;
+	 text-align:center;
+	}
+}
+
+/* main image responsive iphone 6*/
+@media screen and (max-width: 375px){
+   .main_content img{
+	 width:100% !important;
+	 height:auto !important;
+	}
+}
+
+/* main image responsive iphone 6 plus */
+@media screen and (max-width: 414px){
+   .main_content img{
+	 width:100% !important;
+	 height:auto !important;
+	}
+}
+
+
+
+

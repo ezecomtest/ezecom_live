@@ -62,7 +62,6 @@ jQuery(window).on('load',  function() {
 
 
 
-
 <!-- Le HTML5 shim and media query for IE8 support -->
 <!--[if lt IE 9]>
 <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -85,7 +84,9 @@ jQuery(window).on('load',  function() {
 <!-- MAIN NAVIGATION -->
 <?php $this->load->view("header/main_nav_user_v");?> 
 <!-- //MAIN NAVIGATION -->
+<style type="text/css">
 
+</style>
 
 
   
@@ -153,7 +154,9 @@ jQuery(window).on('load',  function() {
 				<div class="blog-items clearfix">
 					<div class="row">
 						<div class="col-sm-12" itemprop="blogPost" itemscope="" style="text-align: justify;font-size: 14px;"><br/>
-							<?php echo $news_events['content_description']; ?>
+							<div class="main_content">
+								<?php echo $news_events['content_description']; ?>
+							</div>
 						</div>
 					</div>		
 				</div>
@@ -161,32 +164,32 @@ jQuery(window).on('load',  function() {
 		</div>
 		<!-- slide news and event -->
 		<div id="t3-content" class="t3-content col-xs-12">
-			<strong>News and Events</strong>
+			<h3 class="header_slides">Check out other articles below:</h3>
 			<div class="infinity-carousel">
 				  <button class="nav prev"></button>
 				  <button class="nav next"></button>
 				  <div class="center">
 						<div class="slides">
+						<?php foreach($slides_news_event as $row){ ?>
 						  <div> 
 							<!-- anything in here -->
-							<div class="img-wrap"><img src="<?php echo base_url()?>assets/news-event-slide/images/EzeTV-EzeSurf-product.png" alt=""></div>
-							<h3 style="text-align:center">Header 1</h3>
+							<div class="img-wrap">
+								<a href="<?php echo base_url(); ?>newsdetail/<?php echo strtolower(str_replace(' ', '-', $row->content_title)) ?>">
+									<img class="" src="<?php echo base_url()?>elFindermaster/files/post/image_feature/<?php echo $row->content_image_feature ?>" />
+								</a>
+							</div>
+							<p class="event_title">
+								<?php 
+									if(strlen($row->content_title) > 50){
+										echo mb_substr($row->content_title, 0, 40,'UTF-8') . '...';
+									}else{
+										echo $row->content_title;
+									}
+								?>
+							</p>
 							<!--<p class="text">Text 1</p>-->
 						  </div>
-						  <div> 
-							<!-- anything in here -->
-							<div class="img-wrap"><img src="<?php echo base_url()?>assets/news-event-slide/images/EzeTV-EzeSurf-product.png" alt=""></div>
-							<h3 style="text-align:center">Header 2</h3>
-						  </div>
-						  <div> 
-							<!-- anything in here -->
-							<div class="img-wrap"><img src="<?php echo base_url()?>assets/news-event-slide/images/EzeTV-EzeSurf-product.png" alt=""></div>
-							<h3 style="text-align:center">Header 3</h3>
-						  </div>
-						  <div>
-							<div class="img-wrap"><img src="<?php echo base_url()?>assets/news-event-slide/images/EzeTV-EzeSurf-product.png" alt=""></div>
-							<h3 style="text-align:center">Header 4</h3>
-						  </div>
+						<?php } ?>
 						</div>
 			     </div>
 			</div>
