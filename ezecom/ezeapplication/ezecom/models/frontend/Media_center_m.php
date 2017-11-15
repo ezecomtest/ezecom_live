@@ -22,7 +22,7 @@ class Media_center_m extends CI_Model{
             $this->db->limit($per_page,$page);
             $this->db->order_by('con.content_date',"desc");
             $this->db->where("con.content_language_id",1);
-            //$this->db->where("con.contentid !=",$getfirst);
+            $this->db->where("con.contentid !=",$getfirst);
             $sql = $this->db->get();
             return $sql->result();
         }
