@@ -99,6 +99,7 @@
 }
 .event_title{
 	font-size:12px;
+	margin-top:10px;
 }
 /* screen iphone 6 */
 @media screen and (max-width: 375px){
@@ -142,6 +143,10 @@
 	}
 }
 
+.main_content img{
+	 width:100% !important;
+	 height:auto !important;
+}
 /* main image responsive iphone 6*/
 @media screen and (max-width: 375px){
    .main_content img{
@@ -159,5 +164,11 @@
 }
 
 
-
+/* mouse hover on slide */
+.img-wrap:hover{
+	opacity:0.6;
+}
+.ev-title:hover{
+	opacity:0.7;
+}
 

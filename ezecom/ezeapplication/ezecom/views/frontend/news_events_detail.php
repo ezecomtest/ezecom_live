@@ -181,9 +181,11 @@ jQuery(window).on('load',  function() {
 							<p class="event_title">
 								<?php 
 									if(strlen($row->content_title) > 50){
-										echo mb_substr($row->content_title, 0, 40,'UTF-8') . '...';
+										$url = base_url()."newsdetail/".strtolower(str_replace(' ', '-', $row->content_title));
+										echo "<a class='ev-title' href='".$url."'>".mb_substr($row->content_title, 0, 40,'UTF-8') . '...'."</a>";
 									}else{
-										echo $row->content_title;
+										$url = base_url()."newsdetail/".strtolower(str_replace(' ', '-', $row->content_title));
+										echo "<a class='ev-title' href='".$url."' >".$row->content_title."</a>";
 									}
 								?>
 							</p>
