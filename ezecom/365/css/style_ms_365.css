@@ -33,3 +33,8 @@
 .container h3{
 	color:#000;
 }
+
+.container .video-container iframe{
+	width:100%;
+	height:50%;
+}

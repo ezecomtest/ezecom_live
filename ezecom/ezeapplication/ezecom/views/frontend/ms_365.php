@@ -129,11 +129,12 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 	<h3 style="color:#000;font-weight:400;font-size:25px">Move Your Business Forward, Anywhere Anytime</h3>
 	<br>
 	<p>
-		EZECOM offers you the best available internet packages 
-		bundling with Microsoft 365 in cloud whether you are on video conference, 
-		instant messaging, and business email communication or access any Microsoft 
-		tools to allow you and execute your business ahead up with 
-		world class data security and 24/7 technical support.
+		EZECOM offers you the best available internet package bundle with
+Microsoft CSP 365 in the cloud, so that whether your need is video
+conference, instant messaging, or business email communication, you
+have access to the necessary Microsoft tools that allow you and propel
+your business plan ahead, while also enjoying with world class data
+security and 24/7 technical support. 
 	</p>
 </div>
 
@@ -156,7 +157,7 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 		<div class="col-md-7 wow fadeInUp" data-wow-delay="0.5s" >
 			<div style="padding-top:30px;padding-bottom: 30px;" >
 				<div class="video-container">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/pN5sNZEWdgw" frameborder="0" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/pN5sNZEWdgw" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -177,13 +178,13 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 <div class="col-xm-12 col-sm-12 col-md-12">
 <div class="row">
 
-<h1 style="text-align: center;font-size: 3em;color: #7961ab;">Bundling Price</h1>
+<h1 style="text-align: center;font-size: 3em;color: #7961ab;">Package Plan</h1>
 <div class="col-xs-12 col-sm-2 col-md-1">
 </div>
 <div class="col-xs-12 col-sm-8 col-md-10">
 <div class="tab-inner-indent">
-
-<table class="table table-features">
+	<img class="img-responsive" src="<?php echo base_url()?>365/package-plan.png" alt="Package Plan"/>
+<!--<table class="table table-features">
 <tbody>
 
 <tr>
@@ -224,9 +225,9 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 <img style="width:10px" src="<?php echo base_url()?>365/pointer-sign.png"/> Switching between plans will be charged $50 per year
 </dd>
  
-</dl>
+</dl>-->
  
-</div>
+</div> <!-- table -->
 </div>
 <div class="col-xs-12 col-sm-2 col-md-1">
 </div>
@@ -255,17 +256,29 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 <img src="<?php echo base_url()?>365/icon-latest-version.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
 
 <h3 style="text-align: center;color: #7961ab;font-weight:500">Latest Version</h3>
-<p style="text-align: center;font-size: 14px;">Hassle free with automatic software update of Microsoft latest version in cloud</p>
+<p style="text-align: center;font-size: 14px;">
+	Hassle free experience with automatic
+software update from Microsoft via the
+cloud.
+</p>
 </div>
 <div class="col-xs-12 col-md-4" style="padding: 5%;">
 <img src="<?php echo base_url()?>365/icon-cost-efficiency.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
 <h3 style="text-align: center;color: #7961ab;font-weight:500">Cost Efficiency</h3>
-<p style="text-align: center;font-size: 14px;">You will be able to pay as monthly base with very affordable price as user.</p>
+<p style="text-align: center;font-size: 14px;">
+	Pay on a monthly basis. You can buy the
+exact number of license for the users you
+need.
+</p>
 </div>
 <div class="col-xs-12 col-md-4" style="padding: 5%;">
 <img src="<?php echo base_url()?>365/icon-file-storage-sharing.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-<h3 style="text-align: center;color: #7961ab;font-weight:500">1TB Files Storage and Sharing</h3>
-<p style="text-align: center;font-size: 14px;">Sync and back up your files with up to 1TB storage and sharing - with data security and recovery options</p>
+<h3 style="text-align: center;color: #7961ab;font-weight:500">Massive Free Storage</h3>
+<p style="text-align: center;font-size: 14px;">
+	Sync and back up your files with up to 1TB
+storage and sharing - with data security and
+recovery options.
+</p>
 </div>
 
 
@@ -277,18 +290,30 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 <img src="<?php echo base_url()?>365/icon-multiple-devices.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
 
 <h3 style="text-align: center;color: #7961ab;font-weight:500">Multiple Devices</h3>
-<p style="text-align: center;font-size: 14px;">Available for 5 PCs, 5 Macs, 5 Smartphones anywhere anytime without compromising on data security.</p>
+<p style="text-align: center;font-size: 14px;">
+Use up to 5 devices per license. Work on
+your desktop, laptop, phone and tablet
+anywhere anytime without compromising
+data security.
+</p>
 </div>
 <div class="col-xs-12 col-md-4" style="padding: 0% 5% 5% 5%;margin-top: -2%;">
 <img src="<?php echo base_url()?>365/icon-team-collaboration.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
 <h3 style="text-align: center;color: #7961ab;font-weight:500">Team Collaboration</h3>
-<p style="text-align: center;font-size: 14px;">Available for group chats with Skype for Business (instant message, video conferencing) with timeless collaboration.</p>
+<p style="text-align: center;font-size: 14px;">
+	Effective and secured group chats (also,
+instant message & video conferencing) with
+Skype for Business and other tools.
+</p>
 </div>
 <div class="col-xs-12 col-md-4" style="padding: 0% 5% 5% 5%;margin-top: -2%;">
 <img src="<?php echo base_url()?>365/icon-big-time-security.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
 <h3 style="text-align: center;color: #7961ab;font-weight:500">Big-time Security</h3>
-<p style="text-align: center;font-size: 14px;">Office 365 invests in state-of-the-art security, reliability, and recovery technology to ensure that your files and messages
-are secure.</p>
+<p style="text-align: center;font-size: 14px;">
+	Enjoy state-of-the-art security, reliability,
+and recovery technology to ensure that your
+files and messages are safe.
+</p>
 </div>
 
 
@@ -299,17 +324,31 @@ are secure.</p>
 <img src="<?php echo base_url()?>365/icon-Email-Calendar.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
 
 <h3 style="text-align: center;color: #7961ab;font-weight:500">Email & Calendar</h3>
-<p style="text-align: center;font-size: 14px;">Office 365 gives you access to email, calendar, and contacts from virtually anywhere, at any time with any devices</p>
+<p style="text-align: center;font-size: 14px;">
+	Access your emails, calendars and contacts
+from virtually anywhere, any time on any
+device.
+</p>
 </div>
 <div class="col-xs-12 col-md-4" style="padding: 0% 5% 5% 5%;margin-top: -2%;">
 <img src="<?php echo base_url()?>365/icon-Office-App-desktop.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-<h3 style="text-align: center;color: #7961ab;font-weight:500">Office Desktop Apps</h3>
-<p style="text-align: center;font-size: 14px;">With Office 365, you can get Word, Excel, PowerPoint, Publisher, and Access anywhere you work. Use the desktop versions at the office or stream the live apps from any device connected to the Web.</p>
+<h3 style="text-align: center;color: #7961ab;font-weight:500">Desktop Software</h3>
+<p style="text-align: center;font-size: 14px;">
+	With Microsoft CSP 365, you can also enjoy
+the full functionality of the latest Word,
+Excel, PowerPoint, Publisher and Access on
+desktop.
+</p>
 </div>
 <div class="col-xs-12 col-md-4" style="padding: 0% 5% 5% 5%;margin-top: -2%;">
 <img src="<?php echo base_url()?>365/icon-IM-Online-meeting.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
 <h3 style="text-align: center;color: #7961ab;font-weight:500">IM & Online Meetings</h3>
-<p style="text-align: center;font-size: 14px;">Microsoft Lync app helps you find and quickly connect with the right person through instant messaging (IM), or online meetings from within the Office applications you already use every day.</p>
+<p style="text-align: center;font-size: 14px;">
+	Microsoft Lync helps you find and quickly
+connect with the right people through
+instant messaging or set online meetings
+conveniently.
+</p>
 </div>
 
 
