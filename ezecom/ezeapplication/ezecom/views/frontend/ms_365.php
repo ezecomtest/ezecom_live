@@ -183,7 +183,7 @@ security and 24/7 technical support.
 </div>
 <div class="col-xs-12 col-sm-8 col-md-10">
 <div class="tab-inner-indent">
-	<img class="img-responsive" src="<?php echo base_url()?>365/package-plan.png" alt="Package Plan"/>
+	<img class="img-responsive" id="sign_up_now" src="<?php echo base_url()?>365/package-plan.png" alt="Package Plan"/>
 <!--<table class="table table-features">
 <tbody>
 
@@ -447,3 +447,18 @@ conveniently.
     }
 
 </style>
+<script type="text/javascript">
+/* Sign up now */
+	/* jQuery(function($){
+		$("#sign_up_now").click(function() {
+			alert("Hello");
+			//$('.morehover').toggle('500');	
+		});
+	}); */
+	
+	$(document).ready(function() {
+		$("#sign_up_now").click(function () {
+			alert("Hello!");
+		});
+	});
+</script>
