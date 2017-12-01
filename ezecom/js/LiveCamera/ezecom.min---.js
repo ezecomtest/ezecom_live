@@ -980,7 +980,6 @@
                         top: e.top + window.pageYOffset,
                         width: Math.round(e.width),
                         height: Math.round(e.height)
-
                     }
                 },
                 css: function (e, i) {
@@ -4112,8 +4111,7 @@
                     get: function () {
                         return {
                             "data-player": "",
-                            tabindex: 9999,
-                            style:"=width:100%;height:89%"
+                            tabindex: 9999
                         }
                     }
                 }, {
@@ -4146,28 +4144,28 @@
                     f.Fullscreen.isFullscreen() ? this.setFullscreen() : this.setPlayerSize()
                 }, e.prototype.setFullscreen = function () {
                     _.default.isiOS || (this.$el.addClass("fullscreen"), this.$el.removeAttr("style"), this.playerInfo.previousSize = {
-                        // width: this.options.width,
-                        // height: this.options.height
+                        width: this.options.width,
+                        height: this.options.height
                     }, this.playerInfo.currentSize = {
-                        // width: (0, O.default)(window).width(),
-                        // height: (0, O.default)(window).height()
+                        width: (0, O.default)(window).width(),
+                        height: (0, O.default)(window).height()
                     })
                 }, e.prototype.setPlayerSize = function () {
                     this.$el.removeClass("fullscreen"), this.playerInfo.currentSize = this.playerInfo.previousSize, this.playerInfo.previousSize = {
-                        // width: (0, O.default)(window).width(),
-                        // height: (0, O.default)(window).height()
+                        width: (0, O.default)(window).width(),
+                        height: (0, O.default)(window).height()
                     }, this.resize(this.playerInfo.currentSize)
                 }, e.prototype.resize = function (t) {
                     (0, f.isNumber)(t.height) || (0, f.isNumber)(t.width) ? (this.el.style.height = t.height + "px", this.el.style.width = t.width + "px") : (this.el.style.height = "" + t.height, this.el.style.width = "" + t.width), this.playerInfo.previousSize = {
-                        // width: this.options.width,
-                        // height: this.options.height
+                        width: this.options.width,
+                        height: this.options.height
                     }, this.options.width = t.width, this.options.height = t.height, this.playerInfo.currentSize = t, this.triggerResize(this.playerInfo.currentSize)
                 }, e.prototype.enableResizeObserver = function () {
                     var t = this,
                         e = function () {
                             t.playerInfo.computedSize.width == t.el.clientWidth && t.playerInfo.computedSize.height == t.el.clientHeight || (t.playerInfo.computedSize = {
-                                // width: t.el.clientWidth,
-                                // height: t.el.clientHeight
+                                width: t.el.clientWidth,
+                                height: t.el.clientHeight
                             }, t.triggerResize(t.playerInfo.computedSize))
                         };
                     this.resizeObserverInterval = setInterval(e, 500)
@@ -4268,12 +4266,12 @@
                         baseUrl: this.options.baseUrl
                     }), this.$el.append(this.$style), this.$el.append(this.mediaControl.render().el), this.options.width = this.options.width || this.$el.width(), this.options.height = this.options.height || this.$el.height();
                     var t = {
-                        // width: this.options.width,
-                        // height: this.options.height
+                        width: this.options.width,
+                        height: this.options.height
                     };
                     return this.playerInfo.previousSize = this.playerInfo.currentSize = this.playerInfo.computedSize = t, this.updateSize(), this.previousSize = {
-                        // width: this.$el.width(),
-                        // height: this.$el.height()
+                        width: this.$el.width(),
+                        height: this.$el.height()
                     }, this.enableResizeObserver(), this
                 }, e
             }(m.default);

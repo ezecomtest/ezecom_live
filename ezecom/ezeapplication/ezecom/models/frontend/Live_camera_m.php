@@ -17,5 +17,14 @@ class Live_camera_m extends CI_Model{
         $q = $this->db->get();
         return $q->result();
 	}
+
+    public function displayCamera($id){
+        $this->db->select('*');
+        $this->db->from('tm_traffic_cam');       
+        $this->db->where('status','1');
+        $this->db->where('traffic_cam_id',$id);
+        $q = $this->db->get();
+        return $q->row_array();
+    }
 }
 ?>

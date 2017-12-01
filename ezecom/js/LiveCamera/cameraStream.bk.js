@@ -14,6 +14,7 @@ function play_camera() {
         url: base_url + "checkGet",
         data: {},
         success: function (http) {
+            //alert(http);
             if (http != "no_session") {
                 var base_url = document.getElementById("url").value;
 
@@ -38,9 +39,8 @@ function play_camera() {
                         seekbar: "#745DA3",
                         buttons: "#745DA3"
                     },
-                    watermarkLink: 'https://ezecom.com.kh',
-                    width: 750,
-                    height: 450
+                    watermarkLink: 'https://ezecom.com.kh'
+                   
 
                 });
 

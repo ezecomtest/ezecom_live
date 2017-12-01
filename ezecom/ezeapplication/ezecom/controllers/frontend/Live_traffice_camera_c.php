@@ -44,13 +44,28 @@ class Live_traffice_camera_c extends CI_Controller {
 	}
 	public function set_session_camera(){
 
-		$page_session['rtmp'] = $this->input->post("rtmp");
-		$page_session['token'] = $this->input->post("token");
-
-		$page_session['name_camera'] = $this->input->post("camera_name");
+		$id = $this->input->post("id");
+		$data = $this->live_camera_m->displayCamera($id);
+		$page_session['http'] = $data['http'];
+		$page_session['name_camera'] = $data['name'];
         $this->session->set_userdata($page_session);
-        echo $this->session->userdata("name_camera");
+        echo "setted";
 
+	}
+	public function checkGet(){
+		//echo $this->session->userdata('http');
+		if(empty($this->session->userdata('http'))){
+			echo "no_session";
+		}else{
+			echo $this->session->userdata('http');
+		}
+	}
+	
+	public function setPageload(){
+		$page_session['http'] = "https://59f8b21ab26e0.streamlock.net//KTCamera/KTCamera.stream/playlist.m3u8";
+		$page_session['name_camera'] = "KBAL THNOL";
+		$this->session->set_userdata($page_session);
+        echo "setted";
 	}
 
 }

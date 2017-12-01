@@ -86,6 +86,8 @@ $route['delete_camera/(:num)'] = 'backend/eze_camera/delete_camera/$1';
 $route['play_camera/(:num)'] = 'backend/eze_camera/play_camera/$1';
 
 $route['set_session_camera'] = 'frontend/live_traffice_camera_c/set_session_camera';
+$route['setPageload'] = 'frontend/live_traffice_camera_c/setPageload';
+$route['checkGet'] = 'frontend/live_traffice_camera_c/checkGet';
 
 
 

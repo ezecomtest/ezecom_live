@@ -38,9 +38,8 @@ function play_camera() {
                         seekbar: _$_eb17[10],
                         buttons: _$_eb17[10]
                     },
-                    watermarkLink: _$_eb17[11],
-                    width: 750,
-                    height: 450
+                    watermarkLink: _$_eb17[11]
+                   
                 })
             } else {
                 setPageload()
