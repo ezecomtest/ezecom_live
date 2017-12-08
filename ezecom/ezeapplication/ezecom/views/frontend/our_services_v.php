@@ -109,6 +109,7 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 <img class="img-responsive" src="<?php echo base_url()?>images/content/corporate_package_photo.png" alt="Ezecom Call to Action"></div>
 <div class="col-xm-12 col-sm-12 col-md-2">&nbsp;</div>
 </div>
+<div class="clearfix"></div>
 <div class="container module-content-container">
 <div class="col-xs-12 col-sm-4 col-md-1">&nbsp;</div>
 <div class="col-xs-12 col-sm-4 col-md-2">
@@ -1739,17 +1740,6 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 
 </div>
 
-
-<!-- //HOME SL 1 -->
-<!-- HOME SL 5 -->
-<div class="wrap t3-sl t3-sl-5 ">
-	<marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="12">
-		<?php foreach($feature_content as $feature){ ?>
-			<a target="_blank" href="<?php echo base_url('newsdetail/').strtolower(str_replace(' ', '-' ,$feature->content_title)) ?>"><?php echo $feature->content_title.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' ?></a>
-		<?php } ?>
-	</marquee>
-
-</div>
 
 <!-- //HOME SL 5 -->
 </div> 

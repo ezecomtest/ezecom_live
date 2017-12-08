@@ -311,17 +311,7 @@ jQuery(window).on('load',  function() {
 			<!-- HOME SL 5 -->
 
 </div>
-		<!-- HOME SL 5 -->
-		<div class="wrap">
-			<div style="max-width:100%;max-height:7%;background-color:#E2E3E4">
-				<marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="12">
-					<?php foreach($feature_content as $feature){ ?>
-						<a target="_blank" href="<?php echo base_url('newsdetail/').strtolower(str_replace(' ', '-' ,$feature->content_title)) ?>"><?php echo $feature->content_title.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' ?></a>
-					<?php } ?>
-				</marquee>
-			</div>
-		</div>
-		<!-- //HOME SL 5 -->
+		
 </div>
 
 

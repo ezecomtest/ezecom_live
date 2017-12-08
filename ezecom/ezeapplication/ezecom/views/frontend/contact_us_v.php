@@ -153,16 +153,7 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 
 	</div>
 </div> 
-		<!-- HOME SL 5 -->
-    <div class="wrap t3-sl t3-sl-5 ">
-      <marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="12">
-        <?php foreach($feature_content as $feature){ ?>
-          <a target="_blank" href="<?php echo base_url('newsdetail/').strtolower(str_replace(' ', '-' ,$feature->content_title)) ?>"><?php echo $feature->content_title.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' ?></a>
-        <?php } ?>
-      </marquee>
-
-    </div>
-    <!-- //HOME SL 5 -->
+		
 	
 </div>
   

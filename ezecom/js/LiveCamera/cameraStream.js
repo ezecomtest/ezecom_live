@@ -38,7 +38,10 @@ function play_camera() {
                         seekbar: _$_eb17[10],
                         buttons: _$_eb17[10]
                     },
-                    watermarkLink: _$_eb17[11]
+                    watermarkLink: _$_eb17[11],
+					 plugins: {
+                        container: [ResponsiveContainer]
+                    }
                    
                 })
             } else {

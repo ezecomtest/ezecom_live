@@ -100,7 +100,7 @@ jQuery(document).ready(function(){
 <li class="item-1728"><a href="<?php echo base_url()?>enterprise-solution#web-hosting"><div class="icon_web_hosting"></div>Hosting </a></li>
 <li class="item-1729"><a href="<?php echo base_url()?>ddos-mitigation-service/"><div class="icon_ddos"></div>DDos Mitigation</a></li>
 <li class="item-1717"><a href="<?php echo base_url()?>ezetv/"><div class="icon_ezetv"></div>EzeTV</a></li>
-<li class="item-1818"><a href="<?php echo base_url()?>microsoft-office-365/"><div class="icon_office365"></div>Office365</a></li>
+<!--<li class="item-1818"><a href="<?php echo base_url()?>microsoft-office-365/"><div class="icon_office365"></div>Office365</a></li>-->
 </ul>
 </div></div>
 
@@ -406,16 +406,7 @@ jQuery(document).ready(function(){
 		<!-- //MAIN CONTENT -->
 	</div>
 </div> 
-			<!-- HOME SL 5 -->
-	<div class="wrap t3-sl t3-sl-5 ">
-		<marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="12">
-				<?php foreach($feature_content as $feature){ ?>
-					<a target="_blank" href="<?php echo base_url('newsdetail/').$feature->content_title ?>"><?php echo $feature->content_title.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' ?></a>
-				<?php } ?>
-			</marquee>
-
-		</div>
-		<!-- //HOME SL 5 -->
+			
 	
 </div>
 

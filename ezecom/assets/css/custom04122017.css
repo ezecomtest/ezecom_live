@@ -120,6 +120,7 @@ h4, .h4{
 }
 .module-content-container{
     padding:5px 15px 0px 15px;
+	max-height:550px;
 }
 .module-content-container h2,.sub-menu-container h2{
     text-align: center;
@@ -1192,9 +1193,9 @@ a:hover, a:focus{
 
 #playerPosition{
 	max-width:auto !important;
-	max-height: 500px;
-    overflow: hidden;
-    margin-bottom: 30px;
+	max-height:500px;
+	overflow:hidden;
+	margin-bottom:30px;
 }
 #playerPosition .playerBorder{
 	max-width:760px;
@@ -1202,20 +1203,20 @@ a:hover, a:focus{
 }
 
 #camera-block .locationMap{
-	position: relative;
-    float: right;
-    margin-top: 16px;
-    margin-right: 15px;
+	position:relative;
+	float:right;
+	margin-top:16px;
+	margin-right:15px;
 }
 #camera-block .myMap{
-	float: right;
-    position: relative;
-    cursor: pointer;
-    top: 9px;
+	float:right;
+	position:relative;
+	cursor:pointer;
+	top:9px;
 }
 #camera-block .location{
-	margin-left: 20px;
-    margin-top: 10px;
+	margin-left:20px;
+	margin-top:10px;
 }
 @media screen and (max-width: 375px){
 	#camera-block .location{
@@ -1232,6 +1233,15 @@ a:hover, a:focus{
 	}
 }
 
+.table-responsive{
+	margin-left:30px;
+}
+
+@media screen and (max-width: 414px){
+	.table-responsive{
+		margin-left:30px;
+	}
+}
 .table-responsive table td{
 	max-width:100px;
 	border-top:none !important;
@@ -1239,9 +1249,6 @@ a:hover, a:focus{
 	color:#7c5ca8;
 	cursor: pointer; 
 	cursor: hand;
-}
-.table-responsive{
-	margin-left: 29px;
 }
 .table-responsive table td .linetd{
 	float:right;
@@ -1257,10 +1264,6 @@ a:hover, a:focus{
 		cursor: pointer; 
 		cursor: hand;
 	}
-	
-	.table-responsive{
-		margin-left:0px;
-	}
 }
 
 /* iPhone 6+ */
@@ -1272,10 +1275,6 @@ a:hover, a:focus{
 		color:#7c5ca8;
 		cursor: pointer; 
 		cursor: hand;
-	}
-	
-	.table-responsive{
-		margin-left:0px;
 	}
 }
 
@@ -1322,7 +1321,7 @@ a:hover, a:focus{
 }
 
 .avs_player_responsive{
-	padding-bottom: 30% !important;
+	padding-bottom: 32% !important;
 	margin-bottom:20px;
 	
 }
@@ -1391,6 +1390,19 @@ a:hover, a:focus{
     .modal-content {
         width: 100%;
     }
+}
+
+#Cam_Position{
+	max-width:850px;
+	height:100%;
+/* 	height:75%; */
+	margin:0 auto;
+	margin-bottom:20px;
+	
+	/* margin:0 auto;
+	overflow:hidden;
+	margin-top:10px;
+	margin-bottom:20px; */
 }
 
 

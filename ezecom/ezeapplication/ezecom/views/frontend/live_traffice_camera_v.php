@@ -219,10 +219,16 @@
 	</style>
 	
 	<!-- Player Preview -->
-	<div id="player"></div>
+	
+	<div id="playerPosition">
+	  <center>
+		 <div id="video_preview">                    
+			<div id="player"></div>
+		 </div>
+	  </center>
+	</div>
+	
 	<!-- End Player -->
-<br>
-
 </div>
 	
 </div>
@@ -263,6 +269,7 @@
 </div>
 
 <script type="text/javascript" src="<?php echo base_url(); ?>js/LiveCamera/cameraStream.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>js/LiveCamera/clappr-responsive-container-plugin.js"></script>
 <input type="hidden" value="<?php echo base_url(); ?>" id="url">
 <script>
 // Get the modal
@@ -325,12 +332,11 @@ span.onclick = function() {
   }
 
    [data-watermark-top-right] {
-            top: 10px;
-            right: 2px !important;
-            width: 25% !important;
-        }
+		top: 10px;
+		right: 2px !important;
+		width: 25% !important;
+    }
 		
 	
-
 </style>
 </body></html>
