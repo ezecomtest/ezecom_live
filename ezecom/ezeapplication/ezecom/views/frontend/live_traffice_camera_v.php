@@ -133,7 +133,7 @@
 			<!-- The Modal -->
 			<div id="myModal" class="modal-map">
 			  <span class="close">&times;</span>
-			  <img class="modal-content-map" id="map">
+			  <div id="map-canvas"></div>
 			</div>
 			<!-- End Modal -->
 			<span class="locationMap">View map</span>
@@ -271,6 +271,7 @@
 <script type="text/javascript" src="<?php echo base_url(); ?>js/LiveCamera/cameraStream.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>js/LiveCamera/clappr-responsive-container-plugin.js"></script>
 <input type="hidden" value="<?php echo base_url(); ?>" id="url">
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDN_KbE6yYEz98eIIRzWacJEm-kkm6K__8" type="text/javascript"></script>
 <script>
 // Get the modal
 var modal = document.getElementById('myModal');
@@ -280,7 +281,8 @@ var img = document.getElementById('myMap');
 var modalImg = document.getElementById("map");
 img.onclick = function(){
     modal.style.display = "block";
-    modalImg.src = "https://www.ezecom.com.kh/images/livetraffic/camera_location_map.png";
+	modal.style.visibility = "visible";
+    
 }
 
 // Get the <span> element that closes the modal
@@ -290,7 +292,60 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() { 
     modal.style.display = "none";
 }
+
+	  var map;
+      var centerPos = new google.maps.LatLng(11.562108,104.888535);
+      var zoomLevel = 13;
+      var image = "<?php base_url()?>images/livetraffic/pin-map.png";
+
+      function initialize() {
+        var mapOptions = {
+          center: centerPos,
+          zoom: zoomLevel
+        };
+        map = new google.maps.Map( document.getElementById("map-canvas"), mapOptions );
+		var base_url = "<?php echo base_url() ?>camera-live";
+        var locations = [
+          ['RATANA PLAZA', 11.56248592, 104.87130404,base_url,11],
+          ['TUOLKORK',11.5695493, 104.90087271,base_url,7],
+          ['STEUNGMEANCHEY',11.54665574, 104.89712834,base_url,12],
+		  ['KBAL THNOL',11.52963677, 104.93106902,base_url,2],
+		  ['SPEAN DEAK',11.52611512, 104.88751262,base_url,17],
+		  ['RIVERSIDE',11.56928653, 104.93023217,base_url,3],
+		  ['CHAOM CHAO',11.53538697, 104.83038962,base_url,8],
+		  ['OLYMPIC',11.55767179, 104.90819648,base_url,15],
+		  ['CAMKO CYCLE',11.59244625, 104.89617616,base_url,6],
+		  ['POCHENTONG',11.55360389, 104.8441574,base_url,16],
+		  ['CHBAR OMPOV',11.53202307, 104.93706107,base_url,18]
+		  
+		  
+        ];
+        
+        for (i = 0; i < locations.length; i++) {  
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            title: locations[i][0],
+            map: map,
+            icon:image,
+            url:locations[i][3],
+			cam_id:locations[i][4]
+            
+          });
+
+          google.maps.event.addListener(marker, 'click', function() {
+			  var id = this.cam_id;
+			  var name = this.title;
+			  // reload camera location by id and name.
+			  display_camera(id,name);
+          });
+
+        }
+
+      }
+      
+	google.maps.event.addDomListener(window, 'load', initialize);
 </script>
+
 <style type="text/css">
   .active{
     color:#7961A9;
@@ -337,6 +392,10 @@ span.onclick = function() {
 		width: 25% !important;
     }
 		
-	
+	#map-canvas{
+		height: 90%;
+		width: 60%;
+		margin: 0 auto;
+	}
 </style>
 </body></html>

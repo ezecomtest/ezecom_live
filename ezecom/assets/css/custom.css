@@ -1338,7 +1338,7 @@ a:hover, a:focus{
 
 /* The Modal (background) */
 .modal-map {
-    display: none; /* Hidden by default */
+    visibility:hidden; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 10; /* Sit on top */
     padding-top: 100px; /* Location of the box */
