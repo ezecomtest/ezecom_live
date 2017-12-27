@@ -126,15 +126,13 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 </div>
 <div class="col-xs-12 col-sm-4 col-md-6" style="padding-top: 11%;">
 	<img class="img-responsive" style="width:250px" src="<?php echo base_url()?>365/office365-logo.png" alt="Ms Office 365"/>
-	<h3 style="color:#000;font-weight:400;font-size:25px">Move Your Business Forward, Anywhere Anytime</h3>
+	<h3 style="color:#000;font-weight:400;font-size:25px">MOVE YOUR BUSINESS FORWARD, ANYWHERE, ANYTIME, ANY DEVICE</h3>
 	<br>
 	<p>
-		EZECOM offers you the best available internet package bundle with
-Microsoft CSP 365 in the cloud, so that whether your need is video
-conference, instant messaging, or business email communication, you
-have access to the necessary Microsoft tools that allow you and propel
-your business plan ahead, while also enjoying with world class data
-security and 24/7 technical support. 
+		Office 365 is a cloud-based subscription service that brings together the best 
+		tools for the way people work today. By combining best-in-class apps like Excel 
+		and Outlook with powerful cloud services like OneDrive and Microsoft Teams, Office 
+		365 move your business forward anywhere, anytime, on any device.  
 	</p>
 </div>
 
@@ -178,12 +176,14 @@ security and 24/7 technical support.
 <div class="col-xm-12 col-sm-12 col-md-12">
 <div class="row">
 
-<h1 style="text-align: center;font-size: 3em;color: #7961ab;">Package Plan</h1>
+<h1 style="text-align: center;font-size: 3em;color: #7961ab;">Package Plans</h1>
 <div class="col-xs-12 col-sm-2 col-md-1">
 </div>
 <div class="col-xs-12 col-sm-8 col-md-10">
 <div class="tab-inner-indent">
-	<img class="img-responsive" id="sign_up_now" src="<?php echo base_url()?>365/package-plan.png" alt="Package Plan"/>
+	<img class="img-responsive" id="sign_up_now" src="<?php echo base_url()?>365/package-plan-test.png" alt="Package Plan"/>
+	<!--<p class="learn_more">Learn more at <a href="#">www.ezecom.com.kh/office365</a></p>-->
+	<img class="img-responsive"  src="<?php echo base_url()?>365/discount-option.png"/>
 <!--<table class="table table-features">
 <tbody>
 
@@ -253,105 +253,140 @@ security and 24/7 technical support.
 
 <h1 style="text-align: center;font-size: 3em;color: #7961ab;">Features & Benefits</h1>
 <div class="col-xs-12 col-md-4" style="padding: 5%;">
-<img src="<?php echo base_url()?>365/icon-latest-version.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+<img src="<?php echo base_url()?>365/work-offline.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
 
-<h3 style="text-align: center;color: #7961ab;font-weight:500">Latest Version</h3>
+<h3 style="text-align: center;color: #7961ab;font-weight:500">Anywhere It Matters</h3>
 <p style="text-align: center;font-size: 14px;">
-	Hassle free experience with automatic
-software update from Microsoft via the
-cloud.
+	Access your work securely from anywhere, no WiFi, no problem. 
+	Work offline and sync your data later. Available on Windows, 
+	iOS, Android, Mac and through web browsers.
 </p>
 </div>
 <div class="col-xs-12 col-md-4" style="padding: 5%;">
-<img src="<?php echo base_url()?>365/icon-cost-efficiency.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-<h3 style="text-align: center;color: #7961ab;font-weight:500">Cost Efficiency</h3>
+<img src="<?php echo base_url()?>365/security.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+<h3 style="text-align: center;color: #7961ab;font-weight:500">Always-on Security</h3>
 <p style="text-align: center;font-size: 14px;">
-	Pay on a monthly basis. You can buy the
-exact number of license for the users you
-need.
+	Safeguard company data across PCs, 
+	phones & tablets securely with the latest version of Microsoft office 365.
 </p>
 </div>
 <div class="col-xs-12 col-md-4" style="padding: 5%;">
-<img src="<?php echo base_url()?>365/icon-file-storage-sharing.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-<h3 style="text-align: center;color: #7961ab;font-weight:500">Massive Free Storage</h3>
-<p style="text-align: center;font-size: 14px;">
-	Sync and back up your files with up to 1TB
-storage and sharing - with data security and
-recovery options.
-</p>
-</div>
-
-
-</div>
-
-
-
-<div class="col-xs-12 col-md-4" style="padding: 0% 5% 5% 5%;margin-top: -2%;">
-<img src="<?php echo base_url()?>365/icon-multiple-devices.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-
-<h3 style="text-align: center;color: #7961ab;font-weight:500">Multiple Devices</h3>
-<p style="text-align: center;font-size: 14px;">
-Use up to 5 devices per license. Work on
-your desktop, laptop, phone and tablet
-anywhere anytime without compromising
-data security.
-</p>
-</div>
-<div class="col-xs-12 col-md-4" style="padding: 0% 5% 5% 5%;margin-top: -2%;">
-<img src="<?php echo base_url()?>365/icon-team-collaboration.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+<img src="<?php echo base_url()?>365/team-collaboration.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
 <h3 style="text-align: center;color: #7961ab;font-weight:500">Team Collaboration</h3>
 <p style="text-align: center;font-size: 14px;">
-	Effective and secured group chats (also,
-instant message & video conferencing) with
-Skype for Business and other tools.
-</p>
-</div>
-<div class="col-xs-12 col-md-4" style="padding: 0% 5% 5% 5%;margin-top: -2%;">
-<img src="<?php echo base_url()?>365/icon-big-time-security.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-<h3 style="text-align: center;color: #7961ab;font-weight:500">Big-time Security</h3>
-<p style="text-align: center;font-size: 14px;">
-	Enjoy state-of-the-art security, reliability,
-and recovery technology to ensure that your
-files and messages are safe.
+	Connect with customers, 
+	co-workers and suppliers with online Microsoft 
+	tools and bring together teams & resources, all in one place.
 </p>
 </div>
 
 
+</div>
 
 
 
 <div class="col-xs-12 col-md-4" style="padding: 0% 5% 5% 5%;margin-top: -2%;">
-<img src="<?php echo base_url()?>365/icon-Email-Calendar.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+<img src="<?php echo base_url()?>365/massive-free-storage.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
 
-<h3 style="text-align: center;color: #7961ab;font-weight:500">Email & Calendar</h3>
+<h3 style="text-align: center;color: #7961ab;font-weight:500">Massive Free Storage </h3>
 <p style="text-align: center;font-size: 14px;">
-	Access your emails, calendars and contacts
-from virtually anywhere, any time on any
-device.
+Sync and back up your files with up to 1 TB storage and sharing - with data security and recovery options.
 </p>
 </div>
 <div class="col-xs-12 col-md-4" style="padding: 0% 5% 5% 5%;margin-top: -2%;">
-<img src="<?php echo base_url()?>365/icon-Office-App-desktop.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-<h3 style="text-align: center;color: #7961ab;font-weight:500">Desktop Software</h3>
+<img src="<?php echo base_url()?>365/hassle-free.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+<h3 style="text-align: center;color: #7961ab;font-weight:500">Latest Version & Cost Efficiency </h3>
 <p style="text-align: center;font-size: 14px;">
-	With Microsoft CSP 365, you can also enjoy
-the full functionality of the latest Word,
-Excel, PowerPoint, Publisher and Access on
-desktop.
-</p>
-</div>
-<div class="col-xs-12 col-md-4" style="padding: 0% 5% 5% 5%;margin-top: -2%;">
-<img src="<?php echo base_url()?>365/icon-IM-Online-meeting.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-<h3 style="text-align: center;color: #7961ab;font-weight:500">IM & Online Meetings</h3>
-<p style="text-align: center;font-size: 14px;">
-	Microsoft Lync helps you find and quickly
-connect with the right people through
-instant messaging or set online meetings
-conveniently.
+	Hassle-free experience with automatic Microsoft 
+	tools software in the Cloud with very affordable price per user.
 </p>
 </div>
 
 
+</div>
+</div>
+</div>
+
+
+<div class="custom">
+<div id="365" class="container-fluidy">
+<div class="container module-content-container">
+ 
+<div class="col-xm-12 col-sm-12 col-md-12">
+
+	<h1 style="text-align: center;font-size: 3em;color: #7961ab;">WHAT’S INCLUDED</h1>
+	<div class="col-xs-12 col-md-4" style="padding:5%">
+		<img src="<?php echo base_url()?>365/come-with-office.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+		<h3 style="text-align: center;color: #7961ab;font-weight:500">Comes with Office</h3>
+		<p style="text-align: center;font-size: 14px;">
+			Stay up-to-date with the latest versions of Word, Excel, PowerPoint, and more.
+		</p>
+	</div>
+					
+	<div class="col-xs-12 col-md-4" style="padding:5%">
+		<img src="<?php echo base_url()?>365/email-calendering.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+		<h3 style="text-align: center;color: #7961ab;font-weight:500">Email and Calendaring</h3>
+		<p style="text-align: center;font-size: 14px;">
+			Connect with customers and co-workers using Outlook and Exchange.
+		</p>
+	</div>
+
+	<div class="col-xs-12 col-md-4" style="padding:5%">
+		<img src="<?php echo base_url()?>365/file-storage.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+		<h3 style="text-align: center;color: #7961ab;font-weight:500">File Storage</h3>
+		<p style="text-align: center;font-size: 14px;">
+			Manage your files from anywhere with 1 TB of storage.
+		</p>
+	</div>
+
+</div>
+
+<div class="col-xm-12 col-sm-12 col-md-12">
+	<div class="col-xs-12 col-md-4" style="padding:0 5% 5% 5%">
+		<img src="<?php echo base_url()?>365/data-protection-control.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+		<h3 style="text-align: center;color: #7961ab;font-weight:500">Data Protection</h3>
+		<p style="text-align: center;font-size: 14px;">
+			Controls Help secure business data on 
+			personal and company-owned devices.
+		</p>
+	</div>
+	
+	<div class="col-xs-12 col-md-4" style="padding:0 5% 5% 5%">
+		<img src="<?php echo base_url()?>365/safest-windows-ever.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+		<h3 style="text-align: center;color: #7961ab;font-weight:500">Safest Windows Ever</h3>
+		<p style="text-align: center;font-size: 14px;">
+			Get upgraded to Windows 10 Pro from Windows 7 and 8.1 Pro.
+		</p>
+	</div>
+	
+	<div class="col-xs-12 col-md-4" style="padding:0 5% 5% 5%">
+		<img src="<?php echo base_url()?>365/cyberthreat-protection.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+		<h3 style="text-align: center;color: #7961ab;font-weight:500">Cyberthreat Protection</h3>
+		<p style="text-align: center;font-size: 14px;">
+			Help protect PCs from malware, viruses, and spyware.
+		</p>
+	</div>
+	
+</div>
+
+<div class="col-xm-12 col-sm-12 col-md-12">
+	<div class="col-xs-12 col-md-4" style="padding:0 5% 5% 5%">
+		<img src="<?php echo base_url()?>365/administration.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+		<h3 style="text-align: center;color: #7961ab;font-weight:500">Administration and Deployment</h3>
+		<p style="text-align: center;font-size: 14px;">
+			Manage new PCs and devices faster and more easily than ever.
+		</p>
+	</div>
+	
+	<div class="col-xs-12 col-md-4" style="padding:0 5% 5% 5%">
+		<img src="<?php echo base_url()?>365/dependability.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+		<h3 style="text-align: center;color: #7961ab;font-weight:500">Dependability and Support</h3>
+		<p style="text-align: center;font-size: 14px;">
+			Get 99.9% uptime guaranteed and 24/7 online and phone
+support.
+		</p>
+	</div>
+</div>
 
 
 </div>

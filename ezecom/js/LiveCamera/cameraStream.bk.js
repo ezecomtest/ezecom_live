@@ -39,7 +39,7 @@ function play_camera() {
                         seekbar: "#745DA3",
                         buttons: "#745DA3"
                     },
-                    watermarkLink: 'https://ezecom.com.kh',
+                    watermarkLink: 'https://www.ezecom.com.kh',
 					plugins: {
                         container: [ResponsiveContainer]
                     }

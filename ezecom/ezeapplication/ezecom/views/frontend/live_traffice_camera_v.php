@@ -195,7 +195,20 @@
 						?>
 								<td id="<?php echo $camera->traffic_cam_id?>" title="<?php echo $camera->name ?>" onclick='display_camera(this.id,this.title,"<?php echo $camera->secure_token; ?>")'><?php echo $camera->name; ?><span class="linetd">|</span></td>
 							
-						<?php }if($i==11){break;}
+						<?php }if($i==12){break;}
+							}
+						?>
+						</tr>
+						<tr>
+						<?php 
+							$i=0;
+							foreach($get_cameras as $camera){
+							$i++;
+							if($i >= 13){
+						?>
+								<td id="<?php echo $camera->traffic_cam_id?>" title="<?php echo $camera->name ?>" onclick='display_camera(this.id,this.title,"<?php echo $camera->secure_token; ?>")'><?php echo $camera->name; ?><span class="linetd">|</span></td>
+							
+						<?php }if($i==15){break;}
 							}
 						?>
 						</tr>
@@ -316,7 +329,8 @@ span.onclick = function() {
 		  ['OLYMPIC',11.55767179, 104.90819648,base_url,15],
 		  ['CAMKO CYCLE',11.59244625, 104.89617616,base_url,6],
 		  ['POCHENTONG',11.55360389, 104.8441574,base_url,16],
-		  ['CHBAR OMPOV',11.53202307, 104.93706107,base_url,18]
+		  ['CHBAR OMPOV',11.53202307, 104.93706107,base_url,18],
+		  ['RUSSIA HOSPITAL',11.54364938, 104.90262151,base_url,19]
 		  
 		  
         ];
@@ -387,8 +401,8 @@ span.onclick = function() {
   }
 
    [data-watermark-top-right] {
-		top: 10px;
-		right: 2px !important;
+		top: 8px;
+		right: 10px !important;
 		width: 25% !important;
     }
 		
