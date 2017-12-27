@@ -330,7 +330,8 @@ span.onclick = function() {
 		  ['CAMKO CYCLE',11.59244625, 104.89617616,base_url,6],
 		  ['POCHENTONG',11.55360389, 104.8441574,base_url,16],
 		  ['CHBAR OMPOV',11.53202307, 104.93706107,base_url,18],
-		  ['RUSSIA HOSPITAL',11.54364938, 104.90262151,base_url,19]
+		  ['RUSSIA HOSPITAL',11.54364938, 104.90262151,base_url,19],
+		  ['NOKIA INTERSECTION',11.55294167, 104.88722563,base_url,20]
 		  
 		  
         ];
