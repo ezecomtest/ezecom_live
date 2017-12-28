@@ -1241,7 +1241,10 @@ a:hover, a:focus{
 	cursor: hand;
 }
 .table-responsive{
-	margin-left: 29px;
+	/*margin-left: 29px;*/
+}
+.modal-body{
+	padding:20px 6px 10px 22px;
 }
 .table-responsive table td .linetd{
 	float:right;
