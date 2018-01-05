@@ -161,11 +161,24 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 		</div>
 		<div class="col-md-5 text-center wow fadeInUp" data-wow-delay="0.5s">
 			
-				<img class="img-responsive" style="width:200px;float:right;margin-right:70px;margin-bottom:-8px" src="<?php echo base_url()?>365/Lady.png" alt="Sign Up Now"/>
+				<img class="img-responsive" style="width:200px;float:right;margin-right:70px;margin-bottom:-8px" src="<?php echo base_url()?>365/Lady.png" data-toggle="modal" data-target="#myForm" alt="Sign Up Now"/>
 			
 		</div>
     </div>
 </div>
+
+<!-- Contact Form -->
+<div class="modal fade" id="myForm" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<h1>Hello</h1>
+			</div>
+		</div>
+	</div>
+</div>
+
+
 </div>
 <!-- //Ezecom ibizCloud -->
 
@@ -284,24 +297,31 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 </div>
 
 
+<div class="col-xm-12 col-sm-12 col-md-12">
+	<div style="width:100%;overflow:hidden">
+		<div class="col-xm-2 col-sm-2 col-md-2"></div>
+		
+		<div class="col-xs-12 col-md-4" style="padding: 0% 5% 5% 5%;margin-top: -2%">
+		<img src="<?php echo base_url()?>365/massive-free-storage.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
 
-<div class="col-xs-12 col-md-4" style="padding: 0% 5% 5% 5%;margin-top: -2%;">
-<img src="<?php echo base_url()?>365/massive-free-storage.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+		<h3 style="text-align: center;color: #7961ab;font-weight:500">Massive Free Storage </h3>
+		<p style="text-align: center;font-size: 14px;">
+		Sync and back up your files with up to 1 TB storage and sharing - with data security and recovery options.
+		</p>
+		</div>
 
-<h3 style="text-align: center;color: #7961ab;font-weight:500">Massive Free Storage </h3>
-<p style="text-align: center;font-size: 14px;">
-Sync and back up your files with up to 1 TB storage and sharing - with data security and recovery options.
-</p>
+		<div class="col-xs-12 col-md-4" style="padding: 0% 5% 5% 5%;margin-top: -2%">
+		<img src="<?php echo base_url()?>365/hassle-free.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+		<h3 style="text-align: center;color: #7961ab;font-weight:500">Latest Version & Cost Efficiency </h3>
+		<p style="text-align: center;font-size: 14px;">
+			Hassle-free experience with automatic Microsoft 
+			tools software in the Cloud with very affordable price per user.
+		</p>
+		</div>
+		
+		<div class="col-xm-2 col-sm-2 col-md-2"></div>
+	</div>
 </div>
-<div class="col-xs-12 col-md-4" style="padding: 0% 5% 5% 5%;margin-top: -2%;">
-<img src="<?php echo base_url()?>365/hassle-free.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-<h3 style="text-align: center;color: #7961ab;font-weight:500">Latest Version & Cost Efficiency </h3>
-<p style="text-align: center;font-size: 14px;">
-	Hassle-free experience with automatic Microsoft 
-	tools software in the Cloud with very affordable price per user.
-</p>
-</div>
-
 
 </div>
 </div>
@@ -370,21 +390,25 @@ Sync and back up your files with up to 1 TB storage and sharing - with data secu
 </div>
 
 <div class="col-xm-12 col-sm-12 col-md-12">
-	<div class="col-xs-12 col-md-4" style="padding:0 5% 5% 5%">
-		<img src="<?php echo base_url()?>365/administration.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-		<h3 style="text-align: center;color: #7961ab;font-weight:500">Administration and Deployment</h3>
-		<p style="text-align: center;font-size: 14px;">
-			Manage new PCs and devices faster and more easily than ever.
-		</p>
-	</div>
+	<div style="width:100%;overflow:hidden">
+		<div class="col-xm-2 col-sm-2 col-md-2"></div>
+		<div class="col-xs-12 col-md-4" style="padding:0 5% 5% 5%">
+			<img src="<?php echo base_url()?>365/administration.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+			<h3 style="text-align: center;color: #7961ab;font-weight:500">Administration and Deployment</h3>
+			<p style="text-align: center;font-size: 14px;">
+				Manage new PCs and devices faster and more easily than ever.
+			</p>
+		</div>
 	
-	<div class="col-xs-12 col-md-4" style="padding:0 5% 5% 5%">
-		<img src="<?php echo base_url()?>365/dependability.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-		<h3 style="text-align: center;color: #7961ab;font-weight:500">Dependability and Support</h3>
-		<p style="text-align: center;font-size: 14px;">
-			Get 99.9% uptime guaranteed and 24/7 online and phone
-support.
-		</p>
+		<div class="col-xs-12 col-md-4" style="padding:0 5% 5% 5%">
+			<img src="<?php echo base_url()?>365/dependability.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+			<h3 style="text-align: center;color: #7961ab;font-weight:500">Dependability and Support</h3>
+			<p style="text-align: center;font-size: 14px;">
+				Get 99.9% uptime guaranteed and 24/7 online and phone
+	support.
+			</p>
+		</div>
+		<div class="col-xm-2 col-sm-2 col-md-2"></div>
 	</div>
 </div>
 

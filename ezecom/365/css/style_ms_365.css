@@ -47,3 +47,8 @@
 #discount-opt{
 	margin-top: -20px;
 }
+
+.modal-content{
+	position: absolute;
+    top: 358px;
+}
