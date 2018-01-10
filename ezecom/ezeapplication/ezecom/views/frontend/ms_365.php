@@ -161,7 +161,7 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 		</div>
 		<div class="col-md-5 text-center wow fadeInUp" data-wow-delay="0.5s">
 			
-				<img class="img-responsive" style="width:200px;float:right;margin-right:70px;margin-bottom:-8px" src="<?php echo base_url()?>365/Lady.png" data-toggle="modal" data-target="#myForm" alt="Sign Up Now"/>
+				<img class="img-responsive img_sign_up" src="<?php echo base_url()?>365/Lady.png" data-toggle="modal" data-target="#myForm" alt="Sign Up Now"/>
 			
 		</div>
     </div>
@@ -172,7 +172,48 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-body">
-				<h1>Hello</h1>
+				<form class="form-horizontal" action="<?php echo base_url()?>365/sending.php" style="margin-right:59px;margin-top:20px" method="POST">
+					<div class="form-group">
+					  <label class="control-label col-sm-4" for="email">Name</label>
+					  <div class="col-sm-8">
+						<input type="text" class="form-control" id="name" name="name" required="" style="height:30px">
+					  </div>
+					</div>
+					
+    <div class="form-group">
+      <label class="control-label col-sm-4" for="pwd">Mobile</label>
+      <div class="col-sm-8">          
+        <input type="text" class="form-control" id="mobile" name="mobile" required="" style="height:30px">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-4" for="pwd">E-mail</label>
+      <div class="col-sm-8">          
+        <input type="text" class="form-control" id="email" name="email" required="" style="height:30px">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-4" for="pwd">Desciptions</label>
+      <div class="col-sm-8">          
+        <textarea class="form-control" rows="2" id="comment" name="desciption" style="height:50px; width:211px;" ></textarea>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-4" for="pwd"></label>
+      <div class="col-sm-8">          
+        <div class="g-recaptcha" data-sitekey="6LegbCMTAAAAANeFxea47OaPqcjZocO2CwUhFPt9"></div>
+      </div>
+    </div>
+
+    
+    <div class="form-group">        
+      <div class="control-label col-sm-7">
+        <button type="submit" class="btn btn-default" style="background: #7961ab;border-radius: 5px;color: #fff;">Submit</button>
+      </div>
+    </div>
+  </form>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 			</div>
 		</div>
 	</div>
@@ -419,7 +460,7 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 
 
 
-<div id="about1" class="things" style="min-height:10px !important;">
+<!--<div id="about1" class="things" style="min-height:10px !important;">
 
 <div class="container">
 
@@ -475,7 +516,7 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
             </div>
             <br/>
 </div>
-</div>
+</div>-->
 
 <!-- FOOTER -->
 	<?php $this->load->view('footer/footer_user_v');?>

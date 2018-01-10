@@ -52,3 +52,10 @@
 	position: absolute;
     top: 358px;
 }
+
+.img_sign_up{
+	width:200px;
+	float:right;
+	margin-right:70px;
+	cursor: pointer;
+}
