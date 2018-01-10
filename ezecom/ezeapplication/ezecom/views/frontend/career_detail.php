@@ -102,16 +102,7 @@ jQuery(document).ready(function(){
 <!-- //MAIN CONTENT -->
 </div>
 </div> 
-	<!-- HOME SL 5 -->
-		<div class="wrap t3-sl t3-sl-5 ">
-			<marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="12">
-				<?php foreach($feature_content as $feature){ ?>
-					<a target="_blank" href="<?php echo base_url('newsdetail/').$feature->content_title ?>"><?php echo $feature->content_title.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' ?></a>
-				<?php } ?>
-			</marquee>
-
-		</div>
-		<!-- //HOME SL 5 -->
+	
 </div>
 <!-- FOOTER -->
 	<?php
