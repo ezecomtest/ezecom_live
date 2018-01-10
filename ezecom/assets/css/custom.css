@@ -1235,7 +1235,7 @@ a:hover, a:focus{
 .table-responsive table td{
 	max-width:100px;
 	border-top:none !important;
-	font-size:15px;
+	font-size:12px;
 	color:#7c5ca8;
 	cursor: pointer; 
 	cursor: hand;
