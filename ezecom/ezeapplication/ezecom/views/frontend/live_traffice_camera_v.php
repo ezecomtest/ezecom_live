@@ -323,7 +323,7 @@ span.onclick = function() {
           ['TUOLKORK',11.5695493, 104.90087271,base_url,7],
           ['STEUNGMEANCHEY',11.54665574, 104.89712834,base_url,12],
 		  ['KBAL THNOL',11.52963677, 104.93106902,base_url,2],
-		  ['SPEAN DEAK',11.52611512, 104.88751262,base_url,17],
+		  ['SPEAN DEAK CHOMKA DONG',11.52611512, 104.88751262,base_url,17],
 		  ['RIVERSIDE',11.56928653, 104.93023217,base_url,3],
 		  ['CHAOM CHAO',11.53538697, 104.83038962,base_url,8],
 		  ['OLYMPIC',11.55767179, 104.90819648,base_url,15],
@@ -331,8 +331,8 @@ span.onclick = function() {
 		  ['POCHENTONG',11.55360389, 104.8441574,base_url,16],
 		  ['CHBAR OMPOV',11.53202307, 104.93706107,base_url,18],
 		  ['RUSSIA HOSPITAL',11.54364938, 104.90262151,base_url,19],
-		  ['NOKIA INTERSECTION',11.55294167, 104.88722563,base_url,20],
-		  ['WAT SONSOMKOSAL',11.53133977, 104.91374195,base_url,21],
+		  ['NOKIA INTERSECTION (271)',11.55294167, 104.88722563,base_url,20],
+		  ['WAT SONSOMKOSAL (271)',11.53133977, 104.91374195,base_url,21],
 		  ['MONDIAL CENTER',11.557861, 104.9013555,base_url,22]
 		  
 		  
@@ -404,8 +404,8 @@ span.onclick = function() {
   }
 
    [data-watermark-top-right] {
-		top: 8px;
-		right: 10px !important;
+		top: 13px;
+		right: 0px !important;
 		width: 25% !important;
     }
 		

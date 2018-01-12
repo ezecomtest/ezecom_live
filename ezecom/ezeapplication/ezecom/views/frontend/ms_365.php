@@ -122,10 +122,10 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 <div class="col-xm-12 col-sm-12 col-md-12">
 <div class="row">
 <div class="col-xs-12 col-sm-4 col-md-6">
-<h3 class="product-price"><img src="https://www.ezecom.com.kh/images/content/Artwork-CSP.png" alt="" class="img-responsive"></h3>
+<h3 class="product-price"><img src="<?php echo base_url()?>365/artwork-microsoft-365.png" alt="" class="img-responsive"></h3>
 </div>
-<div class="col-xs-12 col-sm-4 col-md-6" style="padding-top: 11%;">
-	<img class="img-responsive" style="width:250px" src="<?php echo base_url()?>365/office365-logo.png" alt="Ms Office 365"/>
+<div class="col-xs-12 col-sm-4 col-md-6" style="padding-top: 8%;">
+	<!--<img class="img-responsive" style="width:250px" src="<?php echo base_url()?>365/office365-logo.png" alt="Ms Office 365"/>-->
 	<h3 style="color:#000;font-weight:400;font-size:25px">MOVE YOUR BUSINESS FORWARD, ANYWHERE, ANYTIME, ANY DEVICE</h3>
 	<br>
 	<p>
@@ -230,14 +230,14 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 <div class="col-xm-12 col-sm-12 col-md-12">
 <div class="row">
 
-<h1 style="text-align: center;font-size: 3em;color: #7961ab;">Package Plans</h1>
+<h1 style="text-align: center;font-size: 2.3em;color: #7961ab;">Package Plans</h1>
 <div class="col-xs-12 col-sm-2 col-md-1">
 </div>
 <div class="col-xs-12 col-sm-8 col-md-10">
 <div class="tab-inner-indent">
 	<img class="img-responsive" id="sign_up_now" src="<?php echo base_url()?>365/package-plan-test.png" alt="Package Plan"/>
 	<!--<p class="learn_more">Learn more at <a href="#">www.ezecom.com.kh/office365</a></p>-->
-	<img class="img-responsive"  src="<?php echo base_url()?>365/discount-option.png"/>
+	<img class="img-responsive"  id="sign_up_discount" src="<?php echo base_url()?>365/sign-up-discount.png"/>
 <!--<table class="table table-features">
 <tbody>
 
@@ -305,28 +305,28 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 <div class="col-xm-12 col-sm-12 col-md-12">
 
 
-<h1 style="text-align: center;font-size: 3em;color: #7961ab;">Features & Benefits</h1>
-<div class="col-xs-12 col-md-4" style="padding: 5%;">
-<img src="<?php echo base_url()?>365/work-offline.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+<h1 style="text-align:center;font-size:2em;color:#7961ab;font-weight:400">Features & Benefits</h1>
+<div class="col-xs-12 col-md-4" style="padding:5% 5% 0 5%;">
+<img src="<?php echo base_url()?>365/work-offline.png" id="all_img_features_what_include" alt="Features & Benefits" class="img-responsive">
 
-<h3 style="text-align: center;color: #7961ab;font-weight:500">Anywhere It Matters</h3>
+<h3 style="padding-bottom:10px;text-align:center;color:#7961ab;font-weight:bold;font-size:16px">Anywhere It Matters</h3>
 <p style="text-align: center;font-size: 14px;">
 	Access your work securely from anywhere, no WiFi, no problem. 
 	Work offline and sync your data later. Available on Windows, 
 	iOS, Android, Mac and through web browsers.
 </p>
 </div>
-<div class="col-xs-12 col-md-4" style="padding: 5%;">
-<img src="<?php echo base_url()?>365/security.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-<h3 style="text-align: center;color: #7961ab;font-weight:500">Always-on Security</h3>
+<div class="col-xs-12 col-md-4" style="padding: 5% 5% 0 5%;">
+<img src="<?php echo base_url()?>365/security.png" id= "all_img_features_what_include" alt="Always-on Security" class="img-responsive">
+<h3 style="padding-bottom:10px;text-align:center;color:#7961ab;font-weight:bold;font-size:16px">Always-on Security</h3>
 <p style="text-align: center;font-size: 14px;">
 	Safeguard company data across PCs, 
 	phones & tablets securely with the latest version of Microsoft office 365.
 </p>
 </div>
-<div class="col-xs-12 col-md-4" style="padding: 5%;">
-<img src="<?php echo base_url()?>365/team-collaboration.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-<h3 style="text-align: center;color: #7961ab;font-weight:500">Team Collaboration</h3>
+<div class="col-xs-12 col-md-4" style="padding: 5% 5% 0 5%;">
+<img src="<?php echo base_url()?>365/team-collaboration.png" id="all_img_features_what_include" alt="Team Collaboration" class="img-responsive">
+<h3 style="padding-bottom:10px;text-align:center;color:#7961ab;font-weight:bold;font-size:16px">Team Collaboration</h3>
 <p style="text-align: center;font-size: 14px;">
 	Connect with customers, 
 	co-workers and suppliers with online Microsoft 
@@ -342,18 +342,18 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 	<div style="width:100%;overflow:hidden">
 		<div class="col-xm-2 col-sm-2 col-md-2"></div>
 		
-		<div class="col-xs-12 col-md-4" style="padding: 0% 5% 5% 5%;margin-top: -2%">
-		<img src="<?php echo base_url()?>365/massive-free-storage.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
+		<div class="col-xs-12 col-md-4" style="padding: 0% 5% 1% 5%;margin-top: -2%">
+		<img src="<?php echo base_url()?>365/massive-free-storage.png" id="all_img_features_what_include" alt="Massive Free Storage" class="img-responsive">
 
-		<h3 style="text-align: center;color: #7961ab;font-weight:500">Massive Free Storage </h3>
+		<h3 style="padding-bottom:10px;text-align:center;color:#7961ab;font-weight:bold;font-size:16px">Massive Free Storage </h3>
 		<p style="text-align: center;font-size: 14px;">
 		Sync and back up your files with up to 1 TB storage and sharing - with data security and recovery options.
 		</p>
 		</div>
 
-		<div class="col-xs-12 col-md-4" style="padding: 0% 5% 5% 5%;margin-top: -2%">
-		<img src="<?php echo base_url()?>365/hassle-free.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-		<h3 style="text-align: center;color: #7961ab;font-weight:500">Latest Version & Cost Efficiency </h3>
+		<div class="col-xs-12 col-md-4" style="padding: 0% 5% 1% 5%;margin-top: -2%">
+		<img src="<?php echo base_url()?>365/hassle-free.png" id="all_img_features_what_include" alt="Latest Version & Cost Efficiency" class="img-responsive">
+		<h3 style="padding-bottom:10px;text-align:center;color:#7961ab;font-weight:bold;font-size:16px">Latest Version & Cost Efficiency </h3>
 		<p style="text-align: center;font-size: 14px;">
 			Hassle-free experience with automatic Microsoft 
 			tools software in the Cloud with very affordable price per user.
@@ -375,26 +375,26 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
  
 <div class="col-xm-12 col-sm-12 col-md-12">
 
-	<h1 style="text-align: center;font-size: 3em;color: #7961ab;">WHAT’S INCLUDED</h1>
-	<div class="col-xs-12 col-md-4" style="padding:5%">
-		<img src="<?php echo base_url()?>365/come-with-office.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-		<h3 style="text-align: center;color: #7961ab;font-weight:500">Comes with Office</h3>
+	<h1 style="text-align: center;font-size: 2em;color: #7961ab;font-weight:400">WHAT’S INCLUDED</h1>
+	<div class="col-xs-12 col-md-4" style="padding:5% 5% 0 5%">
+		<img src="<?php echo base_url()?>365/come-with-office.png" id="all_img_features_what_include" alt="Comes with Office" class="img-responsive">
+		<h3 style="padding-bottom:10px;text-align:center;color:#7961ab;font-weight:bold;font-size:16px">Comes with Office</h3>
 		<p style="text-align: center;font-size: 14px;">
 			Stay up-to-date with the latest versions of Word, Excel, PowerPoint, and more.
 		</p>
 	</div>
 					
-	<div class="col-xs-12 col-md-4" style="padding:5%">
-		<img src="<?php echo base_url()?>365/email-calendering.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-		<h3 style="text-align: center;color: #7961ab;font-weight:500">Email and Calendaring</h3>
+	<div class="col-xs-12 col-md-4" style="padding:5% 5% 0 5%">
+		<img src="<?php echo base_url()?>365/email-calendering.png" id="all_img_features_what_include" alt="Email and Calendaring" class="img-responsive">
+		<h3 style="padding-bottom:10px;text-align:center;color:#7961ab;font-weight:bold;font-size:16px">Email and Calendaring</h3>
 		<p style="text-align: center;font-size: 14px;">
 			Connect with customers and co-workers using Outlook and Exchange.
 		</p>
 	</div>
 
-	<div class="col-xs-12 col-md-4" style="padding:5%">
-		<img src="<?php echo base_url()?>365/file-storage.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-		<h3 style="text-align: center;color: #7961ab;font-weight:500">File Storage</h3>
+	<div class="col-xs-12 col-md-4" style="padding:5% 5% 0 5%">
+		<img src="<?php echo base_url()?>365/file-storage.png" id="all_img_features_what_include" alt="File Storage" class="img-responsive">
+		<h3 style="padding-bottom:10px;text-align:center;color:#7961ab;font-weight:bold;font-size:16px">File Storage</h3>
 		<p style="text-align: center;font-size: 14px;">
 			Manage your files from anywhere with 1 TB of storage.
 		</p>
@@ -403,26 +403,26 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 </div>
 
 <div class="col-xm-12 col-sm-12 col-md-12">
-	<div class="col-xs-12 col-md-4" style="padding:0 5% 5% 5%">
-		<img src="<?php echo base_url()?>365/data-protection-control.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-		<h3 style="text-align: center;color: #7961ab;font-weight:500">Data Protection</h3>
+	<div class="col-xs-12 col-md-4" style="padding:0 5% 0 5%">
+		<img src="<?php echo base_url()?>365/data-protection-control.png" id="all_img_features_what_include" alt="Data Protection" class="img-responsive">
+		<h3 style="padding-bottom:10px;text-align:center;color:#7961ab;font-weight:bold;font-size:16px">Data Protection</h3>
 		<p style="text-align: center;font-size: 14px;">
 			Controls Help secure business data on 
 			personal and company-owned devices.
 		</p>
 	</div>
 	
-	<div class="col-xs-12 col-md-4" style="padding:0 5% 5% 5%">
-		<img src="<?php echo base_url()?>365/safest-windows-ever.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-		<h3 style="text-align: center;color: #7961ab;font-weight:500">Safest Windows Ever</h3>
+	<div class="col-xs-12 col-md-4" style="padding:0 5% 0 5%">
+		<img src="<?php echo base_url()?>365/safest-windows-ever.png" id="all_img_features_what_include" alt="Safest Windows Ever" class="img-responsive">
+		<h3 style="padding-bottom:10px;text-align:center;color:#7961ab;font-weight:bold;font-size:16px">Safest Windows Ever</h3>
 		<p style="text-align: center;font-size: 14px;">
 			Get upgraded to Windows 10 Pro from Windows 7 and 8.1 Pro.
 		</p>
 	</div>
 	
-	<div class="col-xs-12 col-md-4" style="padding:0 5% 5% 5%">
-		<img src="<?php echo base_url()?>365/cyberthreat-protection.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-		<h3 style="text-align: center;color: #7961ab;font-weight:500">Cyberthreat Protection</h3>
+	<div class="col-xs-12 col-md-4" style="padding:0 5% 0 5%">
+		<img src="<?php echo base_url()?>365/cyberthreat-protection.png" id="all_img_features_what_include" alt="Cyberthreat Protection" class="img-responsive">
+		<h3 style="padding-bottom:10px;text-align:center;color:#7961ab;font-weight:bold;font-size:16px">Cyberthreat Protection</h3>
 		<p style="text-align: center;font-size: 14px;">
 			Help protect PCs from malware, viruses, and spyware.
 		</p>
@@ -434,16 +434,16 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 	<div style="width:100%;overflow:hidden">
 		<div class="col-xm-2 col-sm-2 col-md-2"></div>
 		<div class="col-xs-12 col-md-4" style="padding:0 5% 5% 5%">
-			<img src="<?php echo base_url()?>365/administration.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-			<h3 style="text-align: center;color: #7961ab;font-weight:500">Administration and Deployment</h3>
+			<img src="<?php echo base_url()?>365/administration.png" id="all_img_features_what_include" alt="Administration and Deployment" class="img-responsive">
+			<h3 style="padding-bottom:10px;text-align:center;color:#7961ab;font-weight:bold;font-size:16px">Administration and Deployment</h3>
 			<p style="text-align: center;font-size: 14px;">
 				Manage new PCs and devices faster and more easily than ever.
 			</p>
 		</div>
 	
 		<div class="col-xs-12 col-md-4" style="padding:0 5% 5% 5%">
-			<img src="<?php echo base_url()?>365/dependability.png" alt="" class="img-responsive" style="margin: 0 0 0 45px;">
-			<h3 style="text-align: center;color: #7961ab;font-weight:500">Dependability and Support</h3>
+			<img src="<?php echo base_url()?>365/dependability.png" id="all_img_features_what_include" alt="Dependability and Support" class="img-responsive">
+			<h3 style="padding-bottom:10px;text-align:center;color:#7961ab;font-weight:bold;font-size:16px">Dependability and Support</h3>
 			<p style="text-align: center;font-size: 14px;">
 				Get 99.9% uptime guaranteed and 24/7 online and phone
 	support.

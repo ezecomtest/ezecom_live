@@ -59,3 +59,21 @@
 	margin-right:70px;
 	cursor: pointer;
 }
+#sign_up_now{
+	width:75%;
+	margin: 0 auto;
+}
+#sign_up_discount{
+	margin:0 auto;
+	width:80%;
+}
+
+#all_img_features_what_include{
+	width:40%;
+	margin:0 auto;
+}
+#all_h_feature_and_include{
+	text-align: center;
+	font-weight:bold;
+	font-size:16px;
+}
