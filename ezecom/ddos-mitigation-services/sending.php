@@ -36,11 +36,11 @@ if($_SERVER["REQUEST_METHOD"] === "POST")
             // echo 'Mailer error: ' . $mail->ErrorInfo;
         } else {
             // echo 'Message has been sent.';
-            header("Location: https://www.ezecom.com.kh/ddos-mitigation-service/thank-you.php");
+            header("Location: https://www.ezecom.com.kh/ddos-mitigation-services/thank-you.php");
         }
 
     }else{
-        header("Location: https://www.ezecom.com.kh/ddos-mitigation-service/robot.php");
+        header("Location: https://www.ezecom.com.kh/ddos-mitigation-services/robot.php");
     }
 
 }

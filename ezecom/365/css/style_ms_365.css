@@ -34,10 +34,34 @@
 	color:#000;
 }
 
+
 .container .video-container iframe{
 	width:100%;
 	height:50%;
 }
+
+
+@media only screen and (max-width: 2560px) and (min-width: 1600px){
+	 .container .video-container iframe{
+		width:100%;
+		height:40%;
+	}
+}
+
+@media only screen and (max-width: 1680px) and (min-width: 1600px){
+	 .container .video-container iframe{
+		width:100%;
+		height:40%;
+	}
+}
+
+/* @media screen and (max-width: 1920px){
+   .container .video-container iframe{
+		/* width:100%;
+		height:40%; 
+	}
+} */
+
 
 .learn_more{
 	margin-top: 30px;
@@ -53,11 +77,19 @@
     top: 358px;
 }
 
+@media screen and (max-width: 375px){
+    .modal-content{
+		position: absolute;
+		top: 950px;
+	}
+}
+
 .img_sign_up{
-	width:200px;
+	width:380px;
 	float:right;
-	margin-right:70px;
-	cursor: pointer;
+	cursor:pointer;
+	position:relative;
+    left:40;
 }
 #sign_up_now{
 	width:75%;
@@ -76,4 +108,9 @@
 	text-align: center;
 	font-weight:bold;
 	font-size:16px;
+}
+.t3-copyright{
+	/*margin-bottom:-28px !important;*/
+	overflow:hidden !important;
+	margin-bottom:0;
 }

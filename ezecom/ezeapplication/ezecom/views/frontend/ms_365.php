@@ -155,7 +155,7 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 		<div class="col-md-7 wow fadeInUp" data-wow-delay="0.5s" >
 			<div style="padding-top:30px;padding-bottom: 30px;" >
 				<div class="video-container">
-				<iframe src="https://www.youtube.com/embed/pN5sNZEWdgw" frameborder="0" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/YdhZPhCw91s" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -192,6 +192,21 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
         <input type="text" class="form-control" id="email" name="email" required="" style="height:30px">
       </div>
     </div>
+	
+	<div class="form-group">
+      <label class="control-label col-sm-4" for="pwd">Domain Name</label>
+      <div class="col-sm-8">          
+        <input type="text" class="form-control"  data-toggle="tooltip" title="Some text" id="email" name="domain_name" required="" style="height:30px">
+      </div>
+    </div>
+	
+	<div class="form-group">
+      <label class="control-label col-sm-4" for="pwd">Number of User</label>
+      <div class="col-sm-8">          
+        <input type="text" class="form-control" id="email" name="number_user" required="" style="height:30px">
+      </div>
+    </div>
+	
     <div class="form-group">
       <label class="control-label col-sm-4" for="pwd">Desciptions</label>
       <div class="col-sm-8">          
@@ -320,8 +335,7 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 <img src="<?php echo base_url()?>365/security.png" id= "all_img_features_what_include" alt="Always-on Security" class="img-responsive">
 <h3 style="padding-bottom:10px;text-align:center;color:#7961ab;font-weight:bold;font-size:16px">Always-on Security</h3>
 <p style="text-align: center;font-size: 14px;">
-	Safeguard company data across PCs, 
-	phones & tablets securely with the latest version of Microsoft office 365.
+	Safeguard company data across PCs,phones & tablets securely with the latest version of Microsoft <span style="white-space:nowrap">office 365.</span>
 </p>
 </div>
 <div class="col-xs-12 col-md-4" style="padding: 5% 5% 0 5%;">
@@ -459,65 +473,6 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 </div>
 
 
-
-<!--<div id="about1" class="things" style="min-height:10px !important;">
-
-<div class="container">
-
-    <div class="container tvc-wrap " >
-                <div class="col-md-8 wow fadeInUp" data-wow-delay="0.5s" >
-                   <h4 style="color: #7961ab;font-size: 45px;margin-bottom: 30px;">Contact Us</h4>
-                   <h4 style="font-size: 18px;">Mobile: 023 888 181</h4>
-                   <h4 style="font-size: 18px;">E-mail: websales@ezecom.com.kh </h4>
-                </div>
-                <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.5s">
-<form class="form-horizontal" action="<?php echo base_url()?>365/sending.php" style="margin-right:59px;margin-top:20px" method="POST">
-    <div class="form-group">
-      <label class="control-label col-sm-4" for="email">Name</label>
-      <div class="col-sm-8">
-        <input type="text" class="form-control" id="name" name="name" required="" style="height:30px">
-      </div>
-    </div>
-    <div class="form-group">
-      <label class="control-label col-sm-4" for="pwd">Mobile</label>
-      <div class="col-sm-8">          
-        <input type="text" class="form-control" id="mobile" name="mobile" required="" style="height:30px">
-      </div>
-    </div>
-    <div class="form-group">
-      <label class="control-label col-sm-4" for="pwd">E-mail</label>
-      <div class="col-sm-8">          
-        <input type="text" class="form-control" id="email" name="email" required="" style="height:30px">
-      </div>
-    </div>
-    <div class="form-group">
-      <label class="control-label col-sm-4" for="pwd">Desciptions</label>
-      <div class="col-sm-8">          
-        <textarea class="form-control" rows="2" id="comment" name="desciption" style="height:50px; width:211px;" ></textarea>
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label class="control-label col-sm-4" for="pwd"></label>
-      <div class="col-sm-8">          
-        <div class="g-recaptcha" data-sitekey="6LegbCMTAAAAANeFxea47OaPqcjZocO2CwUhFPt9"></div>
-      </div>
-    </div>
-
-    
-    <div class="form-group">        
-      <div class="control-label col-sm-7">
-        <button type="submit" class="btn btn-default" style="background: #7961ab;border-radius: 5px;color: #fff;">Submit</button>
-      </div>
-    </div>
-  </form>
-  <script src='https://www.google.com/recaptcha/api.js'></script>
-                </div>
-            </div>
-            <br/>
-</div>
-</div>-->
-
 <!-- FOOTER -->
 	<?php $this->load->view('footer/footer_user_v');?>
 <!-- //FOOT NAVIGATION -->
@@ -561,4 +516,5 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 			alert("Hello!");
 		});
 	});
+	
 </script>

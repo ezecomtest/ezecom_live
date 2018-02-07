@@ -181,7 +181,7 @@ $route['media-center'] = 'frontend/media_center_c/media_center/';
 $route['ddos-mitigation-service'] = 'frontend/ddos/ddos_mitigation/';
 
 // Ms 365
-$route['office365'] = 'frontend/ms_365/Office_365/';
+$route['our-services/enterprise-solution/office365'] = 'frontend/ms_365/Office_365/';
 
 //end media center
 

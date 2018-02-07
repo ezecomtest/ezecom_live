@@ -65,8 +65,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <script>
 setTimeout(function () {
-   //window.location.href = "https://www.ezecom.com.kh/office365"; // (Real Server) will redirect to your blog page (an ex: blog.html)
-   window.location.href = "http://dev1.ezecom.com.kh/office365"; // (Server Test) will redirect to your blog page (an ex: blog.html)
+   window.location.href = "https://www.ezecom.com.kh/our-services/enterprise-solution/office365"; // (Real Server) will redirect to your blog page (an ex: blog.html)
+   //window.location.href = "http://dev1.ezecom.com.kh/our-services/enterprise-solution/office365"; // (Server Test) will redirect to your blog page (an ex: blog.html)
 }, 4000);
 </script>
 

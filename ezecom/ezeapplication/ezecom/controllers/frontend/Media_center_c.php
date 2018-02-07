@@ -200,6 +200,13 @@ class Media_center_c extends CI_Controller {
 	}
 
 	public function news_detail_c(){
+		// redirect page.
+		if($this->uri->segment(2)=="live-traffic-camera%E2%80%99s"){
+			header("HTTPS/1.1 301 Moved Permanently");
+			$full_url = base_url()."newsdetail/live-traffic-camera";
+			header("Location: $full_url");
+		}
+		
         /*  replace (-) from url  */
 		$uri_orig = explode("/",$_SERVER['REQUEST_URI']);
 		$title = (end($uri_orig));
