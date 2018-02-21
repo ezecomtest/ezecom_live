@@ -111,6 +111,65 @@
 				
 			</div>
 		</div>
+		<div class="row">
+			<div class="feature">
+				<h3 class="text-center">Features & Benefits</h3>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="wrapper-feature">
+					<img class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/download-upload.png"/>
+					<div class="border-bottom"></div>
+					<div class="text">
+						<h4>Equal Upload/Download</h4>
+						<p>
+							The only ISP in Cambodia that actually offer true equal upload and download 
+							speed for users at this price point. Get the best 
+							performance when working on large files with EzeBiz connection.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="wrapper-feature">
+					<img class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/double-speed.png"/>
+					<div class="border-bottom"></div>
+					<div class="text">
+						<h4>Off-Peak Double Speed</h4>
+						<p>
+							Get a special leg up during unconventional operating time. 
+							Enjoy twice the purchased speed at night and weekend.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="wrapper-feature">
+					<img class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/bonus-speed.png"/>
+					<div class="border-bottom"></div>
+					<div class="text">
+						<h4>Bonus Speed for Popular Content </h4>
+						<p>
+							Enjoy a massive bonus speed for lightning fast performance on some of your most 
+							used services including YouTube, Facebook, App Store and more.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="wrapper-feature">
+					<img class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/maximum-available.png"/>
+					<div class="border-bottom"></div>
+					<div class="text">
+						<h4>Maximum Availability</h4>
+						<p>
+							EzeBiz has 99.95% uptime, which is the highest possible industry 
+							standard to date. This means 
+							you practically always have a fast and reliable internet access. 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 		
 	</div>
 </div>
