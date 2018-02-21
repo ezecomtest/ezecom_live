@@ -1,0 +1,134 @@
+/*-- to-top --*/
+.col-img-padding{
+	padding:0;
+}
+
+.about-ezebiz p{
+	font-size:18px;
+	font-family:'Neutra Text',serif,sans-serif;
+	padding-bottom:40px;
+}
+
+.about-ezebiz h3{
+	color: #7961AA;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Neutra Text',serif,sans-serif;
+	padding-top:40px;
+	padding-bottom:20px;
+}
+.ezebiz-work{
+	margin-bottom:30px;
+}
+.ezebiz-work h3{
+	color: #7961AA;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Neutra Text',serif,sans-serif;
+	padding-top:40px;
+	padding-bottom:50px;
+}
+
+.ezebiz-work{
+	background-color:#F4F4F4;
+	padding-bottom:40px;
+}
+.ezebiz-work h3{
+	color: #7961AA;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Neutra Text',serif,sans-serif;
+	padding-top:40px;
+	padding-bottom:20px;
+}
+
+.pricing h3{
+	color: #7961AA;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Neutra Text',serif,sans-serif;
+	padding-top:40px;
+	padding-bottom:20px;
+}
+.pricing p{
+	font-size:18px;
+	font-family:'Neutra Text',serif,sans-serif;
+	padding-bottom:40px;
+}
+.package-plan{
+	background-color:#F4F4F4;
+	padding-bottom:106px;
+}
+.special-offer{
+	background-color:#7961A9;
+}
+.package-plan p{
+	color: #7961AA;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Neutra Text',serif,sans-serif;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+.package-plan ul{
+	padding:70px 10px 0 20px;
+	list-style-type:none;
+}
+.package-plan ul li{
+	display:inline-block;
+}
+.special-offer p{
+	font-weight: bold;
+	color:#ffffff;
+	font-size:18px;
+    font-family: 'Neutra Text',serif,sans-serif;
+    padding:20px 0 5px 20px;
+}
+.special-offer ul{
+	list-style-type:none;
+}
+.special-offer ul li{
+	color:#ffffff;
+	font-family: 'Neutra Text',serif,sans-serif;
+}
+.bonus-speed ul{
+	list-style-type:none;
+}
+.bonus-speed ul li{
+	display:inline-block;
+}
+.special-offer .term-condition ul{
+	list-style-type:none;
+	padding-bottom:20px;
+}
+.term-condition p{
+	font-weight: bold;
+	color:#ffffff;
+	font-size:18px;
+    font-family: 'Neutra Text',serif,sans-serif;
+}
+
+.no-padding-left{
+    padding-left: 0 !important;
+}
+
+.no-padding-right{
+    padding-right: 0 !important;
+}
+
+@media screen and (max-width:1024px){
+	.no-padding-left{
+		padding-left: 15px !important;
+	}
+
+	.no-padding-right{
+		padding-right: 15px !important;
+	}
+	
+	.package-plan ul{
+		text-align:center;
+		list-style-type:none;
+	}
+	
+}
+

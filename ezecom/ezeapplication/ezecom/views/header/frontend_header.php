@@ -1,22 +1,22 @@
  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ /*  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-21233285-1', 'auto');
-  ga('send', 'pageview');
+  ga('send', 'pageview'); */
 
 </script>
 <meta name="Description" content="EZECOM, Cambodia's premium internet provider, founded in 2007 to serve the rapidly expanding business and home user internet market in Cambodia. Today it is a leading provider of a wide variety of innovative communication services, including fibre optic, VoIP, virtual private networks and other Internet-based & Cloud solutions.." />
 <meta name="keywords"  content="Premium ISP, World class ISP, Submarine Cable, Cambodia's premium internet, cambodia isp, internet service provider,internet in Cambodia,enterprise solutions(IPLC, DPLC),Corporate & Premium Packages, VOIP, Web Hosting, Data co-location, Data Centre" />
 <!--Start of Zendesk Chat Script-->
 <script type="text/javascript">
-window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+/* window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
 d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
 _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
 $.src="https://v2.zopim.com/?4gOjM0mQ4PTL2tdnAnk5660qXBBcjKWa";z.t=+new Date;$.
-type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script"); */
 </script>
 <!--End of Zendesk Chat Script--> 
 <!-- Start Homepage --> 
