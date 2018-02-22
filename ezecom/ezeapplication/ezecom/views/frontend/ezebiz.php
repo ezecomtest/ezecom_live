@@ -22,21 +22,79 @@
 		<div class="row">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-img-padding">
 				<div class="wrapper-top">
+					<span>
+						<img class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/btn-sign-up.png" data-toggle="modal" data-target="#myForm"/>
+					</span>
 					<img class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/Ezebiz-photo.jpg"/>
 				</div>
 			</div>
 		</div>
-	
+		
+		<!-- Contact Form EzeBiz -->
+		<div class="modal fade" id="myForm" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<form class="form-horizontal" action="<?php echo base_url()?>Ezebiz/sending.php" style="margin-right:59px;margin-top:20px" method="POST">
+								<div class="form-group">
+								  <label class="control-label col-sm-4" for="email">Name</label>
+								  <div class="col-sm-8">
+									<input type="text" class="form-control" id="name" name="name" required="" style="height:30px">
+								  </div>
+								</div>
+								
+								<div class="form-group">
+								  <label class="control-label col-sm-4" for="pwd">Mobile</label>
+								  <div class="col-sm-8">          
+									<input type="text" class="form-control" id="mobile" name="mobile" required="" style="height:30px">
+								  </div>
+								</div>
+								<div class="form-group">
+								  <label class="control-label col-sm-4" for="pwd">E-mail</label>
+								  <div class="col-sm-8">          
+									<input type="text" class="form-control" id="email" name="email" required="" style="height:30px">
+								  </div>
+								</div>
+				
+								<div class="form-group">
+								  <label class="control-label col-sm-4" for="pwd">Desciptions</label>
+								  <div class="col-sm-8">          
+									<textarea class="form-control" rows="2" id="comment" name="desciption" style="height:50px; width:211px;" ></textarea>
+								  </div>
+								</div>
+
+								<div class="form-group">
+								  <label class="control-label col-sm-4" for="pwd"></label>
+								  <div class="col-sm-8">          
+									<div class="g-recaptcha" data-sitekey="6LegbCMTAAAAANeFxea47OaPqcjZocO2CwUhFPt9"></div>
+								  </div>
+								</div>
+
+				
+								<div class="form-group">        
+								  <div class="control-label col-sm-7">
+									<button type="submit" class="btn btn-default" style="background: #7961ab;border-radius: 5px;color: #fff;">Submit</button>
+								  </div>
+								</div>
+						</form>
+						<script src='https://www.google.com/recaptcha/api.js'></script>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
 		<div class="row">
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 				<div class="about-ezebiz">
 					<h3 class="text-center">About EzeBiz</h3>
 					<p>
-						EZECOM’s CSR policy functions as a built-in, self-regulating mechanism where the company 
-						monitors and ensures its active compliance with the spirit of the law and ethical standards, 
-						and engages in actions that further the social good, beyond the interests of the
-						firm and that required by law.
+						EzeBiz is a product revamp by EZECOM for all our customers. 
+						EzeBiz is a direct upgrade for our old packages that provide better 
+						experience and performance to all customers. With EzeBiz, all customers now enjoy new perks, 
+						like symmetrical upload and download speed, off-peak double speed, 
+						additional bonus speed for popular contents like Youtube, Facebook and many more benefits.
 					</p>
 				</div>
 			</div>
@@ -54,12 +112,9 @@
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 				<div class="pricing">
-					<h3 class="text-center">About EzeBiz</h3>
+					<h3 class="text-center">Pricing</h3>
 					<p>
-						EZECOM’s CSR policy functions as a built-in, self-regulating mechanism where the company 
-						monitors and ensures its active compliance with the spirit of the law and ethical standards, 
-						and engages in actions that further the social good, beyond the interests of the
-						firm and that required by law.
+						EzeBiz is a product revamp by EZECOM for all our customers. EzeBiz is a direct upgrade for our old packages that pro
 					</p>
 				</div>
 			</div>
@@ -71,9 +126,9 @@
 				<div class="package-plan">
 					<p class="text-center">Packages Plan</p>
 					<ul>
-						<li><img class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/package-1.png"/></li>
-						<li><img class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/package-2.png"/></li>
-						<li><img class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/package-3.png"/></li>
+						<li><img class="img-responsive first" src="<?php echo base_url()?>images/Ezebiz/package-1.png"/></li>
+						<li><img class="img-responsive second" src="<?php echo base_url()?>images/Ezebiz/package-2.png"/></li>
+						<li><img class="img-responsive third" src="<?php echo base_url()?>images/Ezebiz/package-3.png"/></li>
 					</ul>
 				</div>
 			</div>
@@ -165,6 +220,61 @@
 							EzeBiz has 99.95% uptime, which is the highest possible industry 
 							standard to date. This means 
 							you practically always have a fast and reliable internet access. 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row last-row">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="wrapper-feature">
+					<img class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/free-modem.png"/>
+					<div class="border-bottom"></div>
+					<div class="text">
+						<h4>Free Modem Rental</h4>
+						<p>
+							Incur no extra fees because we have a high 
+							quality modem for you to use for free! It doesn’t get better than this!
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="wrapper-feature">
+					<img class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/no-deposit.png"/>
+					<div class="border-bottom"></div>
+					<div class="text">
+						<h4>No Deposit Required</h4>
+						<p>
+							Take advantage of the limited time “No Deposit” 
+							benefit for any and all EzeBiz package subscription. Act today while promotion lasts.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="wrapper-feature">
+					<img class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/support.png"/>
+					<div class="border-bottom"></div>
+					<div class="text">
+						<h4>24/7 Support</h4>
+						<p>
+							Real-time, around the clock hotline support gives you complete 
+							confidence and peace of mind in the small off chance that any issue might occur.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="wrapper-feature">
+					<img class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/flexibility.png"/>
+					<div class="border-bottom"></div>
+					<div class="text">
+						<h4>Flexibility</h4>
+						<p>
+							We offer customized options and 
+							ultimate of high speed performance to fit your business needs. 
 						</p>
 					</div>
 				</div>

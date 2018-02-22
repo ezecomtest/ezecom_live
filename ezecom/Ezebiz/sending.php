@@ -7,8 +7,6 @@ require("PHPMailer_5.2.0/class.phpmailer.php");
   $mobile = $_POST["mobile"];
   $email = $_POST["email"];
   $des = $_POST["desciption"];
-  $domain_name = $_POST["domain_name"];
-  $number_user = $_POST["number_user"];
 
 if($_SERVER["REQUEST_METHOD"] === "POST"){
     $recaptcha_secret = "6LegbCMTAAAAAHsts3FfvQGwxoHxhOL0w8vDM5Lf";
@@ -26,11 +24,11 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
         $mail->Password   = "yT2hxYtgDA";
         // $mail->From     = "ezecom.com.kh";
 		$mail->From = "developer@ezecom.com.kh";
-		$mail->FromName = "Cloud Service";
+		$mail->FromName = "EzeBiz";
         $mail->AddAddress("websales@ezecom.com.kh");
 
-        $mail->Subject  = "Office 365";
-        $mail->Body     = "\n\nUsername: $name \n\nTel: $mobile\n\nEmail: $email \n\nDomain Name: $domain_name \n\nNumber of User: $number_user \n\nDescription: $des  ";
+        $mail->Subject  = "EzeBiz";
+        $mail->Body     = "\n\nUsername: $name \n\nTel: $mobile\n\nEmail: $email \n\nDescription: $des ";
         $mail->WordWrap = 50;
 
         if(!$mail->Send()) {
@@ -38,13 +36,13 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
             // echo 'Mailer error: ' . $mail->ErrorInfo;
         } else {
             // echo 'Message has been sent.';
-            header("Location: https://www.ezecom.com.kh/365/thank-you.php"); // (Real Server)
-			//header("Location: http://dev1.ezecom.com.kh/365/thank-you.php"); // (Server Test)
+            //header("Location: https://www.ezecom.com.kh/Ezebiz/thank-you.php"); // (Real Server)
+			header("Location: http://dev1.ezecom.com.kh/Ezebiz/thank-you.php"); // (Server Test)
         }
 
     }else{
-        header("Location: https://www.ezecom.com.kh/365/robot.php"); // (Real Server)
-		//header("Location: http://dev1.ezecom.com.kh/365/robot.php"); // (Server Test)
+        //header("Location: https://www.ezecom.com.kh/Ezebiz/robot.php"); // (Real Server)
+		header("Location: http://dev1.ezecom.com.kh/Ezebiz/robot.php"); // (Server Test)
     }
 
 }
