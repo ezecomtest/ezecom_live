@@ -194,6 +194,24 @@
     padding-right: 0 !important;
 }
 
+/* Form */
+.morehover{
+	right:99px;
+}
+div.packagebox{
+	padding:1px;
+}
+.packagebox h4{
+	color:#7961a9;
+	font-size:15px;
+	padding-top:0;
+	font-weight:bold;
+}
+div#emailform label{
+	font-size:13px;
+}
+
+
 @media screen and (max-width:1024px){
 	.no-padding-left{
 		padding-left: 15px !important;
