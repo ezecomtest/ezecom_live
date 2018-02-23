@@ -7,6 +7,7 @@ require("PHPMailer_5.2.0/class.phpmailer.php");
   $mobile = $_POST["mobile"];
   $email = $_POST["email"];
   $des = $_POST["desciption"];
+  $package_name = $_POST["package"];
 
 if($_SERVER["REQUEST_METHOD"] === "POST"){
     $recaptcha_secret = "6LegbCMTAAAAAHsts3FfvQGwxoHxhOL0w8vDM5Lf";
@@ -28,7 +29,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
         $mail->AddAddress("websales@ezecom.com.kh");
 
         $mail->Subject  = "EzeBiz";
-        $mail->Body     = "\n\nUsername: $name \n\nTel: $mobile\n\nEmail: $email \n\nDescription: $des ";
+        $mail->Body     = "\n\nFullName: $name \n\nPhone Number: $mobile \n\nPackage: $package_name \n\nEmail Address: $email \n\nConnection Detail: $des ";
         $mail->WordWrap = 50;
 
         if(!$mail->Send()) {

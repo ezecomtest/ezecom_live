@@ -212,6 +212,35 @@ div#emailform label{
 }
 
 
+.form-wrapper{
+	display:none;
+	position:absolute;
+	background-color:#FFFFFF;
+	box-shadow: 4px 4px 4px 4px #EEEFEF;
+	z-index:1000;
+	width:60%;
+}
+
+.form-wrapper{
+	font-weight:bold;
+	padding-top:10px;
+}
+
+.form-wrapper h4{
+	color:#7961a9;
+	font-weight:500;
+}
+
+.form-wrapper .package-info{
+	padding:50px;
+}
+
+.formEmail .resize-textbox{
+	width:100%;
+}
+
+
+
 @media screen and (max-width:1024px){
 	.no-padding-left{
 		padding-left: 15px !important;
@@ -244,6 +273,7 @@ div#emailform label{
 		z-index:1000;
 	
 	} 
+	
 }
 
 

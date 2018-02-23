@@ -25,7 +25,7 @@
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-img-padding">
 				<div class="wrapper-top">
 					<span>
-						<img id="more-btn-over" class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/btn-sign-up.png"/>
+						<img id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/btn-sign-up.png"/>
 					</span>
 					<img  class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/Ezebiz-photo.jpg"/>
 				</div>
@@ -34,63 +34,73 @@
 		
 		<!-- Contact Form EzeBiz -->
 		<div class="container">
-		<div class="col-xs-8 col-sm-8">
-			<div id="moremenu" class="morehover">
-				<div class="mid">	
-					  <form id="formsignup_form" action="<?php echo base_url()?>Ezebiz/sending.php" name="signup" method="post">
-						<div class="col-xs-7 col-sm-6">
-						   <p><strong>Which packages interest you:</strong></p>
-						   <div class="packagebox">
-							   <h4>Corporate</h4>
-							   <table border="0" cellspacing="0" cellpadding="0">
-									<tr>
-										<td><input class="chkbox" type="checkbox" name="package" value="1mbps $59 per month" id="corp1mbps"  /></td>
-										<td><label for="corp1mbps"><strong>1mbps</strong> $40 per month</label></td>
-									</tr>
-									<tr>
-										<td><input class="chkbox" type="checkbox" name="package" value="2mbps $118 per month" id="corp2mbps"  /></td>
-										<td><label for="corp2mbps"><strong>2mbps</strong> $80 per month</label></td>
-									</tr>
-									<tr>
-										<td><input class="chkbox" type="checkbox" name="package" value="3mbps $177 per month" id="corp3mbps"  /></td>
-										<td><label for="corp3mbps"><strong>3mbps</strong> $120 per month</label></td>
-									</tr>
-									<tr>
-										<td><input class="chkbox" type="checkbox" name="package" value="4mbps $236 per month" id="corp4mbps"  /></td>
-										<td><label for="corp4mbps"><strong>4mbps</strong> $152 per month</label></td>
-									</tr>
-									<tr>
-										<td><input class="chkbox" type="checkbox" name="package" value="5mbps $285 per month" id="corp5mbps"  /></td>
-										<td><label for="corp5mbps"><strong>5mbps</strong> $190 per month</label></td>
-									</tr>
-								</table>
-								<div class="clearleft"></div>
+				<div class="row">
+					<div class="form-wrapper">
+						<form class="form-horizontal" action="<?php echo base_url()?>Ezebiz/sending.php" method="post">
+							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+								  <p>Which packages interest you:</p>
+									   <h4>EzeBiz</h4>
+									   <table border="0" cellspacing="0" cellpadding="0">
+											<tr>
+												<td><input class="chkbox" type="radio" name="package" value="5mbps $60 per month"/></td>
+												<td><label for="corp1mbps"><strong>5mbps</strong> $60 per month</label></td>
+											</tr>
+											<tr>
+												<td><input class="chkbox" type="radio" name="package" value="10mbps $118 per month"/></td>
+												<td><label for="corp2mbps"><strong>10mbps</strong> $118 per month</label></td>
+											</tr>
+											<tr>
+												<td><input class="chkbox" type="radio" name="package" value="20mbps $230 per month"/></td>
+												<td><label for="corp3mbps"><strong>20mbps</strong> $230 per month</label></td>
+											</tr>
+											<tr>
+												<td><input class="chkbox" type="radio" name="package" value="30mbps $338 per month"/></td>
+												<td><label for="corp4mbps"><strong>30mbps</strong> $338 per month</label></td>
+											</tr>
+										</table>
+								
 							</div>
-							
-					   </div>
-
-					   <div class="col-xs-7 col-sm-6">
-						  <div id="emailform">
-							  <h5>Contact Us</h5>
-							  
-							  <p>Call us now on <strong>‎023 888 181/085 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
-							   <label for="eml_name">Full Name:</label> <input type="text" name="name" value="" id="eml_name" /><br />
-							   <label for="eml_email">Email Address:</label> <input type="text" name="email" value="" id="eml_email" /><br />
-							   <label for="eml_phone">Phone Number:</label> <input type="text" name="mobile" value="" id="eml_phone" /><br />
-							   <label for="eml_details">Connection Details:</label> <textarea rows="4" name="desciption" id="eml_details"></textarea>
-							   <label for="eml_details" style="width:auto;">
-								   <input type="button" name="close" value="Close" class="btn btn-default submit" id="eml_close" title="Close" />
-								   <input type="submit" value="Submit" id="eml_submit2" class="btn btn-default submit"/>
-							   </label>
-							  
-						   </div>
-					   </div>
-					  </form>
-				</div> <!-- mid -->
-				<div class="bottom"></div>
-			</div><!-- more menu -->
-		</div> <!-- end col -->
-	</div> <!-- end container -->
+							<div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+								<div class="formEmail">
+									  <h5>Contact Us</h5>
+									  <p>Call us now on <strong>‎023 888 181/085 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
+									  <div class="form-group">
+										<label class="control-label col-sm-4">Full Name:</label>
+										<div class="col-sm-8">
+											<input type="text" class="resize-textbox" name="name"/>
+										</div>
+									  </div>
+									  <div class="form-group">
+										<label class="control-label col-sm-4">Email Address:</label>
+										<div class="col-sm-8">
+											<input type="text" class="resize-textbox" name="email"/>
+										</div>
+									  </div>
+									  <div class="form-group">
+										<label class="control-label col-sm-4">Phone Number:</label>
+										<div class="col-sm-8">
+											<input type="text" class="resize-textbox" name="mobile"/>
+										</div>
+									  </div>
+									  <div class="form-group">
+										<label class="control-label col-sm-4">Connection Details:</label>
+										<div class="col-sm-8">
+											<textarea rows="4" class="resize-textbox" name="desciption"></textarea>
+										</div>
+									  </div>
+									  <div class="form-group">        
+										  <div class="col-sm-offset-4 col-sm-8">
+											<input type="button" id="btn-close" name="close" value="Close" class="btn btn-default submit" id="eml_close" title="Close" />
+											<input type="submit" value="Submit" id="eml_submit2" class="btn btn-default submit"/>
+										  </div>
+									  </div>
+					
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+		</div> <!-- end container -->
 		
 		
 		<div class="row">
@@ -315,18 +325,15 @@
 	
 	
 	jQuery(function($) {
-		$('#more-btn-over').click(function() {
-			$('.morehover').toggle('500');
-			$('.help_morehover').hide('500');
+		$('#pop-up-form').click(function() {
+			$('.form-wrapper').toggle('500');
 		});
 	
-		$('#eml_close').click(function(e) {
-            $('.morehover').toggle('500');
-			$('.help_morehover').hide('500');
-
+		$('#btn-close').click(function(e) {
+            $('.form-wrapper').toggle('500');
         });
 	
-});
+	});
 	
 	
 </script>
