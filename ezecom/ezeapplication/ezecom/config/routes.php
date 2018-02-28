@@ -183,7 +183,7 @@ $route['ddos-mitigation-service'] = 'frontend/ddos/ddos_mitigation/';
 // Ms 365
 $route['our-services/enterprise-solution/office365'] = 'frontend/ms_365/Office_365/';
 // EzeBiz
-$route['our-services/enterprise-solution/EzeBiz'] = 'frontend/Ezebiz/ezebiz/';
+$route['our-services/EzeBiz'] = 'frontend/Ezebiz/ezebiz/';
 //end media center
 
 // start liveradio

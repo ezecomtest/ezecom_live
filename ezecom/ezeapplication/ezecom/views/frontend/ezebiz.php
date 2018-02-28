@@ -119,6 +119,11 @@
 			</div>
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 		</div>
+	</div>
+</div>		
+		
+<div class="container-fluid" style="background-color:#F4F4F4">
+	<div class="container">
 		<div class="row">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="ezebiz-work">
@@ -127,6 +132,11 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</div>		
+			
+<div class="container-fluid">
+	<div class="container">		
 		<div class="row">
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-12">
@@ -168,7 +178,7 @@
 							<li><img class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/youtube-icon.png"/></li>
 							<li><img class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/skype-icon.png"/></li>
 							<li><img class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/TV-icon.png"/></li>
-							<li>More</li>
+							<li><img class="img-responsive" src="<?php echo base_url()?>images/Ezebiz/more.png"/></li>
 							
 						</ul>
 					</div>
