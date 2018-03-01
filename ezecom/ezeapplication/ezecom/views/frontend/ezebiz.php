@@ -111,9 +111,10 @@
 					<p>
 						EzeBiz is a product revamp by EZECOM for all our customers. 
 						EzeBiz is a direct upgrade for our old packages that provide better 
-						experience and performance to all customers. With EzeBiz, all customers now enjoy new perks, 
-						like symmetrical upload and download speed, off-peak double speed, 
-						additional bonus speed for popular contents like Youtube, Facebook and many more benefits.
+						experience and performance to all customers. With EzeBiz, 
+						all customers now enjoy new perks, like symmetrical upload and download speed, 
+						off-peak double speed, additional bonus speed for popular contents like Youtube, 
+						Facebook and many more benefits.
 					</p>
 				</div>
 			</div>
