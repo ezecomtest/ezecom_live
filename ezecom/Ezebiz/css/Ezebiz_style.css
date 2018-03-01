@@ -60,11 +60,15 @@
 .pricing p{
 	font-size:18px;
 	font-family:'Neutra Text',serif,sans-serif;
-	padding-bottom:40px;
+	padding-top:40px;
 }
+.mg-bt{
+	margin-bottom:30px;
+}
+
 .package-plan{
 	background-color:#F4F4F4;
-	padding-bottom:86px;
+	padding-bottom:12px;
 }
 .special-offer{
 	background-color:#7961A9;
@@ -121,8 +125,13 @@
     font-weight: bold;
     font-size: 23px;
     font-family: 'Neutra Text',serif,sans-serif;
-	padding-top:40px;
+	padding-top:6px;
 	padding-bottom:60px;
+}
+
+.btn-signup{
+	margin:0 auto;
+	padding-top:15px;
 }
 
 .wrapper-feature{
@@ -158,6 +167,21 @@
 	margin-top:30px;
 	margin-bottom:50px;
 }
+
+
+/* Zoom In Sign Up */
+.package-plan span img{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.package-plan span img:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor:pointer;
+}
+
 
 /* Zoom In Sign Up */
 .wrapper-top span img{
@@ -211,7 +235,7 @@ div#emailform label{
 	font-size:13px;
 }
 
-
+/* First Form */
 .form-wrapper{
 	display:none;
 	position:absolute;
@@ -234,6 +258,32 @@ div#emailform label{
 .form-wrapper .package-info{
 	padding:50px;
 }
+/* End Form First */
+
+/* Second Form */
+.form-wrapper-2{
+	display:none;
+	position:absolute;
+	background-color:#FFFFFF;
+	box-shadow: 4px 4px 4px 4px #EEEFEF;
+	z-index:1000;
+	width:76%;
+}
+
+.form-wrapper-2{
+	font-weight:bold;
+	padding-top:10px;
+}
+
+.form-wrapper-2 h4{
+	color:#7961a9;
+	font-weight:500;
+}
+
+.form-wrapper-2 .package-info{
+	padding:50px;
+}
+/* End Form Second */
 
 .formEmail .resize-textbox{
 	width:100%;
