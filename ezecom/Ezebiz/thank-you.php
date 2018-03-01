@@ -65,8 +65,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <script>
 setTimeout(function () {
-   //window.location.href = "https://www.ezecom.com.kh/our-services/enterprise-solution/EzeBiz"; // (Real Server) will redirect to your blog page (an ex: blog.html)
-   window.location.href = "http://dev1.ezecom.com.kh/our-services/enterprise-solution/EzeBiz"; // (Server Test) will redirect to your blog page (an ex: blog.html)
+   window.location.href = "https://www.ezecom.com.kh/our-services/EzeBiz"; // (Real Server) will redirect to your blog page (an ex: blog.html)
+   //window.location.href = "http://dev1.ezecom.com.kh/our-services/EzeBiz"; // (Server Test) will redirect to your blog page (an ex: blog.html)
 }, 4000);
 </script>
 

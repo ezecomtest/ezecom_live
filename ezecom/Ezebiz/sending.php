@@ -37,13 +37,13 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
             // echo 'Mailer error: ' . $mail->ErrorInfo;
         } else {
             // echo 'Message has been sent.';
-            //header("Location: https://www.ezecom.com.kh/Ezebiz/thank-you.php"); // (Real Server)
-			header("Location: http://dev1.ezecom.com.kh/Ezebiz/thank-you.php"); // (Server Test)
+            header("Location: https://www.ezecom.com.kh/Ezebiz/thank-you.php"); // (Real Server)
+			//header("Location: http://dev1.ezecom.com.kh/Ezebiz/thank-you.php"); // (Server Test)
         }
 
     }else{
-        //header("Location: https://www.ezecom.com.kh/Ezebiz/robot.php"); // (Real Server)
-		header("Location: http://dev1.ezecom.com.kh/Ezebiz/robot.php"); // (Server Test)
+         header("Location: https://www.ezecom.com.kh/Ezebiz/robot.php"); // (Real Server)
+		//header("Location: http://dev1.ezecom.com.kh/Ezebiz/robot.php"); // (Server Test)
     }
 
 }
