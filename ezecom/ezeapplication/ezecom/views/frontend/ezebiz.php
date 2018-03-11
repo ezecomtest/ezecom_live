@@ -88,6 +88,12 @@
 											<textarea rows="4" class="resize-textbox" name="desciption"></textarea>
 										</div>
 									  </div>
+									  <div class="form-group">
+										  <label class="control-label col-sm-4" for="pwd"></label>
+										  <div class="col-sm-8">          
+											<div class="g-recaptcha" data-sitekey="6LegbCMTAAAAANeFxea47OaPqcjZocO2CwUhFPt9"></div>
+										  </div>
+									 </div>
 									  <div class="form-group">        
 										  <div class="col-sm-offset-4 col-sm-8">
 											<input type="button" id="btn-close" name="close" value="Close" class="btn btn-default submit" id="eml_close" title="Close" />
@@ -98,6 +104,7 @@
 								</div>
 							</div>
 						</form>
+						<script src='https://www.google.com/recaptcha/api.js'></script>
 					</div>
 				</div>
 		</div> <!-- end container -->
@@ -257,6 +264,12 @@
 														<textarea rows="4" class="resize-textbox" name="desciption"></textarea>
 													</div>
 												  </div>
+												  <div class="form-group">
+													  <label class="control-label col-sm-4" for="pwd"></label>
+													  <div class="col-sm-8">          
+														<div class="g-recaptcha" data-sitekey="6LegbCMTAAAAANeFxea47OaPqcjZocO2CwUhFPt9"></div>
+													  </div>
+												  </div>
 												  <div class="form-group">        
 													  <div class="col-sm-offset-4 col-sm-8">
 														<input type="button" id="btn-close-2" name="close" value="Close" class="btn btn-default submit" id="eml_close" title="Close" />
@@ -267,6 +280,7 @@
 											</div>
 										</div>
 									</form>
+									<script src='https://www.google.com/recaptcha/api.js'></script>
 								</div>
 							</div>
 					</div> <!-- end container -->	
