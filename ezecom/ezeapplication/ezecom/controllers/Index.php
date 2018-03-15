@@ -220,7 +220,7 @@ class Index extends CI_Controller {
 				"Details:\n" .
 				$eml_details.
 				"\n" .
-				"Package that ".$eml_name. " interest is coporate package : ".$package.
+				"Package that ".$eml_name. " interest is EzeBiz package : ".$package.
 				"\n\n** Automatic sent mail from website ezecom **\n" ;
 		  $this->email->message($contain);
 		  
@@ -247,7 +247,7 @@ class Index extends CI_Controller {
 				"Details:\n" .
 				$eml_details.
 				"\n" .
-				"Package that ".$eml_name. " interest is coporate premium : ".$prempackage.
+				"Package that ".$eml_name. " interest is Dedicate : ".$prempackage.
 				"\n\n** Automatic sent mail from website ezecom **\n" ;
 		  $this->email->message($contain);
 		  

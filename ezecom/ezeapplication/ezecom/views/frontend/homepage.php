@@ -196,58 +196,52 @@
 	            <div class="col-xs-7 col-sm-6">
 		           <p>Which packages interest you:</p>
 		           <div class="packagebox">
-		               <h5>Corporate</h5>
+		               <h5>EzeBiz Packages</h5>
 		               <table border="0" cellspacing="0" cellpadding="0">
 		                  
 		                    
 		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="1mbps $59 per month" id="corp1mbps"  /></td>
-		                        <td><label for="corp1mbps"><strong>1mbps</strong> $40 per month</label></td>
+		                        <td><input class="chkbox" type="checkbox" name="package" value="5mbps $60 per month" id="corp1mbps"  /></td>
+		                        <td><label for="corp1mbps"><strong>5mbps</strong> $60 per month</label></td>
 		                    </tr>
 		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="2mbps $118 per month" id="corp2mbps"  /></td>
-		                        <td><label for="corp2mbps"><strong>2mbps</strong> $80 per month</label></td>
+		                        <td><input class="chkbox" type="checkbox" name="package" value="10mbps $118 per month" id="corp2mbps"  /></td>
+		                        <td><label for="corp2mbps"><strong>10mbps</strong> $118 per month</label></td>
 		                    </tr>
 		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="3mbps $177 per month" id="corp3mbps"  /></td>
-		                        <td><label for="corp3mbps"><strong>3mbps</strong> $120 per month</label></td>
+		                        <td><input class="chkbox" type="checkbox" name="package" value="20mbps $230 per month" id="corp3mbps"  /></td>
+		                        <td><label for="corp3mbps"><strong>20mbps</strong> $230 per month</label></td>
 		                    </tr>
 		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="4mbps $236 per month" id="corp4mbps"  /></td>
-		                        <td><label for="corp4mbps"><strong>4mbps</strong> $152 per month</label></td>
+		                        <td><input class="chkbox" type="checkbox" name="package" value="30mbps $338 per month" id="corp4mbps"  /></td>
+		                        <td><label for="corp4mbps"><strong>30mbps</strong> $338 per month</label></td>
 		                    </tr>
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="5mbps $285 per month" id="corp5mbps"  /></td>
-		                        <td><label for="corp5mbps"><strong>5mbps</strong> $190 per month</label></td>
-		                    </tr>
+		        
 		                </table>
 		                <div class="clearleft"></div>
 		            </div>
 		            <div class="packagebox" style="margin:0;">
-		                <h5>Premium</h5>
+		                <h5>Dedicate Packages</h5>
 		                <table border="0" cellspacing="0" cellpadding="0">
 		                    
 		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="1mbps $40 per month" id="prem1mbps"  /></td>
-		                        <td><label for="prem1mbps"><strong>1mbps</strong> $30 per month</label></td>
+		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="10mbps $340 per month" id="prem1mbps"  /></td>
+		                        <td><label for="prem1mbps"><strong>10mbps</strong> $340 per month</label></td>
 		                    </tr>
 		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="2mbps $80 per month" id="prem2mbps"  /></td>
-		                        <td><label for="prem2mbps"><strong>2mbps</strong> $60 per month</label></td>
+		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="15mbps $495 per month" id="prem2mbps"  /></td>
+		                        <td><label for="prem2mbps"><strong>15mbps</strong> $495 per month</label></td>
 		                    </tr>
 		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="3mbps  $120 per month" id="prem3mbps"  /></td>
-		                        <td><label for="prem3mbps"><strong>3mbps</strong> $90 per month</label></td>
+		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="20mbps  $640 per month" id="prem3mbps"  /></td>
+		                        <td><label for="prem3mbps"><strong>20mbps</strong> $640 per month</label></td>
 		                    </tr>
 		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="4mbps $160 per month" id="prem4mbps"  /></td>
-		                        <td><label for="prem4mbps"><strong>4mbps</strong> $108 per month</label></td>
+		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="25mbps $775 per month" id="prem4mbps"  /></td>
+		                        <td><label for="prem4mbps"><strong>25mbps</strong> $775 per month</label></td>
 		                    </tr>
 		                	
-		                     <tr>
-		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="5mbps $200 per month" id="prem5mbps"  /></td>
-		                        <td><label for="prem5mbps"><strong>5mbps</strong> $135 per month</label></td>
-		                    </tr>
+		              
 		                </table>
 		            
 		            <div class="clearleft"></div>
@@ -258,7 +252,7 @@
 		          <div id="emailform">
 		              <h5>Contact Us</h5>
 		              
-		              <p>Call us now on <strong>023 228 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
+		              <p>Call us now on <b>023 888 181/085 888 181</b> or fill in your information here and a member of our sales team will get back to you.</p>
 		               <label for="eml_name">Full Name:</label> <input type="text" name="eml_name" value="" id="eml_name" /><br />
 		               <label for="eml_email">Email Address:</label> <input type="text" name="eml_email" value="" id="eml_email" /><br />
 		               <label for="eml_phone">Phone Number:</label> <input type="text" name="eml_phone" value="" id="eml_phone" /><br />
@@ -693,18 +687,7 @@
 			</div>
 
 		</div>
-		<!-- //HOME SL 4 -->
 	
-			<!-- HOME SL 5 -->
-		<div class="wrap t3-sl t3-sl-5 ">
-			<marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="12">
-				<?php foreach($feature_content as $feature){ ?>
-					<a target="_blank" href="<?php echo base_url('newsdetail/').strtolower(str_replace(' ', '-' ,$feature->content_title)) ?>"><?php echo $feature->content_title.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' ?></a>
-				<?php } ?>
-			</marquee>
-
-		</div>
-		<!-- //HOME SL 5 -->
 	
 </div>
 
