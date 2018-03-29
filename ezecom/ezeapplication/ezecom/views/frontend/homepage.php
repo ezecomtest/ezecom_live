@@ -195,32 +195,7 @@
 	          <FORM id="formsignup_form" name="signup" class="thickbox" title="Nice title" method="post">
 	            <div class="col-xs-7 col-sm-6">
 		           <p>Which packages interest you:</p>
-		           <div class="packagebox">
-		               <h5>EzeBiz Packages</h5>
-		               <table border="0" cellspacing="0" cellpadding="0">
-		                  
-		                    
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="5mbps $60 per month" id="corp1mbps"  /></td>
-		                        <td><label for="corp1mbps"><strong>5mbps</strong> $60 per month</label></td>
-		                    </tr>
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="10mbps $118 per month" id="corp2mbps"  /></td>
-		                        <td><label for="corp2mbps"><strong>10mbps</strong> $118 per month</label></td>
-		                    </tr>
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="20mbps $230 per month" id="corp3mbps"  /></td>
-		                        <td><label for="corp3mbps"><strong>20mbps</strong> $230 per month</label></td>
-		                    </tr>
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="30mbps $338 per month" id="corp4mbps"  /></td>
-		                        <td><label for="corp4mbps"><strong>30mbps</strong> $338 per month</label></td>
-		                    </tr>
-		        
-		                </table>
-		                <div class="clearleft"></div>
-		            </div>
-		            <div class="packagebox" style="margin:0;">
+				     <div class="packagebox" style="margin:0;">
 		                <h5>Dedicate Packages</h5>
 		                <table border="0" cellspacing="0" cellpadding="0">
 		                    
@@ -246,13 +221,39 @@
 		            
 		            <div class="clearleft"></div>
 		            </div>
+		           <div class="packagebox">
+		               <h5>EzeBiz Packages</h5>
+		               <table border="0" cellspacing="0" cellpadding="0">
+		                  
+		                    
+		                    <tr>
+		                        <td><input class="chkbox" type="checkbox" name="package" value="5mbps $60 per month" id="corp1mbps"  /></td>
+		                        <td><label for="corp1mbps"><strong>5mbps</strong> $60 per month</label></td>
+		                    </tr>
+		                    <tr>
+		                        <td><input class="chkbox" type="checkbox" name="package" value="10mbps $118 per month" id="corp2mbps"  /></td>
+		                        <td><label for="corp2mbps"><strong>10mbps</strong> $118 per month</label></td>
+		                    </tr>
+		                    <tr>
+		                        <td><input class="chkbox" type="checkbox" name="package" value="20mbps $230 per month" id="corp3mbps"  /></td>
+		                        <td><label for="corp3mbps"><strong>20mbps</strong> $230 per month</label></td>
+		                    </tr>
+		                    <tr>
+		                        <td><input class="chkbox" type="checkbox" name="package" value="30mbps $338 per month" id="corp4mbps"  /></td>
+		                        <td><label for="corp4mbps"><strong>30mbps</strong> $338 per month</label></td>
+		                    </tr>
+		        
+		                </table>
+		                <div class="clearleft"></div>
+		            </div>
+		          
 	           </div>
 
 	           <div class="col-xs-7 col-sm-6">
 		          <div id="emailform">
 		              <h5>Contact Us</h5>
 		              
-		              <p>Call us now on <b>023 888 181/085 888 181</b> or fill in your information here and a member of our sales team will get back to you.</p>
+		              <p>Call us now on <b>023 23 81 81/085 88 81 81</b> or fill in your information here and a member of our sales team will get back to you.</p>
 		               <label for="eml_name">Full Name:</label> <input type="text" name="eml_name" value="" id="eml_name" /><br />
 		               <label for="eml_email">Email Address:</label> <input type="text" name="eml_email" value="" id="eml_email" /><br />
 		               <label for="eml_phone">Phone Number:</label> <input type="text" name="eml_phone" value="" id="eml_phone" /><br />
