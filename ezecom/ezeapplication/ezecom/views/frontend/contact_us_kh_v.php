@@ -97,7 +97,7 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
     <h2 class="rl_tabs-title nn_tabs-title" style="text-align: center; font-family: 'Bayon', cursive; font-size: 30px;"><a id="anchor-head-office" class="anchor"></a>ការិយាល័យកណ្តាល</h2>
         <p style="font-size: 14px; text-align: center;">ផ្ទះលេខ ៧ដេ មហាវិថីសហព័ន្ធរុស្សី អគារសភាពាណិជ្ជកម្មកម្ពុជាភ្នំពេញ កម្ពុជា</p>
         <p style="font-size: 14px; text-align: center;">ផ្នែកបម្រើអតិថិជន៖ ពីថ្ងៃចន្ទ- ថ្ងៃសុក្រ ម៉ោង ៧:៣០AM - ៥:៣០PM</p>
-        <p style="font-size: 14px; text-align: center;">ទូរស័ព្ទៈ ០២៣ ៨៨៨ ១៨១</p>
+        <p style="font-size: 14px; text-align: center;">ទូរស័ព្ទៈ ០២៣ ២៣ ៨១ ៨១ / ០៨៥ ៨៨ ៨១ ៨១ </p>
         <p style="font-size: 14px; text-align: center;">ទូរសារៈ ០២៣ ៨៨២ ៩៦១</p>
         <p style="font-size: 14px; text-align: center;"><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/menuicon/contact/Head-Office-Location-map.png" alt=""></p>
     </div>

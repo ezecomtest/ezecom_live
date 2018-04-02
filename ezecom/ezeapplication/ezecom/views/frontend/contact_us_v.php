@@ -97,7 +97,7 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
     <h2 class="rl_tabs-title nn_tabs-title" style="text-align: center;"><a id="anchor-head-office" class="anchor"></a>Head office</h2>
         <p style="font-size: 14px; text-align: center;">#7d Russian Boulevard Cambodia Chamber of Commerce Building, Phnom Penh, Cambodia</p>
         <p style="font-size: 14px; text-align: center;">Customer Service Hours: Monday - Friday @ 7:30AM - 5:30PM</p>
-        <p style="font-size: 14px; text-align: center;">Tel:023 888 181</p>
+        <p style="font-size: 14px; text-align: center;">Tel:023 23 81 81/085 88 81 81</p>
         <p style="font-size: 14px; text-align: center;">Fax: 023 882 961</p>
         <p style="font-size: 14px; text-align: center;"><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/menuicon/contact/Head-Office-Location-map.png" alt=""></p>
     </div>

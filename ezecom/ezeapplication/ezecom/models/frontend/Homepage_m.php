@@ -21,7 +21,7 @@ class Homepage_m extends CI_Model{
         $this->db->where("tbl_slider.slide_published",1);
         $this->db->where("tbl_languages.lang_id",$sessionid);
         $this->db->order_by("order_by", "ASC");
-		$this->db->limit('4');
+		$this->db->limit('5');
         $sql = $this->db->get();
         return $sql->result();
     }
