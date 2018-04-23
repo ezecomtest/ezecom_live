@@ -333,7 +333,8 @@ span.onclick = function() {
 		  ['RUSSIA HOSPITAL',11.54364938, 104.90262151,base_url,19],
 		  ['NOKIA INTERSECTION (271)',11.55294167, 104.88722563,base_url,20],
 		  ['WAT SONSOMKOSAL (271)',11.53133977, 104.91374195,base_url,21],
-		  ['MONDIAL CENTER',11.557861, 104.9013555,base_url,22]
+		  ['MONDIAL CENTER',11.557861, 104.9013555,base_url,22],
+		  ['VENG SRENG',11.52882853, 104.84093103,base_url,23]
 		  
 		  
         ];
