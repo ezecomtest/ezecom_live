@@ -114,3 +114,27 @@
 	overflow:hidden !important;
 	margin-bottom:0;
 }
+
+.special-limit,.FAQ{
+	color:#7961ab;
+	text-align:center;
+	padding-bottom:10px;
+	font-size:30px;
+}
+.FAQ{
+	padding-top:10px;
+}
+.faq-limit-time{
+	font-size:14px;
+}
+.text-special-offer{
+	padding-bottom:1px !important;
+	margin-bottom:0 !important;
+	margin-top:0 !important;
+}
+.promotion-block ol{
+	list-style-type:none !important;
+	line-height:30px;
+	margin-bottom:0 !important;
+	padding-left:10px;
+}

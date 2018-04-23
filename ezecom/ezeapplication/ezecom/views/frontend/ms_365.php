@@ -253,50 +253,60 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 	<img class="img-responsive" id="sign_up_now" src="<?php echo base_url()?>365/package-plan-test.png" alt="Package Plan"/>
 	<!--<p class="learn_more">Learn more at <a href="#">www.ezecom.com.kh/office365</a></p>-->
 	<img class="img-responsive"  id="sign_up_discount" src="<?php echo base_url()?>365/sign-up-discount.png"/>
-<!--<table class="table table-features">
-<tbody>
 
-<tr>
-<td style="border-top:none;"></td>
-<td style="border-top:none;"><h3>PREMIUM</h3></td>
-<td style="border-top:none;"><h3>CORPORATE</h3></td>
-<td style="border-top:none;"><h3>DEDICATED</h3></td>
-</tr>
-<tr>
-<td></td>
-<td style="font-size: 30px;color: #7961ab;">$200<sub>month</sub></td>
-<td style="font-size: 30px;color: #7961ab;">$280<sub>month</sub></td>
-<td style="font-size: 30px;color: #7961ab;">$380<sub>month</sub></td>
-</tr>
+	<h1 class="special-limit">Special Limited-Time Offer!</h1>
+	<p class="text-special-offer">
+		Starting today until <strong>June 30, 2018,</strong> EZECOM offers special discounts as follows:
+	</p>
+	<div class="promotion-block">
+		<ol>
+			<li>- 50% discount on Office 365 Business Essentials - NOW ONLY USD$2.50/user/month</li>
+			<li>- 20% discount on Office 365 Business Premium - NOW ONLY USD$10/user/month</li>
+		</ol>
+	</div>
+	<p class="text-special-offer">
+		For full details, please call <strong>095 88 81 81</strong> or email <a href="mailto:presales@ezecomcorp.com">presales@ezecomcorp.com</a>
+	</p>
 
-<tr>
-<td>Additional Mb <br/>and User</td>
-<td>$40 per user</td>
-<td>$57 per user</td>
-<td>$76 per user</td>
-</tr>
-<tr>
-<td>Value Bundling</td>
-<td>5 Users <br/>O365 Biz Essentials</td>
-<td>$57 per user <br/>O365 Biz Essentials</td>
-<td>$76 per user <br/>O365 Biz Essentials</td>
-</tr>
-<tr>
-<td>Internet speed</td>
-<td>5 Mb</td>
-<td>5 Mb</td>
-<td>5 Mb</td>
-</tr>
-
-</tbody>
-
-</table>
-<img style="width:10px" src="<?php echo base_url()?>365/pointer-sign.png"/> Switching between plans will be charged $50 per year
-</dd>
- 
-</dl>-->
- 
-</div> <!-- table -->
+	<h1 class="FAQ">FAQ on Limited-Time Offer</h1>
+	<p class="faq-limit-time">
+		<strong>1. How do customers get the discounted pricing for Office 365 Business Premium and Business Essentials?</strong> <br/>
+		No action is required from the customers and partners as this offer is available automatically.
+	</p>
+	<p class="faq-limit-time">
+		<strong>2. Will the price discount be available through Open License?</strong><br/>
+		No, the pricing will only be available through Direct and CSP (both Direct Providers and Indirect Providers). Customer can enjoy the licensing for a year if they availed of the CSP annual agreement.
+	</p>
+	<p class="faq-limit-time">
+		<strong>3. Will this discounted pricing be available in both monthly billing and annualized billing during the promotional period?</strong> <br/>
+		Yes, for monthly billing that has an annual contract as well as the annualized SKU.
+	</p>
+	<p class="faq-limit-time">
+		<strong>4. A customer is on CSP monthly payment with Partner A and plans to change a Partner to Partner B due to some service issues with Partner A, will the customer be eligible for this new pricing when I buy a license from Partner B?</strong>
+		<br/>
+		Yes, the customer will be eligible for the new pricing.
+	</p>
+	<p class="faq-limit-time">
+		<strong>5. Will existing O365 customers in Open be eligible for this pricing if they renew their licenses in CSP?</strong>
+		<br/>
+		Yes, the customer will be eligible for the promotional pricing.
+	</p>
+	<p class="faq-limit-time">
+		<strong>6. Who is the target audience for this offering?</strong>
+		<br/>
+		The limit in terms of the number of seats for Business Essentials and Business Premium is 300 seats per SKU, therefore the target audience for this offering is customers with less than 300 seats.
+	</p>
+	<p class="faq-limit-time">
+		<strong>7. Can an Enterprise customer (e.g. child company of big Enterprise Customer), use this offering?</strong>
+		<br/>
+		Yes, they can but the maximum licenses are capped at 300 seats of each plan.
+	</p>
+	<p class="faq-limit-time">
+		<strong>8. Will this promo price be eligible for Commercial, Government and Academic customers?</strong>
+		<br/>
+		Yes, it is based on the Commercial SKU and our Government and Academic can buy these SKUs, however no additional discounts will be provided.
+	</p>
+</div> 
 </div>
 <div class="col-xs-12 col-sm-2 col-md-1">
 </div>
