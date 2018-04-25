@@ -67,25 +67,25 @@
 									  <div class="form-group">
 										<label class="control-label col-sm-4">Full Name:</label>
 										<div class="col-sm-8">
-											<input type="text" class="resize-textbox" name="name"/>
+											<input type="text" class="resize-textbox" name="name" required />
 										</div>
 									  </div>
 									  <div class="form-group">
 										<label class="control-label col-sm-4">Email Address:</label>
 										<div class="col-sm-8">
-											<input type="text" class="resize-textbox" name="email"/>
+											<input type="text" class="resize-textbox" name="email" required />
 										</div>
 									  </div>
 									  <div class="form-group">
 										<label class="control-label col-sm-4">Phone Number:</label>
 										<div class="col-sm-8">
-											<input type="text" class="resize-textbox" name="mobile"/>
+											<input type="text" class="resize-textbox" name="mobile" required />
 										</div>
 									  </div>
 									  <div class="form-group">
 										<label class="control-label col-sm-4">Connection Details:</label>
 										<div class="col-sm-8">
-											<textarea rows="4" class="resize-textbox" name="desciption"></textarea>
+											<textarea rows="4" class="resize-textbox" name="desciption" required ></textarea>
 										</div>
 									  </div>
 									  <div class="form-group">
@@ -103,6 +103,7 @@
 					
 								</div>
 							</div>
+							<input type="hidden" value="<?php echo base_url()?>" name="baseUrl"/>
 						</form>
 						<script src='https://www.google.com/recaptcha/api.js'></script>
 					</div>
@@ -243,25 +244,25 @@
 												  <div class="form-group">
 													<label class="control-label col-sm-4">Full Name:</label>
 													<div class="col-sm-8">
-														<input type="text" class="resize-textbox" name="name"/>
+														<input type="text" class="resize-textbox" name="name" required />
 													</div>
 												  </div>
 												  <div class="form-group">
 													<label class="control-label col-sm-4">Email Address:</label>
 													<div class="col-sm-8">
-														<input type="text" class="resize-textbox" name="email"/>
+														<input type="text" class="resize-textbox" name="email" required />
 													</div>
 												  </div>
 												  <div class="form-group">
 													<label class="control-label col-sm-4">Phone Number:</label>
 													<div class="col-sm-8">
-														<input type="text" class="resize-textbox" name="mobile"/>
+														<input type="text" class="resize-textbox" name="mobile" required />
 													</div>
 												  </div>
 												  <div class="form-group">
 													<label class="control-label col-sm-4">Connection Details:</label>
 													<div class="col-sm-8">
-														<textarea rows="4" class="resize-textbox" name="desciption"></textarea>
+														<textarea rows="4" class="resize-textbox" name="desciption" required ></textarea>
 													</div>
 												  </div>
 												  <div class="form-group">
@@ -279,6 +280,7 @@
 								
 											</div>
 										</div>
+										<input type="hidden" value="<?php echo base_url()?>" name="baseUrl"/>
 									</form>
 									<script src='https://www.google.com/recaptcha/api.js'></script>
 								</div>

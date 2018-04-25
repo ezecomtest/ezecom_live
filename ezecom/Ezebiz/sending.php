@@ -8,7 +8,8 @@ require("PHPMailer_5.2.0/class.phpmailer.php");
   $email = $_POST["email"];
   $des = $_POST["desciption"];
   $package_name = $_POST["package"];
-
+  $url = $_POST["baseUrl"];
+ 
 if($_SERVER["REQUEST_METHOD"] === "POST"){
     $recaptcha_secret = "6LegbCMTAAAAAHsts3FfvQGwxoHxhOL0w8vDM5Lf";
     $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$recaptcha_secret."&response=".$_POST['g-recaptcha-response']);
@@ -34,22 +35,15 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
 
         if(!$mail->Send()) {
             echo 'Message was not sent.';
-            // echo 'Mailer error: ' . $mail->ErrorInfo;
-        } else {
-            // echo 'Message has been sent.';
-            header("Location: https://www.ezecom.com.kh/Ezebiz/thank-you.php"); // (Real Server)
-			//header("Location: http://dev1.ezecom.com.kh/Ezebiz/thank-you.php"); // (Server Test)
+        }else{
+			header('Location:'.$url.'Ezebiz/thank-you.php?name='.$name.'&phone='.$mobile.'&url='.$url); 
         }
 
     }else{
-         header("Location: https://www.ezecom.com.kh/Ezebiz/robot.php"); // (Real Server)
-		//header("Location: http://dev1.ezecom.com.kh/Ezebiz/robot.php"); // (Server Test)
+         header('Location:'.$url.'Ezebiz/robot.php');
     }
 
 }
         
-
-       
-
 
 ?>
