@@ -470,29 +470,32 @@
 
                         <?php if($this->session->userdata("step") == 3) {?>
 
-                        <div style="margin-left:auto; margin-right:auto;" class="col-lg-12" style="width:40.333333%">
+                        <div style="margin-left:auto; margin-right:auto;" class="col-lg-12">
                      <br>
                      <h5>HELP ME CHOOSE AN INTERNET PACKAGE</h5>
                         <br>
                                                 
-                            <div id="emailform" class="col-sm-6" style="width:390px !important;margin-top:-10px !important;padding:5px -1px;">
+                            <div id="emailform" class="col-sm-6" style="width:auto !important;margin-top:-10px !important;padding:5px -1px;">
                             <div class="row">
                               <h5>Yes I am interested!</h5>
-                                <p>Call us now on <strong>028 888 181/ 095 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
+                                <p style="font-size:16px;padding-left:10px">Call us now on <strong>023 23 81 81/085 88 81 81</strong> or fill in your information here and a member of our sales team will get back to you.</p>
                                 
                                 <form action="" name="formheplmechoosepackage" id="formheplmechoosepackage" class="thickbox" title="Nice title" method="post" id="last_step">
                                  <div class="form-group">
-
-                                <label for="eml_help_name">Full Name:</label> <input type="text" name="eml_help_name" id="eml_help_name" class="form-control"><br>
-                                </div>
-                                 <div class="form-group">
-                                 <label for="eml_help_email">Email Address:</label> <input type="text" name="eml_help_email" id="eml_help_email" class="form-control"><br>
+									<label for="eml_help_name">Full Name:</label> 
+									<input type="text" style="width:80%"  name="eml_help_name" id="eml_help_name" class="form-control">
                                  </div>
                                  <div class="form-group">
-                                 <label for="eml_help_phone">Phone Number:</label> <input type="text" name="eml_help_phone" id="eml_help_phone" class="form-control"><br>
+									 <label for="eml_help_email">Email Address:</label> 
+									 <input type="text" style="width:80%" name="eml_help_email" id="eml_help_email" class="form-control">
                                  </div>
                                  <div class="form-group">
-                                 <label for="eml_help_details">Connection Details:</label> <textarea rows="4" name="eml_help_details" id="eml_help_details" class="form-control"></textarea><br>
+									 <label for="eml_help_phone">Phone Number:</label> 
+									 <input type="text" style="width:80%" name="eml_help_phone" id="eml_help_phone" class="form-control">
+                                 </div>
+                                 <div class="form-group">
+									 <label for="eml_help_details">Connection Details:</label> 
+									 <textarea rows="4" style="width:80%" name="eml_help_details" id="eml_help_details" class="form-control"></textarea>
                                  </div>
                                  <div class="form-group">
                                  <label for="eml_submit">&nbsp;</label>
@@ -507,14 +510,26 @@
                             </div>
 
                          <div id="help_packagebox" class="col-sm-5" style="padding-top:0%">
-                             
-                                <fieldset class="scheduler-border">
-                                <legend><h5>Recommended for you:</h5></legend>     
-                                    <h4>PREMIUM 1mbps</h4>
-                                    <p>Our premium connections are perfect for office, home office, and leisure use.</p>
-                                    <h4>$40 per month</h4>
-                                    <div class="clearleft"></div>
-                                </fieldset>                                 
+                           <?php 
+									$package_provide = $this->session->userdata('user'); 
+								?>
+								
+								<?php if($package_provide=="home" OR $package_provide=="homeoffice" OR $package_provide=="smalloffice"){?>
+									<h5><b>Recommended for you:</b></h5>
+									<h4 style="font-size:15px"><b>EzeBiz 5mbps</b></h4>
+									<p style="font-size:16px">EzeBiz connections are perfect for your small and home office and leisure use.</p>
+									<h4 style="font-size:15px"><b>$60 per month</b></h4>
+								<?php } ?>
+								
+								<?php if($package_provide=="largeoffice"){?>
+								<h5><b>Recommended for you:</b></h5>
+								<h4 style="font-size:15px"><b>Didecate 5mbps</b></h4>
+								<p style="font-size:16px">Dedicate connections are fit the need of large corporations, 
+										enterprises and organizations to full fill high-end demand for ultimate speed 
+										reliability and security.
+								</p>
+								<h4 style="font-size:15px"><b>$175 per month</b></h4>
+								<?php } ?>      
                 </div>
                  </div>
 
