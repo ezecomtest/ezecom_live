@@ -44,7 +44,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 </head>
 
-<body class="cbp-spmenu-push">
+<body onload="customer_signup()" class="cbp-spmenu-push">
 
 
 <!-- sign-up -->
@@ -62,6 +62,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	</div>
 
+
+<script type="text/javascript">
+	var base_url = "<?php echo $_GET['url'] ?>";
+	function customer_signup(){
+		$.ajax({
+			type: "POST",
+			url: base_url+"our-services/ms365saving",
+			data: {name:"<?php echo $_GET['name'] ?>", mobile:"<?php echo $_GET['phone'] ?>"},
+			success: function(data){
+				
+			}
+		});
+	}
+</script>
 
 <script>
 setTimeout(function () {

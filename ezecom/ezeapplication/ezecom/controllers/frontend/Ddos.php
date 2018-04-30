@@ -22,4 +22,17 @@ class Ddos extends CI_Controller {
         $data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 		$this->load->view('frontend/ddos',$data);
 	}
+	
+	public function ddos_saving(){
+		$name = $this->input->post("name");
+		$mobile = $this->input->post("mobile");
+		$signup_date = date("Y/m/d");
+		$data = array(
+			'cust_name'=>$name,
+			'mobile'=>$mobile,
+			'signup_date'=>$signup_date,
+			'pro_id'=>'3'
+		);
+        $this->our_services_m->insert_ddos($data);
+	}
 }

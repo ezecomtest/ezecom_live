@@ -327,29 +327,29 @@ Prevents The Loss Of Your Business’s Revenue And Reputation</h4>
                    <h4 style="font-size: 18px;">E-mail: websales@ezecom.com.kh </h4>
                 </div>
                 <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.5s">
-<form class="form-horizontal" action="http://dev.ezecom.com.kh/ddos-mitigation-services/sending.php" style="margin-right:59px" method="POST">
+<form class="form-horizontal" action="<?php echo base_url()?>ddos-mitigation-services/sending.php" style="margin-right:59px" method="POST">
     <div class="form-group">
       <label class="control-label col-sm-4" for="email">Name</label>
       <div class="col-sm-8">
-        <input type="text" class="form-control" id="name" name="name" required="" style="height:30px">
+        <input type="text" class="form-control" id="name" name="name" style="height:30px" required >
       </div>
     </div>
     <div class="form-group">
       <label class="control-label col-sm-4" for="pwd">Mobile</label>
       <div class="col-sm-8">          
-        <input type="text" class="form-control" id="mobile" name="mobile" required="" style="height:30px">
+        <input type="text" class="form-control" id="mobile" name="mobile" style="height:30px" required >
       </div>
     </div>
     <div class="form-group">
       <label class="control-label col-sm-4" for="pwd">E-mail</label>
       <div class="col-sm-8">          
-        <input type="text" class="form-control" id="email" name="email" required="" style="height:30px">
+        <input type="text" class="form-control" id="email" name="email" style="height:30px" required >
       </div>
     </div>
     <div class="form-group">
       <label class="control-label col-sm-4" for="pwd">Desciptions</label>
       <div class="col-sm-8">          
-        <textarea class="form-control" rows="2" id="comment" name="desciption" style="height:50px; width:211px;" ></textarea>
+        <textarea class="form-control" rows="2" id="comment" name="desciption" style="height:50px; width:211px;" required ></textarea>
       </div>
     </div>
 
@@ -360,7 +360,7 @@ Prevents The Loss Of Your Business’s Revenue And Reputation</h4>
       </div>
     </div>
 
-    
+    <input type="hidden" value="<?php echo base_url()?>" name="baseUrl"/>
     <div class="form-group">        
       <div class="control-label col-sm-7">
         <button type="submit" class="btn btn-default" style="background: #7961ab;border-radius: 5px;color: #fff;">Submit</button>

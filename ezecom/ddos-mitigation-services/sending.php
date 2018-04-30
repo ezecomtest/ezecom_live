@@ -7,6 +7,7 @@ require("PHPMailer_5.2.0/class.phpmailer.php");
   $mobile = $_POST["mobile"];
   $email = $_POST["email"];
   $des = $_POST["desciption"];
+  $url = $_POST["baseUrl"];
 
 if($_SERVER["REQUEST_METHOD"] === "POST")
 {
@@ -20,11 +21,12 @@ if($_SERVER["REQUEST_METHOD"] === "POST")
 
         $mail->IsSMTP();  // telling the class to use SMTP
         $mail->SMTPAuth   = true;                  // enable SMTP authentication
-        $mail->Host       = "119.82.249.8"; // sets the SMTP server
+        $mail->Host       = "smtp.ezecom.com.kh"; // sets the SMTP server
         $mail->Port       = 587;                    // set the SMTP port for the GMAIL server
-        $mail->Username   = "rms@ezecom.com.kh"; // SMTP account username
-        $mail->Password   = "*xnaL223d23%";
-        // $mail->From     = "ezecom.com.kh";
+        $mail->Username   = "developer@ezecom.com.kh"; // SMTP account username
+        $mail->Password   = "yT2hxYtgDA";
+        $mail->From     = "developer@ezecom.com.kh";
+		$mail->FromName = "DDoS Mitigation Service";
         $mail->AddAddress("websales@ezecom.com.kh");
 
         $mail->Subject  = "DDoS Mitigation Service Requirement";
@@ -35,12 +37,11 @@ if($_SERVER["REQUEST_METHOD"] === "POST")
             echo 'Message was not sent.';
             // echo 'Mailer error: ' . $mail->ErrorInfo;
         } else {
-            // echo 'Message has been sent.';
-            header("Location: https://www.ezecom.com.kh/ddos-mitigation-services/thank-you.php");
+			header('Location:'.$url.'ddos-mitigation-services/thank-you.php?name='.$name.'&phone='.$mobile.'&url='.$url);
         }
 
     }else{
-        header("Location: https://www.ezecom.com.kh/ddos-mitigation-services/robot.php");
+		header('Location:'.$url.'ddos-mitigation-services/robot.php');
     }
 
 }

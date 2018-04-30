@@ -179,9 +179,12 @@ $route['media-center'] = 'frontend/media_center_c/media_center/';
 
 // DDos
 $route['ddos-mitigation-service'] = 'frontend/ddos/ddos_mitigation/';
-
+// saving data
+$route['our-services/ddos-saving'] = 'frontend/ddos/ddos_saving/';
 // Ms 365
 $route['our-services/enterprise-solution/office365'] = 'frontend/ms_365/Office_365/';
+// saving data 
+$route['our-services/ms365saving'] = 'frontend/ms_365/ms365saving/';
 // EzeBiz
 $route['our-services/EzeBiz'] = 'frontend/Ezebiz/ezebiz/';
 // saving data 

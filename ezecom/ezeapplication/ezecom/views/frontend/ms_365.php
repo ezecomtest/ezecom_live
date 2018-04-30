@@ -176,41 +176,41 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
 					<div class="form-group">
 					  <label class="control-label col-sm-4" for="email">Name</label>
 					  <div class="col-sm-8">
-						<input type="text" class="form-control" id="name" name="name" required="" style="height:30px">
+						<input type="text" class="form-control" id="name" name="name" style="height:30px" required >
 					  </div>
 					</div>
 					
     <div class="form-group">
       <label class="control-label col-sm-4" for="pwd">Mobile</label>
       <div class="col-sm-8">          
-        <input type="text" class="form-control" id="mobile" name="mobile" required="" style="height:30px">
+        <input type="text" class="form-control" id="mobile" name="mobile" style="height:30px" required >
       </div>
     </div>
     <div class="form-group">
       <label class="control-label col-sm-4" for="pwd">E-mail</label>
       <div class="col-sm-8">          
-        <input type="text" class="form-control" id="email" name="email" required="" style="height:30px">
+        <input type="text" class="form-control" id="email" name="email" style="height:30px" required>
       </div>
     </div>
 	
 	<div class="form-group">
       <label class="control-label col-sm-4" for="pwd">Domain Name</label>
       <div class="col-sm-8">          
-        <input type="text" class="form-control"  data-toggle="tooltip" title="Some text" id="email" name="domain_name" required="" style="height:30px">
+        <input type="text" class="form-control"  data-toggle="tooltip" title="Some text" id="email" name="domain_name" style="height:30px" required>
       </div>
     </div>
 	
 	<div class="form-group">
       <label class="control-label col-sm-4" for="pwd">Number of User</label>
       <div class="col-sm-8">          
-        <input type="text" class="form-control" id="email" name="number_user" required="" style="height:30px">
+        <input type="text" class="form-control" id="email" name="number_user" style="height:30px" required >
       </div>
     </div>
 	
     <div class="form-group">
       <label class="control-label col-sm-4" for="pwd">Desciptions</label>
       <div class="col-sm-8">          
-        <textarea class="form-control" rows="2" id="comment" name="desciption" style="height:50px; width:211px;" ></textarea>
+        <textarea class="form-control" rows="2" id="comment" name="desciption" style="height:50px; width:211px;" required ></textarea>
       </div>
     </div>
 
@@ -220,7 +220,7 @@ src="https://www.facebook.com/tr?id=555662751237481&ev=PageView&noscript=1"
         <div class="g-recaptcha" data-sitekey="6LegbCMTAAAAANeFxea47OaPqcjZocO2CwUhFPt9"></div>
       </div>
     </div>
-
+	<input type="hidden" value="<?php echo base_url()?>" name="baseUrl"/>
     
     <div class="form-group">        
       <div class="control-label col-sm-7">
