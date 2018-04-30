@@ -515,20 +515,24 @@
 								?>
 								
 								<?php if($package_provide=="home" OR $package_provide=="homeoffice" OR $package_provide=="smalloffice"){?>
-									<h5><b>Recommended for you:</b></h5>
-									<h4 style="font-size:15px"><b>EzeBiz 5mbps</b></h4>
-									<p style="font-size:16px">EzeBiz connections are perfect for your small and home office and leisure use.</p>
-									<h4 style="font-size:15px"><b>$60 per month</b></h4>
+									<div class="box-recommendation">
+										<h4><b>Recommended for you:</b></h4>
+										<img class="img-responsive" style="width:100px;margin-left:61px;margin-bottom:10px" src="<?php echo base_url()?>images/homepage/icon-EzeBiz.svg"/>
+										<h4 style="font-size:13px"><b>EzeBiz 5mbps ($60 per month)</b></h4>
+										<p style="font-size:15px">EzeBiz connections are perfect for your small and home office and leisure use.</p>
+									</div>
 								<?php } ?>
 								
 								<?php if($package_provide=="largeoffice"){?>
-								<h5><b>Recommended for you:</b></h5>
-								<h4 style="font-size:15px"><b>Didecate 5mbps</b></h4>
-								<p style="font-size:16px">Dedicate connections are fit the need of large corporations, 
-										enterprises and organizations to full fill high-end demand for ultimate speed 
-										reliability and security.
-								</p>
-								<h4 style="font-size:15px"><b>$175 per month</b></h4>
+								<div class="box-recommendation">
+									<h4><b>Recommended for you:</b></h4>
+									<img class="img-responsive" style="width:100px;margin-left:61px;margin-bottom:10px" src="<?php echo base_url()?>images/homepage/icon-Dedicated.svg"/>
+									<h4 style="font-size:12px"><b>Didecate 5mbps ($175 per month)</b></h4>
+									<p style="font-size:15px">Dedicate connections are fit the need of large corporations, 
+											enterprises and organizations to full fill high-end demand for ultimate speed 
+											reliability and security.
+									</p>
+								</div>
 								<?php } ?>      
                 </div>
                  </div>

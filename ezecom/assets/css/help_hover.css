@@ -98,3 +98,13 @@ margin-top:0;
 /*float:left;*/
 }
 
+.box-recommendation{
+	border:1px solid gray;
+	padding:10px;
+	margin-top:15px;
+}
+.box-recommendation h4{
+	margin-top:0;
+	padding:0;
+}
+
