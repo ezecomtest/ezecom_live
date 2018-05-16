@@ -8,6 +8,7 @@ class Ddos extends CI_Controller {
 		$this->load->library('session');
         $this->load->library('encrypt');
 		$this->load->model('frontend/homepage_m');
+		$this->load->model('frontend/our_services_m');
 		$this->load->helper(array('form', 'url'));
         date_default_timezone_set("Asia/Bangkok");
         

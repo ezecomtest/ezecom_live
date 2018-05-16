@@ -212,6 +212,19 @@
 							}
 						?>
 						</tr>
+						<tr>
+						<?php 
+							$i=0;
+							foreach($get_cameras as $camera){
+							$i++;
+							if($i >= 16){
+						?>
+								<td id="<?php echo $camera->traffic_cam_id?>" title="<?php echo $camera->name ?>" onclick='display_camera(this.id,this.title,"<?php echo $camera->secure_token; ?>")'><?php echo $camera->name; ?><span class="linetd">|</span></td>
+							
+						<?php }if($i==18){break;}
+							}
+						?>
+						</tr>
 					
 						</table>
 					</div>
@@ -334,7 +347,8 @@ span.onclick = function() {
 		  ['NOKIA INTERSECTION (271)',11.55294167, 104.88722563,base_url,20],
 		  ['WAT SONSOMKOSAL (271)',11.53133977, 104.91374195,base_url,21],
 		  ['MONDIAL CENTER',11.557861, 104.9013555,base_url,22],
-		  ['VENG SRENG',11.52882853, 104.84093103,base_url,23]
+		  ['VENG SRENG',11.52882853, 104.84093103,base_url,23],
+		  ['CHROY CHANGVA',11.58609205, 104.91604878,base_url,24]
 		  
 		  
         ];
