@@ -92,14 +92,14 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 	<div id="myNavbar" class="custom">
 <ul class="nav  nav-pills nav-stacked " style="background: #E7E7E8;">
 <li class="our-service-item-1727"><a href="<?php echo base_url()?>our-services/EzeBiz"><div class="coporate_package"></div>EzeBiz</a></li>
-<li class="our-service-item-1729"><a href="<?php echo base_url()?>our-services#voip"><div class="voip"></div>VoIP</a></li>
+<!--<li class="our-service-item-1729"><a href="<?php echo base_url()?>our-services#voip"><div class="voip"></div>VoIP</a></li>-->
 <!--<li class="our-service-item-1730"><a href="<?php echo base_url()?>our-services#exlusive"><div class="borey-icon"></div>Exclusive</a></li>-->
 <li class="our-service-item-1718"><a href="<?php echo base_url()?>our-services#EzeSurf"><div class="icon_ezesurf"></div>EzeSurf</a></li>
 </ul>
 </div></div>
 
 
-<div class="custom">
+<!--<div class="custom">
 	<div id="voip" class="container-fluid">
 <div class="container module-content-container">
 <div class="row">
@@ -116,7 +116,7 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 
 </div>
 <!--#Voip through your internet phone-->
-<div class="row .product-intro-full product-title">&nbsp;
+<!--<div class="row .product-intro-full product-title">&nbsp;
 <h3 style="font-weight: 400; font-family: 'Kantumruy', sans-serif;">通过您网络电话的 VOIP</h3>
 <p style="text-align: initial; font-size: 14px; color: #444;">Ezecom向预付费和延迟付费的消费者及第三方电信供应商提供国际VoIP通话。如希望获取更优惠的电话业务，您可以使用我们的EzeCall VoIp服务，费用为1美分/分钟。您可以选择租用一部EzeCall VoIp电话，费用为4美元/月，您也可以购买一部，费用为70美元。我们所有营业厅均可租用或购买电话，可在您互联网连接状态下使用。</p>
 <p style="text-align: initial; font-size: 14px; color: #444;">更多详情请与我们联系</p>

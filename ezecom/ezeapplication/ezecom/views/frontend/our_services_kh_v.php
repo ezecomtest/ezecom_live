@@ -92,7 +92,7 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 	<div id="myNavbar" class="custom">
 <ul class="nav  nav-pills nav-stacked " style="background: #E7E7E8;">
 <li class="our-service-item-1727"><a href="<?php echo base_url()?>our-services/EzeBiz"><div class="coporate_package"></div>EzeBiz</a></li>
-<li class="our-service-item-1729"><a href="<?php echo base_url()?>our-services#voip"><div class="voip"></div>VoIP</a></li>
+<!--<li class="our-service-item-1729"><a href="<?php echo base_url()?>our-services#voip"><div class="voip"></div>VoIP</a></li>-->
 <!--<li class="our-service-item-1730"><a href="<?php echo base_url()?>our-services#exlusive"><div class="borey-icon"></div>Exclusive</a></li>-->
 <li class="our-service-item-1718"><a href="<?php echo base_url()?>our-services#EzeSurf"><div class="icon_ezesurf"></div>EzeSurf</a></li>
 </ul>
@@ -100,7 +100,7 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 
 
 
-<div class="custom">
+<!--<div class="custom">
 	<div id="voip" class="container-fluid">
 <div class="container module-content-container">
 <div class="row">
@@ -114,7 +114,7 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 <p class="product-title" style="font-size: 14px; color: #444;">សេវាកម្មនេះអាចប្រើបានតែចំពោះអតិថិជន Mobitelនិង Camintel ប៉ុណ្ណោះ</p>
 </div>
 <!--#Voip through your internet phone-->
-<div class="row .product-intro-full product-title">&nbsp;
+<!--<div class="row .product-intro-full product-title">&nbsp;
 <h3 style="font-weight: 400; font-family: 'Kantumruy', sans-serif;">VOIP នៅលើទូរស័ព្ទអ៊ីនធឺណិតរបស់អ្នក</h3>
 <p style="text-align: initial; font-size: 14px; color: #444;">EZECOM ផ្តល់ជូននូវការទូរស័ព្ទទៅក្រៅប្រទេស តាមរយៈ VOIP ចំពោះអតិថិជនបង់ប្រាក់ជាមុន អតិថិជនបង់ប្រាក់ប្រចាំខែ ក៏ដូចជា ដល់អ្នកផ្គត់ផ្គង់សេវាកម្មទូរគមនាគមន៍ភាគីទី៣។ សម្រាប់ការទូរស័ព្ទក្នុងអត្រាតម្លៃ កាន់តែទាបគឺ ១ សេនក្នុងមួយនាទី ពីគេហដ្ឋាន ឬ ការិយាល័យ លោកអ្នកគ្រាន់តែប្រើប្រាស់ប្រព័ន្ធ Ezecall ជាការស្រេច។លោកអ្នកអាចមានជម្រើសក្នុង ការជួលទូរស័ព្ទ VOIP ក្នុងតម្លៃ $4ក្នុងមួយខែ ឬ ទិញតែម្តងក្នុងតម្លៃ $70។ ទូរស័ព្ទទាំងនេះអាចរកបាន នៅតាមបណ្តាសាខារបស់ EZECOM ហើយអាចដំណើរការបានតាមរយៈ អ៊ីនធឺណិតរបស់លោកអ្នក។</p>
 <p style="text-align: initial; font-size: 14px; color: #444;">សូមទំនាក់ទំនងមកកាន់យើងខ្ញុំសម្រាប់ព័ត៌មានលំអិត។</p>
@@ -1583,7 +1583,7 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 </div>
 <div class="col-sm-2">&nbsp;</div>
 </div>
-</div></div>
+</div></div>-->
 
 
 <!--<div class="custom">

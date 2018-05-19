@@ -91,13 +91,13 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 	<div id="myNavbar" class="custom">
 <ul class="nav  nav-pills nav-stacked " style="background: #E7E7E8;">
 <li class="our-service-item-1727"><a href="<?php echo base_url()?>our-services/EzeBiz"><div class="coporate_package"></div>EzeBiz</a></li>
-<li class="our-service-item-1729"><a href="<?php echo base_url()?>our-services#voip"><div class="voip"></div>VoIP</a></li>
+<!--<li class="our-service-item-1729"><a href="<?php echo base_url()?>our-services#voip"><div class="voip"></div>VoIP</a></li>-->
 <li class="our-service-item-1718"><a href="<?php echo base_url()?>our-services#EzeSurf"><div class="icon_ezesurf"></div>EzeSurf</a></li>
 </ul>
 </div></div>
 
 
-<div class="custom">
+<!--<div class="custom">
 	<div id="voip" class="container-fluid">
 <div class="container module-content-container">
 <div class="row">
@@ -111,7 +111,7 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 <p class="product-title" style="font-size: 14px; color: #444;">This service is available across the phone networks: 012-092-089 &amp; Camintel</p>
 </div>
 <!--#Voip through your internet phone-->
-<div class="row .product-intro-full product-title">&nbsp;
+<!--<div class="row .product-intro-full product-title">&nbsp;
 <h3>VoIP Through Your Internet Phone</h3>
 <p style="text-align: initial; font-size: 14px; color: #444;">Ezecom offers international VoIP calling to pre and postpaid customers and third party telecommunication providers. For even cheaper calls, you can use our EzeCall VoIP service with only 1 cent a minute. You have the choice of renting an EzeCall VoIP phone for $4 a month, or purchasing one for $70. Our phones are available at all our offices and work over your internet connection.</p>
 <p style="text-align: initial; font-size: 14px; color: #444;">Please contact us for more details.</p>
@@ -1580,7 +1580,7 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 </div>
 <div class="col-sm-2">&nbsp;</div>
 </div>
-</div></div>
+</div></div>-->
 
 
 <div class="custom">
