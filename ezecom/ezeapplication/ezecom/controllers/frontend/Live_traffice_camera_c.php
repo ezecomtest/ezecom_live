@@ -31,7 +31,7 @@ class Live_traffice_camera_c extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->Live_traffice_camera();
+		//$this->Live_traffice_camera();
 	}
 	public function Live_traffice_camera(){
 		$data['title'] = "Live Traffic Camera";
@@ -62,7 +62,8 @@ class Live_traffice_camera_c extends CI_Controller {
 	}
 	
 	public function setPageload(){
-		$page_session['http'] = "https://59f8b21ab26e0.streamlock.net//KTCamera/KTCamera.stream/playlist.m3u8";
+		$data = $this->live_camera_m->get_camera_KTM();
+		$page_session['http'] = $data['http'];
 		$page_session['name_camera'] = "KBAL THNOL";
 		$this->session->set_userdata($page_session);
         echo "setted";

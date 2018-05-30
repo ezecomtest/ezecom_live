@@ -448,7 +448,6 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 <div id="c1" class="panel-collapse collapse">
 <p style="font-size: 14px;">Slow Internet access can be the result of several factors, for example:</p>
 <ul style="font-size: 14px;">
-<li>The network equipment is overheated and need to cool down</li>
 <li>In some case designated web/Internet server is overloaded or linked to a congested/populated-route Internetwork</li>
 <li>Your computer and/or devices need to be checked for hardware upgrade and/or software optimization. In many cases, slow computers leads to a slow internet experience.</li>
 <li>Global/continental Internet upstream connection is disrupted/damaged caused by other marine activity such as fishing, marine research or marine development.</li>

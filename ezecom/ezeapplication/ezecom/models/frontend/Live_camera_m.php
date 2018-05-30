@@ -26,5 +26,14 @@ class Live_camera_m extends CI_Model{
         $q = $this->db->get();
         return $q->row_array();
     }
+	
+	public function get_camera_KTM(){
+		$this->db->select('http');
+        $this->db->from('tm_traffic_cam');       
+        $this->db->where('status','1');
+        $this->db->where('traffic_cam_id',2);
+        $q = $this->db->get();
+        return $q->row_array();
+	}
 }
 ?>

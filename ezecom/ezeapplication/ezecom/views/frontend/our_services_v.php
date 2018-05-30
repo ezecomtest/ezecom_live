@@ -1620,7 +1620,7 @@ var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeo
 								<li><img class="img-responsive" src="<?php echo base_url()?>images/EzeSurf/fb.png"/></li>
 								<li><img class="img-responsive" src="<?php echo base_url()?>images/EzeSurf/playstore.png"/></li>
 								<li><img class="img-responsive" src="<?php echo base_url()?>images/EzeSurf/appstore.png"/></li>
-								<li><img class="img-responsive" src="<?php echo base_url()?>images/EzeSurf/ezetv.png"/></li>
+								<!--<li><img class="img-responsive" src="<?php echo base_url()?>images/EzeSurf/ezetv.png"/></li>-->
 								<li><img class="img-responsive" src="<?php echo base_url()?>images/EzeSurf/more.png"/></li>
 								
 							</ul>
